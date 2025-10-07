@@ -18,11 +18,17 @@
 
 ### Для переводчиков:
 ```bash
-# 1. Упаковать переводы в игру
-python3 tools/smart_pack_translations.py
+# 1. Извлечь ключи для перевода (если нужно)
+cd tools && python3 extract_dialogue_only.py
 
-# 2. Запустить игру и проверить
-./Ravager.sh
+# 2. Разбить на модули для перевода
+python3 split_translation.py
+
+# 3. Упаковать переводы в игру
+python3 smart_pack_translations.py
+
+# 4. Запустить игру и проверить
+cd .. && ./Ravager.sh
 ```
 
 ### Для разработчиков:
@@ -57,8 +63,8 @@ python3 tools/extract_dialogue_only.py
 
 1. Выберите модуль из `translation_modules/`
 2. Заполните переводы в полях `new ""`
-3. Запустите `python3 tools/smart_pack_translations.py`
-4. Протестируйте в игре
+3. Запустите `cd tools && python3 smart_pack_translations.py`
+4. Протестируйте в игре: `cd .. && ./Ravager.sh`
 
 ---
 
