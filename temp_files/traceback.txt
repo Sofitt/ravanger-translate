@@ -1,0 +1,24 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/tl/ru/test.rpy", line 5, in script
+    old "'ANIMATED PORTRAITS.'"
+Exception: A translation for "'ANIMATED PORTRAITS.'" already exists at game/tl/ru/c0_reference.rpy:877.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/tl/ru/test.rpy", line 5, in script
+    old "'ANIMATED PORTRAITS.'"
+  File "/media/sofit/nvme0n1p2/SteamLibrary/steamapps/common/Ravager/Ravager/renpy/ast.py", line 2652, in execute
+    renpy.translation.add_string_translation(self.language, self.old, self.new, newloc)
+  File "/media/sofit/nvme0n1p2/SteamLibrary/steamapps/common/Ravager/Ravager/renpy/translation/__init__.py", line 594, in add_string_translation
+    stl.add(old, new, newloc)
+  File "/media/sofit/nvme0n1p2/SteamLibrary/steamapps/common/Ravager/Ravager/renpy/translation/__init__.py", line 534, in add
+    raise Exception("A translation for \"{}\" already exists at {}:{}.".format(
+Exception: A translation for "'ANIMATED PORTRAITS.'" already exists at game/tl/ru/c0_reference.rpy:877.
+
+Linux-6.14.8-061408-generic-x86_64-with-glibc2.41 x86_64
+Ren'Py 8.3.4.24120703
+Ravager 5.2.7a
+Wed Oct  8 03:11:11 2025

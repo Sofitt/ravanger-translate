@@ -34,11 +34,10 @@ renpy_tools/
 sample_*.txt
 translation_progress.json
 
-# ТРЕКАЕМ ТОЛЬКО СОЗДАННЫЕ ИНСТРУМЕНТЫ И ПЕРЕВОДЫ:
-# - translation_modules/
-# - *.py (наши скрипты)
-# - *.md (документация)
-# - *.json (шаблоны переводов)
-# - FINAL_SUMMARY.md
-# - README_TRANSLATION.md
-# - TRANSLATION_WORKFLOW.md
+# ТРЕКАЕМ СТРУКТУРИРОВАННЫЕ ПАПКИ:
+# ✅ tools/ - инструменты Python
+# ✅ documentation/ - документация  
+# ✅ translation_modules/ - модули переводов
+# ✅ tests/ - тестовые файлы
+# ✅ temp_files/ - временные данные (можно пересоздать)
+# ✅ README.md - главный файл проекта
