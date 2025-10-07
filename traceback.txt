@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+Before loading the script.
+ValueError: invalid literal for int() with base 16: b'\x00\x00\x00\x00\x00\x00\x00\x00'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "/media/sofit/nvme0n1p2/SteamLibrary/steamapps/common/Ravager/Ravager/renpy/bootstrap.py", line 359, in bootstrap
+    renpy.main.main()
+  File "/media/sofit/nvme0n1p2/SteamLibrary/steamapps/common/Ravager/Ravager/renpy/main.py", line 403, in main
+    renpy.loader.index_archives()
+  File "/media/sofit/nvme0n1p2/SteamLibrary/steamapps/common/Ravager/Ravager/renpy/loader.py", line 261, in index_archives
+    index = handler.read_index(f)
+  File "/media/sofit/nvme0n1p2/SteamLibrary/steamapps/common/Ravager/Ravager/renpy/loader.py", line 130, in read_index
+    offset = int(l[8:24], 16)
+ValueError: invalid literal for int() with base 16: b'\x00\x00\x00\x00\x00\x00\x00\x00'
+
+Linux-6.14.8-061408-generic-x86_64-with-glibc2.41 x86_64
+Ren'Py 8.3.4.24120703
+ 
+Wed Oct  8 02:42:17 2025

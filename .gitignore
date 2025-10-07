@@ -1,0 +1,44 @@
+# Оригинальные файлы игры (не трекаем)
+Ravager.exe
+Ravager.py
+Ravager.sh
+*.pdf
+
+# Папки игры
+game/
+lib/
+renpy/
+Ravager.app/
+.idea/
+.vscode/
+
+# Логи и кеш
+log.txt
+*.pyc
+__pycache__/
+
+# Извлеченные оригинальные переводы
+_translations/
+
+# Извлеченные скрипты (можно пересоздать)
+extracted_scripts/
+
+# Виртуальное окружение
+renpy_tools/
+
+# Резервные копии
+*_BACKUP.*
+*.rpa.gz
+
+# Временные файлы
+sample_*.txt
+translation_progress.json
+
+# ТРЕКАЕМ ТОЛЬКО СОЗДАННЫЕ ИНСТРУМЕНТЫ И ПЕРЕВОДЫ:
+# - translation_modules/
+# - *.py (наши скрипты)
+# - *.md (документация)
+# - *.json (шаблоны переводов)
+# - FINAL_SUMMARY.md
+# - README_TRANSLATION.md
+# - TRANSLATION_WORKFLOW.md
