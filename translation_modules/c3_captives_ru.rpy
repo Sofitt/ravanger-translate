@@ -1,14 +1,14 @@
 # Перевод файла c3_captives.rpy
-# Всего строк: 3966
+# Всего строк: 3979
 
 translate ru strings:
 
     # c3_captives.rpy:7074
-    old "\" if fFangirlFucked == False and not sSFW =="
+    old "" if fFangirlFucked == False and not sSFW =="
     new ""
 
     # c3_captives.rpy:7091
-    old "\" if fFangirlFucked == True and not sSFW =="
+    old "" if fFangirlFucked == True and not sSFW =="
     new ""
 
     # c3_captives.rpy:39014
@@ -55,7 +55,7 @@ translate ru strings:
     old "'ANYTHING I WANT.'"
     new ""
 
-    # c3_captives.rpy:20330, c5.rpy:5515 (+4 more)
+    # c3_captives.rpy:20330, c5.rpy:5515, c5_harem.rpy:24013, c5_harem.rpy:24116, c5_harem.rpy:51731 (+1 more)
     old "'ARE YOU ALRIGHT?'"
     new ""
 
@@ -79,7 +79,7 @@ translate ru strings:
     old "'BEEN CHARMING KOBOLDS?'"
     new ""
 
-    # c3_captives.rpy:2921, c4_waifu.rpy:41188 (+3 more)
+    # c3_captives.rpy:2921, c4_waifu.rpy:41188, c5_harem.rpy:2680, c5_harem.rpy:62900, c6_harem.rpy:31238
     old "'BEG.'"
     new ""
 
@@ -87,7 +87,7 @@ translate ru strings:
     old "'CAN I GET YOU ANYTHING?'"
     new ""
 
-    # c3_captives.rpy:7487, c3_lair.rpy:32642 (+1 more)
+    # c3_captives.rpy:7487, c3_lair.rpy:32642, c5_herald.rpy:891
     old "'CARRY ON, THEN.'"
     new ""
 
@@ -139,7 +139,7 @@ translate ru strings:
     old "'DARJA HAS THEM.'"
     new ""
 
-    # c3_captives.rpy:30931, c5_harem.rpy:46853 (+2 more)
+    # c3_captives.rpy:30931, c5_harem.rpy:46853, c5_harem.rpy:57577, c6_harem.rpy:25872
     old "'DEAD.'"
     new ""
 
@@ -151,7 +151,7 @@ translate ru strings:
     old "'DO NOT INTERFERE.'"
     new ""
 
-    # c3_captives.rpy:14959, c3_captives.rpy:15087 (+2 more)
+    # c3_captives.rpy:14959, c3_captives.rpy:15087, c3_captives.rpy:15201, c3_captives.rpy:15720
     old "'DO NOT LET IT HAPPEN AGAIN.'"
     new ""
 
@@ -171,7 +171,7 @@ translate ru strings:
     old "'DO YOU?'"
     new ""
 
-    # c3_captives.rpy:17109, c3_captives.rpy:18258 (+2 more)
+    # c3_captives.rpy:17109, c3_captives.rpy:18258, c5_harem.rpy:16112, c5_harem.rpy:19451
     old "'DOES IT HURT?'"
     new ""
 
@@ -179,7 +179,7 @@ translate ru strings:
     old "'EAT.'"
     new ""
 
-    # c3_captives.rpy:46944, c3_captives.rpy:47027 (+2 more)
+    # c3_captives.rpy:46944, c3_captives.rpy:47027, c5_harem.rpy:56629, c6_harem.rpy:24444
     old "'ELVES HAVE MAGIC. WHAT IS YOURS?'"
     new ""
 
@@ -187,7 +187,7 @@ translate ru strings:
     old "'ENJOYING YOURSELF?"
     new ""
 
-    # c3_captives.rpy:9506, c3_captives.rpy:11901 (+5 more)
+    # c3_captives.rpy:9506, c3_captives.rpy:11901, c3_captives.rpy:12619, c3_captives.rpy:32925, c3_captives.rpy:35278 (+2 more)
     old "'ENJOYING YOURSELF?'"
     new ""
 
@@ -211,7 +211,7 @@ translate ru strings:
     old "'GET READY.'"
     new ""
 
-    # c3_captives.rpy:14968, c3_captives.rpy:15096 (+2 more)
+    # c3_captives.rpy:14968, c3_captives.rpy:15096, c3_captives.rpy:15210, c3_captives.rpy:15729
     old "'GET RID OF IT.'"
     new ""
 
@@ -227,7 +227,7 @@ translate ru strings:
     old "'HELOÏSE HAS FOUND LOVE.'"
     new ""
 
-    # c3_captives.rpy:54037, c3_lair.rpy:37436 (+1 more)
+    # c3_captives.rpy:54037, c3_lair.rpy:37436, c4_waifu.rpy:25496
     old "'HER ASS.'"
     new ""
 
@@ -235,7 +235,7 @@ translate ru strings:
     old "'HER CUNT.'"
     new ""
 
-    # c3_captives.rpy:36136, c5_harem.rpy:51635 (+3 more)
+    # c3_captives.rpy:36136, c5_harem.rpy:51635, c5_harem.rpy:61808, c5_harem.rpy:64672, c6_harem.rpy:21980
     old "'HOW ARE YOU FEELING?'"
     new ""
 
@@ -247,11 +247,11 @@ translate ru strings:
     old "'I AM NOT CERTAIN.'"
     new ""
 
-    # c3_captives.rpy:17754, c3_captives.rpy:51999 (+2 more)
+    # c3_captives.rpy:17754, c3_captives.rpy:51999, c4_capital.rpy:7337, c5_harem.rpy:15645
     old "'I AM SORRY.'"
     new ""
 
-    # c3_captives.rpy:18443, c3_captives.rpy:36155 (+4 more)
+    # c3_captives.rpy:18443, c3_captives.rpy:36155, c5_forces.rpy:8609, c5_forces.rpy:8662, c5_forces.rpy:8727 (+1 more)
     old "'I CAME TO TALK.'"
     new ""
 
@@ -283,15 +283,15 @@ translate ru strings:
     old "'I DO NOT INTEND FOR YOU TO DIE.'"
     new ""
 
-    # c3_captives.rpy:35402, c3_captives.rpy:36487 (+5 more)
+    # c3_captives.rpy:35402, c3_captives.rpy:36487, c3_captives.rpy:36496, c5_harem.rpy:38694, c5_harem.rpy:49316 (+2 more)
     old "'I DO NOT LIKE YOUR NAME.'"
     new ""
 
-    # c3_captives.rpy:41556, c3_captives.rpy:43936 (+4 more)
+    # c3_captives.rpy:41556, c3_captives.rpy:43936, c3_dreams.rpy:2483, c5.rpy:2775, c6_court.rpy:2504 (+1 more)
     old "'I DO.'"
     new ""
 
-    # c3_captives.rpy:48509, c3_lair.rpy:37699 (+2 more)
+    # c3_captives.rpy:48509, c3_lair.rpy:37699, c6_harem.rpy:16625, c6_harem.rpy:16748
     old "'I DON'T CARE.'"
     new ""
 
@@ -311,7 +311,7 @@ translate ru strings:
     old "'I MAY SPARE YOU.'"
     new ""
 
-    # c3_captives.rpy:9589, c3_captives.rpy:9835 (+25 more)
+    # c3_captives.rpy:9589, c3_captives.rpy:9835, c3_captives.rpy:9862, c3_captives.rpy:32911, c3_captives.rpy:33048 (+22 more)
     old "'I NEED RELIEF.'"
     new ""
 
@@ -319,11 +319,11 @@ translate ru strings:
     old "'I NEED RESOURCES.'"
     new ""
 
-    # c3_captives.rpy:29678, c3_captives.rpy:31037 (+2 more)
+    # c3_captives.rpy:29678, c3_captives.rpy:31037, c5_harem.rpy:45771, c5_harem.rpy:46957
     old "'I PREFER HER MOUTH.'"
     new ""
 
-    # c3_captives.rpy:43637, c5_harem.rpy:55211 (+1 more)
+    # c3_captives.rpy:43637, c5_harem.rpy:55211, c6_harem.rpy:23264
     old "'I PREFER YOUR OLD ATTIRE.'"
     new ""
 
@@ -331,7 +331,7 @@ translate ru strings:
     old "'I SAID NO.'"
     new ""
 
-    # c3_captives.rpy:11032, c3_captives.rpy:11153 (+13 more)
+    # c3_captives.rpy:11032, c3_captives.rpy:11153, c5_court.rpy:1753, c5_forces.rpy:6819, c5_forces.rpy:8191 (+10 more)
     old "'I SEE.'"
     new ""
 
@@ -339,11 +339,11 @@ translate ru strings:
     old "'I SEEM TO HAVE BRED YOU.'"
     new ""
 
-    # c3_captives.rpy:2705, c5_harem.rpy:2501 (+1 more)
+    # c3_captives.rpy:2705, c5_harem.rpy:2501, c5_harem.rpy:5330
     old "'I SHALL GIVE YOU MORE. IN TIME.'"
     new ""
 
-    # c3_captives.rpy:8212, c3_captives.rpy:9901 (+12 more)
+    # c3_captives.rpy:8212, c3_captives.rpy:9901, c3_captives.rpy:9917, c3_captives.rpy:9932, c3_captives.rpy:33546 (+9 more)
     old "'I WANT MORE.'"
     new ""
 
@@ -359,7 +359,7 @@ translate ru strings:
     old "'I WANT YOU TO RESTORE WHAT YOU HAVE DESTROYED.'"
     new ""
 
-    # c3_captives.rpy:18432, c3_captives.rpy:18478 (+3 more)
+    # c3_captives.rpy:18432, c3_captives.rpy:18478, c3_captives.rpy:18585, c3_captives.rpy:22893, c5_harem.rpy:19885
     old "'I WANT YOUR BODY.'"
     new ""
 
@@ -367,7 +367,7 @@ translate ru strings:
     old "'I WILL HAVE ONLY ONE CHILD.'"
     new ""
 
-    # c3_captives.rpy:43272, c6_harem.rpy:18051 (+4 more)
+    # c3_captives.rpy:43272, c6_harem.rpy:18051, c6_harem.rpy:18190, c6_harem.rpy:18509, c6_harem.rpy:18723 (+1 more)
     old "'I WILL LEAVE YOU TO IT.'"
     new ""
 
@@ -383,7 +383,7 @@ translate ru strings:
     old "'I WISH TO BREED.'"
     new ""
 
-    # c3_captives.rpy:9423, c3_captives.rpy:11892 (+38 more)
+    # c3_captives.rpy:9423, c3_captives.rpy:11892, c3_captives.rpy:12610, c3_captives.rpy:46034, c3_captives.rpy:46811 (+35 more)
     old "'I WISH TO TALK.'"
     new ""
 
@@ -427,7 +427,7 @@ translate ru strings:
     old "'IT IS PERFECT.'"
     new ""
 
-    # c3_captives.rpy:22763, c3_captives.rpy:22835 (+1 more)
+    # c3_captives.rpy:22763, c3_captives.rpy:22835, c3_lair.rpy:788
     old "'IT IS.'"
     new ""
 
@@ -471,11 +471,11 @@ translate ru strings:
     old "'KILL FOR ME.'"
     new ""
 
-    # c3_captives.rpy:49967, c5_court.rpy:14674 (+2 more)
+    # c3_captives.rpy:49967, c5_court.rpy:14674, c6_herald.rpy:965, c6_herald.rpy:1509
     old "'LATER.'"
     new ""
 
-    # c3_captives.rpy:22036, c3_captives.rpy:37857 (+9 more)
+    # c3_captives.rpy:22036, c3_captives.rpy:37857, c3_captives.rpy:37868, c3_captives.rpy:41872, c3_captives.rpy:50634 (+6 more)
     old "'LEAVE US BE.'"
     new ""
 
@@ -483,7 +483,7 @@ translate ru strings:
     old "'LET HER IN.'"
     new ""
 
-    # c3_captives.rpy:23726, c3_captives.rpy:44130 (+4 more)
+    # c3_captives.rpy:23726, c3_captives.rpy:44130, c3_hordes.rpy:19702, c4_waifu.rpy:31181, c5_harem.rpy:53822 (+1 more)
     old "'LET US TALK.'"
     new ""
 
@@ -491,11 +491,11 @@ translate ru strings:
     old "'LET'S DO IT.'"
     new ""
 
-    # c3_captives.rpy:4055, c3_captives.rpy:7091 (+35 more)
+    # c3_captives.rpy:4055, c3_captives.rpy:7091, c3_captives.rpy:8505, c3_captives.rpy:8516, c3_captives.rpy:24419 (+32 more)
     old "'LET'S FUCK.'"
     new ""
 
-    # c3_captives.rpy:9578, c3_captives.rpy:12702 (+1 more)
+    # c3_captives.rpy:9578, c3_captives.rpy:12702, c4_waifu.rpy:11042
     old "'LET'S PLAY.'"
     new ""
 
@@ -515,7 +515,7 @@ translate ru strings:
     old "'LOOKING FOR SOMETHING?'"
     new ""
 
-    # c3_captives.rpy:17695, c3_captives.rpy:21471 (+1 more)
+    # c3_captives.rpy:17695, c3_captives.rpy:21471, c5_harem.rpy:15580
     old "'MAËLYS?'"
     new ""
 
@@ -527,7 +527,7 @@ translate ru strings:
     old "'MUCH BETTER.'"
     new ""
 
-    # c3_captives.rpy:39350, c3_captives.rpy:39361 (+1 more)
+    # c3_captives.rpy:39350, c3_captives.rpy:39361, c3_captures.rpy:269
     old "'NAHO.'"
     new ""
 
@@ -539,7 +539,7 @@ translate ru strings:
     old "'NEXT TIME, ASK FIRST.'"
     new ""
 
-    # c3_captives.rpy:13261, c3_captives.rpy:14830 (+12 more)
+    # c3_captives.rpy:13261, c3_captives.rpy:14830, c3_captives.rpy:30022, c3_captives.rpy:31407, c3_captives.rpy:31440 (+9 more)
     old "'NICE.'"
     new ""
 
@@ -547,7 +547,7 @@ translate ru strings:
     old "'NO, I AM NOT.'"
     new ""
 
-    # c3_captives.rpy:45557, c3_captives.rpy:45672 (+2 more)
+    # c3_captives.rpy:45557, c3_captives.rpy:45672, c5_harem.rpy:55889, c5_harem.rpy:55981
     old "'NO, THAT BUCKETFUL OF SEED IS PURELY COINCIDENTAL.'"
     new ""
 
@@ -555,7 +555,7 @@ translate ru strings:
     old "'NO, YOU.'"
     new ""
 
-    # c3_captives.rpy:43510, c3_captives.rpy:43678 (+2 more)
+    # c3_captives.rpy:43510, c3_captives.rpy:43678, c5_harem.rpy:55110, c5_harem.rpy:55248
     old "'NO. OUT HERE.'"
     new ""
 
@@ -571,7 +571,7 @@ translate ru strings:
     old "'NOT REALLY.'"
     new ""
 
-    # c3_captives.rpy:44832, c3_captures.rpy:1238 (+2 more)
+    # c3_captives.rpy:44832, c3_captures.rpy:1238, c5_harem.rpy:54946, c6_harem.rpy:23375
     old "'NOT THIS DAY.'"
     new ""
 
@@ -583,15 +583,15 @@ translate ru strings:
     old "'NOW KISS.'"
     new ""
 
-    # c3_captives.rpy:22693, c3_captives.rpy:23765 (+3 more)
+    # c3_captives.rpy:22693, c3_captives.rpy:23765, c3_captives.rpy:24198, c3_captives.rpy:24234, c3_captives.rpy:39479
     old "'OF COURSE.'"
     new ""
 
-    # c3_captives.rpy:30013, c4_waifu.rpy:26060 (+1 more)
+    # c3_captives.rpy:30013, c4_waifu.rpy:26060, c5_harem.rpy:46102
     old "'OOPS.'"
     new ""
 
-    # c3_captives.rpy:29504, c3_captives.rpy:29537 (+2 more)
+    # c3_captives.rpy:29504, c3_captives.rpy:29537, c5_harem.rpy:45597, c5_harem.rpy:45630
     old "'OPEN WIDE.'"
     new ""
 
@@ -663,11 +663,11 @@ translate ru strings:
     old "'SHE WAS RIGHT.'"
     new ""
 
-    # c3_captives.rpy:38041, c3_captives.rpy:38054 (+3 more)
+    # c3_captives.rpy:38041, c3_captives.rpy:38054, c3_captures.rpy:6067, c3_hordes.rpy:5570, c3_hordes.rpy:9369
     old "'SHOW ME.'"
     new ""
 
-    # c3_captives.rpy:9473, c3_captives.rpy:12645 (+3 more)
+    # c3_captives.rpy:9473, c3_captives.rpy:12645, c4_waifu.rpy:11033, c5_harem.rpy:33013, c6_harem.rpy:17144
     old "'SING FOR ME.'"
     new ""
 
@@ -687,7 +687,7 @@ translate ru strings:
     old "'SORRY ABOUT DARJA.'"
     new ""
 
-    # c3_captives.rpy:43485, c3_captives.rpy:43653 (+4 more)
+    # c3_captives.rpy:43485, c3_captives.rpy:43653, c5_harem.rpy:55088, c5_harem.rpy:55227, c6_harem.rpy:23205 (+1 more)
     old "'STAY AS YOU ARE.'"
     new ""
 
@@ -695,7 +695,7 @@ translate ru strings:
     old "'TELL ME EVERYTHING.'"
     new ""
 
-    # c3_captives.rpy:16289, c3_captives.rpy:18539 (+6 more)
+    # c3_captives.rpy:16289, c3_captives.rpy:18539, c3_captives.rpy:46933, c3_captives.rpy:47016, c5_harem.rpy:18725 (+3 more)
     old "'TELL ME OF THE CONVOCATION.'"
     new ""
 
@@ -703,7 +703,7 @@ translate ru strings:
     old "'TELL ME OF YOUR DESECRATION.'"
     new ""
 
-    # c3_captives.rpy:46966, c3_captives.rpy:47049 (+2 more)
+    # c3_captives.rpy:46966, c3_captives.rpy:47049, c5_harem.rpy:56647, c6_harem.rpy:24462
     old "'TELL ME WHAT YOU DO IN THE REALM.'"
     new ""
 
@@ -711,7 +711,7 @@ translate ru strings:
     old "'TELL ME.'"
     new ""
 
-    # c3_captives.rpy:4073, c3_captives.rpy:7115 (+56 more)
+    # c3_captives.rpy:4073, c3_captives.rpy:7115, c3_captives.rpy:8534, c3_captives.rpy:9546, c3_captives.rpy:9613 (+53 more)
     old "'THAT IS ALL.'"
     new ""
 
@@ -723,7 +723,7 @@ translate ru strings:
     old "'THAT'S IT?'"
     new ""
 
-    # c3_captives.rpy:39609, c3_captives.rpy:39667 (+8 more)
+    # c3_captives.rpy:39609, c3_captives.rpy:39667, c3_lair.rpy:29707, c4_abbey.rpy:209, c4_cove.rpy:137 (+5 more)
     old "'THE KOBOLDS.'"
     new ""
 
@@ -759,7 +759,7 @@ translate ru strings:
     old "'THIS IS UNFORGIVABLE.'"
     new ""
 
-    # c3_captives.rpy:915, c3_captives.rpy:1010 (+5 more)
+    # c3_captives.rpy:915, c3_captives.rpy:1010, c3_captives.rpy:4064, c3_captives.rpy:7106, c3_captives.rpy:8525 (+2 more)
     old "'TIME TO DIE.'"
     new ""
 
@@ -771,7 +771,7 @@ translate ru strings:
     old "'USE YOUR HANDS.'"
     new ""
 
-    # c3_captives.rpy:12046, c3_captives.rpy:12092 (+6 more)
+    # c3_captives.rpy:12046, c3_captives.rpy:12092, c3_captives.rpy:12798, c3_hordes.rpy:5579, c3_lair.rpy:557 (+3 more)
     old "'VERY GOOD.'"
     new ""
 
@@ -779,7 +779,7 @@ translate ru strings:
     old "'VERY WISE.'"
     new ""
 
-    # c3_captives.rpy:16350, c3_captives.rpy:18581 (+1 more)
+    # c3_captives.rpy:16350, c3_captives.rpy:18581, c3_captives.rpy:22889
     old "'WANT A BATH?'"
     new ""
 
@@ -815,15 +815,15 @@ translate ru strings:
     old "'WE WILL FIND YOU NEW CLOTHING.'"
     new ""
 
-    # c3_captives.rpy:43469, c5_harem.rpy:55072 (+1 more)
+    # c3_captives.rpy:43469, c5_harem.rpy:55072, c6_harem.rpy:23196
     old "'WEAR SOMETHING MORE BEFITTING A SERVANT.'"
     new ""
 
-    # c3_captives.rpy:36478, c3_hordes.rpy:9104 (+11 more)
+    # c3_captives.rpy:36478, c3_hordes.rpy:9104, c3_hordes.rpy:22543, c4_waifu.rpy:5526, c4_waifu.rpy:30094 (+8 more)
     old "'WHAT ARE YOU DOING?'"
     new ""
 
-    # c3_captives.rpy:20506, c4_waifu.rpy:34320 (+2 more)
+    # c3_captives.rpy:20506, c4_waifu.rpy:34320, c5_forces.rpy:1675, c5_harem.rpy:27220
     old "'WHAT DO YOU MEAN?'"
     new ""
 
@@ -831,7 +831,7 @@ translate ru strings:
     old "'WHAT HAPPENED HERE?'"
     new ""
 
-    # c3_captives.rpy:44292, c3_captives.rpy:48810 (+2 more)
+    # c3_captives.rpy:44292, c3_captives.rpy:48810, c3_captives.rpy:51744, c5_forces.rpy:4226
     old "'WHAT HAPPENED?'"
     new ""
 
@@ -851,7 +851,7 @@ translate ru strings:
     old "'WHAT IS THIS GODDESS?'"
     new ""
 
-    # c3_captives.rpy:13571, c3_captives.rpy:15127 (+2 more)
+    # c3_captives.rpy:13571, c3_captives.rpy:15127, c4_capital.rpy:6910, c4_cove.rpy:2675
     old "'WHAT IS THIS?'"
     new ""
 
@@ -875,7 +875,7 @@ translate ru strings:
     old "'WHERE IS YOUR GODDESS NOW?'"
     new ""
 
-    # c3_captives.rpy:6999, c5_harem.rpy:8385 (+1 more)
+    # c3_captives.rpy:6999, c5_harem.rpy:8385, c6_harem.rpy:7196
     old "'WHO ARE YOU?"
     new ""
 
@@ -887,15 +887,15 @@ translate ru strings:
     old "'WHO IS SHE?'"
     new ""
 
-    # c3_captives.rpy:16261, c3_captives.rpy:18511 (+2 more)
+    # c3_captives.rpy:16261, c3_captives.rpy:18511, c5_harem.rpy:18697, c5_harem.rpy:19815
     old "'WHO SENT YOU?'"
     new ""
 
-    # c3_captives.rpy:33825, c3_lair.rpy:48376 (+5 more)
+    # c3_captives.rpy:33825, c3_lair.rpy:48376, c4_waifu.rpy:25053, c4_waifu.rpy:27608, c5_harem.rpy:14946 (+2 more)
     old "'WHOOPS.'"
     new ""
 
-    # c3_captives.rpy:46922, c3_captives.rpy:47005 (+2 more)
+    # c3_captives.rpy:46922, c3_captives.rpy:47005, c5_harem.rpy:56609, c6_harem.rpy:24424
     old "'WHY DID YOU LET ME GO?'"
     new ""
 
@@ -907,15 +907,15 @@ translate ru strings:
     old "'WHY DO YOU DRINK?'"
     new ""
 
-    # c3_captives.rpy:46955, c3_captives.rpy:47038 (+2 more)
+    # c3_captives.rpy:46955, c3_captives.rpy:47038, c5_harem.rpy:56638, c6_harem.rpy:24453
     old "'WHY DO YOU HATE ME?'"
     new ""
 
-    # c3_captives.rpy:16275, c3_captives.rpy:18525 (+2 more)
+    # c3_captives.rpy:16275, c3_captives.rpy:18525, c5_harem.rpy:18711, c5_harem.rpy:19829
     old "'WHY HUNT ME?'"
     new ""
 
-    # c3_captives.rpy:31146, c3_captives.rpy:48821 (+1 more)
+    # c3_captives.rpy:31146, c3_captives.rpy:48821, c5_harem.rpy:47063
     old "'WHY WOULD YOU DO THIS?'"
     new ""
 
@@ -923,7 +923,7 @@ translate ru strings:
     old "'WON'T THAT HARM YOU?'"
     new ""
 
-    # c3_captives.rpy:16303, c3_captives.rpy:18553 (+2 more)
+    # c3_captives.rpy:16303, c3_captives.rpy:18553, c5_harem.rpy:18739, c5_harem.rpy:19857
     old "'YOU ARE A DRAGONSLAYER?'"
     new ""
 
@@ -931,7 +931,7 @@ translate ru strings:
     old "'YOU ARE DISGUSTING.'"
     new ""
 
-    # c3_captives.rpy:38558, c3_hordes.rpy:3000 (+4 more)
+    # c3_captives.rpy:38558, c3_hordes.rpy:3000, c3_hordes.rpy:3125, c4_waifu.rpy:29953, c5_harem.rpy:27326 (+1 more)
     old "'YOU ARE FORGIVEN.'"
     new ""
 
@@ -943,7 +943,7 @@ translate ru strings:
     old "'YOU ARE IMMACULATE AS YOU ARE.'"
     new ""
 
-    # c3_captives.rpy:10133, c3_captives.rpy:10185 (+2 more)
+    # c3_captives.rpy:10133, c3_captives.rpy:10185, c3_captives.rpy:37057, c5_harem.rpy:42106
     old "'YOU ARE MINE.'"
     new ""
 
@@ -999,7 +999,7 @@ translate ru strings:
     old "'YOU FUCK ANIMALS?'"
     new ""
 
-    # c3_captives.rpy:32850, c4_waifu.rpy:16624 (+1 more)
+    # c3_captives.rpy:32850, c4_waifu.rpy:16624, c4_waifu.rpy:16768
     old "'YOU HAVE NO IDEA.'"
     new ""
 
@@ -1007,7 +1007,7 @@ translate ru strings:
     old "'YOU HAVE... GROWN.'"
     new ""
 
-    # c3_captives.rpy:9497, c3_captives.rpy:11913 (+2 more)
+    # c3_captives.rpy:9497, c3_captives.rpy:11913, c3_captives.rpy:12657, c4_waifu.rpy:11053
     old "'YOU LIKE ANIMALS?'"
     new ""
 
@@ -1019,7 +1019,7 @@ translate ru strings:
     old "'YOU MAY REST.'"
     new ""
 
-    # c3_captives.rpy:39431, c3_captives.rpy:39516 (+1 more)
+    # c3_captives.rpy:39431, c3_captives.rpy:39516, c3_captives.rpy:41313
     old "'YOU MUST BE PUNISHED.'"
     new ""
 
@@ -1055,7 +1055,7 @@ translate ru strings:
     old "'YOU WILL WEAR THIS.'"
     new ""
 
-    # c3_captives.rpy:10881, c3_captives.rpy:51970 (+2 more)
+    # c3_captives.rpy:10881, c3_captives.rpy:51970, c4_waifu.rpy:12037, c6_harem.rpy:2828
     old "'YOU WILL.'"
     new ""
 
@@ -1063,11 +1063,11 @@ translate ru strings:
     old "'YOU'RE A MOTHER?'"
     new ""
 
-    # c3_captives.rpy:36917, c3_captives.rpy:44995 (+12 more)
+    # c3_captives.rpy:36917, c3_captives.rpy:44995, c3_captives.rpy:45015, c4_waifu.rpy:9433, c4_waifu.rpy:16885 (+9 more)
     old "'YOUR ASS.'"
     new ""
 
-    # c3_captives.rpy:11876, c3_captives.rpy:11961 (+3 more)
+    # c3_captives.rpy:11876, c3_captives.rpy:11961, c3_captives.rpy:12725, c3_captives.rpy:51647, c3_captives.rpy:51673
     old "'YOUR BODY.'"
     new ""
 
@@ -1075,11 +1075,11 @@ translate ru strings:
     old "'YOUR BRETHREN.'"
     new ""
 
-    # c3_captives.rpy:2729, c5_harem.rpy:2522 (+1 more)
+    # c3_captives.rpy:2729, c5_harem.rpy:2522, c5_harem.rpy:5352
     old "'YOUR CUNT SERVES ALL THAT I COMMAND.'"
     new ""
 
-    # c3_captives.rpy:36908, c4_waifu.rpy:4389 (+12 more)
+    # c3_captives.rpy:36908, c4_waifu.rpy:4389, c4_waifu.rpy:4464, c4_waifu.rpy:4535, c4_waifu.rpy:9424 (+9 more)
     old "'YOUR CUNT.'"
     new ""
 
@@ -1103,15 +1103,15 @@ translate ru strings:
     old "'YOUR FORM.'"
     new ""
 
-    # c3_captives.rpy:44982, c3_captives.rpy:45006 (+15 more)
+    # c3_captives.rpy:44982, c3_captives.rpy:45006, c4_waifu.rpy:11309, c4_waifu.rpy:12350, c4_waifu.rpy:16804 (+12 more)
     old "'YOUR MOUTH.'"
     new ""
 
-    # c3_captives.rpy:11949, c3_captives.rpy:12713 (+5 more)
+    # c3_captives.rpy:11949, c3_captives.rpy:12713, c3_captives.rpy:44220, c5_harem.rpy:64345, c5_harem.rpy:64354 (+2 more)
     old "'YOUR NAME.'"
     new ""
 
-    # c3_captives.rpy:44208, c3_captives.rpy:51661 (+3 more)
+    # c3_captives.rpy:44208, c3_captives.rpy:51661, c3_hordes.rpy:19764, c4_capital.rpy:7815, c4_waifu.rpy:31216
     old "'YOUR PAST.'"
     new ""
 
@@ -1183,7 +1183,7 @@ translate ru strings:
     old "...not yet, I..."
     new ""
 
-    # c3_captives.rpy:2509, c5_harem.rpy:2377 (+1 more)
+    # c3_captives.rpy:2509, c5_harem.rpy:2377, c5_harem.rpy:5231
     old "...nothing..."
     new ""
 
@@ -1195,11 +1195,11 @@ translate ru strings:
     old "...since then."
     new ""
 
-    # c3_captives.rpy:35547, c3_captives.rpy:36754 (+2 more)
+    # c3_captives.rpy:35547, c3_captives.rpy:36754, c5_harem.rpy:51997, c5_harem.rpy:53069
     old "...that's all I'm good for."
     new ""
 
-    # c3_captives.rpy:2653, c5_harem.rpy:2463 (+2 more)
+    # c3_captives.rpy:2653, c5_harem.rpy:2463, c5_harem.rpy:5110, c5_harem.rpy:5289
     old "...until your body can hold it no longer."
     new ""
 
@@ -1223,7 +1223,7 @@ translate ru strings:
     old "A barked laugh fills the chamber like a punch."
     new ""
 
-    # c3_captives.rpy:49175, c3_lair.rpy:33498 (+2 more)
+    # c3_captives.rpy:49175, c3_lair.rpy:33498, c5_harem.rpy:57915, c6_harem.rpy:26210
     old "A bridge of cum and saliva stretches between you and her mouth, slowly collapsing to paint long strings of viscous liquid across her face."
     new ""
 
@@ -1267,7 +1267,7 @@ translate ru strings:
     old "A growl rolls deep in your chest and you rake the floor with your claws, sending up flakes of stone."
     new ""
 
-    # c3_captives.rpy:19013, c3_captives.rpy:23178 (+1 more)
+    # c3_captives.rpy:19013, c3_captives.rpy:23178, c5_harem.rpy:20311
     old "A growl rolls from your throat, pleased, hungry, aching."
     new ""
 
@@ -1319,7 +1319,7 @@ translate ru strings:
     old "A look of revulsion overcomes [nameTrap!t] as he writhes between the two creatures, cum trickling from his shapely lips as he sloppily gags on the kobold's length, gulping down seed."
     new ""
 
-    # c3_captives.rpy:45305, c4_waifu.rpy:31702 (+1 more)
+    # c3_captives.rpy:45305, c4_waifu.rpy:31702, c5_harem.rpy:55663
     old "A low growl gets your point across, and he hurries to strip down, visibly aroused despite the tremble in his hands."
     new ""
 
@@ -1383,7 +1383,7 @@ translate ru strings:
     old "A single, delicate sniff precedes the plea that follows."
     new ""
 
-    # c3_captives.rpy:49137, c3_lair.rpy:33437 (+2 more)
+    # c3_captives.rpy:49137, c3_lair.rpy:33437, c5_harem.rpy:57878, c6_harem.rpy:26173
     old "A slice of your talons frees her breasts from her robes, reigniting her rage."
     new ""
 
@@ -1447,7 +1447,7 @@ translate ru strings:
     old "A wave of dizziness washes over you, and you nearly lose your footing."
     new ""
 
-    # c3_captives.rpy:49681, c3_lair.rpy:33676 (+2 more)
+    # c3_captives.rpy:49681, c3_lair.rpy:33676, c5_harem.rpy:58335, c6_harem.rpy:26628
     old "A woman needs preparation and enthusiasm, if they wish to accommodate the monstrous size of your cock in their ass."
     new ""
 
@@ -1459,7 +1459,7 @@ translate ru strings:
     old "A-ah, where was I?"
     new ""
 
-    # c3_captives.rpy:28275, c3_captives.rpy:28463 (+2 more)
+    # c3_captives.rpy:28275, c3_captives.rpy:28463, c5_harem.rpy:44235, c5_harem.rpy:44422
     old "A-and by way of appreciation, I'll..."
     new ""
 
@@ -1503,7 +1503,7 @@ translate ru strings:
     old "ANIMAL LOVER?"
     new ""
 
-    # c3_captives.rpy:23903, c3_lair.rpy:7154 (+11 more)
+    # c3_captives.rpy:23903, c3_lair.rpy:7154, c3_lair.rpy:8427, c3_lair.rpy:15305, c4_waifu.rpy:7344 (+8 more)
     old "ANOTHER TIME."
     new ""
 
@@ -1511,7 +1511,7 @@ translate ru strings:
     old "ANYTHING I WANT."
     new ""
 
-    # c3_captives.rpy:20330, c5.rpy:5515 (+4 more)
+    # c3_captives.rpy:20330, c5.rpy:5515, c5_harem.rpy:24013, c5_harem.rpy:24116, c5_harem.rpy:51731 (+1 more)
     old "ARE YOU ALRIGHT?"
     new ""
 
@@ -1527,7 +1527,7 @@ translate ru strings:
     old "ARE YOU SURE?"
     new ""
 
-    # c3_captives.rpy:49731, c3_lair.rpy:33731 (+2 more)
+    # c3_captives.rpy:49731, c3_lair.rpy:33731, c5_harem.rpy:58369, c6_harem.rpy:26662
     old "Aaargh!"
     new ""
 
@@ -1547,7 +1547,7 @@ translate ru strings:
     old "Ach, it's a bloody mystery."
     new ""
 
-    # c3_captives.rpy:45460, c4_waifu.rpy:31841 (+1 more)
+    # c3_captives.rpy:45460, c4_waifu.rpy:31841, c5_harem.rpy:55799
     old "Affecting an almost maidenly bashfulness, he spreads his thighs and pries apart the ample globes of his ass with lithe fingers."
     new ""
 
@@ -1603,7 +1603,7 @@ translate ru strings:
     old "After a tentative flex of the fingers, she shrugs and returns her gaze to you."
     new ""
 
-    # c3_captives.rpy:49189, c3_lair.rpy:33514 (+2 more)
+    # c3_captives.rpy:49189, c3_lair.rpy:33514, c5_harem.rpy:57929, c6_harem.rpy:26224
     old "After all, you wouldn't want to break your new toy too quickly."
     new ""
 
@@ -1627,11 +1627,11 @@ translate ru strings:
     old "Again you lash at her, lapping up that hot nectar until the trickle stops."
     new ""
 
-    # c3_captives.rpy:49715, c3_lair.rpy:33716 (+2 more)
+    # c3_captives.rpy:49715, c3_lair.rpy:33716, c5_harem.rpy:58361, c6_harem.rpy:26654
     old "Against the odds, against the restraints of her anatomy, and against her weak protests, the tip of your cock forces its way in."
     new ""
 
-    # c3_captives.rpy:2643, c5_harem.rpy:2455 (+1 more)
+    # c3_captives.rpy:2643, c5_harem.rpy:2455, c5_harem.rpy:5281
     old "Aghuhaaa!"
     new ""
 
@@ -1663,11 +1663,11 @@ translate ru strings:
     old "Ain't that right, you big ol' fluffer?"
     new ""
 
-    # c3_captives.rpy:2817, c5_harem.rpy:2593 (+1 more)
+    # c3_captives.rpy:2817, c5_harem.rpy:2593, c5_harem.rpy:5423
     old "All she can do is spread open the untouched lips of her cunt, and make her pitiful appeal."
     new ""
 
-    # c3_captives.rpy:29117, c3_captives.rpy:32352 (+3 more)
+    # c3_captives.rpy:29117, c3_captives.rpy:32352, c4_waifu.rpy:25714, c5_harem.rpy:45222, c5_harem.rpy:48241
     old "All she can do is watch, gagged by your massive member, unable to move, as you impale her from the face backwards."
     new ""
 
@@ -1679,11 +1679,11 @@ translate ru strings:
     old "All you have to do is unwrap your present."
     new ""
 
-    # c3_captives.rpy:27708, c3_captives.rpy:47666 (+5 more)
+    # c3_captives.rpy:27708, c3_captives.rpy:47666, c3_lair.rpy:41724, c4_waifu.rpy:16966, c6_harem.rpy:9306 (+2 more)
     old "Allow her to continue."
     new ""
 
-    # c3_captives.rpy:45418, c4_waifu.rpy:31799 (+1 more)
+    # c3_captives.rpy:45418, c4_waifu.rpy:31799, c5_harem.rpy:55761
     old "Allow him."
     new ""
 
@@ -1703,7 +1703,7 @@ translate ru strings:
     old "Already she shows the signs of what must be many months of growth for a human woman."
     new ""
 
-    # c3_captives.rpy:45290, c4_waifu.rpy:31687 (+1 more)
+    # c3_captives.rpy:45290, c4_waifu.rpy:31687, c5_harem.rpy:55653
     old "Already, [nameTrap!t] is shedding his clothes with a slow, seductive pace, but you are in no mood for a performance."
     new ""
 
@@ -1763,11 +1763,11 @@ translate ru strings:
     old "And does the dragon know you're here?"
     new ""
 
-    # c3_captives.rpy:28228, c3_captives.rpy:28416 (+2 more)
+    # c3_captives.rpy:28228, c3_captives.rpy:28416, c5_harem.rpy:44188, c5_harem.rpy:44375
     old "And dungeon."
     new ""
 
-    # c3_captives.rpy:18933, c3_captives.rpy:23098 (+1 more)
+    # c3_captives.rpy:18933, c3_captives.rpy:23098, c5_harem.rpy:20231
     old "And her depredations against your forebears are crimes for which she is guilty, regardless of her motivations."
     new ""
 
@@ -1879,11 +1879,11 @@ translate ru strings:
     old "And then you are gone."
     new ""
 
-    # c3_captives.rpy:35015, c3_captures.rpy:3515 (+3 more)
+    # c3_captives.rpy:35015, c3_captures.rpy:3515, c3_captures.rpy:3692, c4_waifu.rpy:28005, c4_waifu.rpy:28957
     old "And then you drive it back home."
     new ""
 
-    # c3_captives.rpy:19113, c3_captives.rpy:23278 (+1 more)
+    # c3_captives.rpy:19113, c3_captives.rpy:23278, c5_harem.rpy:20411
     old "And then you feel it coming, rising, ready to burst..."
     new ""
 
@@ -1939,7 +1939,7 @@ translate ru strings:
     old "And, well, I fancied myself the biggest house there most of all."
     new ""
 
-    # c3_captives.rpy:18999, c3_captives.rpy:23164 (+1 more)
+    # c3_captives.rpy:18999, c3_captives.rpy:23164, c5_harem.rpy:20297
     old "Another buck of your hips rolls the textured contours of your cock through her fingers, jostling them roughly over you."
     new ""
 
@@ -1959,7 +1959,7 @@ translate ru strings:
     old "Another orgasm ravages her."
     new ""
 
-    # c3_captives.rpy:45477, c4_waifu.rpy:31858 (+1 more)
+    # c3_captives.rpy:45477, c4_waifu.rpy:31858, c5_harem.rpy:55816
     old "Anticipation has tempered your arousal into a keen urgency, and you waste no time before easing your cock into the tight heat of his ass."
     new ""
 
@@ -1983,7 +1983,7 @@ translate ru strings:
     old "Apparently [nameFarmer!t] has become waylaid from her usual chores."
     new ""
 
-    # c3_captives.rpy:31720, c4_capital.rpy:3632 (+1 more)
+    # c3_captives.rpy:31720, c4_capital.rpy:3632, c5_harem.rpy:47631
     old "Approach."
     new ""
 
@@ -1995,11 +1995,11 @@ translate ru strings:
     old "Are you quite finished?"
     new ""
 
-    # c3_captives.rpy:19197, c3_captives.rpy:23362 (+1 more)
+    # c3_captives.rpy:19197, c3_captives.rpy:23362, c5_harem.rpy:20495
     old "Are you satisfied?"
     new ""
 
-    # c3_captives.rpy:53869, c3_lair.rpy:22192 (+1 more)
+    # c3_captives.rpy:53869, c3_lair.rpy:22192, c5_forces.rpy:7371
     old "Are you, now?"
     new ""
 
@@ -2015,7 +2015,7 @@ translate ru strings:
     old "Arms flung forward, her momentum brings her up against your extended wing."
     new ""
 
-    # c3_captives.rpy:28317, c3_captives.rpy:28505 (+2 more)
+    # c3_captives.rpy:28317, c3_captives.rpy:28505, c5_harem.rpy:44277, c5_harem.rpy:44464
     old "As I was saying, how about I, uh, show you some appreciation."
     new ""
 
@@ -2051,7 +2051,7 @@ translate ru strings:
     old "As if I'd–"
     new ""
 
-    # c3_captives.rpy:45450, c4_waifu.rpy:31831 (+1 more)
+    # c3_captives.rpy:45450, c4_waifu.rpy:31831, c5_harem.rpy:55791
     old "As if to distract you, [nameTrap!t] moans again and takes you deeper, his throat clutching tight around you as he swallows you down."
     new ""
 
@@ -2079,7 +2079,7 @@ translate ru strings:
     old "As she notices you approach, she gives a brief wave, and ushers her associate out of the room."
     new ""
 
-    # c3_captives.rpy:29782, c4_waifu.rpy:25877 (+1 more)
+    # c3_captives.rpy:29782, c4_waifu.rpy:25877, c5_harem.rpy:45873
     old "As she rounds the halfway point, before you can feast your eyes, her hand glides into the valley between her sisters thighs."
     new ""
 
@@ -2171,7 +2171,7 @@ translate ru strings:
     old "As you do so, there's a crash and a clatter behind you."
     new ""
 
-    # c3_captives.rpy:24566, c3_captives.rpy:24795 (+1 more)
+    # c3_captives.rpy:24566, c3_captives.rpy:24795, c3_captives.rpy:25342
     old "As you draw back, cock sliding over her soft flesh, she braces herself."
     new ""
 
@@ -2203,7 +2203,7 @@ translate ru strings:
     old "As you slink towards [nameTrap!t]'s quarters, an all-too-familiar voice unceremoniously breaks the silence."
     new ""
 
-    # c3_captives.rpy:19271, c3_captives.rpy:23436 (+1 more)
+    # c3_captives.rpy:19271, c3_captives.rpy:23436, c5_harem.rpy:20569
     old "As you turn to depart, you hear her call out after you as you step out into the corridor."
     new ""
 
@@ -2219,7 +2219,7 @@ translate ru strings:
     old "As you're so keen."
     new ""
 
-    # c3_captives.rpy:49258, c3_lair.rpy:33584 (+2 more)
+    # c3_captives.rpy:49258, c3_lair.rpy:33584, c5_harem.rpy:57985, c6_harem.rpy:26278
     old "As your climax slowly reaches its conclusion, you yank your cock away from the slimy pit of her mouth."
     new ""
 
@@ -2231,7 +2231,7 @@ translate ru strings:
     old "As your eyes settle upon her, she seems to abandon her futile struggle, caught instead between the pulls of fear and admiration, trembling as you draw closer."
     new ""
 
-    # c3_captives.rpy:49347, c5_harem.rpy:58070 (+1 more)
+    # c3_captives.rpy:49347, c5_harem.rpy:58070, c6_harem.rpy:26363
     old "As your hips shift, and the length of your cock slides over her ass, her brows furrow sharply."
     new ""
 
@@ -2255,7 +2255,7 @@ translate ru strings:
     old "At last, she nods."
     new ""
 
-    # c3_captives.rpy:19146, c3_captives.rpy:23311 (+1 more)
+    # c3_captives.rpy:19146, c3_captives.rpy:23311, c5_harem.rpy:20444
     old "At last, she sighs."
     new ""
 
@@ -2287,7 +2287,7 @@ translate ru strings:
     old "At the far end of the chamber sits [nameFarmer!t], absorbed in needlework and humming softly."
     new ""
 
-    # c3_captives.rpy:1313, c3_captives.rpy:1357 (+2 more)
+    # c3_captives.rpy:1313, c3_captives.rpy:1357, c5_harem.rpy:1276, c5_harem.rpy:1320
     old "Away now, and taunt me no more, demon!"
     new ""
 
@@ -2315,7 +2315,7 @@ translate ru strings:
     old "B-but you were telling me to sneak around all quiet-like before!"
     new ""
 
-    # c3_captives.rpy:42385, c3_captives.rpy:42616 (+1 more)
+    # c3_captives.rpy:42385, c3_captives.rpy:42616, c4_farms.rpy:473
     old "B-but..."
     new ""
 
@@ -2327,7 +2327,7 @@ translate ru strings:
     old "BEEN CHARMING KOBOLDS?"
     new ""
 
-    # c3_captives.rpy:2921, c4_waifu.rpy:41188 (+3 more)
+    # c3_captives.rpy:2921, c4_waifu.rpy:41188, c5_harem.rpy:2680, c5_harem.rpy:62900, c6_harem.rpy:31238
     old "BEG."
     new ""
 
@@ -2339,7 +2339,7 @@ translate ru strings:
     old "Balthorne."
     new ""
 
-    # c3_captives.rpy:18994, c3_captives.rpy:23159 (+1 more)
+    # c3_captives.rpy:18994, c3_captives.rpy:23159, c5_harem.rpy:20292
     old "Beast."
     new ""
 
@@ -2431,7 +2431,7 @@ translate ru strings:
     old "Between thrusts, he manages to choke out a litany of half-formed curses, the revulsion plain to see in his serpentine eyes."
     new ""
 
-    # c3_captives.rpy:28942, c3_captives.rpy:32202 (+3 more)
+    # c3_captives.rpy:28942, c3_captives.rpy:32202, c4_waifu.rpy:25566, c5_harem.rpy:45060, c5_harem.rpy:48104
     old "Bghk!"
     new ""
 
@@ -2463,6 +2463,10 @@ translate ru strings:
     old "Blood, sweet and warm, wets your tongue."
     new ""
 
+    # c3_captives.rpy:13895, c3_captives.rpy:14597, c3_captives.rpy:15826, c4_waifu.rpy:11173, c5_harem.rpy:32582 (+1 more)
+    old "Boof"
+    new ""
+
     # c3_captives.rpy:6052
     old "Both are now breathing heavily, overcome by the surges of pleasure that roll through them with every thrust."
     new ""
@@ -2487,7 +2491,7 @@ translate ru strings:
     old "Breasts and belly both come to rest against your foreleg, and she leans against it."
     new ""
 
-    # c3_captives.rpy:28929, c3_captives.rpy:32189 (+3 more)
+    # c3_captives.rpy:28929, c3_captives.rpy:32189, c4_waifu.rpy:25553, c5_harem.rpy:45047, c5_harem.rpy:48091
     old "Brgh!"
     new ""
 
@@ -2515,11 +2519,11 @@ translate ru strings:
     old "But come now, I'm sure you didn't visit just to discuss my reading habits."
     new ""
 
-    # c3_captives.rpy:44676, c3_captives.rpy:44724 (+1 more)
+    # c3_captives.rpy:44676, c3_captives.rpy:44724, c3_captives.rpy:44757
     old "But enough of such things."
     new ""
 
-    # c3_captives.rpy:25573, c3_captives.rpy:47552 (+3 more)
+    # c3_captives.rpy:25573, c3_captives.rpy:47552, c4_waifu.rpy:13706, c4_waifu.rpy:13969, c4_waifu.rpy:14905
     old "But even as you focus, you cannot shake the impression that you have witnessed something terrible and important."
     new ""
 
@@ -2575,7 +2579,7 @@ translate ru strings:
     old "But not yours."
     new ""
 
-    # c3_captives.rpy:49239, c3_lair.rpy:33566 (+2 more)
+    # c3_captives.rpy:49239, c3_lair.rpy:33566, c5_harem.rpy:57972, c6_harem.rpy:26267
     old "But nothing can keep her from screaming onto your cock, the vibrations finally pushing you up and over the edge."
     new ""
 
@@ -2595,7 +2599,7 @@ translate ru strings:
     old "But princesses are the second coolest!"
     new ""
 
-    # c3_captives.rpy:49598, c5_harem.rpy:58256 (+1 more)
+    # c3_captives.rpy:49598, c5_harem.rpy:58256, c6_harem.rpy:26549
     old "But she also lacks the energy to castigate you further, and merely slumps in exhaustion beneath you."
     new ""
 
@@ -2619,7 +2623,7 @@ translate ru strings:
     old "But there is yet unsullied skin, and you do not intend to leave it untouched for some other dragon, or the whims of fate, to claim. All of her shall be yours."
     new ""
 
-    # c3_captives.rpy:49737, c3_lair.rpy:33737 (+2 more)
+    # c3_captives.rpy:49737, c3_lair.rpy:33737, c5_harem.rpy:58375, c6_harem.rpy:26668
     old "But there's only one way this can go, and both of you know that."
     new ""
 
@@ -2659,7 +2663,7 @@ translate ru strings:
     old "But, y'know, some company wouldn't be the worst thing."
     new ""
 
-    # c3_captives.rpy:7550, c3_captives.rpy:21705 (+1 more)
+    # c3_captives.rpy:7550, c3_captives.rpy:21705, c3_captures.rpy:6690
     old "But..."
     new ""
 
@@ -2667,7 +2671,7 @@ translate ru strings:
     old "By the time [nameFarmer!t] returns to your roost, freshly bathed, you are at the very threshold of sleep."
     new ""
 
-    # c3_captives.rpy:45326, c4_waifu.rpy:31723 (+1 more)
+    # c3_captives.rpy:45326, c4_waifu.rpy:31723, c5_harem.rpy:55686
     old "By the time you are deep enough to see the bulge of your cock in his slender belly, he is flushed and panting, arousal clear in his scent."
     new ""
 
@@ -2711,7 +2715,7 @@ translate ru strings:
     old "CAN I GET YOU ANYTHING?"
     new ""
 
-    # c3_captives.rpy:7487, c3_lair.rpy:32642 (+1 more)
+    # c3_captives.rpy:7487, c3_lair.rpy:32642, c5_herald.rpy:891
     old "CARRY ON, THEN."
     new ""
 
@@ -2803,7 +2807,7 @@ translate ru strings:
     old "Charge."
     new ""
 
-    # c3_captives.rpy:6716, c3_captives.rpy:6801 (+1 more)
+    # c3_captives.rpy:6716, c3_captives.rpy:6801, c3_captives.rpy:6858
     old "Chat with [nameDrunk!t] instead."
     new ""
 
@@ -2867,11 +2871,11 @@ translate ru strings:
     old "Come, dragon."
     new ""
 
-    # c3_captives.rpy:26379, c3_captives.rpy:26598 (+7 more)
+    # c3_captives.rpy:26379, c3_captives.rpy:26598, c3_captives.rpy:26622, c4_waifu.rpy:7088, c4_waifu.rpy:7208 (+4 more)
     old "Comfort her."
     new ""
 
-    # c3_captives.rpy:7698, c3_captives.rpy:9010 (+2 more)
+    # c3_captives.rpy:7698, c3_captives.rpy:9010, c4_waifu.rpy:6465, c5_harem.rpy:9872
     old "Concerned, you draw your cock out, feeling her asshole collapse around you."
     new ""
 
@@ -2887,8 +2891,12 @@ translate ru strings:
     old "Continue to listen."
     new ""
 
-    # c3_captives.rpy:43268, c3_lair.rpy:10836 (+1 more)
+    # c3_captives.rpy:43268, c3_lair.rpy:10836, c5_harem.rpy:16370
     old "Continue to watch."
+    new ""
+
+    # c3_captives.rpy:4478, c3_captives.rpy:4621, c3_captives.rpy:4810, c3_captives.rpy:52095, c5_harem.rpy:7093 (+5 more)
+    old "Cooch"
     new ""
 
     # c3_captives.rpy:28889, c5_harem.rpy:45007
@@ -2915,7 +2923,7 @@ translate ru strings:
     old "Crossing an arm over her still-slick nipples, [nameFarmer!t] struggles to stay composed, though her creamy flesh is flushed with humiliation."
     new ""
 
-    # c3_captives.rpy:49878, c3_lair.rpy:33902 (+2 more)
+    # c3_captives.rpy:49878, c3_lair.rpy:33902, c5_harem.rpy:58528, c6_harem.rpy:26820
     old "Cum continues to pour from her open holes, as her body is wracked by shivers and spasms."
     new ""
 
@@ -2923,7 +2931,7 @@ translate ru strings:
     old "Cum in [nameFarmer!t]'s mouth."
     new ""
 
-    # c3_captives.rpy:37191, c3_captives.rpy:46308 (+15 more)
+    # c3_captives.rpy:37191, c3_captives.rpy:46308, c3_captives.rpy:49470, c3_lair.rpy:7374, c3_lair.rpy:42374 (+12 more)
     old "Cum inside her."
     new ""
 
@@ -2967,11 +2975,11 @@ translate ru strings:
     old "D-deeper, please!"
     new ""
 
-    # c3_captives.rpy:10034, c4_waifu.rpy:11412 (+1 more)
+    # c3_captives.rpy:10034, c4_waifu.rpy:11412, c5_harem.rpy:11889
     old "D-did I do good?"
     new ""
 
-    # c3_captives.rpy:49806, c3_lair.rpy:33821 (+2 more)
+    # c3_captives.rpy:49806, c3_lair.rpy:33821, c5_harem.rpy:58447, c6_harem.rpy:26740
     old "D-duh!"
     new ""
 
@@ -2983,7 +2991,7 @@ translate ru strings:
     old "DARJA HAS THEM."
     new ""
 
-    # c3_captives.rpy:30931, c5_harem.rpy:46853 (+2 more)
+    # c3_captives.rpy:30931, c5_harem.rpy:46853, c5_harem.rpy:57577, c6_harem.rpy:25872
     old "DEAD."
     new ""
 
@@ -2995,7 +3003,7 @@ translate ru strings:
     old "DO NOT INTERFERE."
     new ""
 
-    # c3_captives.rpy:14959, c3_captives.rpy:15087 (+2 more)
+    # c3_captives.rpy:14959, c3_captives.rpy:15087, c3_captives.rpy:15201, c3_captives.rpy:15720
     old "DO NOT LET IT HAPPEN AGAIN."
     new ""
 
@@ -3015,11 +3023,11 @@ translate ru strings:
     old "DO YOU?"
     new ""
 
-    # c3_captives.rpy:17109, c3_captives.rpy:18258 (+2 more)
+    # c3_captives.rpy:17109, c3_captives.rpy:18258, c5_harem.rpy:16112, c5_harem.rpy:19451
     old "DOES IT HURT?"
     new ""
 
-    # c3_captives.rpy:7025, c4_waifu.rpy:8575
+    # c3_captives.rpy:4821, c3_captives.rpy:7025, c3_captives.rpy:8292, c3_captives.rpy:8811, c3_captives.rpy:41953 (+6 more)
     old "Darja"
     new ""
 
@@ -3027,7 +3035,7 @@ translate ru strings:
     old "Darja..."
     new ""
 
-    # c3_captives.rpy:28758, c3_captives.rpy:45422 (+6 more)
+    # c3_captives.rpy:28758, c3_captives.rpy:45422, c3_lair.rpy:43651, c4_waifu.rpy:31803, c4_waifu.rpy:35874 (+3 more)
     old "Decline."
     new ""
 
@@ -3039,7 +3047,7 @@ translate ru strings:
     old "Delicate nails rise to drag along the scales of your underbelly, coming to rest at your thighs when you finish moving."
     new ""
 
-    # c3_captives.rpy:7864, c5_harem.rpy:10053 (+2 more)
+    # c3_captives.rpy:7864, c5_harem.rpy:10053, c6_harem.rpy:6675, c6_harem.rpy:6785
     old "Delicately, you extract yourself, and withdraw."
     new ""
 
@@ -3051,7 +3059,7 @@ translate ru strings:
     old "Despite her exuberance, there is an uneasiness in [nameFangirl!t]'s manner as she approaches you."
     new ""
 
-    # c3_captives.rpy:45095, c4_waifu.rpy:31570 (+1 more)
+    # c3_captives.rpy:45095, c4_waifu.rpy:31570, c5_harem.rpy:55463
     old "Despite his clear discomfort, he's palpably aroused, and it's not long before your pleasure begins to mount in tandem."
     new ""
 
@@ -3071,7 +3079,7 @@ translate ru strings:
     old "Despite the intoxicating draw of his life essence, you bite back your hunger."
     new ""
 
-    # c3_captives.rpy:19021, c3_captives.rpy:23186 (+1 more)
+    # c3_captives.rpy:19021, c3_captives.rpy:23186, c5_harem.rpy:20319
     old "Despite the simmering ache in your loins, you are curious how she will handle you when left to her own devices, and so you wait."
     new ""
 
@@ -3111,7 +3119,7 @@ translate ru strings:
     old "Distress winkles the corners of her eyes, and a stiffness begins to seep into her limbs."
     new ""
 
-    # c3_captives.rpy:46125, c3_lair.rpy:7191 (+2 more)
+    # c3_captives.rpy:46125, c3_lair.rpy:7191, c5_harem.rpy:58576, c6_harem.rpy:26867
     old "Divested of her limbs, she is not only incapable of fighting you, but also helplessly, tantalisingly exposed."
     new ""
 
@@ -3119,7 +3127,7 @@ translate ru strings:
     old "Do feel free to stay."
     new ""
 
-    # c3_captives.rpy:2410, c3_captives.rpy:21326 (+10 more)
+    # c3_captives.rpy:2410, c3_captives.rpy:21326, c3_captives.rpy:21332, c3_captives.rpy:26525, c3_captives.rpy:35677 (+7 more)
     old "Do it."
     new ""
 
@@ -3171,7 +3179,7 @@ translate ru strings:
     old "Don't you start!"
     new ""
 
-    # c3_captives.rpy:29179, c3_captives.rpy:32410 (+2 more)
+    # c3_captives.rpy:29179, c3_captives.rpy:32410, c5_harem.rpy:45280, c5_harem.rpy:48295
     old "Don't you, Sabetha?"
     new ""
 
@@ -3195,7 +3203,7 @@ translate ru strings:
     old "Drawing your eyes over her scarcely animate body, you find yourself hard-pressed to ascribe either to her now."
     new ""
 
-    # c3_captives.rpy:45400, c4_waifu.rpy:31781 (+1 more)
+    # c3_captives.rpy:45400, c4_waifu.rpy:31781, c5_harem.rpy:55747
     old "Drawn in by the scent of his growing arousal and the seductive pace of his undressing, you allow yourself to be led."
     new ""
 
@@ -3207,7 +3215,7 @@ translate ru strings:
     old "Drenched in the abbess's arousal, it clings to the skin, hinting the outline of large, succulent lips beneath."
     new ""
 
-    # c3_captives.rpy:4035, c3_lair.rpy:28009 (+1 more)
+    # c3_captives.rpy:4035, c3_lair.rpy:28009, c4_waifu.rpy:307
     old "Drunk"
     new ""
 
@@ -3219,11 +3227,11 @@ translate ru strings:
     old "EAT."
     new ""
 
-    # c3_captives.rpy:46944, c3_captives.rpy:47027 (+2 more)
+    # c3_captives.rpy:46944, c3_captives.rpy:47027, c5_harem.rpy:56629, c6_harem.rpy:24444
     old "ELVES HAVE MAGIC. WHAT IS YOURS?"
     new ""
 
-    # c3_captives.rpy:9506, c3_captives.rpy:11901 (+5 more)
+    # c3_captives.rpy:9506, c3_captives.rpy:11901, c3_captives.rpy:12619, c3_captives.rpy:32925, c3_captives.rpy:35278 (+2 more)
     old "ENJOYING YOURSELF?"
     new ""
 
@@ -3235,7 +3243,7 @@ translate ru strings:
     old "Each humiliated, spasming sob milks yet more pleasure from your cock until ecstasy is cresting within you, urgent and hot."
     new ""
 
-    # c3_captives.rpy:7697, c3_captives.rpy:9006 (+2 more)
+    # c3_captives.rpy:7697, c3_captives.rpy:9006, c4_waifu.rpy:6461, c5_harem.rpy:9868
     old "Each inch is a struggle to pass, making her scream as you force yourself deeper and deeper into her hot passage."
     new ""
 
@@ -3243,11 +3251,11 @@ translate ru strings:
     old "Each moment of torment bled into the next, my twisted form writhing ceaselessly in the dim as she worked."
     new ""
 
-    # c3_captives.rpy:53344, c3_captives.rpy:53724 (+1 more)
+    # c3_captives.rpy:53344, c3_captives.rpy:53724, c3_captives.rpy:54843
     old "Each motion grinds more of her silky depths around your straining manhood, milking it with needful intensity."
     new ""
 
-    # c3_captives.rpy:49505, c5_harem.rpy:58175 (+1 more)
+    # c3_captives.rpy:49505, c5_harem.rpy:58175, c6_harem.rpy:26468
     old "Each pulse throbs tightly against the vise-grip of her body, and within moments you've filled her to the brim."
     new ""
 
@@ -3263,7 +3271,7 @@ translate ru strings:
     old "Ears pricked happily, [nameBoof!t] rumbles out a playful growl before feinting a few pounces in your direction."
     new ""
 
-    # c3_captives.rpy:29259, c3_captives.rpy:30768 (+2 more)
+    # c3_captives.rpy:29259, c3_captives.rpy:30768, c5_harem.rpy:45357, c5_harem.rpy:46709
     old "Eavesdrop."
     new ""
 
@@ -3307,7 +3315,7 @@ translate ru strings:
     old "Ecstasy strikes like lightning, tearing back the layers of consciousness until nothing remains but the beast."
     new ""
 
-    # c3_captives.rpy:29486, c4_waifu.rpy:20223 (+2 more)
+    # c3_captives.rpy:29486, c4_waifu.rpy:20223, c4_waifu.rpy:22403, c5_harem.rpy:45579
     old "Eep!"
     new ""
 
@@ -3319,7 +3327,7 @@ translate ru strings:
     old "Eh, you're th'boss."
     new ""
 
-    # c3_captives.rpy:24712, c3_captives.rpy:24939 (+1 more)
+    # c3_captives.rpy:24712, c3_captives.rpy:24939, c3_captives.rpy:25444
     old "Either way, she seems to have learned what it means to be a dragon's prize."
     new ""
 
@@ -3327,15 +3335,15 @@ translate ru strings:
     old "Electric pleasure rolls down your cock and into your groin, and the first faint whisper of satisfaction."
     new ""
 
-    # c3_captives.rpy:46481, c3_lair.rpy:7529 (+3 more)
+    # c3_captives.rpy:46481, c3_lair.rpy:7529, c4_waifu.rpy:34531, c5_harem.rpy:58884, c6_harem.rpy:27174
     old "Elf-flesh is delightfully resilient, after all."
     new ""
 
-    # c3_captives.rpy:29263, c3_captives.rpy:29411 (+4 more)
+    # c3_captives.rpy:29263, c3_captives.rpy:29411, c3_captives.rpy:29419, c5_harem.rpy:45361, c5_harem.rpy:45509 (+1 more)
     old "Enter."
     new ""
 
-    # c3_captives.rpy:28342, c3_captives.rpy:28530 (+2 more)
+    # c3_captives.rpy:28342, c3_captives.rpy:28530, c5_harem.rpy:44302, c5_harem.rpy:44489
     old "Erk."
     new ""
 
@@ -3343,7 +3351,7 @@ translate ru strings:
     old "Err, right, yeah."
     new ""
 
-    # c3_captives.rpy:28285, c3_captives.rpy:28473 (+2 more)
+    # c3_captives.rpy:28285, c3_captives.rpy:28473, c5_harem.rpy:44245, c5_harem.rpy:44432
     old "Err..."
     new ""
 
@@ -3355,7 +3363,7 @@ translate ru strings:
     old "Even after the final hunk of meat sinks into your gullet, succulent shreds of would-be-princess linger between your teeth."
     new ""
 
-    # c3_captives.rpy:49582, c5_harem.rpy:58236 (+1 more)
+    # c3_captives.rpy:49582, c5_harem.rpy:58236, c6_harem.rpy:26529
     old "Even as the roiling storm of pleasure sweeps up to envelop your senses, you withdraw your cock from her ruined cunt."
     new ""
 
@@ -3415,7 +3423,7 @@ translate ru strings:
     old "Every motion forces you deeper, squeezing into a throat that convulses around it, only letting it slip out to suck in a desperate breath."
     new ""
 
-    # c3_captives.rpy:2678, c5_harem.rpy:2481 (+2 more)
+    # c3_captives.rpy:2678, c5_harem.rpy:2481, c5_harem.rpy:5128, c5_harem.rpy:5310
     old "Every thrust spills long trails of your seed, mixed with her own juices, painting her thighs and the ground with slick spatters."
     new ""
 
@@ -3427,7 +3435,7 @@ translate ru strings:
     old "Every time she cups your knot you feel the need to cum building, threatening to overcome you."
     new ""
 
-    # c3_captives.rpy:17542, c4_capital.rpy:2536 (+1 more)
+    # c3_captives.rpy:17542, c4_capital.rpy:2536, c5_harem.rpy:15439
     old "Examine her closely."
     new ""
 
@@ -3447,7 +3455,7 @@ translate ru strings:
     old "Except for this one time, but she was rude, so it doesn't count."
     new ""
 
-    # c3_captives.rpy:6999, c3_dreams.rpy:97 (+9 more)
+    # c3_captives.rpy:6999, c3_dreams.rpy:97, c4_waifu.rpy:335, c5_harem.rpy:8385, c5_harem.rpy:8411 (+6 more)
     old "Excitable Woman"
     new ""
 
@@ -3459,7 +3467,7 @@ translate ru strings:
     old "F-forgive me, it's not my place to speak so brazenly!"
     new ""
 
-    # c3_captives.rpy:44351, c3_captives.rpy:44543 (+2 more)
+    # c3_captives.rpy:44351, c3_captives.rpy:44543, c3_captives.rpy:44564, c3_captives.rpy:45843
     old "F-forgive my impudence, I'm rambling again, aren't I?"
     new ""
 
@@ -3475,11 +3483,11 @@ translate ru strings:
     old "Fair point, Inej."
     new ""
 
-    # c3_captives.rpy:9485, c3_captives.rpy:9497 (+6 more)
+    # c3_captives.rpy:9485, c3_captives.rpy:9497, c3_captives.rpy:11913, c3_captives.rpy:11949, c3_captives.rpy:12657 (+3 more)
     old "Farmgirl"
     new ""
 
-    # c3_captives.rpy:49482, c5_harem.rpy:58158 (+1 more)
+    # c3_captives.rpy:49482, c5_harem.rpy:58158, c6_harem.rpy:26451
     old "Faster, harder, you rake your bestial cock within her ruined softness, until the roiling storm of pleasure sweeps up to envelop your senses."
     new ""
 
@@ -3491,7 +3499,7 @@ translate ru strings:
     old "Feeling full and content, you leave the bloody chamber for your kobolds to clear."
     new ""
 
-    # c3_captives.rpy:33795, c4_waifu.rpy:27585 (+1 more)
+    # c3_captives.rpy:33795, c4_waifu.rpy:27585, c5_harem.rpy:51001
     old "Figured as much."
     new ""
 
@@ -3531,11 +3539,11 @@ translate ru strings:
     old "Fingertips eagerly rub at the tip where your pearly cum has begun to leak out, and spread it down over the rest."
     new ""
 
-    # c3_captives.rpy:10382, c3_captives.rpy:10603 (+2 more)
+    # c3_captives.rpy:10382, c3_captives.rpy:10603, c4_waifu.rpy:11584, c4_waifu.rpy:11801
     old "Finish inside her."
     new ""
 
-    # c3_captives.rpy:10386, c3_captives.rpy:10607 (+2 more)
+    # c3_captives.rpy:10386, c3_captives.rpy:10607, c4_waifu.rpy:11588, c4_waifu.rpy:11805
     old "Finish onto her."
     new ""
 
@@ -3575,11 +3583,11 @@ translate ru strings:
     old "For a few long seconds she looks up at you, then returns her stare to the wall."
     new ""
 
-    # c3_captives.rpy:46238, c3_lair.rpy:7305 (+3 more)
+    # c3_captives.rpy:46238, c3_lair.rpy:7305, c4_waifu.rpy:34722, c5_harem.rpy:58670, c6_harem.rpy:26961
     old "For a moment, you hold her there, feeling her body spasm around you as it struggles to adjust to the stretch."
     new ""
 
-    # c3_captives.rpy:2479, c5_harem.rpy:2361 (+1 more)
+    # c3_captives.rpy:2479, c5_harem.rpy:2361, c5_harem.rpy:5215
     old "For a while the only sound echoing throughout the chamber is the brushing of skin on skin, and the muffled squelching of your lovemaking."
     new ""
 
@@ -3615,7 +3623,7 @@ translate ru strings:
     old "Forgive me, I'm certain you didn't come to listen to my idle ramblings!"
     new ""
 
-    # c3_captives.rpy:2523, c5_harem.rpy:2385 (+1 more)
+    # c3_captives.rpy:2523, c5_harem.rpy:2385, c5_harem.rpy:5241
     old "Forgiveness was a lie."
     new ""
 
@@ -3655,7 +3663,7 @@ translate ru strings:
     old "Fuck [nameFangirl!t]'s cunt."
     new ""
 
-    # c3_captives.rpy:2414, c4_waifu.rpy:41609 (+4 more)
+    # c3_captives.rpy:2414, c4_waifu.rpy:41609, c4_waifu.rpy:41800, c5_harem.rpy:2310, c5_harem.rpy:59303 (+1 more)
     old "Fuck her ass instead."
     new ""
 
@@ -3671,15 +3679,15 @@ translate ru strings:
     old "Fuck her cunt from behind."
     new ""
 
-    # c3_captives.rpy:17824, c3_captives.rpy:17842 (+4 more)
+    # c3_captives.rpy:17824, c3_captives.rpy:17842, c3_captives.rpy:50475, c5_harem.rpy:15713, c5_harem.rpy:15731 (+1 more)
     old "Fuck her mouth."
     new ""
 
-    # c3_captives.rpy:46883, c3_lair.rpy:33034 (+5 more)
+    # c3_captives.rpy:46883, c3_lair.rpy:33034, c3_lair.rpy:33166, c3_lair.rpy:33276, c3_lair.rpy:33411 (+2 more)
     old "Fuck her throat."
     new ""
 
-    # c3_captives.rpy:36784, c5_harem.rpy:52032 (+2 more)
+    # c3_captives.rpy:36784, c5_harem.rpy:52032, c6_harem.rpy:6006, c6_harem.rpy:6016
     old "Fuck her tits."
     new ""
 
@@ -3687,11 +3695,11 @@ translate ru strings:
     old "Fuck her to death."
     new ""
 
-    # c3_captives.rpy:45064, c4_waifu.rpy:31539 (+2 more)
+    # c3_captives.rpy:45064, c4_waifu.rpy:31539, c5_harem.rpy:39929, c5_harem.rpy:55435
     old "Fuck his throat."
     new ""
 
-    # c3_captives.rpy:24671, c3_captives.rpy:24900 (+1 more)
+    # c3_captives.rpy:24671, c3_captives.rpy:24900, c3_captives.rpy:25408
     old "Fuck meeeeee!"
     new ""
 
@@ -3723,7 +3731,7 @@ translate ru strings:
     old "GET READY."
     new ""
 
-    # c3_captives.rpy:14968, c3_captives.rpy:15096 (+2 more)
+    # c3_captives.rpy:14968, c3_captives.rpy:15096, c3_captives.rpy:15210, c3_captives.rpy:15729
     old "GET RID OF IT."
     new ""
 
@@ -3735,11 +3743,11 @@ translate ru strings:
     old "Gently flickering torches paint her pale skin with vibrant hues of red and orange, though none quite as beautiful as her amber hair."
     new ""
 
-    # c3_captives.rpy:45166, c4_waifu.rpy:31623 (+1 more)
+    # c3_captives.rpy:45166, c4_waifu.rpy:31623, c5_harem.rpy:55531
     old "Gently he works, methodically, building in pace and confidence until your nerves are afire with the sweet scintillating pleasure of it."
     new ""
 
-    # c3_captives.rpy:49798, c5_harem.rpy:58439 (+1 more)
+    # c3_captives.rpy:49798, c5_harem.rpy:58439, c6_harem.rpy:26732
     old "Gg-ghh!"
     new ""
 
@@ -3747,7 +3755,7 @@ translate ru strings:
     old "Gh-hugh!"
     new ""
 
-    # c3_captives.rpy:29024, c3_captives.rpy:32260 (+3 more)
+    # c3_captives.rpy:29024, c3_captives.rpy:32260, c4_waifu.rpy:25622, c5_harem.rpy:45135, c5_harem.rpy:48157
     old "Ghkkkk!"
     new ""
 
@@ -3759,7 +3767,7 @@ translate ru strings:
     old "Ghrt!"
     new ""
 
-    # c3_captives.rpy:49760, c3_lair.rpy:33771 (+2 more)
+    # c3_captives.rpy:49760, c3_lair.rpy:33771, c5_harem.rpy:58399, c6_harem.rpy:26692
     old "Ghughn!"
     new ""
 
@@ -3791,11 +3799,11 @@ translate ru strings:
     old "Glauh..."
     new ""
 
-    # c3_captives.rpy:49778, c3_lair.rpy:33787 (+2 more)
+    # c3_captives.rpy:49778, c3_lair.rpy:33787, c5_harem.rpy:58417, c6_harem.rpy:26710
     old "Gnnn!"
     new ""
 
-    # c3_captives.rpy:24696, c3_captives.rpy:24923 (+1 more)
+    # c3_captives.rpy:24696, c3_captives.rpy:24923, c3_captives.rpy:25426
     old "Gnnn..."
     new ""
 
@@ -3815,7 +3823,7 @@ translate ru strings:
     old "Gone."
     new ""
 
-    # c3_captives.rpy:32174, c3_lair.rpy:18064 (+3 more)
+    # c3_captives.rpy:32174, c3_lair.rpy:18064, c3_lair.rpy:21873, c4_waifu.rpy:25538, c5_harem.rpy:48076
     old "Good girl."
     new ""
 
@@ -3835,7 +3843,7 @@ translate ru strings:
     old "Got a bit'f a kick to it, ain't it?"
     new ""
 
-    # c3_captives.rpy:2519, c5_harem.rpy:2383 (+1 more)
+    # c3_captives.rpy:2519, c5_harem.rpy:2383, c5_harem.rpy:5239
     old "Grace was a lie."
     new ""
 
@@ -3847,7 +3855,7 @@ translate ru strings:
     old "Gradually the moments grow longer, filling the chamber with nothing but the sound of heavy breathing and torrents of spilled seed."
     new ""
 
-    # c3_captives.rpy:33457, c3_captives.rpy:34504 (+2 more)
+    # c3_captives.rpy:33457, c3_captives.rpy:34504, c3_captives.rpy:34571, c3_lair.rpy:45725
     old "Grand!"
     new ""
 
@@ -3911,7 +3919,7 @@ translate ru strings:
     old "HELOÏSE HAS FOUND LOVE."
     new ""
 
-    # c3_captives.rpy:54037, c3_lair.rpy:37436 (+1 more)
+    # c3_captives.rpy:54037, c3_lair.rpy:37436, c4_waifu.rpy:25496
     old "HER ASS."
     new ""
 
@@ -3919,7 +3927,7 @@ translate ru strings:
     old "HER CUNT."
     new ""
 
-    # c3_captives.rpy:36136, c5_harem.rpy:51635 (+3 more)
+    # c3_captives.rpy:36136, c5_harem.rpy:51635, c5_harem.rpy:61808, c5_harem.rpy:64672, c6_harem.rpy:21980
     old "HOW ARE YOU FEELING?"
     new ""
 
@@ -3971,19 +3979,19 @@ translate ru strings:
     old "Have you been using [nameFangirl!t]'s special dragon hole?"
     new ""
 
-    # c3_captives.rpy:14594, c3_captives.rpy:15823 (+2 more)
+    # c3_captives.rpy:14594, c3_captives.rpy:15823, c4_waifu.rpy:11170, c5_harem.rpy:32579
     old "Have you changed Boof's name?"
     new ""
 
-    # c3_captives.rpy:4617, c3_captives.rpy:4806 (+13 more)
+    # c3_captives.rpy:4617, c3_captives.rpy:4806, c3_captives.rpy:52091, c3_hordes.rpy:9754, c3_hordes.rpy:16907 (+10 more)
     old "Have you changed Cuchilla's name?"
     new ""
 
-    # c3_captives.rpy:37430, c3_captives.rpy:37509 (+5 more)
+    # c3_captives.rpy:37430, c3_captives.rpy:37509, c3_captives.rpy:39274, c3_captives.rpy:41960, c3_captives.rpy:44031 (+2 more)
     old "Have you changed Issa's name?"
     new ""
 
-    # c3_captives.rpy:14052, c3_captives.rpy:14584 (+11 more)
+    # c3_captives.rpy:14052, c3_captives.rpy:14584, c3_captives.rpy:15813, c3_hordes.rpy:293, c3_hordes.rpy:10074 (+8 more)
     old "Have you changed Marie-Anne's name?"
     new ""
 
@@ -3991,7 +3999,7 @@ translate ru strings:
     old "Have you changed Mina's name?"
     new ""
 
-    # c3_captives.rpy:54661, c3_captives.rpy:54721 (+9 more)
+    # c3_captives.rpy:54661, c3_captives.rpy:54721, c4_waifu.rpy:38353, c4_waifu.rpy:38414, c4_waifu.rpy:38469 (+6 more)
     old "Have you changed Naho's name?"
     new ""
 
@@ -4235,7 +4243,7 @@ translate ru strings:
     old "He, who seeks to bring low the fair, and the gentle!"
     new ""
 
-    # c3_captives.rpy:30881, c3_captives.rpy:30887 (+2 more)
+    # c3_captives.rpy:30881, c3_captives.rpy:30887, c5_harem.rpy:46808, c5_harem.rpy:46814
     old "Hear her out."
     new ""
 
@@ -4283,7 +4291,7 @@ translate ru strings:
     old "Heloïse, watching your face, detects your new resolve, and the tension bleeds out of her."
     new ""
 
-    # c3_captives.rpy:18929, c3_captives.rpy:23094 (+1 more)
+    # c3_captives.rpy:18929, c3_captives.rpy:23094, c5_harem.rpy:20227
     old "Her actions against you and yours could have easily warranted her death, had you desired it."
     new ""
 
@@ -4295,7 +4303,7 @@ translate ru strings:
     old "Her ass sounds pretty good, actually."
     new ""
 
-    # c3_captives.rpy:7674, c3_captives.rpy:8983 (+2 more)
+    # c3_captives.rpy:7674, c3_captives.rpy:8983, c4_waifu.rpy:6438, c5_harem.rpy:9841
     old "Her asshole yields, first minutely, and then in a sudden cascade."
     new ""
 
@@ -4315,7 +4323,7 @@ translate ru strings:
     old "Her body contorts, though in the end she must shift herself ever so slightly to avoid folding in half as you pull."
     new ""
 
-    # c3_captives.rpy:7734, c3_captives.rpy:9044 (+1 more)
+    # c3_captives.rpy:7734, c3_captives.rpy:9044, c4_waifu.rpy:6499
     old "Her body slides across the rough floor with each thrust, her nails digging into the stone, her screams of pleasure masking the obvious pain she feels in allowing you inside."
     new ""
 
@@ -4355,7 +4363,7 @@ translate ru strings:
     old "Her cheeks flush a deep red, and she sways a little in place."
     new ""
 
-    # c3_captives.rpy:54484, c3_captives.rpy:55111 (+1 more)
+    # c3_captives.rpy:54484, c3_captives.rpy:55111, c5_harem.rpy:65693
     old "Her claws scrape across stone, frantically trying to get some purchase, as her breath comes in panicked gulps."
     new ""
 
@@ -4367,7 +4375,7 @@ translate ru strings:
     old "Her confused expression is quickly eclipsed by [nameFangirl!t], ever errant, plunging her face against [nameDrunk!t]'s own."
     new ""
 
-    # c3_captives.rpy:46340, c3_lair.rpy:7409 (+3 more)
+    # c3_captives.rpy:46340, c3_lair.rpy:7409, c4_waifu.rpy:34803, c5_harem.rpy:58755, c6_harem.rpy:27046
     old "Her convulsions coax every last drop from you, milking you greedily even as her eyes squeeze shut with fruitless protest."
     new ""
 
@@ -4375,7 +4383,7 @@ translate ru strings:
     old "Her cry blends with a thick, wet sound as the knot, girthy as a hand's breadth, sinks inside of her."
     new ""
 
-    # c3_captives.rpy:54388, c3_captives.rpy:55023 (+2 more)
+    # c3_captives.rpy:54388, c3_captives.rpy:55023, c4_wildlands.rpy:2561, c5_harem.rpy:65618
     old "Her cunt clenches around you, and sends you over the edge with her."
     new ""
 
@@ -4383,7 +4391,7 @@ translate ru strings:
     old "Her cunt yields as you pick up the pace, smashing faster, deeper, the ridges sliding over her walls."
     new ""
 
-    # c3_captives.rpy:49272, c3_lair.rpy:33609 (+2 more)
+    # c3_captives.rpy:49272, c3_lair.rpy:33609, c5_harem.rpy:57996, c6_harem.rpy:26289
     old "Her dark purple robes have been pushed out of the way, revealing a bloated curve of lavender skin."
     new ""
 
@@ -4391,7 +4399,7 @@ translate ru strings:
     old "Her delicate features scarcely betray any traces of draconic origin, though the green skin is admittedly a slight giveaway."
     new ""
 
-    # c3_captives.rpy:7930, c4_waifu.rpy:6887 (+1 more)
+    # c3_captives.rpy:7930, c4_waifu.rpy:6887, c4_waifu.rpy:8066
     old "Her ecstatic throes only serve to intensify your own climax, which crests and waves in long pulses of delight."
     new ""
 
@@ -4471,7 +4479,7 @@ translate ru strings:
     old "Her eyes go wide, marvelling at the crest of your cock as it appears and disappears from their intermingled chests."
     new ""
 
-    # c3_captives.rpy:29781, c4_waifu.rpy:25876 (+1 more)
+    # c3_captives.rpy:29781, c4_waifu.rpy:25876, c5_harem.rpy:45872
     old "Her eyes hold a challenge, but her smile indicates that it's a mirthful one."
     new ""
 
@@ -4483,15 +4491,15 @@ translate ru strings:
     old "Her eyes lock on your hanging cock for a long moment, staring at it."
     new ""
 
-    # c3_captives.rpy:49256, c3_lair.rpy:33582 (+2 more)
+    # c3_captives.rpy:49256, c3_lair.rpy:33582, c5_harem.rpy:57983, c6_harem.rpy:26276
     old "Her eyes roll back, vacant, as her tenuous grip on consciousness fades."
     new ""
 
-    # c3_captives.rpy:9565, c3_captives.rpy:9632 (+2 more)
+    # c3_captives.rpy:9565, c3_captives.rpy:9632, c3_captives.rpy:12689, c3_captives.rpy:12766
     old "Her eyes, glittering in the dim light, watch you silently as you leave."
     new ""
 
-    # c3_captives.rpy:49843, c3_lair.rpy:33861 (+2 more)
+    # c3_captives.rpy:49843, c3_lair.rpy:33861, c5_harem.rpy:58486, c6_harem.rpy:26778
     old "Her eyes, wide with horror, see it spray out of her, as she is reduced to a base vessel for dragon cum."
     new ""
 
@@ -4503,7 +4511,7 @@ translate ru strings:
     old "Her face falls."
     new ""
 
-    # c3_captives.rpy:7741, c3_captives.rpy:9051 (+2 more)
+    # c3_captives.rpy:7741, c3_captives.rpy:9051, c5_harem.rpy:9920, c6_harem.rpy:6513
     old "Her feet and knees do their best to keep her in place as you continue to ravage her asshole with gathering momentum."
     new ""
 
@@ -4559,11 +4567,11 @@ translate ru strings:
     old "Her hands clench."
     new ""
 
-    # c3_captives.rpy:19051, c3_captives.rpy:23216 (+1 more)
+    # c3_captives.rpy:19051, c3_captives.rpy:23216, c5_harem.rpy:20349
     old "Her hands close around you, palms flat, and her fingers seek out and nestle within the valleys formed by the ridged contours of your cock."
     new ""
 
-    # c3_captives.rpy:30115, c4_waifu.rpy:26158 (+1 more)
+    # c3_captives.rpy:30115, c4_waifu.rpy:26158, c5_harem.rpy:46203
     old "Her hands find themselves firmly planted on Sabetha's bare breasts."
     new ""
 
@@ -4591,7 +4599,7 @@ translate ru strings:
     old "Her head you shove toward your loins, where your erection grows proud and hungry, eager to taste of your toy's mouth."
     new ""
 
-    # c3_captives.rpy:17120, c3_captives.rpy:17156 (+2 more)
+    # c3_captives.rpy:17120, c3_captives.rpy:17156, c5_harem.rpy:19460, c5_harem.rpy:19495
     old "Her heels kick at the ground between your hind legs, and one fist thumps against your chest."
     new ""
 
@@ -4619,7 +4627,7 @@ translate ru strings:
     old "Her legs kick the air as another climax strikes, then go limp."
     new ""
 
-    # c3_captives.rpy:7781, c3_captives.rpy:9095 (+3 more)
+    # c3_captives.rpy:7781, c3_captives.rpy:9095, c4_waifu.rpy:6544, c5_harem.rpy:9956, c6_harem.rpy:6559
     old "Her legs shake helplessly, from the momentum of your thrusts, and from her own convulsive ecstasy."
     new ""
 
@@ -4635,11 +4643,11 @@ translate ru strings:
     old "Her lip trembles."
     new ""
 
-    # c3_captives.rpy:46543, c3_lair.rpy:7587 (+3 more)
+    # c3_captives.rpy:46543, c3_lair.rpy:7587, c4_waifu.rpy:34581, c5_harem.rpy:58935, c6_harem.rpy:27225
     old "Her lips tremble as she struggles to form words, and her voice, when it comes, is pleading and strained."
     new ""
 
-    # c3_captives.rpy:46272, c3_lair.rpy:7337 (+3 more)
+    # c3_captives.rpy:46272, c3_lair.rpy:7337, c4_waifu.rpy:34750, c5_harem.rpy:58696, c6_harem.rpy:26987
     old "Her lips tremble as she struggles to form words."
     new ""
 
@@ -4655,7 +4663,7 @@ translate ru strings:
     old "Her meagre garments, now returned to scrap, flutter down at her sides."
     new ""
 
-    # c3_captives.rpy:49214, c3_lair.rpy:33534 (+2 more)
+    # c3_captives.rpy:49214, c3_lair.rpy:33534, c5_harem.rpy:57949, c6_harem.rpy:26244
     old "Her mouth and nose pour with saliva and your fluids, bubbles forming on her lips, as she chokes out her next words."
     new ""
 
@@ -4719,7 +4727,7 @@ translate ru strings:
     old "Her poor flesh stretches around that bulging, inhuman length as you drive each subsequent ridge into her."
     new ""
 
-    # c3_captives.rpy:7755, c3_captives.rpy:9067 (+3 more)
+    # c3_captives.rpy:7755, c3_captives.rpy:9067, c4_waifu.rpy:6524, c5_harem.rpy:9934, c6_harem.rpy:6527
     old "Her request falls on deaf ears."
     new ""
 
@@ -4743,7 +4751,7 @@ translate ru strings:
     old "Her slender torso recedes from you, culminating directly beneath her sister's navel."
     new ""
 
-    # c3_captives.rpy:49202, c3_lair.rpy:33524 (+2 more)
+    # c3_captives.rpy:49202, c3_lair.rpy:33524, c5_harem.rpy:57939, c6_harem.rpy:26234
     old "Her slight breasts spin in lazy circles that match your thrusts, her throat expanding and contracting as your cock enters and re-emerges from her body."
     new ""
 
@@ -4759,7 +4767,7 @@ translate ru strings:
     old "Her smile softens, barely."
     new ""
 
-    # c3_captives.rpy:49153, c3_lair.rpy:33465 (+2 more)
+    # c3_captives.rpy:49153, c3_lair.rpy:33465, c5_harem.rpy:57894, c6_harem.rpy:26189
     old "Her string of threats is suddenly cut off, as you pull back your cock and thrust it into her mouth."
     new ""
 
@@ -4779,7 +4787,7 @@ translate ru strings:
     old "Her thighs are soaked, her cunt almost opening itself to you, clearly aching to be filled."
     new ""
 
-    # c3_captives.rpy:49201, c3_lair.rpy:33523 (+2 more)
+    # c3_captives.rpy:49201, c3_lair.rpy:33523, c5_harem.rpy:57938, c6_harem.rpy:26233
     old "Her thrashing tongue helps keep you nice and lubricated, rubbing across the top of your shaft and allowing you to pick up speed."
     new ""
 
@@ -4799,7 +4807,7 @@ translate ru strings:
     old "Her tools lie discarded at her side, and her head is half-dipped in slumber."
     new ""
 
-    # c3_captives.rpy:19106, c3_captives.rpy:23271 (+1 more)
+    # c3_captives.rpy:19106, c3_captives.rpy:23271, c5_harem.rpy:20404
     old "Her twists grow ever stronger and ever wider as she first pushes, then pulls upon your cock."
     new ""
 
@@ -4851,7 +4859,7 @@ translate ru strings:
     old "Her warmth, little more than a flickering candle flame beneath your sun, yet stirs hungers in your belly."
     new ""
 
-    # c3_captives.rpy:54356, c3_captives.rpy:54997 (+1 more)
+    # c3_captives.rpy:54356, c3_captives.rpy:54997, c4_wildlands.rpy:2536
     old "Her words are caught short as you thrust deeper, and begin to hammer your hips back and forth."
     new ""
 
@@ -4871,7 +4879,7 @@ translate ru strings:
     old "Here, far away from the raucous havoc and noise of your lair, there is nothing to disturb you both."
     new ""
 
-    # c3_captives.rpy:22418, c4_waifu.rpy:12993 (+1 more)
+    # c3_captives.rpy:22418, c4_waifu.rpy:12993, c4_waifu.rpy:13400
     old "Here."
     new ""
 
@@ -4891,7 +4899,7 @@ translate ru strings:
     old "Hgh!"
     new ""
 
-    # c3_captives.rpy:29187, c3_captives.rpy:32418 (+2 more)
+    # c3_captives.rpy:29187, c3_captives.rpy:32418, c5_harem.rpy:45288, c5_harem.rpy:48303
     old "Hghkk..."
     new ""
 
@@ -4931,7 +4939,7 @@ translate ru strings:
     old "His mouth opens, then closes, and he swallows."
     new ""
 
-    # c3_captives.rpy:45338, c4_waifu.rpy:31735 (+1 more)
+    # c3_captives.rpy:45338, c4_waifu.rpy:31735, c5_harem.rpy:55694
     old "His passage pulls tight around you, and he cries out, releasing streaks of cum over his own chest."
     new ""
 
@@ -4943,15 +4951,15 @@ translate ru strings:
     old "His time will come soon enough, though."
     new ""
 
-    # c3_captives.rpy:45091, c4_waifu.rpy:31566 (+1 more)
+    # c3_captives.rpy:45091, c4_waifu.rpy:31566, c5_harem.rpy:55457
     old "His words are reduced to a muffled yelp as you force him down onto you once more, and begin to fuck his mouth without recourse."
     new ""
 
-    # c3_captives.rpy:29040, c3_captives.rpy:32278 (+3 more)
+    # c3_captives.rpy:29040, c3_captives.rpy:32278, c4_waifu.rpy:25638, c5_harem.rpy:45151, c5_harem.rpy:48173
     old "Hkg!"
     new ""
 
-    # c3_captives.rpy:30109, c4_waifu.rpy:26152 (+1 more)
+    # c3_captives.rpy:30109, c4_waifu.rpy:26152, c5_harem.rpy:46197
     old "Hmm, I know what I can do."
     new ""
 
@@ -4959,11 +4967,11 @@ translate ru strings:
     old "Hmph, I see we'll get no further with this enlightening talk of ours."
     new ""
 
-    # c3_captives.rpy:24589, c3_captives.rpy:24818 (+2 more)
+    # c3_captives.rpy:24589, c3_captives.rpy:24818, c3_captives.rpy:25361, c3_hordes.rpy:16807
     old "Hngh!"
     new ""
 
-    # c3_captives.rpy:19150, c3_captives.rpy:23315 (+1 more)
+    # c3_captives.rpy:19150, c3_captives.rpy:23315, c5_harem.rpy:20448
     old "Hold her head still."
     new ""
 
@@ -4987,7 +4995,7 @@ translate ru strings:
     old "How could you have ever felt threatened by her?"
     new ""
 
-    # c3_captives.rpy:39256, c3_captives.rpy:39384 (+7 more)
+    # c3_captives.rpy:39256, c3_captives.rpy:39384, c3_captives.rpy:40163, c3_captives.rpy:41770, c3_captives.rpy:41807 (+4 more)
     old "How may I be of service, Master?"
     new ""
 
@@ -5011,15 +5019,15 @@ translate ru strings:
     old "How {i}dare{/i} she?"
     new ""
 
-    # c3_captives.rpy:28953, c3_captives.rpy:32209 (+3 more)
+    # c3_captives.rpy:28953, c3_captives.rpy:32209, c4_waifu.rpy:25575, c5_harem.rpy:45067, c5_harem.rpy:48111
     old "Hrb!"
     new ""
 
-    # c3_captives.rpy:7285, c3_captives.rpy:19982 (+1 more)
+    # c3_captives.rpy:7285, c3_captives.rpy:19982, c4_waifu.rpy:19752
     old "Huh."
     new ""
 
-    # c3_captives.rpy:49423, c5_harem.rpy:58110 (+1 more)
+    # c3_captives.rpy:49423, c5_harem.rpy:58110, c6_harem.rpy:26403
     old "Hungry for more of her, you tear eagerly at her robe, pulling away long, ragged strips of cloth as you drag your claws across her chest."
     new ""
 
@@ -5031,11 +5039,11 @@ translate ru strings:
     old "I AM NOT CERTAIN."
     new ""
 
-    # c3_captives.rpy:17754, c3_captives.rpy:51999 (+2 more)
+    # c3_captives.rpy:17754, c3_captives.rpy:51999, c4_capital.rpy:7337, c5_harem.rpy:15645
     old "I AM SORRY."
     new ""
 
-    # c3_captives.rpy:18443, c3_captives.rpy:36155 (+4 more)
+    # c3_captives.rpy:18443, c3_captives.rpy:36155, c5_forces.rpy:8609, c5_forces.rpy:8662, c5_forces.rpy:8727 (+1 more)
     old "I CAME TO TALK."
     new ""
 
@@ -5071,15 +5079,15 @@ translate ru strings:
     old "I DO NOT INTEND FOR YOU TO DIE."
     new ""
 
-    # c3_captives.rpy:35402, c3_captives.rpy:36487 (+5 more)
+    # c3_captives.rpy:35402, c3_captives.rpy:36487, c3_captives.rpy:36496, c5_harem.rpy:38694, c5_harem.rpy:49316 (+2 more)
     old "I DO NOT LIKE YOUR NAME."
     new ""
 
-    # c3_captives.rpy:41556, c3_captives.rpy:43936 (+5 more)
+    # c3_captives.rpy:41556, c3_captives.rpy:43936, c3_dreams.rpy:2483, c4_capital.rpy:6764, c5.rpy:2775 (+2 more)
     old "I DO."
     new ""
 
-    # c3_captives.rpy:48509, c3_lair.rpy:37699 (+5 more)
+    # c3_captives.rpy:48509, c3_lair.rpy:37699, c4_waifu.rpy:43666, c5_harem.rpy:62461, c6_harem.rpy:16625 (+2 more)
     old "I DON"
     new ""
 
@@ -5103,7 +5111,7 @@ translate ru strings:
     old "I MAY SPARE YOU."
     new ""
 
-    # c3_captives.rpy:9589, c3_captives.rpy:9835 (+25 more)
+    # c3_captives.rpy:9589, c3_captives.rpy:9835, c3_captives.rpy:9862, c3_captives.rpy:32911, c3_captives.rpy:33048 (+22 more)
     old "I NEED RELIEF."
     new ""
 
@@ -5111,11 +5119,11 @@ translate ru strings:
     old "I NEED RESOURCES."
     new ""
 
-    # c3_captives.rpy:29678, c3_captives.rpy:31037 (+2 more)
+    # c3_captives.rpy:29678, c3_captives.rpy:31037, c5_harem.rpy:45771, c5_harem.rpy:46957
     old "I PREFER HER MOUTH."
     new ""
 
-    # c3_captives.rpy:43637, c5_harem.rpy:55211 (+1 more)
+    # c3_captives.rpy:43637, c5_harem.rpy:55211, c6_harem.rpy:23264
     old "I PREFER YOUR OLD ATTIRE."
     new ""
 
@@ -5123,7 +5131,7 @@ translate ru strings:
     old "I SAID NO."
     new ""
 
-    # c3_captives.rpy:11032, c3_captives.rpy:11153 (+14 more)
+    # c3_captives.rpy:11032, c3_captives.rpy:11153, c5_court.rpy:1753, c5_forces.rpy:6819, c5_forces.rpy:8191 (+11 more)
     old "I SEE."
     new ""
 
@@ -5131,11 +5139,11 @@ translate ru strings:
     old "I SEEM TO HAVE BRED YOU."
     new ""
 
-    # c3_captives.rpy:2705, c5_harem.rpy:2501 (+1 more)
+    # c3_captives.rpy:2705, c5_harem.rpy:2501, c5_harem.rpy:5330
     old "I SHALL GIVE YOU MORE. IN TIME."
     new ""
 
-    # c3_captives.rpy:8212, c3_captives.rpy:9901 (+12 more)
+    # c3_captives.rpy:8212, c3_captives.rpy:9901, c3_captives.rpy:9917, c3_captives.rpy:9932, c3_captives.rpy:33546 (+9 more)
     old "I WANT MORE."
     new ""
 
@@ -5151,7 +5159,7 @@ translate ru strings:
     old "I WANT YOU TO RESTORE WHAT YOU HAVE DESTROYED."
     new ""
 
-    # c3_captives.rpy:18432, c3_captives.rpy:18478 (+3 more)
+    # c3_captives.rpy:18432, c3_captives.rpy:18478, c3_captives.rpy:18585, c3_captives.rpy:22893, c5_harem.rpy:19885
     old "I WANT YOUR BODY."
     new ""
 
@@ -5159,7 +5167,7 @@ translate ru strings:
     old "I WILL HAVE ONLY ONE CHILD."
     new ""
 
-    # c3_captives.rpy:43272, c6_harem.rpy:18051 (+4 more)
+    # c3_captives.rpy:43272, c6_harem.rpy:18051, c6_harem.rpy:18190, c6_harem.rpy:18509, c6_harem.rpy:18723 (+1 more)
     old "I WILL LEAVE YOU TO IT."
     new ""
 
@@ -5175,7 +5183,7 @@ translate ru strings:
     old "I WISH TO BREED."
     new ""
 
-    # c3_captives.rpy:9423, c3_captives.rpy:11892 (+38 more)
+    # c3_captives.rpy:9423, c3_captives.rpy:11892, c3_captives.rpy:12610, c3_captives.rpy:46034, c3_captives.rpy:46811 (+35 more)
     old "I WISH TO TALK."
     new ""
 
@@ -5259,7 +5267,7 @@ translate ru strings:
     old "I doubt a glance is enough to sate you."
     new ""
 
-    # c3_captives.rpy:2619, c5_harem.rpy:2439 (+1 more)
+    # c3_captives.rpy:2619, c5_harem.rpy:2439, c5_harem.rpy:5265
     old "I give myself unto you!"
     new ""
 
@@ -5431,7 +5439,7 @@ translate ru strings:
     old "I was rather hoping this place would dull your senses."
     new ""
 
-    # c3_captives.rpy:2603, c5_harem.rpy:2429 (+1 more)
+    # c3_captives.rpy:2603, c5_harem.rpy:2429, c5_harem.rpy:5255
     old "I will rape it into them."
     new ""
 
@@ -5439,7 +5447,7 @@ translate ru strings:
     old "I will!"
     new ""
 
-    # c3_captives.rpy:44796, c5_harem.rpy:54911 (+1 more)
+    # c3_captives.rpy:44796, c5_harem.rpy:54911, c6_harem.rpy:23336
     old "I wish I could tell you it was another parting gift from Master, but the witch herself left me this curious memento of our time together."
     new ""
 
@@ -5519,7 +5527,7 @@ translate ru strings:
     old "I'll play my part, but make no mistake."
     new ""
 
-    # c3_captives.rpy:7016, c5_harem.rpy:8402 (+1 more)
+    # c3_captives.rpy:7016, c5_harem.rpy:8402, c6_harem.rpy:7213
     old "I'm Darja!"
     new ""
 
@@ -5559,7 +5567,7 @@ translate ru strings:
     old "I'm here to serve."
     new ""
 
-    # c3_captives.rpy:35535, c3_captives.rpy:36742 (+2 more)
+    # c3_captives.rpy:35535, c3_captives.rpy:36742, c5_harem.rpy:51970, c5_harem.rpy:53057
     old "I'm just a dumb cunt who thinks too much of herself."
     new ""
 
@@ -5599,7 +5607,7 @@ translate ru strings:
     old "I've been waiting for a long time for this, Naho."
     new ""
 
-    # c3_captives.rpy:18889, c3_captives.rpy:23054 (+1 more)
+    # c3_captives.rpy:18889, c3_captives.rpy:23054, c5_harem.rpy:20187
     old "I've been..."
     new ""
 
@@ -5651,7 +5659,7 @@ translate ru strings:
     old "I-I'm sorry, I never meant to..."
     new ""
 
-    # c3_captives.rpy:13228, c3_captives.rpy:43998 (+1 more)
+    # c3_captives.rpy:13228, c3_captives.rpy:43998, c3_lair.rpy:19155
     old "I-I..."
     new ""
 
@@ -5663,11 +5671,11 @@ translate ru strings:
     old "I-it's not what it looks like!"
     new ""
 
-    # c3_captives.rpy:11818, c3_captives.rpy:11845 (+1 more)
+    # c3_captives.rpy:11818, c3_captives.rpy:11845, c3_captives.rpy:11860
     old "I-it's you."
     new ""
 
-    # c3_captives.rpy:6512, c3_captives.rpy:27445 (+15 more)
+    # c3_captives.rpy:6512, c3_captives.rpy:27445, c3_captives.rpy:42170, c3_captives.rpy:51270, c3_captures.rpy:1350 (+12 more)
     old "I..."
     new ""
 
@@ -5691,6 +5699,10 @@ translate ru strings:
     old "IS THIS YOUR FIRST TIME?"
     new ""
 
+    # c3_captives.rpy:4393, c3_captives.rpy:6905, c3_captives.rpy:7074, c3_captives.rpy:7155, c3_captives.rpy:7213 (+5 more)
+    old "IT"
+    new ""
+
     # c3_captives.rpy:22605
     old "IT IS FROM ANOTHER."
     new ""
@@ -5703,7 +5715,7 @@ translate ru strings:
     old "IT IS PERFECT."
     new ""
 
-    # c3_captives.rpy:22763, c3_captives.rpy:22835 (+1 more)
+    # c3_captives.rpy:22763, c3_captives.rpy:22835, c3_lair.rpy:788
     old "IT IS."
     new ""
 
@@ -5735,7 +5747,7 @@ translate ru strings:
     old "If it wasn't for the limp cock swinging between his shapely legs, you might have easily mistaken him for a maiden."
     new ""
 
-    # c3_captives.rpy:49794, c3_lair.rpy:33809 (+2 more)
+    # c3_captives.rpy:49794, c3_lair.rpy:33809, c5_harem.rpy:58435, c6_harem.rpy:26728
     old "If it weren't for a few twists and turns, you'd be in her stomach by now."
     new ""
 
@@ -5771,7 +5783,7 @@ translate ru strings:
     old "If you are quite done."
     new ""
 
-    # c3_captives.rpy:16483, c3_captives.rpy:18709 (+2 more)
+    # c3_captives.rpy:16483, c3_captives.rpy:18709, c5_harem.rpy:18891, c5_harem.rpy:20007
     old "If you want names, I have few to give."
     new ""
 
@@ -5791,7 +5803,7 @@ translate ru strings:
     old "Ignore her, and take what you came for."
     new ""
 
-    # c3_captives.rpy:45316, c4_waifu.rpy:31713 (+1 more)
+    # c3_captives.rpy:45316, c4_waifu.rpy:31713, c5_harem.rpy:55674
     old "Ignoring him, you pry his thighs apart with your forelimbs and move into position, cock pressing against his twitching hole."
     new ""
 
@@ -5811,11 +5823,11 @@ translate ru strings:
     old "In an instant, he's on her."
     new ""
 
-    # c3_captives.rpy:49864, c3_lair.rpy:33895 (+2 more)
+    # c3_captives.rpy:49864, c3_lair.rpy:33895, c5_harem.rpy:58510, c6_harem.rpy:26802
     old "In its place it leaves a thick trail of cum, and a gaping crevasse where her precious asshole once was."
     new ""
 
-    # c3_captives.rpy:46515, c3_lair.rpy:7561 (+3 more)
+    # c3_captives.rpy:46515, c3_lair.rpy:7561, c4_waifu.rpy:34559, c5_harem.rpy:58916, c6_harem.rpy:27206
     old "In one final, powerful jerk of your forelimbs, you sheathe her fully around your shaft."
     new ""
 
@@ -5855,11 +5867,11 @@ translate ru strings:
     old "In your explorations, your tongue discovers something curious, nestled just within the entrance to her cunt."
     new ""
 
-    # c3_captives.rpy:30063, c4_waifu.rpy:26106 (+1 more)
+    # c3_captives.rpy:30063, c4_waifu.rpy:26106, c5_harem.rpy:46153
     old "Inej savors the moment for a while longer, then pulls back one more, panting happily."
     new ""
 
-    # c3_captives.rpy:29044, c3_captives.rpy:32282 (+3 more)
+    # c3_captives.rpy:29044, c3_captives.rpy:32282, c4_waifu.rpy:25642, c5_harem.rpy:45155, c5_harem.rpy:48177
     old "Inej smiles up at you."
     new ""
 
@@ -5871,7 +5883,7 @@ translate ru strings:
     old "Inej stands close to her sister, holding a slightly sticky looking wad of cloth."
     new ""
 
-    # c3_captives.rpy:29154, c3_captives.rpy:32385 (+3 more)
+    # c3_captives.rpy:29154, c3_captives.rpy:32385, c4_waifu.rpy:25749, c5_harem.rpy:45255, c5_harem.rpy:48270
     old "Inej steps back, shaking her hands to free them of thick gobbets of your seed."
     new ""
 
@@ -5879,7 +5891,7 @@ translate ru strings:
     old "Inej turns, hands raising to wipe at her face."
     new ""
 
-    # c3_captives.rpy:28997, c3_captives.rpy:32233 (+2 more)
+    # c3_captives.rpy:28997, c3_captives.rpy:32233, c5_harem.rpy:45108, c5_harem.rpy:48130
     old "Inej!"
     new ""
 
@@ -5887,7 +5899,7 @@ translate ru strings:
     old "Inej's eyes fly open."
     new ""
 
-    # c3_captives.rpy:29935, c4_waifu.rpy:25994 (+1 more)
+    # c3_captives.rpy:29935, c4_waifu.rpy:25994, c5_harem.rpy:46023
     old "Inej's hands serve to steady her, allowing you to position your tip at her entrance without shifting her out of position."
     new ""
 
@@ -5915,11 +5927,11 @@ translate ru strings:
     old "Instead she is sent rocking, slowly and pendulously, as her shoulders twist in fury."
     new ""
 
-    # c3_captives.rpy:49197, c3_lair.rpy:33522 (+2 more)
+    # c3_captives.rpy:49197, c3_lair.rpy:33522, c5_harem.rpy:57937, c6_harem.rpy:26232
     old "Instead, her clenching only tightens her mouth, and makes the experience even better for you."
     new ""
 
-    # c3_captives.rpy:45408, c4_waifu.rpy:31789 (+1 more)
+    # c3_captives.rpy:45408, c4_waifu.rpy:31789, c5_harem.rpy:55753
     old "Instead, his attention shifts to your cock, already emerging from its sheath, and he takes the hardening flesh in hand to coax it out further..."
     new ""
 
@@ -5935,7 +5947,7 @@ translate ru strings:
     old "Instead, you leave her there, laying in a spreading pool of your own cum, to stew in silence and darkness."
     new ""
 
-    # c3_captives.rpy:48505, c3_hordes.rpy:879 (+33 more)
+    # c3_captives.rpy:48505, c3_hordes.rpy:879, c3_hordes.rpy:911, c3_hordes.rpy:949, c3_hordes.rpy:983 (+30 more)
     old "Investigate."
     new ""
 
@@ -5943,7 +5955,7 @@ translate ru strings:
     old "Is okay!"
     new ""
 
-    # c3_captives.rpy:43956, c3_captives.rpy:43981 (+1 more)
+    # c3_captives.rpy:43956, c3_captives.rpy:43981, c3_captives.rpy:44013
     old "Is there anything I can do for you, Master?"
     new ""
 
@@ -5951,12 +5963,16 @@ translate ru strings:
     old "Is there anything I can possibly do to put your heart at rest, Master?"
     new ""
 
-    # c3_captives.rpy:44242, c3_captives.rpy:44951 (+3 more)
+    # c3_captives.rpy:44242, c3_captives.rpy:44951, c4_waifu.rpy:31242, c5_harem.rpy:54845, c5_harem.rpy:55058
     old "Is there anything else I can do for you, Master?"
     new ""
 
-    # c3_captives.rpy:43417, c3_captives.rpy:43539 (+5 more)
+    # c3_captives.rpy:43417, c3_captives.rpy:43539, c3_captives.rpy:43702, c3_captives.rpy:43741, c5_harem.rpy:55131 (+2 more)
     old "Is there anything else I might do for you, [titlepov!t]?"
+    new ""
+
+    # c3_captives.rpy:37434, c3_captives.rpy:37513, c3_captives.rpy:39278, c3_captives.rpy:41964, c3_captives.rpy:44034 (+6 more)
+    old "Issa"
     new ""
 
     # c3_captives.rpy:38238
@@ -6039,7 +6055,7 @@ translate ru strings:
     old "It excites you, subtly but surely, and fills you with a sense of eager anticipation."
     new ""
 
-    # c3_captives.rpy:49164, c3_lair.rpy:33490 (+2 more)
+    # c3_captives.rpy:49164, c3_lair.rpy:33490, c5_harem.rpy:57904, c6_harem.rpy:26199
     old "It has the added benefit of coming with a tongue, as well as silencing her hollow threats."
     new ""
 
@@ -6047,7 +6063,7 @@ translate ru strings:
     old "It has the same fresh loamy scent as the rest of her, soon touched by a spiky-sweet cinnamon tang as you kindle the dim flame of her arousal."
     new ""
 
-    # c3_captives.rpy:49822, c3_lair.rpy:33832 (+2 more)
+    # c3_captives.rpy:49822, c3_lair.rpy:33832, c5_harem.rpy:58463, c6_harem.rpy:26755
     old "It hits with titanic force."
     new ""
 
@@ -6063,7 +6079,7 @@ translate ru strings:
     old "It is clear to me that you have not properly reflected on what I have taught you."
     new ""
 
-    # c3_captives.rpy:44790, c5_harem.rpy:54905 (+1 more)
+    # c3_captives.rpy:44790, c5_harem.rpy:54905, c6_harem.rpy:23328
     old "It is curious, isn't it?"
     new ""
 
@@ -6123,7 +6139,7 @@ translate ru strings:
     old "It is warm, and welcoming, and far more comfortable than the predicament that [nameFarmer!t] has gotten herself into."
     new ""
 
-    # c3_captives.rpy:17332, c3_captives.rpy:17339 (+2 more)
+    # c3_captives.rpy:17332, c3_captives.rpy:17339, c5_harem.rpy:19651, c5_harem.rpy:19656
     old "It joins with the dull sounds of your scaly hips impacting her body, and your balls slapping against her asscheeks."
     new ""
 
@@ -6131,7 +6147,7 @@ translate ru strings:
     old "It lasts only for a heartbeat, as the cold dark reality of her circumstances crushes whatever satisfaction she might have felt."
     new ""
 
-    # c3_captives.rpy:25571, c3_captives.rpy:47550 (+3 more)
+    # c3_captives.rpy:25571, c3_captives.rpy:47550, c4_waifu.rpy:13704, c4_waifu.rpy:13967, c4_waifu.rpy:14903
     old "It leaves a prickling residue at the back of your mind, a stain not fully evaporated."
     new ""
 
@@ -6163,7 +6179,7 @@ translate ru strings:
     old "It takes a few attempts for her to get the words out without fully degenerating into sobs."
     new ""
 
-    # c3_captives.rpy:29933, c4_waifu.rpy:25992 (+1 more)
+    # c3_captives.rpy:29933, c4_waifu.rpy:25992, c5_harem.rpy:46021
     old "It takes a moment to manoeuvre yourself into place over Sabetha, clambering into place to straddle her suspended form."
     new ""
 
@@ -6187,7 +6203,7 @@ translate ru strings:
     old "It's a good few moments before she finally manages to engage her voice."
     new ""
 
-    # c3_captives.rpy:10027, c4_waifu.rpy:11408 (+1 more)
+    # c3_captives.rpy:10027, c4_waifu.rpy:11408, c5_harem.rpy:11881
     old "It's a little while before she's able to speak again."
     new ""
 
@@ -6203,11 +6219,11 @@ translate ru strings:
     old "It's all she can do to force out her words between breaths."
     new ""
 
-    # c3_captives.rpy:28253, c3_captives.rpy:28441 (+2 more)
+    # c3_captives.rpy:28253, c3_captives.rpy:28441, c5_harem.rpy:44213, c5_harem.rpy:44400
     old "It's bad for my circulation."
     new ""
 
-    # c3_captives.rpy:49592, c5_harem.rpy:58246 (+1 more)
+    # c3_captives.rpy:49592, c5_harem.rpy:58246, c6_harem.rpy:26539
     old "It's barely free of her before it erupts, the last withdrawing stroke enough to push you over the edge into climax."
     new ""
 
@@ -6235,7 +6251,7 @@ translate ru strings:
     old "It's not like I make a habit of it or nothin'!"
     new ""
 
-    # c3_captives.rpy:28048, c4_fort.rpy:2915 (+1 more)
+    # c3_captives.rpy:28048, c4_fort.rpy:2915, c5_harem.rpy:44010
     old "It's not working!"
     new ""
 
@@ -6243,7 +6259,7 @@ translate ru strings:
     old "It's okay, I'm using protection!"
     new ""
 
-    # c3_captives.rpy:10061, c3_captives.rpy:10851 (+2 more)
+    # c3_captives.rpy:10061, c3_captives.rpy:10851, c4_waifu.rpy:12014, c5_harem.rpy:11929
     old "It's only as you withdraw that she looks away, gathering herself to her feet."
     new ""
 
@@ -6275,7 +6291,7 @@ translate ru strings:
     old "JUST ENJOYING THE SHOW. FAREWELL."
     new ""
 
-    # c3_captives.rpy:14896, c3_captives.rpy:15005 (+3 more)
+    # c3_captives.rpy:14896, c3_captives.rpy:15005, c3_captives.rpy:15334, c3_captives.rpy:15599, c4_waifu.rpy:4131
     old "Join in."
     new ""
 
@@ -6355,11 +6371,11 @@ translate ru strings:
     old "Kobolds gawp at her as she passes, but neither she nor you spare any thought for them."
     new ""
 
-    # c3_captives.rpy:49967, c5_court.rpy:14674 (+2 more)
+    # c3_captives.rpy:49967, c5_court.rpy:14674, c6_herald.rpy:965, c6_herald.rpy:1509
     old "LATER."
     new ""
 
-    # c3_captives.rpy:22036, c3_captives.rpy:37857 (+9 more)
+    # c3_captives.rpy:22036, c3_captives.rpy:37857, c3_captives.rpy:37868, c3_captives.rpy:41872, c3_captives.rpy:50634 (+6 more)
     old "LEAVE US BE."
     new ""
 
@@ -6367,7 +6383,7 @@ translate ru strings:
     old "LET HER IN."
     new ""
 
-    # c3_captives.rpy:23726, c3_captives.rpy:44130 (+4 more)
+    # c3_captives.rpy:23726, c3_captives.rpy:44130, c3_hordes.rpy:19702, c4_waifu.rpy:31181, c5_harem.rpy:53822 (+1 more)
     old "LET US TALK."
     new ""
 
@@ -6399,11 +6415,11 @@ translate ru strings:
     old "Leave both on."
     new ""
 
-    # c3_captives.rpy:15338, c3_captives.rpy:15603 (+3 more)
+    # c3_captives.rpy:15338, c3_captives.rpy:15603, c4_waifu.rpy:5693, c4_waifu.rpy:5709, c6_harem.rpy:308
     old "Leave her to it."
     new ""
 
-    # c3_captives.rpy:46065, c3_captives.rpy:46842 (+1 more)
+    # c3_captives.rpy:46065, c3_captives.rpy:46842, c5_harem.rpy:13389
     old "Leave her to stew."
     new ""
 
@@ -6427,7 +6443,7 @@ translate ru strings:
     old "Let [nameFarmer!t] try."
     new ""
 
-    # c3_captives.rpy:19019, c3_captives.rpy:23184 (+1 more)
+    # c3_captives.rpy:19019, c3_captives.rpy:23184, c5_harem.rpy:20317
     old "Let her do her thing."
     new ""
 
@@ -6435,23 +6451,23 @@ translate ru strings:
     old "Let her pass."
     new ""
 
-    # c3_captives.rpy:9897, c3_captives.rpy:9913 (+1 more)
+    # c3_captives.rpy:9897, c3_captives.rpy:9913, c5_harem.rpy:11711
     old "Let her service you."
     new ""
 
-    # c3_captives.rpy:19125, c3_captives.rpy:23290 (+1 more)
+    # c3_captives.rpy:19125, c3_captives.rpy:23290, c5_harem.rpy:20423
     old "Let her turn away."
     new ""
 
-    # c3_captives.rpy:45279, c4_waifu.rpy:31676 (+1 more)
+    # c3_captives.rpy:45279, c4_waifu.rpy:31676, c5_harem.rpy:55642
     old "Let him set the pace."
     new ""
 
-    # c3_captives.rpy:45068, c4_waifu.rpy:31543 (+1 more)
+    # c3_captives.rpy:45068, c4_waifu.rpy:31543, c5_harem.rpy:55439
     old "Let him take the lead."
     new ""
 
-    # c3_captives.rpy:16616, c3_captives.rpy:41322 (+3 more)
+    # c3_captives.rpy:16616, c3_captives.rpy:41322, c4_waifu.rpy:44779, c5_harem.rpy:19012, c6_harem.rpy:22678
     old "Let it go."
     new ""
 
@@ -6479,7 +6495,7 @@ translate ru strings:
     old "Let's just get you..."
     new ""
 
-    # c3_captives.rpy:29498, c3_captives.rpy:29513 (+2 more)
+    # c3_captives.rpy:29498, c3_captives.rpy:29513, c5_harem.rpy:45591, c5_harem.rpy:45606
     old "Let's see that rear view again."
     new ""
 
@@ -6499,7 +6515,7 @@ translate ru strings:
     old "Lifting her bound legs up with a nudge of your head, you duck under to finally get to her smooth and hairless cunt."
     new ""
 
-    # c3_captives.rpy:7521, c5_harem.rpy:9781 (+3 more)
+    # c3_captives.rpy:7521, c5_harem.rpy:9781, c5_harem.rpy:10080, c6_harem.rpy:6369, c6_harem.rpy:6701
     old "Like some kind of pervert?"
     new ""
 
@@ -6507,7 +6523,7 @@ translate ru strings:
     old "Like the leading edge of a wildfire, the heat spreads, emptying itself into her belly, her thighs, her chest."
     new ""
 
-    # c3_captives.rpy:49506, c5_harem.rpy:58179 (+1 more)
+    # c3_captives.rpy:49506, c5_harem.rpy:58179, c6_harem.rpy:26472
     old "Liquid heat spills from the tight seal around your cock, splashing over her thighs and leaving white streaks upon lilac flesh."
     new ""
 
@@ -6571,7 +6587,7 @@ translate ru strings:
     old "M-my name is Marie-Anne."
     new ""
 
-    # c3_captives.rpy:17695, c3_captives.rpy:21471 (+1 more)
+    # c3_captives.rpy:17695, c3_captives.rpy:21471, c5_harem.rpy:15580
     old "MAËLYS?"
     new ""
 
@@ -6603,8 +6619,12 @@ translate ru strings:
     old "Making sure [nameDrunk!t] is watching, you pump back and forth, driving its length over [nameFangirl!t]'s smooth, silky skin."
     new ""
 
-    # c3_captives.rpy:24072, c3_captives.rpy:24733 (+1 more)
+    # c3_captives.rpy:24072, c3_captives.rpy:24733, c3_captives.rpy:24960
     old "Many hours pass."
+    new ""
+
+    # c3_captives.rpy:12072, c3_captives.rpy:12822, c3_captives.rpy:14056, c3_captives.rpy:14587, c3_captives.rpy:15816 (+8 more)
+    old "Marie-Anne"
     new ""
 
     # c3_captives.rpy:44392
@@ -6679,11 +6699,11 @@ translate ru strings:
     old "Me?"
     new ""
 
-    # c3_captives.rpy:35324, c3_dreams.rpy:97 (+6 more)
+    # c3_captives.rpy:35324, c3_dreams.rpy:97, c3_lair.rpy:3105, c3_lair.rpy:8418, c3_lair.rpy:8817 (+3 more)
     old "Merchant"
     new ""
 
-    # c3_captives.rpy:17143, c3_captives.rpy:17176 (+2 more)
+    # c3_captives.rpy:17143, c3_captives.rpy:17176, c5_harem.rpy:19482, c5_harem.rpy:19515
     old "Mercy..."
     new ""
 
@@ -6695,7 +6715,7 @@ translate ru strings:
     old "Might be weeks, from the look of her!"
     new ""
 
-    # c3_captives.rpy:36267, c3_captives.rpy:36487 (+3 more)
+    # c3_captives.rpy:36267, c3_captives.rpy:36426, c3_captives.rpy:36487, c3_captives.rpy:36496, c3_captives.rpy:36558 (+4 more)
     old "Mina"
     new ""
 
@@ -6711,7 +6731,7 @@ translate ru strings:
     old "Mmhmgh!"
     new ""
 
-    # c3_captives.rpy:10282, c3_captives.rpy:10812 (+6 more)
+    # c3_captives.rpy:10282, c3_captives.rpy:10812, c3_captives.rpy:20131, c3_captives.rpy:27843, c4_waifu.rpy:11494 (+3 more)
     old "Mmm..."
     new ""
 
@@ -6731,7 +6751,7 @@ translate ru strings:
     old "More follows, drop by drop, each splash suffused with the essence of the Inferno."
     new ""
 
-    # c3_captives.rpy:19176, c3_captives.rpy:23341 (+1 more)
+    # c3_captives.rpy:19176, c3_captives.rpy:23341, c5_harem.rpy:20474
     old "More stain her shoulders, her throat, and a heavy rope even makes it up into her hair to lay like a loose white thread amidst the crimson."
     new ""
 
@@ -6743,7 +6763,7 @@ translate ru strings:
     old "More words tumble out, anxious to fill the space that follows."
     new ""
 
-    # c3_captives.rpy:19142, c3_captives.rpy:23307 (+1 more)
+    # c3_captives.rpy:19142, c3_captives.rpy:23307, c5_harem.rpy:20440
     old "Most of it misses the elf beneath you, spraying in heavy gouts over her shoulder and splashing against the stone wall behind her."
     new ""
 
@@ -6795,7 +6815,7 @@ translate ru strings:
     old "N-jrk!"
     new ""
 
-    # c3_captives.rpy:51411, c4_abbey.rpy:3332 (+3 more)
+    # c3_captives.rpy:51411, c4_abbey.rpy:3332, c4_capital.rpy:19170, c4_capital.rpy:19217, c4_capital.rpy:19251
     old "N-no!"
     new ""
 
@@ -6811,7 +6831,7 @@ translate ru strings:
     old "N-now hold on a minute, here, there's no need to get antsy."
     new ""
 
-    # c3_captives.rpy:39350, c3_captives.rpy:39361 (+1 more)
+    # c3_captives.rpy:39350, c3_captives.rpy:39361, c3_captures.rpy:269
     old "NAHO."
     new ""
 
@@ -6823,7 +6843,7 @@ translate ru strings:
     old "NEXT TIME, ASK FIRST."
     new ""
 
-    # c3_captives.rpy:13261, c3_captives.rpy:14830 (+12 more)
+    # c3_captives.rpy:13261, c3_captives.rpy:14830, c3_captives.rpy:30022, c3_captives.rpy:31407, c3_captives.rpy:31440 (+9 more)
     old "NICE."
     new ""
 
@@ -6831,15 +6851,15 @@ translate ru strings:
     old "NO, I AM NOT."
     new ""
 
-    # c3_captives.rpy:45557, c3_captives.rpy:45672 (+2 more)
+    # c3_captives.rpy:45557, c3_captives.rpy:45672, c5_harem.rpy:55889, c5_harem.rpy:55981
     old "NO, THAT BUCKETFUL OF SEED IS PURELY COINCIDENTAL."
     new ""
 
-    # c3_captives.rpy:43510, c3_captives.rpy:43678 (+2 more)
+    # c3_captives.rpy:43510, c3_captives.rpy:43678, c5_harem.rpy:55110, c5_harem.rpy:55248
     old "NO. OUT HERE."
     new ""
 
-    # c3_captives.rpy:29669, c3_captives.rpy:31028 (+2 more)
+    # c3_captives.rpy:29669, c3_captives.rpy:31028, c5_harem.rpy:45762, c5_harem.rpy:46948
     old "NO. PUSSY. NOW."
     new ""
 
@@ -6851,7 +6871,7 @@ translate ru strings:
     old "NOT REALLY."
     new ""
 
-    # c3_captives.rpy:44832, c3_captures.rpy:1238 (+2 more)
+    # c3_captives.rpy:44832, c3_captures.rpy:1238, c5_harem.rpy:54946, c6_harem.rpy:23375
     old "NOT THIS DAY."
     new ""
 
@@ -6865,6 +6885,10 @@ translate ru strings:
 
     # c3_captives.rpy:37912
     old "NOW!"
+    new ""
+
+    # c3_captives.rpy:54665, c3_captives.rpy:54725, c3_lair.rpy:8281, c4_waifu.rpy:38357, c4_waifu.rpy:38418 (+12 more)
+    old "Naho"
     new ""
 
     # c3_captives.rpy:53844
@@ -6887,7 +6911,7 @@ translate ru strings:
     old "Needless to say, you really are quite intriguing."
     new ""
 
-    # c3_captives.rpy:28916, c3_captives.rpy:32168 (+3 more)
+    # c3_captives.rpy:28916, c3_captives.rpy:32168, c4_waifu.rpy:25534, c5_harem.rpy:45034, c5_harem.rpy:48072
     old "Nervously, she opens her mouth as wide as it can go, and extends her tongue down over her chin."
     new ""
 
@@ -6899,7 +6923,7 @@ translate ru strings:
     old "Never mind about that, then."
     new ""
 
-    # c3_captives.rpy:9542, c3_captives.rpy:11919 (+3 more)
+    # c3_captives.rpy:9542, c3_captives.rpy:11919, c3_captives.rpy:12663, c3_lair.rpy:445, c4.rpy:478
     old "Nevermind."
     new ""
 
@@ -6911,7 +6935,7 @@ translate ru strings:
     old "Ngh!"
     new ""
 
-    # c3_captives.rpy:40739, c3_captives.rpy:42461 (+1 more)
+    # c3_captives.rpy:40739, c3_captives.rpy:42461, c3_captives.rpy:42690
     old "Ngh..."
     new ""
 
@@ -6943,7 +6967,7 @@ translate ru strings:
     old "Night came a short while ago, and brought with it the lull of steady rain against the windows."
     new ""
 
-    # c3_captives.rpy:4695, c4_waifu.rpy:2869 (+2 more)
+    # c3_captives.rpy:4695, c4_waifu.rpy:2869, c4_waifu.rpy:4093, c4_waifu.rpy:4622
     old "Nn-nrgh!"
     new ""
 
@@ -6955,7 +6979,7 @@ translate ru strings:
     old "No conversation, then."
     new ""
 
-    # c3_captives.rpy:24565, c3_captives.rpy:24794 (+1 more)
+    # c3_captives.rpy:24565, c3_captives.rpy:24794, c3_captives.rpy:25341
     old "No doubt she anticipates the pleasure of you claiming her ass, but no, you will save that for another time."
     new ""
 
@@ -7031,7 +7055,7 @@ translate ru strings:
     old "Not helping!"
     new ""
 
-    # c3_captives.rpy:28311, c3_captives.rpy:28499 (+2 more)
+    # c3_captives.rpy:28311, c3_captives.rpy:28499, c5_harem.rpy:44271, c5_harem.rpy:44458
     old "Not now, Inej."
     new ""
 
@@ -7039,7 +7063,7 @@ translate ru strings:
     old "Not so fast!"
     new ""
 
-    # c3_captives.rpy:49647, c3_lair.rpy:33651 (+2 more)
+    # c3_captives.rpy:49647, c3_lair.rpy:33651, c5_harem.rpy:58306, c6_harem.rpy:26599
     old "Not yet, at least."
     new ""
 
@@ -7055,7 +7079,7 @@ translate ru strings:
     old "Now that's done, how's about you take over for a b–"
     new ""
 
-    # c3_captives.rpy:7713, c3_captives.rpy:9023 (+3 more)
+    # c3_captives.rpy:7713, c3_captives.rpy:9023, c4_waifu.rpy:6478, c5_harem.rpy:9885, c6_harem.rpy:6478
     old "Now the fun can truly begin."
     new ""
 
@@ -7071,7 +7095,7 @@ translate ru strings:
     old "Now's the perfect time to reveal yourself."
     new ""
 
-    # c3_captives.rpy:33583, c3_captives.rpy:33635 (+6 more)
+    # c3_captives.rpy:33583, c3_captives.rpy:33635, c3_captives.rpy:33920, c3_captives.rpy:34001, c3_captives.rpy:34600 (+3 more)
     old "Now, get your silly big prick between my tits."
     new ""
 
@@ -7099,15 +7123,15 @@ translate ru strings:
     old "O-okay, no need to get testy."
     new ""
 
-    # c3_captives.rpy:22693, c3_captives.rpy:23765 (+3 more)
+    # c3_captives.rpy:22693, c3_captives.rpy:23765, c3_captives.rpy:24198, c3_captives.rpy:24234, c3_captives.rpy:39479
     old "OF COURSE."
     new ""
 
-    # c3_captives.rpy:30013, c4_waifu.rpy:26060 (+1 more)
+    # c3_captives.rpy:30013, c4_waifu.rpy:26060, c5_harem.rpy:46102
     old "OOPS."
     new ""
 
-    # c3_captives.rpy:29504, c3_captives.rpy:29537 (+2 more)
+    # c3_captives.rpy:29504, c3_captives.rpy:29537, c5_harem.rpy:45597, c5_harem.rpy:45630
     old "OPEN WIDE."
     new ""
 
@@ -7115,7 +7139,7 @@ translate ru strings:
     old "OUR DOOM?"
     new ""
 
-    # c3_captives.rpy:14645, c3_hordes.rpy:8763 (+3 more)
+    # c3_captives.rpy:14645, c3_hordes.rpy:8763, c3_lair.rpy:44364, c6_harem.rpy:28478, c6_harem.rpy:29378
     old "Observe."
     new ""
 
@@ -7147,11 +7171,11 @@ translate ru strings:
     old "Oh come now, creature, I ain't never gonna get clean if you start that!"
     new ""
 
-    # c3_captives.rpy:4193, c3_captives.rpy:4244 (+1 more)
+    # c3_captives.rpy:4193, c3_captives.rpy:4244, c3_captures.rpy:691
     old "Oh ffffuck!"
     new ""
 
-    # c3_captives.rpy:7751, c3_captives.rpy:9065 (+2 more)
+    # c3_captives.rpy:7751, c3_captives.rpy:9065, c5_harem.rpy:9930, c6_harem.rpy:6523
     old "Oh fuck, s-slow down!"
     new ""
 
@@ -7175,7 +7199,7 @@ translate ru strings:
     old "Oh you do, now, do you?"
     new ""
 
-    # c3_captives.rpy:9222, c3_captives.rpy:11476 (+11 more)
+    # c3_captives.rpy:9222, c3_captives.rpy:11476, c3_captives.rpy:29460, c3_captives.rpy:30997, c3_captives.rpy:50556 (+8 more)
     old "Oh!"
     new ""
 
@@ -7191,15 +7215,15 @@ translate ru strings:
     old "Oh, fuck me!"
     new ""
 
-    # c3_captives.rpy:13285, c3_captives.rpy:14847 (+1 more)
+    # c3_captives.rpy:13285, c3_captives.rpy:14847, c4_capital.rpy:12525
     old "Oh, goodness."
     new ""
 
-    # c3_captives.rpy:6473, c3_captives.rpy:6835 (+1 more)
+    # c3_captives.rpy:6473, c3_captives.rpy:6835, c3_captures.rpy:1403
     old "Oh, heavens!"
     new ""
 
-    # c3_captives.rpy:32727, c3_captives.rpy:32756 (+1 more)
+    # c3_captives.rpy:32727, c3_captives.rpy:32756, c3_captives.rpy:32796
     old "Oh, hey chief."
     new ""
 
@@ -7223,7 +7247,7 @@ translate ru strings:
     old "Oh, thank goodness."
     new ""
 
-    # c3_captives.rpy:11937, c3_captives.rpy:11996 (+1 more)
+    # c3_captives.rpy:11937, c3_captives.rpy:11996, c3_captives.rpy:50618
     old "Oh, thank the Goddess."
     new ""
 
@@ -7231,7 +7255,7 @@ translate ru strings:
     old "Oh, uh, I didn't mean to be using your nice little pool here, friend."
     new ""
 
-    # c3_captives.rpy:9557, c3_captives.rpy:9624 (+2 more)
+    # c3_captives.rpy:9557, c3_captives.rpy:9624, c3_captives.rpy:12681, c3_captives.rpy:12758
     old "Oh, uh, as you wish."
     new ""
 
@@ -7247,11 +7271,11 @@ translate ru strings:
     old "Oh, you're a funny one, aren't you?"
     new ""
 
-    # c3_captives.rpy:10121, c3_captives.rpy:10231 (+5 more)
+    # c3_captives.rpy:10121, c3_captives.rpy:10231, c3_captives.rpy:13420, c3_captives.rpy:14184, c4_waifu.rpy:19664 (+2 more)
     old "Oh."
     new ""
 
-    # c3_captives.rpy:13123, c3_captives.rpy:24364 (+1 more)
+    # c3_captives.rpy:13123, c3_captives.rpy:24364, c3_dreams.rpy:541
     old "Oh..."
     new ""
 
@@ -7263,7 +7287,7 @@ translate ru strings:
     old "Okay, May-lee, lie down so I can get on top of you."
     new ""
 
-    # c3_captives.rpy:2463, c5_harem.rpy:2351 (+1 more)
+    # c3_captives.rpy:2463, c5_harem.rpy:2351, c5_harem.rpy:5205
     old "On and on, she thrusts herself against you, insatiable, her needs beyond reckoning."
     new ""
 
@@ -7287,7 +7311,7 @@ translate ru strings:
     old "Once you are fully spent, you withdraw, leaving her cunt flushed and dripping."
     new ""
 
-    # c3_captives.rpy:49443, c5_harem.rpy:58124 (+1 more)
+    # c3_captives.rpy:49443, c5_harem.rpy:58124, c6_harem.rpy:26417
     old "Once you hit bottom, you ruthlessly buck again, and again, hammering her even as her cunt splits wide around you."
     new ""
 
@@ -7319,7 +7343,7 @@ translate ru strings:
     old "One of her hands drifts from your cock and starts to touch her own body, squeezing her breasts through her dress, then lower, between her legs."
     new ""
 
-    # c3_captives.rpy:29885, c4_waifu.rpy:25963 (+1 more)
+    # c3_captives.rpy:29885, c4_waifu.rpy:25963, c5_harem.rpy:45973
     old "One of her hands steadfastly maintains its position over Sabetha's cunt, while the other soothes the reddened trace of its impact upon her behind."
     new ""
 
@@ -7327,7 +7351,7 @@ translate ru strings:
     old "One of the guards nudges open the chamber door, allowing you access without dislodging [nameFarmer!t]'s gift."
     new ""
 
-    # c3_captives.rpy:34257, c3_captives.rpy:35816 (+1 more)
+    # c3_captives.rpy:34257, c3_captives.rpy:35816, c5_harem.rpy:53328
     old "One of the wooden struts shatters, and the sudden collapse of the mattress toward the floor takes a leg with it."
     new ""
 
@@ -7355,7 +7379,7 @@ translate ru strings:
     old "Only, i-it's easy to get yourself dirty 'round these parts, and I just thought..."
     new ""
 
-    # c3_captives.rpy:28850, c3_hordes.rpy:21202 (+2 more)
+    # c3_captives.rpy:28850, c3_hordes.rpy:21202, c5_harem.rpy:8022, c5_harem.rpy:44968
     old "Oof!"
     new ""
 
@@ -7367,7 +7391,7 @@ translate ru strings:
     old "Or a father."
     new ""
 
-    # c3_captives.rpy:2501, c5_harem.rpy:2373 (+1 more)
+    # c3_captives.rpy:2501, c5_harem.rpy:2373, c5_harem.rpy:5227
     old "Or her forgiveness."
     new ""
 
@@ -7387,11 +7411,11 @@ translate ru strings:
     old "Or, well, I did."
     new ""
 
-    # c3_captives.rpy:45298, c4_waifu.rpy:31695 (+1 more)
+    # c3_captives.rpy:45298, c4_waifu.rpy:31695, c5_harem.rpy:55659
     old "Or..."
     new ""
 
-    # c3_captives.rpy:49682, c3_lair.rpy:33677 (+2 more)
+    # c3_captives.rpy:49682, c3_lair.rpy:33677, c5_harem.rpy:58337, c6_harem.rpy:26630
     old "Otherwise, who knows what kind of damage you might do?"
     new ""
 
@@ -7407,7 +7431,7 @@ translate ru strings:
     old "Ow ow ow oh oh oh!"
     new ""
 
-    # c3_captives.rpy:28693, c3_hordes.rpy:11012 (+1 more)
+    # c3_captives.rpy:28693, c3_hordes.rpy:11012, c5_harem.rpy:44808
     old "Ow!"
     new ""
 
@@ -7427,7 +7451,7 @@ translate ru strings:
     old "PLEASE YOURSELF."
     new ""
 
-    # c3_captives.rpy:37877, c3_captives.rpy:39815 (+1 more)
+    # c3_captives.rpy:37877, c3_captives.rpy:39815, c3_captives.rpy:39927
     old "PUNISH HIM."
     new ""
 
@@ -7463,7 +7487,7 @@ translate ru strings:
     old "Perhaps when she awakens, she will think twice about venting her frustrations on you again."
     new ""
 
-    # c3_captives.rpy:25574, c3_captives.rpy:47553 (+3 more)
+    # c3_captives.rpy:25574, c3_captives.rpy:47553, c4_waifu.rpy:13707, c4_waifu.rpy:13970, c4_waifu.rpy:14906
     old "Perhaps you will understand, in time."
     new ""
 
@@ -7471,7 +7495,7 @@ translate ru strings:
     old "Perhaps, if I had been a little more delicate about matters, you'd be safely away from all this by now."
     new ""
 
-    # c3_captives.rpy:19246, c3_captives.rpy:23411 (+1 more)
+    # c3_captives.rpy:19246, c3_captives.rpy:23411, c5_harem.rpy:20544
     old "Pfh."
     new ""
 
@@ -7503,7 +7527,7 @@ translate ru strings:
     old "Please excuse me, [titlepov!t]."
     new ""
 
-    # c3_captives.rpy:13680, c3_captives.rpy:13744 (+2 more)
+    # c3_captives.rpy:13680, c3_captives.rpy:13744, c3_captives.rpy:13794, c3_lair.rpy:38373
     old "Please?"
     new ""
 
@@ -7511,7 +7535,7 @@ translate ru strings:
     old "Pleasure doing business with you, chief!"
     new ""
 
-    # c3_captives.rpy:46403, c3_lair.rpy:7460 (+3 more)
+    # c3_captives.rpy:46403, c3_lair.rpy:7460, c4_waifu.rpy:34851, c5_harem.rpy:58807, c6_harem.rpy:27098
     old "Pleasure growls through your veins, an infernal torrent, throbbing hard and hot from base to tip."
     new ""
 
@@ -7527,7 +7551,7 @@ translate ru strings:
     old "Plenty of use to wring out of me, still, after..."
     new ""
 
-    # c3_captives.rpy:45275, c4_waifu.rpy:31672 (+1 more)
+    # c3_captives.rpy:45275, c4_waifu.rpy:31672, c5_harem.rpy:55638
     old "Pounce."
     new ""
 
@@ -7535,7 +7559,7 @@ translate ru strings:
     old "Pray tell, when exactly were you planning on returning them?"
     new ""
 
-    # c3_captives.rpy:16562, c5_harem.rpy:18970 (+1 more)
+    # c3_captives.rpy:16562, c5_harem.rpy:18970, c5_harem.rpy:27821
     old "Press her."
     new ""
 
@@ -7545,6 +7569,10 @@ translate ru strings:
 
     # c3_captives.rpy:5527
     old "Pretty..."
+    new ""
+
+    # c3_captives.rpy:7260
+    old "Princess"
     new ""
 
     # c3_captives.rpy:5242
@@ -7559,7 +7587,7 @@ translate ru strings:
     old "Pull her to her feet."
     new ""
 
-    # c3_captives.rpy:49474, c5_harem.rpy:58148 (+1 more)
+    # c3_captives.rpy:49474, c5_harem.rpy:58148, c6_harem.rpy:26441
     old "Pull out and cum on her."
     new ""
 
@@ -7567,7 +7595,7 @@ translate ru strings:
     old "Pull out and cum over them both."
     new ""
 
-    # c3_captives.rpy:37193, c3_captives.rpy:46311 (+13 more)
+    # c3_captives.rpy:37193, c3_captives.rpy:46311, c3_lair.rpy:7377, c3_lair.rpy:42370, c3_lair.rpy:42491 (+10 more)
     old "Pull out."
     new ""
 
@@ -7579,7 +7607,7 @@ translate ru strings:
     old "Pulling on both at once, you drag her bodily from her chair and down onto the thick bearskin rug on the floor."
     new ""
 
-    # c3_captives.rpy:30176, c4_waifu.rpy:26209 (+1 more)
+    # c3_captives.rpy:30176, c4_waifu.rpy:26209, c5_harem.rpy:46261
     old "Pulse after pulse of your seed forces its way through the taut ring of Sabetha's sphincter, deep into her bowels, forcing her to moan anew."
     new ""
 
@@ -7667,7 +7695,7 @@ translate ru strings:
     old "Release him."
     new ""
 
-    # c3_captives.rpy:30531, c5_harem.rpy:27827 (+1 more)
+    # c3_captives.rpy:30531, c5_harem.rpy:27827, c5_harem.rpy:46478
     old "Relent."
     new ""
 
@@ -7687,7 +7715,7 @@ translate ru strings:
     old "Remove her blindfold."
     new ""
 
-    # c3_captives.rpy:23743, c3_captives.rpy:23886 (+8 more)
+    # c3_captives.rpy:23743, c3_captives.rpy:23886, c3_captives.rpy:24113, c3_captures.rpy:2931, c3_captures.rpy:2956 (+5 more)
     old "Remove her gag."
     new ""
 
@@ -7711,11 +7739,11 @@ translate ru strings:
     old "Ripples of pleasure work their way through your cock, as she starts to get a little carried away."
     new ""
 
-    # c3_captives.rpy:46729, c3_dreams.rpy:1452 (+9 more)
+    # c3_captives.rpy:46729, c3_dreams.rpy:1452, c3_lair.rpy:33351, c4_capital.rpy:13420, c4_waifu.rpy:34155 (+6 more)
     old "Roar."
     new ""
 
-    # c3_captives.rpy:29934, c4_waifu.rpy:25993 (+1 more)
+    # c3_captives.rpy:29934, c4_waifu.rpy:25993, c5_harem.rpy:46022
     old "Ropes that bind her to the ceiling now curve to accommodate your bulk, pulling her closer to your undercarriage."
     new ""
 
@@ -7743,7 +7771,7 @@ translate ru strings:
     old "S'ry!"
     new ""
 
-    # c3_captives.rpy:28302, c3_captives.rpy:28490 (+2 more)
+    # c3_captives.rpy:28302, c3_captives.rpy:28490, c5_harem.rpy:44262, c5_harem.rpy:44449
     old "S-Sabetha?"
     new ""
 
@@ -7795,11 +7823,11 @@ translate ru strings:
     old "SHE WAS RIGHT."
     new ""
 
-    # c3_captives.rpy:38041, c3_captives.rpy:38054 (+3 more)
+    # c3_captives.rpy:38041, c3_captives.rpy:38054, c3_captures.rpy:6067, c3_hordes.rpy:5570, c3_hordes.rpy:9369
     old "SHOW ME."
     new ""
 
-    # c3_captives.rpy:9473, c3_captives.rpy:12645 (+3 more)
+    # c3_captives.rpy:9473, c3_captives.rpy:12645, c4_waifu.rpy:11033, c5_harem.rpy:33013, c6_harem.rpy:17144
     old "SING FOR ME."
     new ""
 
@@ -7819,7 +7847,7 @@ translate ru strings:
     old "SORRY ABOUT DARJA."
     new ""
 
-    # c3_captives.rpy:43485, c3_captives.rpy:43653 (+4 more)
+    # c3_captives.rpy:43485, c3_captives.rpy:43653, c5_harem.rpy:55088, c5_harem.rpy:55227, c6_harem.rpy:23205 (+1 more)
     old "STAY AS YOU ARE."
     new ""
 
@@ -7831,15 +7859,15 @@ translate ru strings:
     old "Sabetha is up, arms free and held before her in a determined fighting stance."
     new ""
 
-    # c3_captives.rpy:30057, c4_waifu.rpy:26100 (+1 more)
+    # c3_captives.rpy:30057, c4_waifu.rpy:26100, c5_harem.rpy:46147
     old "Sabetha writhes momentarily, wringing herself pleasantly upon your cock."
     new ""
 
-    # c3_captives.rpy:28324, c3_captives.rpy:28512 (+2 more)
+    # c3_captives.rpy:28324, c3_captives.rpy:28512, c5_harem.rpy:44284, c5_harem.rpy:44471
     old "Sabetha!"
     new ""
 
-    # c3_captives.rpy:29042, c3_captives.rpy:32280 (+2 more)
+    # c3_captives.rpy:29042, c3_captives.rpy:32280, c5_harem.rpy:45153, c5_harem.rpy:48175
     old "Sabetha's frantic eyes look to Inej, pleading."
     new ""
 
@@ -7851,7 +7879,7 @@ translate ru strings:
     old "Sabetha, I'm still not sure you should–"
     new ""
 
-    # c3_captives.rpy:28362, c3_captives.rpy:28550 (+2 more)
+    # c3_captives.rpy:28362, c3_captives.rpy:28550, c5_harem.rpy:44322, c5_harem.rpy:44509
     old "Sabetha, you don't have to..."
     new ""
 
@@ -7875,7 +7903,7 @@ translate ru strings:
     old "Sated, you rumble your acquiescence, and withdraw."
     new ""
 
-    # c3_captives.rpy:46357, c3_captives.rpy:46428 (+12 more)
+    # c3_captives.rpy:46357, c3_captives.rpy:46428, c3_captives.rpy:46589, c3_lair.rpy:7416, c3_lair.rpy:7478 (+9 more)
     old "Sated, you slacken your claws, and she drops to the ground with a heavy wet thud."
     new ""
 
@@ -7887,7 +7915,7 @@ translate ru strings:
     old "Satisfied that their warning has been delivered, they move aside to offer you some privacy."
     new ""
 
-    # c3_captives.rpy:43519, c3_captives.rpy:43684 (+11 more)
+    # c3_captives.rpy:43519, c3_captives.rpy:43684, c3_lair.rpy:2309, c3_lair.rpy:2374, c4_capital.rpy:7086 (+8 more)
     old "Say nothing."
     new ""
 
@@ -7919,7 +7947,7 @@ translate ru strings:
     old "Seeing his moment, Eburon slaps the wolfgirl's butt hard, forcing a weak yelp that lasts long after the contact."
     new ""
 
-    # c3_captives.rpy:41699, c3_captives.rpy:41760 (+3 more)
+    # c3_captives.rpy:41699, c3_captives.rpy:41760, c3_captives.rpy:41797, c3_captives.rpy:41849, c3_captives.rpy:41897
     old "Seeya!"
     new ""
 
@@ -7943,7 +7971,7 @@ translate ru strings:
     old "She arches her back low like an animal in heat, hard nipples brushing the ground."
     new ""
 
-    # c3_captives.rpy:7021, c5_harem.rpy:8407 (+1 more)
+    # c3_captives.rpy:7021, c5_harem.rpy:8407, c6_harem.rpy:7218
     old "She attempts a bow, tottering slightly."
     new ""
 
@@ -7967,7 +7995,7 @@ translate ru strings:
     old "She bends her legs and kicks out her arms, in what is probably meant to be a curtsey."
     new ""
 
-    # c3_captives.rpy:18869, c3_captives.rpy:23034 (+1 more)
+    # c3_captives.rpy:18869, c3_captives.rpy:23034, c5_harem.rpy:20167
     old "She bites at her lip and, with difficulty, lifts her chin to look straight at your face."
     new ""
 
@@ -8051,11 +8079,11 @@ translate ru strings:
     old "She circles each nipple, bringing them to a full and tender firmness, as she slowly spreads her legs."
     new ""
 
-    # c3_captives.rpy:19003, c3_captives.rpy:23168 (+1 more)
+    # c3_captives.rpy:19003, c3_captives.rpy:23168, c5_harem.rpy:20301
     old "She clenches in response, and a shivering wave of pleasure rolls up from your loins."
     new ""
 
-    # c3_captives.rpy:24635, c3_captives.rpy:24862 (+1 more)
+    # c3_captives.rpy:24635, c3_captives.rpy:24862, c3_captives.rpy:25382
     old "She climaxes with almost shocking violence, her body thrashing side to side as if she's trying to deny what is happening to her."
     new ""
 
@@ -8063,7 +8091,7 @@ translate ru strings:
     old "She closes her eyes, and retreats back into prayer."
     new ""
 
-    # c3_captives.rpy:18919, c3_captives.rpy:23084 (+4 more)
+    # c3_captives.rpy:18919, c3_captives.rpy:23084, c3_captives.rpy:27921, c4_waifu.rpy:17157, c4_waifu.rpy:17391 (+1 more)
     old "She closes her eyes."
     new ""
 
@@ -8071,7 +8099,7 @@ translate ru strings:
     old "She clutches a hand to her head, and rocks back and forth."
     new ""
 
-    # c3_captives.rpy:49238, c3_lair.rpy:33564 (+2 more)
+    # c3_captives.rpy:49238, c3_lair.rpy:33564, c5_harem.rpy:57971, c6_harem.rpy:26266
     old "She clutches and twists her fingers behind her back, rocking her shoulders in a desperate attempt to breathe."
     new ""
 
@@ -8171,11 +8199,11 @@ translate ru strings:
     old "She freezes."
     new ""
 
-    # c3_captives.rpy:49165, c3_lair.rpy:33491 (+2 more)
+    # c3_captives.rpy:49165, c3_lair.rpy:33491, c5_harem.rpy:57905, c6_harem.rpy:26200
     old "She gags, desperately, the hue of her cheeks deepening to a rich purple as her lungs are starved for oxygen."
     new ""
 
-    # c3_captives.rpy:46344, c3_captives.rpy:46577 (+8 more)
+    # c3_captives.rpy:46344, c3_captives.rpy:46577, c3_lair.rpy:7413, c3_lair.rpy:7619, c4_waifu.rpy:34608 (+5 more)
     old "She gasps and twitches through the aftershocks of your orgasm, her pulse fluttering around your receding shaft."
     new ""
 
@@ -8207,7 +8235,7 @@ translate ru strings:
     old "She giggles with delight, holding out her tongue as her companion gasps in surprise."
     new ""
 
-    # c3_captives.rpy:5050, c3_captives.rpy:41885 (+1 more)
+    # c3_captives.rpy:5050, c3_captives.rpy:41885, c3_dreams.rpy:2572
     old "She giggles."
     new ""
 
@@ -8239,7 +8267,7 @@ translate ru strings:
     old "She gives you a tremulous smile."
     new ""
 
-    # c3_captives.rpy:28279, c3_captives.rpy:28467 (+2 more)
+    # c3_captives.rpy:28279, c3_captives.rpy:28467, c5_harem.rpy:44239, c5_harem.rpy:44426
     old "She glances around furtively, as though trying to spot some hidden prize in the room that she should offer."
     new ""
 
@@ -8247,7 +8275,7 @@ translate ru strings:
     old "She glances down to your cock, which by now is at full length and pulsing with clear intent."
     new ""
 
-    # c3_captives.rpy:28336, c3_captives.rpy:28524 (+2 more)
+    # c3_captives.rpy:28336, c3_captives.rpy:28524, c5_harem.rpy:44296, c5_harem.rpy:44483
     old "She glances down, below your eyes."
     new ""
 
@@ -8267,7 +8295,7 @@ translate ru strings:
     old "She glowers for several long moments."
     new ""
 
-    # c3_captives.rpy:7696, c3_captives.rpy:9005 (+2 more)
+    # c3_captives.rpy:7696, c3_captives.rpy:9005, c4_waifu.rpy:6460, c5_harem.rpy:9867
     old "She grabs her ass cheeks, pulling them apart eagerly, allowing you to push further in."
     new ""
 
@@ -8287,7 +8315,7 @@ translate ru strings:
     old "She grins."
     new ""
 
-    # c3_captives.rpy:28218, c3_captives.rpy:28406 (+2 more)
+    # c3_captives.rpy:28218, c3_captives.rpy:28406, c5_harem.rpy:44178, c5_harem.rpy:44365
     old "She grits her teeth, forcing a smile."
     new ""
 
@@ -8307,7 +8335,7 @@ translate ru strings:
     old "She gulps, heavily."
     new ""
 
-    # c3_captives.rpy:28289, c3_captives.rpy:28477 (+2 more)
+    # c3_captives.rpy:28289, c3_captives.rpy:28477, c5_harem.rpy:44249, c5_harem.rpy:44436
     old "She gulps."
     new ""
 
@@ -8327,7 +8355,7 @@ translate ru strings:
     old "She has proven to be tenacious and deadly, one of the few people in the Realm who have ever posed a genuine threat to you."
     new ""
 
-    # c3_captives.rpy:18418, c3_captives.rpy:18503 (+1 more)
+    # c3_captives.rpy:18418, c3_captives.rpy:18503, c5_harem.rpy:19807
     old "She has since regained her composure, but the marks of its loss remain."
     new ""
 
@@ -8335,7 +8363,7 @@ translate ru strings:
     old "She has underestimated your offspring, it seems."
     new ""
 
-    # c3_captives.rpy:19023, c3_captives.rpy:23188 (+1 more)
+    # c3_captives.rpy:19023, c3_captives.rpy:23188, c5_harem.rpy:20321
     old "She hesitates a few inches from your cock, fingers flexing."
     new ""
 
@@ -8359,7 +8387,7 @@ translate ru strings:
     old "She hugs the material to her chest and strides away, returning to her place at the wall before stopping to inspect [nameFarmer!t]'s handicraft."
     new ""
 
-    # c3_captives.rpy:2664, c5_harem.rpy:2471 (+1 more)
+    # c3_captives.rpy:2664, c5_harem.rpy:2471, c5_harem.rpy:5300
     old "She humps herself up at you, desperately grinding the full length of you within her as she breathes between clenched teeth."
     new ""
 
@@ -8487,7 +8515,7 @@ translate ru strings:
     old "She looks at you blankly, taking a moment to understand the question."
     new ""
 
-    # c3_captives.rpy:51987, c3_captives.rpy:52020 (+1 more)
+    # c3_captives.rpy:51987, c3_captives.rpy:52020, c3_captives.rpy:52046
     old "She looks away, drawing a slow and rattling breath."
     new ""
 
@@ -8495,7 +8523,7 @@ translate ru strings:
     old "She looks back to you, her lips pressed firm and eyes full of rebellious resolve, and sweeps a hand towards herself."
     new ""
 
-    # c3_captives.rpy:19250, c3_captives.rpy:23415 (+1 more)
+    # c3_captives.rpy:19250, c3_captives.rpy:23415, c5_harem.rpy:20548
     old "She looks down at herself, and wrinkles her nose."
     new ""
 
@@ -8511,7 +8539,7 @@ translate ru strings:
     old "She looks up as you approach."
     new ""
 
-    # c3_captives.rpy:9561, c3_captives.rpy:9628 (+2 more)
+    # c3_captives.rpy:9561, c3_captives.rpy:9628, c3_captives.rpy:12685, c3_captives.rpy:12762
     old "She lowers her eyes, and steps back away from you."
     new ""
 
@@ -8539,7 +8567,7 @@ translate ru strings:
     old "She moans, mimicking fear."
     new ""
 
-    # c3_captives.rpy:33807, c3_captives.rpy:33838 (+3 more)
+    # c3_captives.rpy:33807, c3_captives.rpy:33838, c4_waifu.rpy:27597, c4_waifu.rpy:27621, c5_harem.rpy:51011
     old "She mops at her face and bosom with her hands, but mostly just succeeds at smearing it further into her curves and clothing."
     new ""
 
@@ -8559,7 +8587,7 @@ translate ru strings:
     old "She nods solemnly."
     new ""
 
-    # c3_captives.rpy:12053, c3_captives.rpy:12101 (+1 more)
+    # c3_captives.rpy:12053, c3_captives.rpy:12101, c3_captives.rpy:12805
     old "She nods, with a little sharp intake of breath, as though she suspects that the worst is still yet to come."
     new ""
 
@@ -8591,7 +8619,7 @@ translate ru strings:
     old "She picks up a piece of parchment, and begins to scratch at it with a quill."
     new ""
 
-    # c3_captives.rpy:35549, c3_captives.rpy:36756 (+2 more)
+    # c3_captives.rpy:35549, c3_captives.rpy:36756, c5_harem.rpy:51999, c5_harem.rpy:53071
     old "She picks up her breasts with her hands, pressing them together for your inspection."
     new ""
 
@@ -8671,7 +8699,7 @@ translate ru strings:
     old "She raises her voice to speak, sounding only a single mocking syllable before Eburon slams back against the metal bars separating them and bellows with rage."
     new ""
 
-    # c3_captives.rpy:19177, c3_captives.rpy:23342 (+1 more)
+    # c3_captives.rpy:19177, c3_captives.rpy:23342, c5_harem.rpy:20475
     old "She releases your cock and wipes at her face, but her hands are no cleaner than the rest of her."
     new ""
 
@@ -8679,7 +8707,7 @@ translate ru strings:
     old "She remains determined in her attempt to stare you down – as if your refusal to avert your eyes were proof of her own righteousness!"
     new ""
 
-    # c3_captives.rpy:19060, c3_captives.rpy:23225 (+1 more)
+    # c3_captives.rpy:19060, c3_captives.rpy:23225, c5_harem.rpy:20358
     old "She reverses, smearing your own fluids across your flesh, and draws back to the knot that bulges just before your scaly sheath."
     new ""
 
@@ -8727,7 +8755,7 @@ translate ru strings:
     old "She says it with such careless conviction that you suspect she has long since ceased to give the question any serious thought."
     new ""
 
-    # c3_captives.rpy:49622, c5_harem.rpy:58282 (+1 more)
+    # c3_captives.rpy:49622, c5_harem.rpy:58282, c6_harem.rpy:26575
     old "She says nothing as you leave her, but you are sure, with a little time, she will have recovered enough to suffer your attentions all over again."
     new ""
 
@@ -8775,7 +8803,7 @@ translate ru strings:
     old "She seems to remember, then, the gifts that she carries."
     new ""
 
-    # c3_captives.rpy:2430, c5_harem.rpy:2324 (+1 more)
+    # c3_captives.rpy:2430, c5_harem.rpy:2324, c5_harem.rpy:5176
     old "She sees the cock filling her sopping wet core, pulsing with energy, drenched in the slick heat of her arousal."
     new ""
 
@@ -8795,7 +8823,7 @@ translate ru strings:
     old "She shakes her head, tears of ecstasy rolling down her cheeks, oblivious to your cold eyes upon her."
     new ""
 
-    # c3_captives.rpy:26791, c6_harem.rpy:13595 (+1 more)
+    # c3_captives.rpy:26791, c6_harem.rpy:13595, c6_harem.rpy:21168
     old "She shakes her head."
     new ""
 
@@ -8815,7 +8843,7 @@ translate ru strings:
     old "She shivers, eyes going wide as her thoughts no doubt turn to the consequences of betraying you."
     new ""
 
-    # c3_captives.rpy:29005, c3_captives.rpy:32241 (+3 more)
+    # c3_captives.rpy:29005, c3_captives.rpy:32241, c4_waifu.rpy:25604, c5_harem.rpy:45116, c5_harem.rpy:48138
     old "She should be ready for you now."
     new ""
 
@@ -8839,7 +8867,7 @@ translate ru strings:
     old "She shudders."
     new ""
 
-    # c3_captives.rpy:29921, c4_waifu.rpy:25982 (+1 more)
+    # c3_captives.rpy:29921, c4_waifu.rpy:25982, c5_harem.rpy:46009
     old "She sighs, a strangely mournful sound, and forces her features into a prim smile."
     new ""
 
@@ -8855,7 +8883,7 @@ translate ru strings:
     old "She sighs, head falling back again."
     new ""
 
-    # c3_captives.rpy:32820, c3_captives.rpy:32865 (+1 more)
+    # c3_captives.rpy:32820, c3_captives.rpy:32865, c3_captives.rpy:32877
     old "She sighs, settling down to perch on the edge of the crate."
     new ""
 
@@ -8863,7 +8891,7 @@ translate ru strings:
     old "She sighs, visibly relieved."
     new ""
 
-    # c3_captives.rpy:33684, c3_captives.rpy:51349 (+5 more)
+    # c3_captives.rpy:33684, c3_captives.rpy:51349, c3_captures.rpy:1316, c3_dreams.rpy:227, c4_waifu.rpy:18543 (+2 more)
     old "She sighs."
     new ""
 
@@ -8959,7 +8987,7 @@ translate ru strings:
     old "She spins about, skipping with glee."
     new ""
 
-    # c3_captives.rpy:33772, c4_waifu.rpy:27562 (+1 more)
+    # c3_captives.rpy:33772, c4_waifu.rpy:27562, c5_harem.rpy:50978
     old "She spits again."
     new ""
 
@@ -8975,7 +9003,7 @@ translate ru strings:
     old "She spits, hard, towards the ceiling above."
     new ""
 
-    # c3_captives.rpy:49851, c3_lair.rpy:33869 (+2 more)
+    # c3_captives.rpy:49851, c3_lair.rpy:33869, c5_harem.rpy:58494, c6_harem.rpy:26786
     old "She splutters, vomiting up a fresh wave of sticky seed."
     new ""
 
@@ -9059,7 +9087,7 @@ translate ru strings:
     old "She starts to tremble as she listens to you shift position, moving to get at her pussy."
     new ""
 
-    # c3_captives.rpy:30095, c4_waifu.rpy:26138 (+1 more)
+    # c3_captives.rpy:30095, c4_waifu.rpy:26138, c5_harem.rpy:46183
     old "She starts, but takes notice."
     new ""
 
@@ -9083,7 +9111,7 @@ translate ru strings:
     old "She struggles to push her head even further toward you, lips straining at your girth."
     new ""
 
-    # c3_captives.rpy:1291, c3_captives.rpy:1327 (+2 more)
+    # c3_captives.rpy:1291, c3_captives.rpy:1327, c5_harem.rpy:1254, c5_harem.rpy:1290
     old "She studies you for a few moments longer, then takes a deep breath and nods to herself."
     new ""
 
@@ -9099,7 +9127,7 @@ translate ru strings:
     old "She sucks in a surprised breath through her nose, and one hand lifts to push against the side of your neck."
     new ""
 
-    # c3_captives.rpy:16870, c4_waifu.rpy:15317 (+2 more)
+    # c3_captives.rpy:16870, c4_waifu.rpy:15317, c5_harem.rpy:19236, c5_harem.rpy:52313
     old "She swallows hard."
     new ""
 
@@ -9179,7 +9207,7 @@ translate ru strings:
     old "She thoughtfully directs you to Valzira's cell, and they are even more overjoyed to be freed together."
     new ""
 
-    # c3_captives.rpy:46213, c3_lair.rpy:7280 (+3 more)
+    # c3_captives.rpy:46213, c3_lair.rpy:7280, c4_waifu.rpy:34705, c5_harem.rpy:58653, c6_harem.rpy:26944
     old "She thrashes in your claws, each movement serving only to drive you further into her."
     new ""
 
@@ -9215,7 +9243,7 @@ translate ru strings:
     old "She tries opening her eyes again, laboriously."
     new ""
 
-    # c3_captives.rpy:49193, c3_lair.rpy:33518 (+2 more)
+    # c3_captives.rpy:49193, c3_lair.rpy:33518, c5_harem.rpy:57933, c6_harem.rpy:26228
     old "She tries to bite down on your cock, but your girth is much more than she can fit her jaw around."
     new ""
 
@@ -9235,7 +9263,7 @@ translate ru strings:
     old "She turns her head aside."
     new ""
 
-    # c3_captives.rpy:7852, c3_captives.rpy:9173 (+4 more)
+    # c3_captives.rpy:7852, c3_captives.rpy:9173, c4_waifu.rpy:6273, c4_waifu.rpy:6617, c5_harem.rpy:10039 (+1 more)
     old "She turns to you with a grin."
     new ""
 
@@ -9251,7 +9279,7 @@ translate ru strings:
     old "She turns, confusion and lust warring in her eyes."
     new ""
 
-    # c3_captives.rpy:49338, c5_harem.rpy:58058 (+1 more)
+    # c3_captives.rpy:49338, c5_harem.rpy:58058, c6_harem.rpy:26351
     old "She twists beneath you, trying to pull her thighs away from your cock, but you tuck your other foreleg along her belly and force her up against your underside."
     new ""
 
@@ -9279,7 +9307,7 @@ translate ru strings:
     old "She whimpers as her cunt, stretched wide by dragon-cock, tries to bear down on you with pulsing spasms."
     new ""
 
-    # c3_captives.rpy:34360, c3_captives.rpy:34450 (+4 more)
+    # c3_captives.rpy:34360, c3_captives.rpy:34450, c3_captives.rpy:35914, c3_captives.rpy:36007, c5_harem.rpy:53428 (+1 more)
     old "She whimpers only gently when you pull your cock out, soaking her half-ruined mattress with your cum."
     new ""
 
@@ -9287,7 +9315,7 @@ translate ru strings:
     old "She whimpers with each thick jet of spunk that further fills her, trembling in fear or delight at the thought of being bred by you."
     new ""
 
-    # c3_captives.rpy:28259, c3_captives.rpy:28447 (+2 more)
+    # c3_captives.rpy:28259, c3_captives.rpy:28447, c5_harem.rpy:44219, c5_harem.rpy:44406
     old "She wiggles demonstratively."
     new ""
 
@@ -9295,7 +9323,7 @@ translate ru strings:
     old "She wiggles her fingers, clasping the edges of the table."
     new ""
 
-    # c3_captives.rpy:49294, c5_harem.rpy:58018 (+1 more)
+    # c3_captives.rpy:49294, c5_harem.rpy:58018, c6_harem.rpy:26311
     old "She will regain consciousness in her own time, if she ever does."
     new ""
 
@@ -9395,7 +9423,7 @@ translate ru strings:
     old "Sheesh, whatever."
     new ""
 
-    # c3_captives.rpy:19119, c3_captives.rpy:23284 (+2 more)
+    # c3_captives.rpy:19119, c3_captives.rpy:23284, c4_fort.rpy:1069, c5_harem.rpy:20417
     old "Shit."
     new ""
 
@@ -9407,7 +9435,7 @@ translate ru strings:
     old "Should be easy for you, shouldn't it?"
     new ""
 
-    # c3_captives.rpy:18969, c3_captives.rpy:23134 (+1 more)
+    # c3_captives.rpy:18969, c3_captives.rpy:23134, c5_harem.rpy:20267
     old "Show her how it's done."
     new ""
 
@@ -9475,7 +9503,7 @@ translate ru strings:
     old "Smash the lock."
     new ""
 
-    # c3_captives.rpy:26672, c3_captives.rpy:26707 (+1 more)
+    # c3_captives.rpy:26672, c3_captives.rpy:26707, c4_capital.rpy:3110
     old "Snort at her."
     new ""
 
@@ -9503,7 +9531,7 @@ translate ru strings:
     old "So, uh, now what?"
     new ""
 
-    # c3_captives.rpy:32638, c3_captives.rpy:32699 (+5 more)
+    # c3_captives.rpy:32638, c3_captives.rpy:32699, c3_captives.rpy:32735, c3_captives.rpy:32770, c3_captives.rpy:32826 (+2 more)
     old "So, what can I do you for?"
     new ""
 
@@ -9531,11 +9559,11 @@ translate ru strings:
     old "Some splatters in her hair, some glazes her forehead and cheeks and nose, some by chance falls in her open, gasping mouth."
     new ""
 
-    # c3_captives.rpy:39867, c3_captives.rpy:40079 (+8 more)
+    # c3_captives.rpy:39867, c3_captives.rpy:40079, c3_lair.rpy:4134, c3_lair.rpy:4183, c3_lair.rpy:4213 (+5 more)
     old "Some time later"
     new ""
 
-    # c3_captives.rpy:19143, c3_captives.rpy:23308 (+1 more)
+    # c3_captives.rpy:19143, c3_captives.rpy:23308, c5_harem.rpy:20441
     old "Some, of course, falls upon her shoulder and spatters into her neck, and a particularly thick streak drools deliciously down the side of one breast."
     new ""
 
@@ -9595,11 +9623,11 @@ translate ru strings:
     old "Speed up."
     new ""
 
-    # c3_captives.rpy:45589, c4_waifu.rpy:31939 (+1 more)
+    # c3_captives.rpy:45589, c4_waifu.rpy:31939, c5_harem.rpy:55917
     old "Spurred on by the thought of [nameTrap!t] fingering himself open for you, you move over him and ease your cock into the tight heat of his ass."
     new ""
 
-    # c3_captives.rpy:19053, c3_captives.rpy:23218 (+1 more)
+    # c3_captives.rpy:19053, c3_captives.rpy:23218, c5_harem.rpy:20351
     old "Spurred on, she draws both hands together up the length of your cock until one of them closes around your tip."
     new ""
 
@@ -9607,7 +9635,7 @@ translate ru strings:
     old "Spurt after spurt of thick spunk, each bolt larger than a human's entire load, splatters against the entrance to her womb."
     new ""
 
-    # c3_captives.rpy:46739, c3_lair.rpy:33359 (+5 more)
+    # c3_captives.rpy:46739, c3_lair.rpy:33359, c4_capital.rpy:9755, c4_waifu.rpy:32489, c4_waifu.rpy:32627 (+2 more)
     old "Stay silent."
     new ""
 
@@ -9635,7 +9663,7 @@ translate ru strings:
     old "Still, one glance at your minion's terrified eyes tells you he knows nothing further, and you dismiss him with a grunt."
     new ""
 
-    # c3_captives.rpy:46207, c3_lair.rpy:7274 (+3 more)
+    # c3_captives.rpy:46207, c3_lair.rpy:7274, c4_waifu.rpy:34699, c5_harem.rpy:58647, c6_harem.rpy:26938
     old "Still, when her forced descent brings Valzira to the thickest part of you, her eyes blow wide."
     new ""
 
@@ -9643,7 +9671,7 @@ translate ru strings:
     old "Still, you are satisfied for now, and you depart without another word, leaving her to ruminate upon her fortunes in silence and solitude."
     new ""
 
-    # c3_captives.rpy:45056, c4_waifu.rpy:31531 (+1 more)
+    # c3_captives.rpy:45056, c4_waifu.rpy:31531, c5_harem.rpy:55427
     old "Still, you can scent his growing arousal, and when he moves onto all fours to better align himself, there's a noticeable bulge between his legs."
     new ""
 
@@ -9651,7 +9679,7 @@ translate ru strings:
     old "Stop talking, silly!"
     new ""
 
-    # c3_captives.rpy:10472, c3_captives.rpy:26521 (+1 more)
+    # c3_captives.rpy:10472, c3_captives.rpy:26521, c4_waifu.rpy:11671
     old "Stop."
     new ""
 
@@ -9675,7 +9703,7 @@ translate ru strings:
     old "Suffocation is unlikely to harm her for long, let alone kill her, but she feels the same hunger for air that any human would."
     new ""
 
-    # c3_captives.rpy:49788, c5_harem.rpy:58427 (+1 more)
+    # c3_captives.rpy:49788, c5_harem.rpy:58427, c6_harem.rpy:26720
     old "Summoning all of your strength, all of your loathing, you hilt yourself all the way inside her."
     new ""
 
@@ -9703,7 +9731,7 @@ translate ru strings:
     old "Sweat rolls down her pallid face in sheets, and her tangled hair matts thickly to her skull."
     new ""
 
-    # c3_captives.rpy:2579, c5_harem.rpy:2417 (+1 more)
+    # c3_captives.rpy:2579, c5_harem.rpy:2417, c5_harem.rpy:5247
     old "Sweat trails from her forehead and down her neck, from her chest, and limbs, all of her glistens with beady trails of reflected torchlight."
     new ""
 
@@ -9715,7 +9743,7 @@ translate ru strings:
     old "T'the big lizard!"
     new ""
 
-    # c3_captives.rpy:992, c5_harem.rpy:557 (+1 more)
+    # c3_captives.rpy:992, c5_harem.rpy:557, c6_harem.rpy:1588
     old "TEACH ME."
     new ""
 
@@ -9723,7 +9751,7 @@ translate ru strings:
     old "TELL ME EVERYTHING."
     new ""
 
-    # c3_captives.rpy:16289, c3_captives.rpy:18539 (+6 more)
+    # c3_captives.rpy:16289, c3_captives.rpy:18539, c3_captives.rpy:46933, c3_captives.rpy:47016, c5_harem.rpy:18725 (+3 more)
     old "TELL ME OF THE CONVOCATION."
     new ""
 
@@ -9731,7 +9759,7 @@ translate ru strings:
     old "TELL ME OF YOUR DESECRATION."
     new ""
 
-    # c3_captives.rpy:46966, c3_captives.rpy:47049 (+2 more)
+    # c3_captives.rpy:46966, c3_captives.rpy:47049, c5_harem.rpy:56647, c6_harem.rpy:24462
     old "TELL ME WHAT YOU DO IN THE REALM."
     new ""
 
@@ -9739,7 +9767,11 @@ translate ru strings:
     old "TELL ME."
     new ""
 
-    # c3_captives.rpy:4073, c3_captives.rpy:7115 (+56 more)
+    # c3_captives.rpy:11287, c3_hordes.rpy:22605, c3_lair.rpy:20777, c4.rpy:2463, c4.rpy:2495 (+14 more)
+    old "THAT"
+    new ""
+
+    # c3_captives.rpy:4073, c3_captives.rpy:7115, c3_captives.rpy:8534, c3_captives.rpy:9546, c3_captives.rpy:9613 (+53 more)
     old "THAT IS ALL."
     new ""
 
@@ -9747,7 +9779,7 @@ translate ru strings:
     old "THAT IS HER WAY, NOT YOURS."
     new ""
 
-    # c3_captives.rpy:39609, c3_captives.rpy:39667 (+8 more)
+    # c3_captives.rpy:39609, c3_captives.rpy:39667, c3_lair.rpy:29707, c4_abbey.rpy:209, c4_cove.rpy:137 (+5 more)
     old "THE KOBOLDS."
     new ""
 
@@ -9783,7 +9815,7 @@ translate ru strings:
     old "THIS IS UNFORGIVABLE."
     new ""
 
-    # c3_captives.rpy:915, c3_captives.rpy:1010 (+5 more)
+    # c3_captives.rpy:915, c3_captives.rpy:1010, c3_captives.rpy:4064, c3_captives.rpy:7106, c3_captives.rpy:8525 (+2 more)
     old "TIME TO DIE."
     new ""
 
@@ -9795,11 +9827,11 @@ translate ru strings:
     old "Take [nameFangirl!t] up on her offer."
     new ""
 
-    # c3_captives.rpy:10464, c3_captives.rpy:10493 (+2 more)
+    # c3_captives.rpy:10464, c3_captives.rpy:10493, c4_waifu.rpy:11663, c4_waifu.rpy:11688
     old "Take her from behind."
     new ""
 
-    # c3_captives.rpy:10468, c3_captives.rpy:10497 (+2 more)
+    # c3_captives.rpy:10468, c3_captives.rpy:10497, c4_waifu.rpy:11667, c4_waifu.rpy:11692
     old "Take her from the front."
     new ""
 
@@ -9879,7 +9911,7 @@ translate ru strings:
     old "Thank the goddess, I am safe once again!"
     new ""
 
-    # c3_captives.rpy:21308, c3_captives.rpy:22737 (+11 more)
+    # c3_captives.rpy:21308, c3_captives.rpy:22737, c3_captives.rpy:25188, c3_lair.rpy:2519, c3_lair.rpy:14432 (+8 more)
     old "Thank you."
     new ""
 
@@ -9895,7 +9927,7 @@ translate ru strings:
     old "That clean enough for you?"
     new ""
 
-    # c3_captives.rpy:7817, c3_captives.rpy:9131 (+1 more)
+    # c3_captives.rpy:7817, c3_captives.rpy:9131, c4_waifu.rpy:6575
     old "That doesn't seem to worry her, however."
     new ""
 
@@ -9907,7 +9939,7 @@ translate ru strings:
     old "That remains to be seen."
     new ""
 
-    # c3_captives.rpy:7776, c3_captives.rpy:9090 (+3 more)
+    # c3_captives.rpy:7776, c3_captives.rpy:9090, c4_waifu.rpy:6539, c5_harem.rpy:9951, c6_harem.rpy:6554
     old "That seems to do the trick."
     new ""
 
@@ -9923,7 +9955,7 @@ translate ru strings:
     old "That's all I want, right now."
     new ""
 
-    # c3_captives.rpy:36584, c5_harem.rpy:62097 (+1 more)
+    # c3_captives.rpy:36584, c5_harem.rpy:62097, c6_harem.rpy:30097
     old "That's..."
     new ""
 
@@ -9939,7 +9971,7 @@ translate ru strings:
     old "The abbess finally comes to her feet, and turns."
     new ""
 
-    # c3_captives.rpy:2434, c5_harem.rpy:2328 (+1 more)
+    # c3_captives.rpy:2434, c5_harem.rpy:2328, c5_harem.rpy:5180
     old "The abbess simply stares, wide-eyed, lips agape."
     new ""
 
@@ -9967,11 +9999,11 @@ translate ru strings:
     old "The bare skin of her foot slides gently along its side, her body heat cool in contrast to your own intensely radiant flesh."
     new ""
 
-    # c3_captives.rpy:2676, c5_harem.rpy:2479 (+2 more)
+    # c3_captives.rpy:2676, c5_harem.rpy:2479, c5_harem.rpy:5126, c5_harem.rpy:5308
     old "The base of your cock begins to slip from her taut lips, but she simply grinds it back in again, fucking your knot."
     new ""
 
-    # c3_captives.rpy:2639, c5_harem.rpy:2453 (+2 more)
+    # c3_captives.rpy:2639, c5_harem.rpy:2453, c5_harem.rpy:5102, c5_harem.rpy:5279
     old "The base of your cock forces its way into her with a loud, slick thrust."
     new ""
 
@@ -10015,7 +10047,7 @@ translate ru strings:
     old "The boy nods soundlessly, tears welling up as he forces a wry smile in spite of himself."
     new ""
 
-    # c3_captives.rpy:38533, c3_hordes.rpy:2988 (+1 more)
+    # c3_captives.rpy:38533, c3_hordes.rpy:2988, c3_hordes.rpy:3099
     old "The boy retches, looking up at you in wanton desperation as a viscous stream of cum pours from his mouth, soon filling the patchwork of cracks in the chamber floor."
     new ""
 
@@ -10043,7 +10075,7 @@ translate ru strings:
     old "The cell is not large, scarcely big enough for both you and Maëlys at the same time."
     new ""
 
-    # c3_captives.rpy:19140, c3_captives.rpy:19159 (+4 more)
+    # c3_captives.rpy:19140, c3_captives.rpy:19159, c3_captives.rpy:23305, c3_captives.rpy:23324, c5_harem.rpy:20438 (+1 more)
     old "The cell shakes with your roar as your balls hike and your cock erupts into a fountain of seed."
     new ""
 
@@ -10063,7 +10095,7 @@ translate ru strings:
     old "The common kobold is typically lacking in any real intellect, save for a fervent devotion to their master."
     new ""
 
-    # c3_captives.rpy:19038, c3_captives.rpy:23203 (+1 more)
+    # c3_captives.rpy:19038, c3_captives.rpy:23203, c5_harem.rpy:20336
     old "The contact provokes a twist in your gut, the barest flicker igniting even greater hunger."
     new ""
 
@@ -10075,7 +10107,7 @@ translate ru strings:
     old "The day's events have wracked your body with exhaustion, and the first pangs of sleep seem positively irresistible."
     new ""
 
-    # c3_captives.rpy:45448, c4_waifu.rpy:31829 (+1 more)
+    # c3_captives.rpy:45448, c4_waifu.rpy:31829, c5_harem.rpy:55789
     old "The delicate musculature of [nameTrap!t]'s back shifts and becomes still when you run your claw over the subtle ridges."
     new ""
 
@@ -10199,7 +10231,7 @@ translate ru strings:
     old "The first one, when it defiled me, it was as though she turned her face away from me."
     new ""
 
-    # c3_captives.rpy:19081, c3_captives.rpy:23246 (+1 more)
+    # c3_captives.rpy:19081, c3_captives.rpy:23246, c5_harem.rpy:20379
     old "The focus of a huntress stalking prey, freed from distractions, with only the moment and the task before her."
     new ""
 
@@ -10215,7 +10247,7 @@ translate ru strings:
     old "The frail boy is still dressing, though he visibly tenses at your presence."
     new ""
 
-    # c3_captives.rpy:19071, c3_captives.rpy:23236 (+1 more)
+    # c3_captives.rpy:19071, c3_captives.rpy:23236, c5_harem.rpy:20369
     old "The friction of her bare skin becomes smooth and sweet against you."
     new ""
 
@@ -10399,11 +10431,11 @@ translate ru strings:
     old "The movement pushes her legs up against your hips, splays them into the air."
     new ""
 
-    # c3_captives.rpy:46126, c3_lair.rpy:7192 (+2 more)
+    # c3_captives.rpy:46126, c3_lair.rpy:7192, c5_harem.rpy:58577, c6_harem.rpy:26868
     old "The neat slit of her cunt and the puckered hole beneath it lie bare for your enjoyment, and the sight teases your cock from its sheath."
     new ""
 
-    # c3_captives.rpy:24692, c3_captives.rpy:24919 (+1 more)
+    # c3_captives.rpy:24692, c3_captives.rpy:24919, c3_captives.rpy:25421
     old "The next time she climaxes, her entire body locks in place, every muscle seizing up at once."
     new ""
 
@@ -10463,7 +10495,7 @@ translate ru strings:
     old "The revelation genuinely catches her off-guard."
     new ""
 
-    # c3_captives.rpy:29116, c3_captives.rpy:32351 (+3 more)
+    # c3_captives.rpy:29116, c3_captives.rpy:32351, c4_waifu.rpy:25713, c5_harem.rpy:45221, c5_harem.rpy:48240
     old "The ridges of her throat give way to soft tissue teasing your tip, as you power on through into her gullet."
     new ""
 
@@ -10555,7 +10587,7 @@ translate ru strings:
     old "The tattered remnants of her bindings litter the ground at her feet, shredded like so much parchment."
     new ""
 
-    # c3_captives.rpy:17672, c5_harem.rpy:14825 (+1 more)
+    # c3_captives.rpy:17672, c5_harem.rpy:14825, c5_harem.rpy:15557
     old "The thick coating of your seed remains upon her, left alone to cake hard into a crackled veneer."
     new ""
 
@@ -10735,7 +10767,7 @@ translate ru strings:
     old "The words are barely above a whisper."
     new ""
 
-    # c3_captives.rpy:2493, c5_harem.rpy:2369 (+1 more)
+    # c3_captives.rpy:2493, c5_harem.rpy:2369, c5_harem.rpy:5223
     old "The words are simple, but bear a haunting quality, full of terrible revelation."
     new ""
 
@@ -10795,7 +10827,7 @@ translate ru strings:
     old "Then plow the elf below you with all of your strength."
     new ""
 
-    # c3_captives.rpy:30061, c4_waifu.rpy:26104 (+1 more)
+    # c3_captives.rpy:30061, c4_waifu.rpy:26104, c5_harem.rpy:46151
     old "Then she stills, settles, and seems to give in."
     new ""
 
@@ -10827,7 +10859,7 @@ translate ru strings:
     old "Then, as though exposed to a cloudless dawn, the mist covering your thoughts evaporates."
     new ""
 
-    # c3_captives.rpy:10156, c3_captives.rpy:10208 (+1 more)
+    # c3_captives.rpy:10156, c3_captives.rpy:10208, c3_captives.rpy:10245
     old "Then, her face clears, and she takes a deep breath."
     new ""
 
@@ -11035,7 +11067,7 @@ translate ru strings:
     old "This time, however, it is the squeaky tone of whispering kobolds."
     new ""
 
-    # c3_captives.rpy:16249, c3_captives.rpy:23550 (+1 more)
+    # c3_captives.rpy:16249, c3_captives.rpy:23550, c5_harem.rpy:18685
     old "This used up little elf has been hunting you for weeks, and even dared to risk a direct attack on your lair."
     new ""
 
@@ -11111,7 +11143,7 @@ translate ru strings:
     old "Though your hips tense and quiver with barely-restrained urgency, Heloïse proves eager to relieve you of your burden."
     new ""
 
-    # c3_captives.rpy:41111, c3_captives.rpy:41195 (+1 more)
+    # c3_captives.rpy:41111, c3_captives.rpy:41195, c6_harem.rpy:22611
     old "Threaten him."
     new ""
 
@@ -11123,11 +11155,11 @@ translate ru strings:
     old "Through tooowwnn!"
     new ""
 
-    # c3_captives.rpy:46537, c3_lair.rpy:7582 (+3 more)
+    # c3_captives.rpy:46537, c3_lair.rpy:7582, c4_waifu.rpy:34575, c5_harem.rpy:58929, c6_harem.rpy:27219
     old "Tightening your hold on her waist, you slam back into her, working her up and down your cock as if she's nothing but a piece of meat."
     new ""
 
-    # c3_captives.rpy:46269, c3_lair.rpy:7334 (+3 more)
+    # c3_captives.rpy:46269, c3_lair.rpy:7334, c4_waifu.rpy:34747, c5_harem.rpy:58693, c6_harem.rpy:26984
     old "Tightening your hold on her waist, you slam back into her, working her up and down your shaft as if she's nothing but a piece of meat."
     new ""
 
@@ -11139,7 +11171,7 @@ translate ru strings:
     old "Time stretches out, the elf waiting in terror for a sign that seems increasingly unlikely with each passing second."
     new ""
 
-    # c3_captives.rpy:49187, c3_lair.rpy:33510 (+2 more)
+    # c3_captives.rpy:49187, c3_lair.rpy:33510, c5_harem.rpy:57927, c6_harem.rpy:26222
     old "Tired of her hollow barbs, you thrust back inside, in slow long strokes that leave her a couple of frantic moments to breathe."
     new ""
 
@@ -11183,7 +11215,7 @@ translate ru strings:
     old "Tracked him for weeks, though he didn't seem that interested in hiding."
     new ""
 
-    # c3_captives.rpy:17563, c3_captives.rpy:17801 (+2 more)
+    # c3_captives.rpy:17563, c3_captives.rpy:17801, c5_harem.rpy:15460, c5_harem.rpy:15692
     old "Try something else."
     new ""
 
@@ -11215,11 +11247,11 @@ translate ru strings:
     old "USE YOUR HANDS."
     new ""
 
-    # c3_captives.rpy:51540, c3_captures.rpy:3398 (+2 more)
+    # c3_captives.rpy:51540, c3_captures.rpy:3398, c3_captures.rpy:4018, c3_hordes.rpy:9994
     old "Ugh."
     new ""
 
-    # c3_captives.rpy:49770, c3_lair.rpy:33779 (+2 more)
+    # c3_captives.rpy:49770, c3_lair.rpy:33779, c5_harem.rpy:58409, c6_harem.rpy:26702
     old "Ughagh!"
     new ""
 
@@ -11231,11 +11263,11 @@ translate ru strings:
     old "Uh..."
     new ""
 
-    # c3_captives.rpy:24680, c3_captives.rpy:24907 (+1 more)
+    # c3_captives.rpy:24680, c3_captives.rpy:24907, c3_captives.rpy:25412
     old "Uhaaah!"
     new ""
 
-    # c3_captives.rpy:41698, c3_captives.rpy:41759 (+2 more)
+    # c3_captives.rpy:41698, c3_captives.rpy:41759, c3_captives.rpy:41796, c3_captives.rpy:41848
     old "Uhm."
     new ""
 
@@ -11247,7 +11279,7 @@ translate ru strings:
     old "Um..."
     new ""
 
-    # c3_captives.rpy:34736, c4_waifu.rpy:27775 (+1 more)
+    # c3_captives.rpy:34736, c4_waifu.rpy:27775, c4_waifu.rpy:28927
     old "Undaunted, you push in further."
     new ""
 
@@ -11279,7 +11311,7 @@ translate ru strings:
     old "Until next time, that is."
     new ""
 
-    # c3_captives.rpy:46389, c3_captives.rpy:46455 (+7 more)
+    # c3_captives.rpy:46389, c3_captives.rpy:46455, c3_captives.rpy:46603, c5_harem.rpy:58796, c5_harem.rpy:58855 (+4 more)
     old "Until that time she shall remain on the cold stone floor, leaking your seed like a discarded water-skin."
     new ""
 
@@ -11299,7 +11331,7 @@ translate ru strings:
     old "Using your free claw to grip his slight waist, you begin to pump his lithe form up and down upon your cock, reducing the kobold to a mere toy for your pleasure."
     new ""
 
-    # c3_captives.rpy:12046, c3_captives.rpy:12092 (+6 more)
+    # c3_captives.rpy:12046, c3_captives.rpy:12092, c3_captives.rpy:12798, c3_hordes.rpy:5579, c3_lair.rpy:557 (+3 more)
     old "VERY GOOD."
     new ""
 
@@ -11339,11 +11371,11 @@ translate ru strings:
     old "Valzira stares, incredulous, as the farmgirl turns away from her."
     new ""
 
-    # c3_captives.rpy:46339, c3_lair.rpy:7408 (+3 more)
+    # c3_captives.rpy:46339, c3_lair.rpy:7408, c4_waifu.rpy:34802, c5_harem.rpy:58754, c6_harem.rpy:27045
     old "Valzira's eyes glaze over as the infernal torrent rushes up through her, fills her, forcing a climax from her useless, unwilling body."
     new ""
 
-    # c3_captives.rpy:46570, c3_lair.rpy:7613 (+3 more)
+    # c3_captives.rpy:46570, c3_lair.rpy:7613, c4_waifu.rpy:34601, c5_harem.rpy:58957, c6_harem.rpy:27246
     old "Valzira's eyes glaze over as the infernal torrent rushes up through her, fills her."
     new ""
 
@@ -11387,7 +11419,7 @@ translate ru strings:
     old "W-wouldn't you rather, ah, have your pleasure from my mouth?"
     new ""
 
-    # c3_captives.rpy:16350, c3_captives.rpy:18581 (+1 more)
+    # c3_captives.rpy:16350, c3_captives.rpy:18581, c3_captives.rpy:22889
     old "WANT A BATH?"
     new ""
 
@@ -11423,15 +11455,15 @@ translate ru strings:
     old "WE WILL FIND YOU NEW CLOTHING."
     new ""
 
-    # c3_captives.rpy:43469, c5_harem.rpy:55072 (+1 more)
+    # c3_captives.rpy:43469, c5_harem.rpy:55072, c6_harem.rpy:23196
     old "WEAR SOMETHING MORE BEFITTING A SERVANT."
     new ""
 
-    # c3_captives.rpy:36478, c3_hordes.rpy:9104 (+11 more)
+    # c3_captives.rpy:36478, c3_hordes.rpy:9104, c3_hordes.rpy:22543, c4_waifu.rpy:5526, c4_waifu.rpy:30094 (+8 more)
     old "WHAT ARE YOU DOING?"
     new ""
 
-    # c3_captives.rpy:20506, c4_waifu.rpy:34320 (+2 more)
+    # c3_captives.rpy:20506, c4_waifu.rpy:34320, c5_forces.rpy:1675, c5_harem.rpy:27220
     old "WHAT DO YOU MEAN?"
     new ""
 
@@ -11439,7 +11471,7 @@ translate ru strings:
     old "WHAT HAPPENED HERE?"
     new ""
 
-    # c3_captives.rpy:44292, c3_captives.rpy:48810 (+2 more)
+    # c3_captives.rpy:44292, c3_captives.rpy:48810, c3_captives.rpy:51744, c5_forces.rpy:4226
     old "WHAT HAPPENED?"
     new ""
 
@@ -11459,7 +11491,7 @@ translate ru strings:
     old "WHAT IS THIS GODDESS?"
     new ""
 
-    # c3_captives.rpy:13571, c3_captives.rpy:15127 (+2 more)
+    # c3_captives.rpy:13571, c3_captives.rpy:15127, c4_capital.rpy:6910, c4_cove.rpy:2675
     old "WHAT IS THIS?"
     new ""
 
@@ -11491,15 +11523,15 @@ translate ru strings:
     old "WHO IS SHE?"
     new ""
 
-    # c3_captives.rpy:16261, c3_captives.rpy:18511 (+2 more)
+    # c3_captives.rpy:16261, c3_captives.rpy:18511, c5_harem.rpy:18697, c5_harem.rpy:19815
     old "WHO SENT YOU?"
     new ""
 
-    # c3_captives.rpy:33825, c3_lair.rpy:48376 (+5 more)
+    # c3_captives.rpy:33825, c3_lair.rpy:48376, c4_waifu.rpy:25053, c4_waifu.rpy:27608, c5_harem.rpy:14946 (+2 more)
     old "WHOOPS."
     new ""
 
-    # c3_captives.rpy:46922, c3_captives.rpy:47005 (+2 more)
+    # c3_captives.rpy:46922, c3_captives.rpy:47005, c5_harem.rpy:56609, c6_harem.rpy:24424
     old "WHY DID YOU LET ME GO?"
     new ""
 
@@ -11511,16 +11543,20 @@ translate ru strings:
     old "WHY DO YOU DRINK?"
     new ""
 
-    # c3_captives.rpy:46955, c3_captives.rpy:47038 (+2 more)
+    # c3_captives.rpy:46955, c3_captives.rpy:47038, c5_harem.rpy:56638, c6_harem.rpy:24453
     old "WHY DO YOU HATE ME?"
     new ""
 
-    # c3_captives.rpy:16275, c3_captives.rpy:18525 (+2 more)
+    # c3_captives.rpy:16275, c3_captives.rpy:18525, c5_harem.rpy:18711, c5_harem.rpy:19829
     old "WHY HUNT ME?"
     new ""
 
-    # c3_captives.rpy:31146, c3_captives.rpy:48821 (+1 more)
+    # c3_captives.rpy:31146, c3_captives.rpy:48821, c5_harem.rpy:47063
     old "WHY WOULD YOU DO THIS?"
+    new ""
+
+    # c3_captives.rpy:20907
+    old "WON"
     new ""
 
     # c3_captives.rpy:4285
@@ -11539,7 +11575,7 @@ translate ru strings:
     old "Wait a second, my Lady! Y-you don't mean..."
     new ""
 
-    # c3_captives.rpy:7455, c3_captives.rpy:19156 (+3 more)
+    # c3_captives.rpy:7455, c3_captives.rpy:19156, c3_captives.rpy:23321, c3_lair.rpy:5019, c5_harem.rpy:20454
     old "Wait!"
     new ""
 
@@ -11551,7 +11587,7 @@ translate ru strings:
     old "Wait, wait!"
     new ""
 
-    # c3_captives.rpy:30891, c3_captives.rpy:31188 (+3 more)
+    # c3_captives.rpy:30891, c3_captives.rpy:31188, c4_waifu.rpy:20433, c5_harem.rpy:46818, c5_harem.rpy:47105
     old "Wake Inej."
     new ""
 
@@ -11579,7 +11615,7 @@ translate ru strings:
     old "Watch her awhile."
     new ""
 
-    # c3_captives.rpy:31716, c4_waifu.rpy:29887 (+2 more)
+    # c3_captives.rpy:31716, c4_waifu.rpy:29887, c4_waifu.rpy:30367, c5_harem.rpy:47627
     old "Watch."
     new ""
 
@@ -11595,11 +11631,11 @@ translate ru strings:
     old "We can hardly expect the dragon to go easy on us if you're not going to please him properly."
     new ""
 
-    # c3_captives.rpy:7856, c3_captives.rpy:9177 (+4 more)
+    # c3_captives.rpy:7856, c3_captives.rpy:9177, c4_waifu.rpy:6277, c4_waifu.rpy:6621, c5_harem.rpy:10043 (+1 more)
     old "We can just try again!"
     new ""
 
-    # c3_captives.rpy:5355, c3_captives.rpy:33811 (+1 more)
+    # c3_captives.rpy:5355, c3_captives.rpy:33811, c3_captives.rpy:33842
     old "We done here?"
     new ""
 
@@ -11647,7 +11683,7 @@ translate ru strings:
     old "Well Inej, looks like your side wins this one."
     new ""
 
-    # c3_captives.rpy:28236, c3_captives.rpy:28424 (+2 more)
+    # c3_captives.rpy:28236, c3_captives.rpy:28424, c5_harem.rpy:44196, c5_harem.rpy:44383
     old "Well observed, Inej."
     new ""
 
@@ -11675,7 +11711,7 @@ translate ru strings:
     old "Well, it's reassuring to know I'm not alone in my fears."
     new ""
 
-    # c3_captives.rpy:49229, c3_lair.rpy:33547 (+2 more)
+    # c3_captives.rpy:49229, c3_lair.rpy:33547, c5_harem.rpy:57964, c6_harem.rpy:26259
     old "Well, lucky for her, you have a meal ready."
     new ""
 
@@ -11731,7 +11767,11 @@ translate ru strings:
     old "What do you reckon, boy?"
     new ""
 
-    # c3_captives.rpy:51567, c3_captives.rpy:51596 (+4 more)
+    # c3_captives.rpy:13895, c3_captives.rpy:14597, c3_captives.rpy:15826, c3_captives.rpy:37434, c3_captives.rpy:37513 (+11 more)
+    old "What do you want to call him?"
+    new ""
+
+    # c3_captives.rpy:51567, c3_captives.rpy:51596, c3_captives.rpy:51993, c3_captives.rpy:52026, c3_captives.rpy:52052 (+1 more)
     old "What do you want, then?"
     new ""
 
@@ -11751,7 +11791,11 @@ translate ru strings:
     old "What should I be called, then?"
     new ""
 
-    # c3_captives.rpy:35227, c3_captives.rpy:35247 (+1 more)
+    # c3_captives.rpy:7381
+    old "What should she call you?"
+    new ""
+
+    # c3_captives.rpy:35227, c3_captives.rpy:35247, c3_captives.rpy:35259
     old "What the fuck do you want?"
     new ""
 
@@ -11771,7 +11815,7 @@ translate ru strings:
     old "What, then."
     new ""
 
-    # c3_captives.rpy:7517, c3_captives.rpy:25560 (+13 more)
+    # c3_captives.rpy:7517, c3_captives.rpy:25560, c3_captives.rpy:47530, c3_hordes.rpy:6858, c4_waifu.rpy:13692 (+10 more)
     old "What?"
     new ""
 
@@ -11795,7 +11839,7 @@ translate ru strings:
     old "Whatever the case, no fearful signs of miscarriage manifest, leaving the elf as doomed to her fate today as she was the day before."
     new ""
 
-    # c3_captives.rpy:49879, c3_lair.rpy:33903 (+2 more)
+    # c3_captives.rpy:49879, c3_lair.rpy:33903, c5_harem.rpy:58530, c6_harem.rpy:26822
     old "Whatever the source of her strange durability, it seems unlikely that she will ever fully recover."
     new ""
 
@@ -11875,7 +11919,7 @@ translate ru strings:
     old "When you've twisted her far as she will go one way, you turn her nipple back in the other direction."
     new ""
 
-    # c3_captives.rpy:45168, c4_waifu.rpy:31625 (+1 more)
+    # c3_captives.rpy:45168, c4_waifu.rpy:31625, c5_harem.rpy:55533
     old "When your climax begins to build, all it takes is [nameTrap!t]'s hot palm cupping your sac, coaxing, to drag you into roaring ecstasy."
     new ""
 
@@ -11891,7 +11935,7 @@ translate ru strings:
     old "While she fusses with her long socks, you glare at [nameDrunk!t], a cold and wordless message."
     new ""
 
-    # c3_captives.rpy:54504, c3_captives.rpy:55134 (+1 more)
+    # c3_captives.rpy:54504, c3_captives.rpy:55134, c5_harem.rpy:65711
     old "While she screams, her ass continues to goad you on with its crushing pressure and furnace heat."
     new ""
 
@@ -11915,7 +11959,7 @@ translate ru strings:
     old "White cream floods from her gaping cunt and gushes down between her thighs like a miniature waterfall, forming a puddle on the floor."
     new ""
 
-    # c3_captives.rpy:46349, c3_lair.rpy:7415 (+3 more)
+    # c3_captives.rpy:46349, c3_lair.rpy:7415, c4_waifu.rpy:34812, c5_harem.rpy:58761, c6_harem.rpy:27052
     old "White fluid gushes around the base of your cock, and splatters heavily onto the ground as you withdraw."
     new ""
 
@@ -11923,7 +11967,7 @@ translate ru strings:
     old "White seed bursts from your twitching cockhead, marking both women's faces with long pearlescent ropes."
     new ""
 
-    # c3_captives.rpy:39, c3_hordes.rpy:8 (+1 more)
+    # c3_captives.rpy:39, c3_hordes.rpy:8, c5_forces.rpy:5
     old "Who do you wish to see?"
     new ""
 
@@ -11947,7 +11991,7 @@ translate ru strings:
     old "Why waste words putting [nameTrader!t] in her place, when each merciless pump of your hips tells her exactly what she is to you now?"
     new ""
 
-    # c3_captives.rpy:2461, c5_harem.rpy:2349 (+1 more)
+    # c3_captives.rpy:2461, c5_harem.rpy:2349, c5_harem.rpy:5203
     old "Wildly she reaches out to grab the wrists of your forelegs, nails digging tight as she begins to seethe."
     new ""
 
@@ -11963,19 +12007,19 @@ translate ru strings:
     old "With a beckon of your wing, you summon a throng of kobolds into the room."
     new ""
 
-    # c3_captives.rpy:49504, c5_harem.rpy:58173 (+1 more)
+    # c3_captives.rpy:49504, c5_harem.rpy:58173, c6_harem.rpy:26466
     old "With a bellowing roar of triumph, you release yourself within her, scouring her cunt with thick, heavy ropes of virile seed."
     new ""
 
-    # c3_captives.rpy:2864, c5_harem.rpy:2624 (+1 more)
+    # c3_captives.rpy:2864, c5_harem.rpy:2624, c5_harem.rpy:5456
     old "With a bright surge of pleasure, you empty yourself into her bowels."
     new ""
 
-    # c3_captives.rpy:28970, c3_captives.rpy:32226 (+3 more)
+    # c3_captives.rpy:28970, c3_captives.rpy:32226, c4_waifu.rpy:25590, c5_harem.rpy:45084, c5_harem.rpy:48126
     old "With a concerted shake of her head and a wet pop, Sabetha manages to pull her head free."
     new ""
 
-    # c3_captives.rpy:29131, c3_captives.rpy:32366 (+3 more)
+    # c3_captives.rpy:29131, c3_captives.rpy:32366, c4_waifu.rpy:25730, c5_harem.rpy:45234, c5_harem.rpy:48253
     old "With a deep, low growl, the combination of Sabetha's tight throat and Inej's touch sends you over the edge."
     new ""
 
@@ -11995,7 +12039,7 @@ translate ru strings:
     old "With a grunt of effort, you pull your cock away."
     new ""
 
-    # c3_captives.rpy:46102, c5_harem.rpy:58558 (+1 more)
+    # c3_captives.rpy:46102, c5_harem.rpy:58558, c6_harem.rpy:26849
     old "With a harsh iron ring, the collar gives, and gravity takes Valzira in a very difficult hold."
     new ""
 
@@ -12011,7 +12055,7 @@ translate ru strings:
     old "With a low growl you release him, his limp legs buckling and sending him crashing to the ground."
     new ""
 
-    # c3_captives.rpy:46489, c3_lair.rpy:7537 (+3 more)
+    # c3_captives.rpy:46489, c3_lair.rpy:7537, c4_waifu.rpy:34532, c5_harem.rpy:58889, c6_harem.rpy:27179
     old "With a renewed wrench of force, you finally squeeze the head of your cock into the snug, hot press of her bowels."
     new ""
 
@@ -12023,7 +12067,7 @@ translate ru strings:
     old "With a rumbling growl, you pull your cock free, and a viscous stream of cum spills from his gaping ass."
     new ""
 
-    # c3_captives.rpy:24716, c3_captives.rpy:24943 (+1 more)
+    # c3_captives.rpy:24716, c3_captives.rpy:24943, c3_captives.rpy:25448
     old "With a satisfied sigh, you pull your sticky cock from inside her, leaving her legs sprawled open and her elven pussy gaping wide."
     new ""
 
@@ -12035,7 +12079,7 @@ translate ru strings:
     old "With a single talon, you pry his loins free, watching as his cock swings limply beneath his supple ass."
     new ""
 
-    # c3_captives.rpy:10060, c3_captives.rpy:10850 (+3 more)
+    # c3_captives.rpy:10060, c3_captives.rpy:10850, c4_waifu.rpy:11433, c4_waifu.rpy:12013, c5_harem.rpy:11928
     old "With a soft smile, she gazes up at you, strangely serene."
     new ""
 
@@ -12059,7 +12103,7 @@ translate ru strings:
     old "With an effusive bow, he scuttles back to follow the rest of the horde."
     new ""
 
-    # c3_captives.rpy:34242, c3_captives.rpy:35801 (+1 more)
+    # c3_captives.rpy:34242, c3_captives.rpy:35801, c5_harem.rpy:53315
     old "With both of your foreclaws, you seize her wrists and slam them back down onto the mattress."
     new ""
 
@@ -12079,7 +12123,7 @@ translate ru strings:
     old "With her body pinned beneath one leg for leverage, you yank her head to the side as hard as you can."
     new ""
 
-    # c3_captives.rpy:18972, c3_captives.rpy:23137 (+1 more)
+    # c3_captives.rpy:18972, c3_captives.rpy:23137, c5_harem.rpy:20270
     old "With her hands still hesitating several inches from your cock, you thrust your hips forward and shove your flesh directly into her grip."
     new ""
 
@@ -12107,11 +12151,11 @@ translate ru strings:
     old "With murder dancing at the forefront of your thoughts, you clamp a foreclaw about her skull and bear her cheek down into the hard floor."
     new ""
 
-    # c3_captives.rpy:46508, c3_lair.rpy:7555 (+3 more)
+    # c3_captives.rpy:46508, c3_lair.rpy:7555, c4_waifu.rpy:34552, c5_harem.rpy:58907, c6_harem.rpy:27197
     old "With neither hesitation nor mercy, you pull her down, hard."
     new ""
 
-    # c3_captives.rpy:46480, c3_lair.rpy:7528 (+3 more)
+    # c3_captives.rpy:46480, c3_lair.rpy:7528, c4_waifu.rpy:34530, c5_harem.rpy:58883, c6_harem.rpy:27173
     old "With nothing but your own fluids to ease the way, this will be tight going, but you need not fear that your enjoyment will break her."
     new ""
 
@@ -12135,7 +12179,7 @@ translate ru strings:
     old "With one paw you turn her head to the side, forcing her to see you leering down at her out of the corner of her eye as you ruin her cunt."
     new ""
 
-    # c3_captives.rpy:46658, c3_captives.rpy:49998 (+1 more)
+    # c3_captives.rpy:46658, c3_captives.rpy:49998, c3_captives.rpy:50303
     old "With pleasure, you note that she is still stuck on the floor, exactly where you left her."
     new ""
 
@@ -12151,7 +12195,7 @@ translate ru strings:
     old "With that ill-advised interruption out of the way, you refocus your thoughts on Valzira."
     new ""
 
-    # c3_captives.rpy:46193, c3_lair.rpy:7260 (+3 more)
+    # c3_captives.rpy:46193, c3_lair.rpy:7260, c4_waifu.rpy:34687, c5_harem.rpy:58635, c6_harem.rpy:26926
     old "With your claws gripped tight about her waist, she can do little else but struggle and clench helplessly as her body descends onto your cock."
     new ""
 
@@ -12187,7 +12231,7 @@ translate ru strings:
     old "Without waiting for an answer, she spins around and plants herself on the floor."
     new ""
 
-    # c3_captives.rpy:45160, c4_waifu.rpy:31617 (+1 more)
+    # c3_captives.rpy:45160, c4_waifu.rpy:31617, c5_harem.rpy:55527
     old "Without warning, he swallows you down once more, and begins working his mouth back and forth as a low rumble escapes you unbidden."
     new ""
 
@@ -12243,7 +12287,7 @@ translate ru strings:
     old "Y-you're going to fuck me again, aren't you?"
     new ""
 
-    # c3_captives.rpy:16303, c3_captives.rpy:18553 (+2 more)
+    # c3_captives.rpy:16303, c3_captives.rpy:18553, c5_harem.rpy:18739, c5_harem.rpy:19857
     old "YOU ARE A DRAGONSLAYER?"
     new ""
 
@@ -12251,7 +12295,7 @@ translate ru strings:
     old "YOU ARE DISGUSTING."
     new ""
 
-    # c3_captives.rpy:38558, c3_hordes.rpy:3000 (+4 more)
+    # c3_captives.rpy:38558, c3_hordes.rpy:3000, c3_hordes.rpy:3125, c4_waifu.rpy:29953, c5_harem.rpy:27326 (+1 more)
     old "YOU ARE FORGIVEN."
     new ""
 
@@ -12263,7 +12307,7 @@ translate ru strings:
     old "YOU ARE IMMACULATE AS YOU ARE."
     new ""
 
-    # c3_captives.rpy:10133, c3_captives.rpy:10185 (+2 more)
+    # c3_captives.rpy:10133, c3_captives.rpy:10185, c3_captives.rpy:37057, c5_harem.rpy:42106
     old "YOU ARE MINE."
     new ""
 
@@ -12315,7 +12359,7 @@ translate ru strings:
     old "YOU FUCK ANIMALS?"
     new ""
 
-    # c3_captives.rpy:32850, c4_waifu.rpy:16624 (+1 more)
+    # c3_captives.rpy:32850, c4_waifu.rpy:16624, c4_waifu.rpy:16768
     old "YOU HAVE NO IDEA."
     new ""
 
@@ -12323,7 +12367,7 @@ translate ru strings:
     old "YOU HAVE... GROWN."
     new ""
 
-    # c3_captives.rpy:9497, c3_captives.rpy:11913 (+2 more)
+    # c3_captives.rpy:9497, c3_captives.rpy:11913, c3_captives.rpy:12657, c4_waifu.rpy:11053
     old "YOU LIKE ANIMALS?"
     new ""
 
@@ -12335,7 +12379,7 @@ translate ru strings:
     old "YOU MAY REST."
     new ""
 
-    # c3_captives.rpy:39431, c3_captives.rpy:39516 (+1 more)
+    # c3_captives.rpy:39431, c3_captives.rpy:39516, c3_captives.rpy:41313
     old "YOU MUST BE PUNISHED."
     new ""
 
@@ -12371,15 +12415,15 @@ translate ru strings:
     old "YOU WILL WEAR THIS."
     new ""
 
-    # c3_captives.rpy:10881, c3_captives.rpy:51970 (+2 more)
+    # c3_captives.rpy:10881, c3_captives.rpy:51970, c4_waifu.rpy:12037, c6_harem.rpy:2828
     old "YOU WILL."
     new ""
 
-    # c3_captives.rpy:36917, c3_captives.rpy:44995 (+12 more)
+    # c3_captives.rpy:36917, c3_captives.rpy:44995, c3_captives.rpy:45015, c4_waifu.rpy:9433, c4_waifu.rpy:16885 (+9 more)
     old "YOUR ASS."
     new ""
 
-    # c3_captives.rpy:11876, c3_captives.rpy:11961 (+3 more)
+    # c3_captives.rpy:11876, c3_captives.rpy:11961, c3_captives.rpy:12725, c3_captives.rpy:51647, c3_captives.rpy:51673
     old "YOUR BODY."
     new ""
 
@@ -12387,11 +12431,11 @@ translate ru strings:
     old "YOUR BRETHREN."
     new ""
 
-    # c3_captives.rpy:2729, c5_harem.rpy:2522 (+1 more)
+    # c3_captives.rpy:2729, c5_harem.rpy:2522, c5_harem.rpy:5352
     old "YOUR CUNT SERVES ALL THAT I COMMAND."
     new ""
 
-    # c3_captives.rpy:36908, c4_waifu.rpy:4389 (+12 more)
+    # c3_captives.rpy:36908, c4_waifu.rpy:4389, c4_waifu.rpy:4464, c4_waifu.rpy:4535, c4_waifu.rpy:9424 (+9 more)
     old "YOUR CUNT."
     new ""
 
@@ -12415,15 +12459,15 @@ translate ru strings:
     old "YOUR FORM."
     new ""
 
-    # c3_captives.rpy:44982, c3_captives.rpy:45006 (+15 more)
+    # c3_captives.rpy:44982, c3_captives.rpy:45006, c4_waifu.rpy:11309, c4_waifu.rpy:12350, c4_waifu.rpy:16804 (+12 more)
     old "YOUR MOUTH."
     new ""
 
-    # c3_captives.rpy:11949, c3_captives.rpy:12713 (+5 more)
+    # c3_captives.rpy:11949, c3_captives.rpy:12713, c3_captives.rpy:44220, c5_harem.rpy:64345, c5_harem.rpy:64354 (+2 more)
     old "YOUR NAME."
     new ""
 
-    # c3_captives.rpy:44208, c3_captives.rpy:51661 (+3 more)
+    # c3_captives.rpy:44208, c3_captives.rpy:51661, c3_hordes.rpy:19764, c4_capital.rpy:7815, c4_waifu.rpy:31216
     old "YOUR PAST."
     new ""
 
@@ -12435,7 +12479,7 @@ translate ru strings:
     old "Yah!"
     new ""
 
-    # c3_captives.rpy:5485, c3_captives.rpy:7544 (+7 more)
+    # c3_captives.rpy:5485, c3_captives.rpy:7544, c3_captives.rpy:7880, c3_captives.rpy:8407, c3_captives.rpy:8585 (+4 more)
     old "Yay!"
     new ""
 
@@ -12459,11 +12503,11 @@ translate ru strings:
     old "Yes, I'm counting on our divine Mother to make sure of that."
     new ""
 
-    # c3_captives.rpy:2668, c5_harem.rpy:2473 (+1 more)
+    # c3_captives.rpy:2668, c5_harem.rpy:2473, c5_harem.rpy:5302
     old "Yes, come on, yes..."
     new ""
 
-    # c3_captives.rpy:10651, c4_waifu.rpy:11846 (+2 more)
+    # c3_captives.rpy:10651, c4_waifu.rpy:11846, c5_harem.rpy:3923, c5_harem.rpy:12751
     old "Yes..."
     new ""
 
@@ -12487,7 +12531,7 @@ translate ru strings:
     old "You advance into the chamber, bringing the hard length of your cock in front of where she dangles."
     new ""
 
-    # c3_captives.rpy:19131, c3_captives.rpy:23296 (+1 more)
+    # c3_captives.rpy:19131, c3_captives.rpy:23296, c5_harem.rpy:20429
     old "You allow her to turn her head to the side as your climax erupts, distilling into a point of heat in your loins and then bursting open in a flood."
     new ""
 
@@ -12519,11 +12563,11 @@ translate ru strings:
     old "You approach, your snout moving to her folds, reaching out to lap at the tight folds of her cunt."
     new ""
 
-    # c3_captives.rpy:49683, c3_lair.rpy:33678 (+2 more)
+    # c3_captives.rpy:49683, c3_lair.rpy:33678, c5_harem.rpy:58339, c6_harem.rpy:26632
     old "You are about to find out."
     new ""
 
-    # c3_captives.rpy:24658, c3_captives.rpy:24887 (+1 more)
+    # c3_captives.rpy:24658, c3_captives.rpy:24887, c3_captives.rpy:25398
     old "You are all too happy to oblige."
     new ""
 
@@ -12535,7 +12579,7 @@ translate ru strings:
     old "You are pleased to see that the Inquisitrix has not moved from where you left her."
     new ""
 
-    # c3_captives.rpy:45452, c4_waifu.rpy:31833 (+1 more)
+    # c3_captives.rpy:45452, c4_waifu.rpy:31833, c5_harem.rpy:55793
     old "You are vaguely aware of him reaching back to prepare himself, his hand now slick with your natural lubrication, but your attention is elsewhere."
     new ""
 
@@ -12551,7 +12595,7 @@ translate ru strings:
     old "You bear down with your fanged grip and twist your head to the side, pulling her nipple with it."
     new ""
 
-    # c3_captives.rpy:30193, c4_waifu.rpy:26228 (+1 more)
+    # c3_captives.rpy:30193, c4_waifu.rpy:26228, c5_harem.rpy:46277
     old "You begin the complicated process of extracting yourself from the impaled catgirl, without becoming wound up in her bonds."
     new ""
 
@@ -12563,7 +12607,7 @@ translate ru strings:
     old "You begin to tease his tight ass with your serpentine tongue, earning a mewling gasp as he begins to gyrate against your jaws, working you deeper."
     new ""
 
-    # c3_captives.rpy:19072, c3_captives.rpy:23237 (+1 more)
+    # c3_captives.rpy:19072, c3_captives.rpy:23237, c5_harem.rpy:20370
     old "You begin to thrust into her hands each time she pushes back toward your knot, fucking her grip as though it were one of her holes."
     new ""
 
@@ -12583,7 +12627,7 @@ translate ru strings:
     old "You broke her, and then broke her again, sublimating fury into passion."
     new ""
 
-    # c3_captives.rpy:19158, c3_captives.rpy:23323 (+1 more)
+    # c3_captives.rpy:19158, c3_captives.rpy:23323, c5_harem.rpy:20456
     old "You buck your hips a final time into her grip and the dam of delight bursts open."
     new ""
 
@@ -12603,7 +12647,7 @@ translate ru strings:
     old "You can feel his breath on you as he continues to taste her, heat blooming in urgent waves with every lap."
     new ""
 
-    # c3_captives.rpy:30071, c4_waifu.rpy:26116 (+1 more)
+    # c3_captives.rpy:30071, c4_waifu.rpy:26116, c5_harem.rpy:46161
     old "You can resume your rutting."
     new ""
 
@@ -12631,7 +12675,7 @@ translate ru strings:
     old "You catch a final shock of alarm in widening eyes before the crimson tide swallows her."
     new ""
 
-    # c3_captives.rpy:44960, c4_waifu.rpy:31463 (+1 more)
+    # c3_captives.rpy:44960, c4_waifu.rpy:31463, c5_harem.rpy:55331
     old "You catch a glimpse of satisfaction in [nameTrap!t]'s eyes, and he bows his head demurely."
     new ""
 
@@ -12675,7 +12719,7 @@ translate ru strings:
     old "You cut shallowly, which makes the lines much finer and more precise and also minimizes the blood that wells up now and again from such fresh wounds."
     new ""
 
-    # c3_captives.rpy:53682, c3_captives.rpy:54024 (+1 more)
+    # c3_captives.rpy:53682, c3_captives.rpy:54024, c3_captives.rpy:54133
     old "You decide to leave her like that, at least until she's regained her strength, and follow in Eburon's wake."
     new ""
 
@@ -12707,7 +12751,7 @@ translate ru strings:
     old "You dig in your talons and advance, forcing her to backpedal lest she trip and find herself suspended from your grip."
     new ""
 
-    # c3_captives.rpy:49393, c5_harem.rpy:58089 (+1 more)
+    # c3_captives.rpy:49393, c5_harem.rpy:58089, c6_harem.rpy:26382
     old "You dig your talons into her skull and, baring your fangs, drive your hips forward in a brutal thrust."
     new ""
 
@@ -12727,7 +12771,7 @@ translate ru strings:
     old "You do not feel eyes upon you as you oblige."
     new ""
 
-    # c3_captives.rpy:19127, c3_captives.rpy:23292 (+1 more)
+    # c3_captives.rpy:19127, c3_captives.rpy:23292, c5_harem.rpy:20425
     old "You do not feel the need to compound her indignities."
     new ""
 
@@ -12743,7 +12787,7 @@ translate ru strings:
     old "You do not move far from her, but you allow her room to recover."
     new ""
 
-    # c3_captives.rpy:18865, c3_captives.rpy:23030 (+1 more)
+    # c3_captives.rpy:18865, c3_captives.rpy:23030, c5_harem.rpy:20163
     old "You do not release her, but nor do you allow her to draw her leg back."
     new ""
 
@@ -12771,7 +12815,7 @@ translate ru strings:
     old "You don't know how many times she must have tried to scratch her itch, but it doesn't seem to have been enough."
     new ""
 
-    # c3_captives.rpy:24688, c3_captives.rpy:24915 (+1 more)
+    # c3_captives.rpy:24688, c3_captives.rpy:24915, c3_captives.rpy:25420
     old "You don't know if it's some mere glamour or something innate to her, but you resolve on making the best use of your treasure that you can."
     new ""
 
@@ -12827,7 +12871,7 @@ translate ru strings:
     old "You erupt inside her, washing her womb with hot and heavy jets of your seed."
     new ""
 
-    # c3_captives.rpy:30174, c4_waifu.rpy:26204 (+1 more)
+    # c3_captives.rpy:30174, c4_waifu.rpy:26204, c5_harem.rpy:46259
     old "You erupt."
     new ""
 
@@ -12847,7 +12891,7 @@ translate ru strings:
     old "You favour them with another long lick before draping your tongue over both at once, worming the flat of it between their lower lips."
     new ""
 
-    # c3_captives.rpy:32224, c4_waifu.rpy:25588 (+1 more)
+    # c3_captives.rpy:32224, c4_waifu.rpy:25588, c5_harem.rpy:48124
     old "You feel Inej's slender hands envelop your member, guiding it in."
     new ""
 
@@ -12863,7 +12907,7 @@ translate ru strings:
     old "You feel more than hear it, feel the way her body opens up to you, the way resistance and structure collapses."
     new ""
 
-    # c3_captives.rpy:49820, c3_lair.rpy:33830 (+2 more)
+    # c3_captives.rpy:49820, c3_lair.rpy:33830, c5_harem.rpy:58461, c6_harem.rpy:26753
     old "You feel your climax coming, a surging fiery need that swells at the base of your cock as it pounds in and out of her ravaged sphincter."
     new ""
 
@@ -12875,7 +12919,7 @@ translate ru strings:
     old "You fill her almost instantly, the sheer force of your ejaculation forcing globs into her womb and spraying excess out around her cunt."
     new ""
 
-    # c3_captives.rpy:7801, c3_captives.rpy:9115 (+1 more)
+    # c3_captives.rpy:7801, c3_captives.rpy:9115, c4_waifu.rpy:6559
     old "You finally obey her, a monstrous roar shaking the walls as you release your load inside her."
     new ""
 
@@ -12915,7 +12959,7 @@ translate ru strings:
     old "You fuck her until the white heat swells in your loins and finds blissful, explosive release into whatever remains of the abbess beneath you."
     new ""
 
-    # c3_captives.rpy:7764, c3_captives.rpy:9076 (+3 more)
+    # c3_captives.rpy:7764, c3_captives.rpy:9076, c4_waifu.rpy:6529, c5_harem.rpy:9939, c6_harem.rpy:6541
     old "You gather speed, the need to release growing more and more tangible, the sound of your heaving breaths drowning out her own, her screams feeding your lust."
     new ""
 
@@ -12927,7 +12971,7 @@ translate ru strings:
     old "You give me too much credit, child."
     new ""
 
-    # c3_captives.rpy:7763, c3_captives.rpy:9075 (+1 more)
+    # c3_captives.rpy:7763, c3_captives.rpy:9075, c4_waifu.rpy:6528
     old "You go even faster, your claws digging into the earth beside her, your weight shifted to shove her onto the ground, leaving her with little room to take your immense thrusts."
     new ""
 
@@ -12995,7 +13039,7 @@ translate ru strings:
     old "You hold there, savouring the tremors that run around your length, as your seed fills her completely."
     new ""
 
-    # c3_captives.rpy:19203, c3_captives.rpy:23368 (+1 more)
+    # c3_captives.rpy:19203, c3_captives.rpy:23368, c5_harem.rpy:20501
     old "You hop down from your propped-up position, framing her freshly messed body with your forelimbs."
     new ""
 
@@ -13015,11 +13059,11 @@ translate ru strings:
     old "You ignore them, pressing further in, using their intertwined bodies as a toy for your pleasure."
     new ""
 
-    # c3_captives.rpy:49481, c5_harem.rpy:58156 (+1 more)
+    # c3_captives.rpy:49481, c5_harem.rpy:58156, c6_harem.rpy:26449
     old "You impress this upon her with a savage thrust, nearly plowing her uplifted thighs into the stone floor beneath her."
     new ""
 
-    # c3_captives.rpy:46256, c3_lair.rpy:7323 (+3 more)
+    # c3_captives.rpy:46256, c3_lair.rpy:7323, c4_waifu.rpy:34734, c5_harem.rpy:58682, c6_harem.rpy:26973
     old "You jerk her down hard onto you, sheathing yourself fully."
     new ""
 
@@ -13063,11 +13107,11 @@ translate ru strings:
     old "You leave her there, in the cold, silent dark, severed from the inner power that provided her with the last vestiges of comfort."
     new ""
 
-    # c3_captives.rpy:49877, c5_harem.rpy:58526 (+1 more)
+    # c3_captives.rpy:49877, c5_harem.rpy:58526, c6_harem.rpy:26818
     old "You leave her there, mumbling and murmuring to herself, in a pool of your own seed."
     new ""
 
-    # c3_captives.rpy:49555, c5_harem.rpy:58205 (+1 more)
+    # c3_captives.rpy:49555, c5_harem.rpy:58205, c6_harem.rpy:26498
     old "You leave her to her fear and humiliation, satisfied that you have done much to crush her imperious spirit."
     new ""
 
@@ -13079,7 +13123,7 @@ translate ru strings:
     old "You leave her, clambering up out of the pit and back to your chamber."
     new ""
 
-    # c3_captives.rpy:53799, c3_captives.rpy:54895 (+1 more)
+    # c3_captives.rpy:53799, c3_captives.rpy:54895, c3_captives.rpy:55056
     old "You leave her, weak and disoriented, as she recovers from the roughness of your fucking."
     new ""
 
@@ -13107,7 +13151,7 @@ translate ru strings:
     old "You let the silence hang, to impress upon her that you can."
     new ""
 
-    # c3_captives.rpy:24687, c3_captives.rpy:24914 (+1 more)
+    # c3_captives.rpy:24687, c3_captives.rpy:24914, c3_captives.rpy:25419
     old "You lick at her ear, evincing a soft whimper, as the delectable taste of her flesh tingles on your tongue."
     new ""
 
@@ -13119,7 +13163,7 @@ translate ru strings:
     old "You lift your free foreclaw to her abdomen and prickle at the taut flesh over her pregnant swell."
     new ""
 
-    # c3_captives.rpy:19092, c3_captives.rpy:23257 (+1 more)
+    # c3_captives.rpy:19092, c3_captives.rpy:23257, c5_harem.rpy:20390
     old "You like this?"
     new ""
 
@@ -13131,7 +13175,7 @@ translate ru strings:
     old "You look up to meet Heloïse's eyes, suspecting treachery, some fresh hypnotic trick."
     new ""
 
-    # c3_captives.rpy:49335, c5_harem.rpy:58052 (+1 more)
+    # c3_captives.rpy:49335, c5_harem.rpy:58052, c6_harem.rpy:26345
     old "You lower your hindquarters to her upraised ass, and she jerks as though struck."
     new ""
 
@@ -13151,7 +13195,7 @@ translate ru strings:
     old "You make the familiar descent to [nameTrap!t]'s chambers, with the vision of [nameWolfgirl!t]'s bloodied form still fresh in your mind."
     new ""
 
-    # c3_captives.rpy:18971, c3_captives.rpy:23136 (+1 more)
+    # c3_captives.rpy:18971, c3_captives.rpy:23136, c5_harem.rpy:20269
     old "You may have had mercy on her, but you are not about to wait upon her to set the pace."
     new ""
 
@@ -13223,7 +13267,7 @@ translate ru strings:
     old "You open up your maw, ready to receive another shot of the heady liquor."
     new ""
 
-    # c3_captives.rpy:46094, c5_harem.rpy:58553 (+1 more)
+    # c3_captives.rpy:46094, c5_harem.rpy:58553, c6_harem.rpy:26844
     old "You pace forward, coiling your neck around to inspect the locking mechanism of Valzira's collar."
     new ""
 
@@ -13243,7 +13287,7 @@ translate ru strings:
     old "You pause at the corner, focusing your hearing on the muted chatter."
     new ""
 
-    # c3_captives.rpy:49290, c5_harem.rpy:58014 (+1 more)
+    # c3_captives.rpy:49290, c5_harem.rpy:58014, c6_harem.rpy:26307
     old "You pause briefly, letting the last of your seed drip down onto her insensate features, before turning to leave."
     new ""
 
@@ -13251,7 +13295,7 @@ translate ru strings:
     old "You pause, revelling for a moment in the marvellous tightness of her grip around you."
     new ""
 
-    # c3_captives.rpy:49459, c5_harem.rpy:58132 (+1 more)
+    # c3_captives.rpy:49459, c5_harem.rpy:58132, c6_harem.rpy:26425
     old "You pay no need to her words, fucking her harder, harder, punishing her for her arrogance, turning her hatred back onto her."
     new ""
 
@@ -13259,7 +13303,7 @@ translate ru strings:
     old "You pick up speed and power, driving your cock deeper, straining her cunt's capacity."
     new ""
 
-    # c3_captives.rpy:46296, c3_lair.rpy:7360 (+3 more)
+    # c3_captives.rpy:46296, c3_lair.rpy:7360, c4_waifu.rpy:34763, c5_harem.rpy:58716, c6_harem.rpy:27007
     old "You pick up the pace, fucking her, using her, battering away her haughty pride with the relentless onslaught of your cock."
     new ""
 
@@ -13271,7 +13315,7 @@ translate ru strings:
     old "You pin her head to the ground beneath your claw, pressing her cheek to the cold stone."
     new ""
 
-    # c3_captives.rpy:49421, c5_harem.rpy:58108 (+1 more)
+    # c3_captives.rpy:49421, c5_harem.rpy:58108, c6_harem.rpy:26401
     old "You pitch yourself into a fierce, greedy rhythm, and each powerful stroke of your hips jerks her body beneath you like a doll."
     new ""
 
@@ -13303,7 +13347,7 @@ translate ru strings:
     old "You politely slay any of your minions who get between you and the exit."
     new ""
 
-    # c3_captives.rpy:49749, c5_harem.rpy:58387 (+1 more)
+    # c3_captives.rpy:49749, c5_harem.rpy:58387, c6_harem.rpy:26680
     old "You press down, with all your weight, as she writhes desperately in place."
     new ""
 
@@ -13311,11 +13355,11 @@ translate ru strings:
     old "You pull back, leaving [nameFangirl!t] mewling, to give [nameDrunk!t] room to climb on top."
     new ""
 
-    # c3_captives.rpy:49210, c3_lair.rpy:33532 (+2 more)
+    # c3_captives.rpy:49210, c3_lair.rpy:33532, c5_harem.rpy:57945, c6_harem.rpy:26240
     old "You pull out, giving her a momentary reprieve, only to slap her in the face with your cock."
     new ""
 
-    # c3_captives.rpy:49169, c3_lair.rpy:33492 (+2 more)
+    # c3_captives.rpy:49169, c3_lair.rpy:33492, c5_harem.rpy:57909, c6_harem.rpy:26204
     old "You pull your cock from her mouth, the length of your shaft coated in saliva and pre-cum."
     new ""
 
@@ -13355,7 +13399,7 @@ translate ru strings:
     old "You regret not being able to hear her voice, but even the touch of her lips and tongue is somewhat intoxicating, as are her wordless moans as she does her best to please your massive cock."
     new ""
 
-    # c3_captives.rpy:18948, c3_captives.rpy:23113 (+1 more)
+    # c3_captives.rpy:18948, c3_captives.rpy:23113, c5_harem.rpy:20246
     old "You release her ankle and instead plant your claw on the wall above her head, leaving your cock swaying before her."
     new ""
 
@@ -13371,7 +13415,7 @@ translate ru strings:
     old "You release yourself with a shudder and a roar, seed pulsing from your tip in thick, satisfying gouts."
     new ""
 
-    # c3_captives.rpy:49257, c3_lair.rpy:33583 (+2 more)
+    # c3_captives.rpy:49257, c3_lair.rpy:33583, c5_harem.rpy:57984, c6_harem.rpy:26277
     old "You remain anchored inside her, shooting wave after wave of seed into her stomach as it slowly distends."
     new ""
 
@@ -13407,7 +13451,7 @@ translate ru strings:
     old "You return to the drunkard's cell."
     new ""
 
-    # c3_captives.rpy:9242, c3_captives.rpy:9347 (+3 more)
+    # c3_captives.rpy:9242, c3_captives.rpy:9347, c3_captives.rpy:9407, c3_captives.rpy:12552, c3_captives.rpy:12586
     old "You return to the farmgirl's humble lodgings."
     new ""
 
@@ -13423,7 +13467,7 @@ translate ru strings:
     old "You return to the merchant's chamber."
     new ""
 
-    # c3_captives.rpy:46639, c3_captives.rpy:46652 (+2 more)
+    # c3_captives.rpy:46639, c3_captives.rpy:46652, c3_captives.rpy:49992, c3_captives.rpy:50297
     old "You return to the witch's cell."
     new ""
 
@@ -13443,7 +13487,7 @@ translate ru strings:
     old "You round the corner to find [nameFangirl!t] standing in front of the huntress's cell, clasping a candle in her hands."
     new ""
 
-    # c3_captives.rpy:19062, c3_captives.rpy:23227 (+1 more)
+    # c3_captives.rpy:19062, c3_captives.rpy:23227, c5_harem.rpy:20360
     old "You rumble in pleasure, and the sound seems to encourage her."
     new ""
 
@@ -13483,7 +13527,7 @@ translate ru strings:
     old "You seize his throat, earning a wretched gasp as you begin to sink inside."
     new ""
 
-    # c3_captives.rpy:30158, c4_waifu.rpy:26193 (+1 more)
+    # c3_captives.rpy:30158, c4_waifu.rpy:26193, c5_harem.rpy:46246
     old "You set yourself a steady pace, thrusting and retracting with implacable strokes."
     new ""
 
@@ -13495,7 +13539,7 @@ translate ru strings:
     old "You shake off the throb of rage that works at your temples and turn your attention to the elf."
     new ""
 
-    # c3_captives.rpy:24219, c3_lair.rpy:24984 (+2 more)
+    # c3_captives.rpy:24219, c3_lair.rpy:24984, c4_capital.rpy:8927, c4_capital.rpy:9125
     old "You shake your head."
     new ""
 
@@ -13503,11 +13547,11 @@ translate ru strings:
     old "You sidle against a crack in the wall, ready to observe what happens within."
     new ""
 
-    # c3_captives.rpy:30667, c3_dreams.rpy:1568 (+1 more)
+    # c3_captives.rpy:30667, c3_dreams.rpy:1568, c5_harem.rpy:46610
     old "You sit."
     new ""
 
-    # c3_captives.rpy:49237, c3_lair.rpy:33554 (+2 more)
+    # c3_captives.rpy:49237, c3_lair.rpy:33554, c5_harem.rpy:57970, c6_harem.rpy:26265
     old "You slam back into her throat, fucking her relentlessly this time, and without release."
     new ""
 
@@ -13543,7 +13587,7 @@ translate ru strings:
     old "You slow your approach, curious to see how this will play out."
     new ""
 
-    # c3_captives.rpy:7771, c3_captives.rpy:9085 (+3 more)
+    # c3_captives.rpy:7771, c3_captives.rpy:9085, c4_waifu.rpy:6534, c5_harem.rpy:9946, c6_harem.rpy:6549
     old "You slow your thrusts, each stroke striking long and hard, waiting until only the head remains inside, before your entire weight slams her organs nearly into her throat."
     new ""
 
@@ -13563,7 +13607,7 @@ translate ru strings:
     old "You sprawl on your side, the picture of a dragon-king lounging in luxury, enjoying his treasures."
     new ""
 
-    # c3_captives.rpy:49593, c5_harem.rpy:58248 (+1 more)
+    # c3_captives.rpy:49593, c5_harem.rpy:58248, c6_harem.rpy:26541
     old "You spray a heavy, fiery load across Valzira's ass and back, the thick ropes reaching to her neck, where they drool down either side."
     new ""
 
@@ -13571,11 +13615,11 @@ translate ru strings:
     old "You stare expectantly."
     new ""
 
-    # c3_captives.rpy:49604, c5_harem.rpy:58264 (+1 more)
+    # c3_captives.rpy:49604, c5_harem.rpy:58264, c6_harem.rpy:26557
     old "You step away, leaving her clothing torn and soaked in cum."
     new ""
 
-    # c3_captives.rpy:33745, c4_waifu.rpy:27541 (+2 more)
+    # c3_captives.rpy:33745, c4_waifu.rpy:27541, c5_harem.rpy:50956, c5_harem.rpy:53144
     old "You step back, leaving her spitting up mouthfuls of cum, and admire your handiwork."
     new ""
 
@@ -13611,7 +13655,7 @@ translate ru strings:
     old "You take her other ankle and pull likewise, and it too unfolds, leaving her splayed and bare beneath you."
     new ""
 
-    # c3_captives.rpy:49812, c3_lair.rpy:33824 (+2 more)
+    # c3_captives.rpy:49812, c3_lair.rpy:33824, c5_harem.rpy:58451, c6_harem.rpy:26744
     old "You take the opportunity to move faster, gathering your rhythm, never withdrawing, never giving her a moment of reprieve."
     new ""
 
@@ -13651,11 +13695,11 @@ translate ru strings:
     old "You thrust through the resistance, ploughing the willing slut senseless, feeling your own pleasure build to its peak–"
     new ""
 
-    # c3_captives.rpy:28918, c3_captives.rpy:32178 (+3 more)
+    # c3_captives.rpy:28918, c3_captives.rpy:32178, c4_waifu.rpy:25542, c5_harem.rpy:45036, c5_harem.rpy:48080
     old "You thrust your hips forward."
     new ""
 
-    # c3_captives.rpy:49424, c5_harem.rpy:58112 (+1 more)
+    # c3_captives.rpy:49424, c5_harem.rpy:58112, c6_harem.rpy:26405
     old "You thrust your paw beneath the scraps of her ruined garment, savoring the heat of her skin."
     new ""
 
@@ -13779,7 +13823,7 @@ translate ru strings:
     old "You work them out with the points of your tongue as [nameFangirl!t] catches her breath from down on the blood-splattered floor."
     new ""
 
-    # c3_captives.rpy:30081, c4_waifu.rpy:26124 (+1 more)
+    # c3_captives.rpy:30081, c4_waifu.rpy:26124, c5_harem.rpy:46169
     old "You work yourself deeper into Sabetha, shifting your mass to sink deeper within her after every breath."
     new ""
 
@@ -13799,11 +13843,11 @@ translate ru strings:
     old "You wrap her in your body heat, and she soaks in silence for several long minutes."
     new ""
 
-    # c3_captives.rpy:18855, c3_captives.rpy:23020 (+1 more)
+    # c3_captives.rpy:18855, c3_captives.rpy:23020, c5_harem.rpy:20153
     old "You wrap your other foreclaw around her ankle, and pull."
     new ""
 
-    # c3_captives.rpy:46407, c3_lair.rpy:7464 (+3 more)
+    # c3_captives.rpy:46407, c3_lair.rpy:7464, c4_waifu.rpy:34855, c5_harem.rpy:58811, c6_harem.rpy:27102
     old "You wrench your cock from her body, and let loose a roar, coating her with your seed."
     new ""
 
@@ -13915,7 +13959,7 @@ translate ru strings:
     old "Your bare your fangs in a snarl that vibrates the air in the tiny cell."
     new ""
 
-    # c3_captives.rpy:18875, c3_captives.rpy:23040 (+1 more)
+    # c3_captives.rpy:18875, c3_captives.rpy:23040, c5_harem.rpy:20173
     old "Your body blocks the majority of the lamplight now, leaving her cast in shadow beneath you."
     new ""
 
@@ -13927,7 +13971,7 @@ translate ru strings:
     old "Your chest thunders with a low reverberation that shakes the bed beneath you."
     new ""
 
-    # c3_captives.rpy:49425, c5_harem.rpy:58114 (+1 more)
+    # c3_captives.rpy:49425, c5_harem.rpy:58114, c6_harem.rpy:26407
     old "Your claws close around a firm breast, and as hot, rough scales grind against her nipple, it stiffens involuntarily."
     new ""
 
@@ -13959,11 +14003,11 @@ translate ru strings:
     old "Your cock slips from her mouth in a long, heavy motion, trailing thick strings of your seed which cling to her lightly-freckled flesh."
     new ""
 
-    # c3_captives.rpy:2688, c5_harem.rpy:2487 (+2 more)
+    # c3_captives.rpy:2688, c5_harem.rpy:2487, c5_harem.rpy:5140, c5_harem.rpy:5318
     old "Your cock springs free, spurting the last thick ropes of your cum over her chest and belly."
     new ""
 
-    # c3_captives.rpy:47894, c3_captives.rpy:47922 (+1 more)
+    # c3_captives.rpy:47894, c3_captives.rpy:47922, c3_captives.rpy:48279
     old "Your cock swells with hungry anticipation as you descend, and its heated weight against Valzira's smooth skin makes her flinch."
     new ""
 
@@ -13979,7 +14023,7 @@ translate ru strings:
     old "Your erection is now visible to both of them, throbbing between your legs and dripping thick globs of seed to the floor."
     new ""
 
-    # c3_captives.rpy:49336, c5_harem.rpy:58054 (+1 more)
+    # c3_captives.rpy:49336, c5_harem.rpy:58054, c6_harem.rpy:26347
     old "Your erection, already burgeoning from the sight of her bared thighs, swells against the warm, smooth curve of her skin."
     new ""
 
@@ -14015,11 +14059,11 @@ translate ru strings:
     old "Your grip holds and you pin her there, your vision hazy at the edges, as the last bursts of your essence shoot into her."
     new ""
 
-    # c3_captives.rpy:49664, c3_lair.rpy:33661 (+2 more)
+    # c3_captives.rpy:49664, c3_lair.rpy:33661, c5_harem.rpy:58318, c6_harem.rpy:26611
     old "Your hardening cock slides between her legs, levering them apart."
     new ""
 
-    # c3_captives.rpy:16246, c3_captives.rpy:23549 (+1 more)
+    # c3_captives.rpy:16246, c3_captives.rpy:23549, c5_harem.rpy:18682
     old "Your hindclaw comes to rest on her leg, talons flexing threateningly against her bare skin."
     new ""
 
@@ -14071,7 +14115,7 @@ translate ru strings:
     old "Your passage across the chamber is brief, and the door soon swings closed at your back."
     new ""
 
-    # c3_captives.rpy:7780, c3_captives.rpy:9094 (+3 more)
+    # c3_captives.rpy:7780, c3_captives.rpy:9094, c4_waifu.rpy:6543, c5_harem.rpy:9955, c6_harem.rpy:6558
     old "Your powerful hind quarters enable you to go faster and faster, your inhuman speed making her scream as her climax prolongs."
     new ""
 
@@ -14115,7 +14159,7 @@ translate ru strings:
     old "Your talons touch her skin first, and then the rest of your claw, until your palm settles in flush and warm against the underside of her belly."
     new ""
 
-    # c3_captives.rpy:7684, c3_captives.rpy:8993 (+3 more)
+    # c3_captives.rpy:7684, c3_captives.rpy:8993, c4_waifu.rpy:6446, c5_harem.rpy:9855, c6_harem.rpy:6439
     old "Your thick cock presses itself into her, stretching her apart as her back arches, her body taut and almost suckling the tip of your rigid dragon cock."
     new ""
 
@@ -14123,7 +14167,7 @@ translate ru strings:
     old "Your thrust stops just shy of the back of her throat, and you luxuriate in the grip of her mouth."
     new ""
 
-    # c3_captives.rpy:7714, c3_captives.rpy:9024 (+2 more)
+    # c3_captives.rpy:7714, c3_captives.rpy:9024, c4_waifu.rpy:6479, c5_harem.rpy:9886
     old "Your thrusts are shallow at first, but grow faster and deeper, feeling less and less resistance as her innards mold to the shape of your cock."
     new ""
 
@@ -14151,7 +14195,7 @@ translate ru strings:
     old "Your words reverberate throughout your lair as the kobolds exchange panicked glances, the simple question seeming to throw them into utter disarray."
     new ""
 
-    # c3_captives.rpy:41, c5_harem.rpy:103 (+1 more)
+    # c3_captives.rpy:41, c5_harem.rpy:103, c6_harem.rpy:7
     old "[nameAbbess!tc]"
     new ""
 
@@ -14175,7 +14219,7 @@ translate ru strings:
     old "[nameBoof!tc] sniffs at her, and the cool touch of his nose against her thighs leaves a shiver in its wake."
     new ""
 
-    # c3_captives.rpy:77, c5_harem.rpy:107 (+1 more)
+    # c3_captives.rpy:77, c5_harem.rpy:107, c6_harem.rpy:11
     old "[nameDrunk!tc]"
     new ""
 
@@ -14275,11 +14319,11 @@ translate ru strings:
     old "[nameDrunk!tc], still sprawled on the ground, has reached out with one arm to grab her by the tail."
     new ""
 
-    # c3_captives.rpy:81, c5_harem.rpy:111 (+1 more)
+    # c3_captives.rpy:81, c5_harem.rpy:111, c6_harem.rpy:15
     old "[nameFangirl!tc]"
     new ""
 
-    # c3_captives.rpy:41701, c3_captives.rpy:41762 (+3 more)
+    # c3_captives.rpy:41701, c3_captives.rpy:41762, c3_captives.rpy:41799, c3_captives.rpy:41851, c3_captives.rpy:41899
     old "[nameFangirl!tc] darts out of the chambers with alarming speed, barely sparing you an adoring glance as she shrinks into the darkness."
     new ""
 
@@ -14347,7 +14391,7 @@ translate ru strings:
     old "[nameFarmer!t] starts out much the same as before, her mouth and hands moving over your cock as it hardens, only more cautious."
     new ""
 
-    # c3_captives.rpy:95, c5_harem.rpy:115 (+1 more)
+    # c3_captives.rpy:95, c5_harem.rpy:115, c6_harem.rpy:19
     old "[nameFarmer!tc]"
     new ""
 
@@ -14443,11 +14487,11 @@ translate ru strings:
     old "[nameFarmer!tc], meanwhile, perches on the edge of [nameDrunk!t]'s mattress, her feet still braced demurely against the floor despite her slightly wavering posture."
     new ""
 
-    # c3_captives.rpy:109, c5_harem.rpy:119 (+1 more)
+    # c3_captives.rpy:109, c5_harem.rpy:119, c6_harem.rpy:23
     old "[nameHunter!tc]"
     new ""
 
-    # c3_captives.rpy:119, c5_harem.rpy:123 (+1 more)
+    # c3_captives.rpy:119, c5_harem.rpy:123, c6_harem.rpy:27
     old "[nameInqui!tc]"
     new ""
 
@@ -14459,11 +14503,11 @@ translate ru strings:
     old "[nameKobold!tc] nods briskly, and scutters off."
     new ""
 
-    # c3_captives.rpy:149, c5_harem.rpy:135 (+1 more)
+    # c3_captives.rpy:149, c5_harem.rpy:135, c6_harem.rpy:35
     old "[nameRogue1!tc] & [nameRogue2!t]"
     new ""
 
-    # c3_captives.rpy:153, c5_harem.rpy:139 (+1 more)
+    # c3_captives.rpy:153, c5_harem.rpy:139, c6_harem.rpy:43
     old "[nameTrader!tc]"
     new ""
 
@@ -14479,7 +14523,7 @@ translate ru strings:
     old "[nameTrader!tc] swallows the rest of it down with a whine as you sink deeper and deeper inside her."
     new ""
 
-    # c3_captives.rpy:167, c5_harem.rpy:143 (+1 more)
+    # c3_captives.rpy:167, c5_harem.rpy:143, c6_harem.rpy:47
     old "[nameTrap!tc]"
     new ""
 
@@ -14523,11 +14567,11 @@ translate ru strings:
     old "[nameTrap!tc] hushes her, pressing a thumb to her plump lips."
     new ""
 
-    # c3_captives.rpy:45346, c4_waifu.rpy:31743 (+1 more)
+    # c3_captives.rpy:45346, c4_waifu.rpy:31743, c5_harem.rpy:55701
     old "[nameTrap!tc] makes another strained noise as you unleash your considerable load within him, his belly distending further."
     new ""
 
-    # c3_captives.rpy:45349, c3_captives.rpy:45511 (+4 more)
+    # c3_captives.rpy:45349, c3_captives.rpy:45511, c3_captives.rpy:45623, c4_waifu.rpy:31746, c4_waifu.rpy:31891 (+1 more)
     old "[nameTrap!tc] makes another strained noise as you unleash your considerable load within him."
     new ""
 
@@ -14591,11 +14635,11 @@ translate ru strings:
     old "[nameTrap!tc]'s words are reduced to a choked gasp as the kobold buries himself in his tight ass, the oil squelching noisily as his cock is swallowed up."
     new ""
 
-    # c3_captives.rpy:171, c5_harem.rpy:147 (+1 more)
+    # c3_captives.rpy:171, c5_harem.rpy:147, c6_harem.rpy:51
     old "[nameWitch!tc]"
     new ""
 
-    # c3_captives.rpy:181, c5_harem.rpy:151 (+1 more)
+    # c3_captives.rpy:181, c5_harem.rpy:151, c6_harem.rpy:55
     old "[nameWolfgirl!tc]"
     new ""
 
@@ -14607,7 +14651,7 @@ translate ru strings:
     old "[nameWolfgirl!tc] doesn't reply."
     new ""
 
-    # c3_captives.rpy:53338, c3_captives.rpy:53723 (+1 more)
+    # c3_captives.rpy:53338, c3_captives.rpy:53723, c3_captives.rpy:54842
     old "[nameWolfgirl!tc] exhales in pain mixed with pleasure, and immediately begins driving down upon you with animalistic fervor."
     new ""
 
@@ -14651,11 +14695,11 @@ translate ru strings:
     old "[nameWolfgirl!tc]'s sneer flares into a mocking grin at your words."
     new ""
 
-    # c3_captives.rpy:52810, c3_dreams.rpy:959 (+1 more)
+    # c3_captives.rpy:52810, c3_dreams.rpy:959, c3_lair.rpy:547
     old "[titlepov!tc]!"
     new ""
 
-    # c3_captives.rpy:5219, c3_hordes.rpy:20318 (+1 more)
+    # c3_captives.rpy:5219, c3_hordes.rpy:20318, c3_lair.rpy:17187
     old "[titlepovFangirl!tc]!"
     new ""
 
@@ -14695,7 +14739,7 @@ translate ru strings:
     old "boys jus"
     new ""
 
-    # c3_captives.rpy:32158, c4_waifu.rpy:25515 (+1 more)
+    # c3_captives.rpy:32158, c4_waifu.rpy:25515, c5_harem.rpy:48062
     old "but she knows better than to argue, once your mind is made up."
     new ""
 
@@ -14787,7 +14831,7 @@ translate ru strings:
     old "drunk"
     new ""
 
-    # c3_captives.rpy:4393, c3_captives.rpy:7213 (+5 more)
+    # c3_captives.rpy:4393, c3_captives.rpy:7213, c3_captives.rpy:44812, c3_lair.rpy:8652, c3_lair.rpy:8667 (+2 more)
     old "enabled"
     new ""
 
@@ -14839,7 +14883,7 @@ translate ru strings:
     old "hi t"
     new ""
 
-    # c3_captives.rpy:119, c3_captives.rpy:30958 (+3 more)
+    # c3_captives.rpy:119, c3_captives.rpy:30958, c5_harem.rpy:46880, c5_harem.rpy:56348, c6_harem.rpy:24068
     old "inqui"
     new ""
 
@@ -14863,7 +14907,7 @@ translate ru strings:
     old "lil ol"
     new ""
 
-    # c3_captives.rpy:7813, c3_captives.rpy:9127 (+3 more)
+    # c3_captives.rpy:7813, c3_captives.rpy:9127, c4_waifu.rpy:6571, c5_harem.rpy:9997, c6_harem.rpy:6598
     old "ll be forever marked as someone that takes a dragon"
     new ""
 
@@ -14891,7 +14935,7 @@ translate ru strings:
     old "ll know suffering beyond comprehension, but I won"
     new ""
 
-    # c3_captives.rpy:49786, c3_lair.rpy:33799 (+2 more)
+    # c3_captives.rpy:49786, c3_lair.rpy:33799, c5_harem.rpy:58425, c6_harem.rpy:26718
     old "ll, I"
     new ""
 
@@ -14959,7 +15003,7 @@ translate ru strings:
     old "m just teasin"
     new ""
 
-    # c3_captives.rpy:44800, c5_harem.rpy:54915 (+1 more)
+    # c3_captives.rpy:44800, c5_harem.rpy:54915, c6_harem.rpy:23340
     old "m not certain if it"
     new ""
 
@@ -14975,7 +15019,7 @@ translate ru strings:
     old "m pleased to see that you"
     new ""
 
-    # c3_captives.rpy:44351, c3_captives.rpy:44543 (+2 more)
+    # c3_captives.rpy:44351, c3_captives.rpy:44543, c3_captives.rpy:44564, c3_captives.rpy:45843
     old "m rambling again, aren"
     new ""
 
@@ -14983,7 +15027,7 @@ translate ru strings:
     old "m ready and willin"
     new ""
 
-    # c3_captives.rpy:2824, c5_harem.rpy:2598 (+1 more)
+    # c3_captives.rpy:2824, c5_harem.rpy:2598, c5_harem.rpy:5428
     old "m so wet, I"
     new ""
 
@@ -15083,7 +15127,7 @@ translate ru strings:
     old "quickly squeaking to a halt, as you bring your claws back to bear."
     new ""
 
-    # c3_captives.rpy:35529, c3_captives.rpy:36736 (+1 more)
+    # c3_captives.rpy:35529, c3_captives.rpy:36736, c5_harem.rpy:53051
     old "re a big fucking dragon, and I"
     new ""
 
@@ -15127,7 +15171,7 @@ translate ru strings:
     old "re going to fuck me again, aren"
     new ""
 
-    # c3_captives.rpy:29849, c4_waifu.rpy:25938 (+1 more)
+    # c3_captives.rpy:29849, c4_waifu.rpy:25938, c5_harem.rpy:45940
     old "re going to have any chance of enjoying it, you"
     new ""
 
@@ -15211,7 +15255,7 @@ translate ru strings:
     old "right, y"
     new ""
 
-    # c3_captives.rpy:149, c4_capital.rpy:10730 (+7 more)
+    # c3_captives.rpy:149, c4_capital.rpy:10730, c4_capital.rpy:10741, c4_capital.rpy:10763, c4_capital.rpy:10772 (+4 more)
     old "rogues"
     new ""
 
@@ -15231,7 +15275,7 @@ translate ru strings:
     old "s a limit to how much she can do so, with a wolf"
     new ""
 
-    # c3_captives.rpy:10027, c4_waifu.rpy:11408 (+1 more)
+    # c3_captives.rpy:10027, c4_waifu.rpy:11408, c5_harem.rpy:11881
     old "s a little while before she"
     new ""
 
@@ -15247,7 +15291,7 @@ translate ru strings:
     old "s a soft, harsh firmness in her voice that you haven"
     new ""
 
-    # c3_captives.rpy:22876, c3_captives.rpy:35547 (+3 more)
+    # c3_captives.rpy:22876, c3_captives.rpy:35547, c3_captives.rpy:36754, c5_harem.rpy:51997, c5_harem.rpy:53069
     old "s all I"
     new ""
 
@@ -15479,7 +15523,7 @@ translate ru strings:
     old "s own engorged cock is plain to see through the rather scant panties he"
     new ""
 
-    # c3_captives.rpy:45095, c4_waifu.rpy:31570 (+1 more)
+    # c3_captives.rpy:45095, c4_waifu.rpy:31570, c5_harem.rpy:55463
     old "s palpably aroused, and it"
     new ""
 
@@ -15499,7 +15543,7 @@ translate ru strings:
     old "s reassuring to know I"
     new ""
 
-    # c3_captives.rpy:53682, c3_captives.rpy:54024 (+1 more)
+    # c3_captives.rpy:53682, c3_captives.rpy:54024, c3_captives.rpy:54133
     old "s regained her strength, and follow in Eburon"
     new ""
 
@@ -15519,7 +15563,7 @@ translate ru strings:
     old "s something that"
     new ""
 
-    # c3_captives.rpy:30002, c4_waifu.rpy:26049 (+1 more)
+    # c3_captives.rpy:30002, c4_waifu.rpy:26049, c5_harem.rpy:46091
     old "s stabilising influence, you don"
     new ""
 
@@ -15539,7 +15583,7 @@ translate ru strings:
     old "s telltale scent still lingers, along with a strange, sickly-sweet odour that you can"
     new ""
 
-    # c3_captives.rpy:52183, c3_captives.rpy:52380 (+1 more)
+    # c3_captives.rpy:52183, c3_captives.rpy:52380, c3_hordes.rpy:17460
     old "s th"
     new ""
 
@@ -15547,7 +15591,7 @@ translate ru strings:
     old "s the wolves, but they ain"
     new ""
 
-    # c3_captives.rpy:29131, c3_captives.rpy:32366 (+3 more)
+    # c3_captives.rpy:29131, c3_captives.rpy:32366, c4_waifu.rpy:25730, c5_harem.rpy:45234, c5_harem.rpy:48253
     old "s tight throat and Inej"
     new ""
 
@@ -15567,7 +15611,7 @@ translate ru strings:
     old "s wide and stricken, [nameBoof!t]"
     new ""
 
-    # c3_captives.rpy:45446, c4_waifu.rpy:31827 (+1 more)
+    # c3_captives.rpy:45446, c4_waifu.rpy:31827, c5_harem.rpy:55787
     old "s work, perhaps, or Valzira"
     new ""
 
@@ -15639,7 +15683,7 @@ translate ru strings:
     old "t fancy I"
     new ""
 
-    # c3_captives.rpy:49794, c3_lair.rpy:33809 (+2 more)
+    # c3_captives.rpy:49794, c3_lair.rpy:33809, c5_harem.rpy:58435, c6_harem.rpy:26728
     old "t for a few twists and turns, you"
     new ""
 
@@ -15699,7 +15743,7 @@ translate ru strings:
     old "t know how many times she must have tried to scratch her itch, but it doesn"
     new ""
 
-    # c3_captives.rpy:24688, c3_captives.rpy:24915 (+1 more)
+    # c3_captives.rpy:24688, c3_captives.rpy:24915, c3_captives.rpy:25420
     old "t know if it"
     new ""
 
@@ -15731,7 +15775,7 @@ translate ru strings:
     old "t seem to have done much to dim [nameWolfgirl!t]"
     new ""
 
-    # c3_captives.rpy:46199, c3_lair.rpy:7266 (+3 more)
+    # c3_captives.rpy:46199, c3_lair.rpy:7266, c4_waifu.rpy:34693, c5_harem.rpy:58641, c6_harem.rpy:26932
     old "t seem to understand the danger you"
     new ""
 
@@ -15791,6 +15835,10 @@ translate ru strings:
     old "t, you can"
     new ""
 
+    # c3_captives.rpy:4426
+    old "th"
+    new ""
+
     # c3_captives.rpy:11405
     old "that ain"
     new ""
@@ -15799,7 +15847,11 @@ translate ru strings:
     old "the present..."
     new ""
 
-    # c3_captives.rpy:153, c5_harem.rpy:49526 (+1 more)
+    # c3_captives.rpy:6334
+    old "to"
+    new ""
+
+    # c3_captives.rpy:153, c5_harem.rpy:49526, c5_harem.rpy:50254
     old "trader"
     new ""
 
@@ -15807,7 +15859,7 @@ translate ru strings:
     old "trap"
     new ""
 
-    # c3_captives.rpy:33914, c3_captives.rpy:33995 (+1 more)
+    # c3_captives.rpy:33914, c3_captives.rpy:33995, c5_harem.rpy:51348
     old "ve established I"
     new ""
 
@@ -15823,7 +15875,7 @@ translate ru strings:
     old "ve had y"
     new ""
 
-    # c3_captives.rpy:30090, c4_waifu.rpy:26133 (+1 more)
+    # c3_captives.rpy:30090, c4_waifu.rpy:26133, c5_harem.rpy:46178
     old "ve made it as deep as you can go, but you can"
     new ""
 
@@ -15843,7 +15895,7 @@ translate ru strings:
     old "wait, where are you going?"
     new ""
 
-    # c3_captives.rpy:30150, c4_waifu.rpy:26187 (+1 more)
+    # c3_captives.rpy:30150, c4_waifu.rpy:26187, c5_harem.rpy:46238
     old "which falters as you draw your length from her deep hot depths."
     new ""
 

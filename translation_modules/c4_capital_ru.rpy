@@ -1,10 +1,10 @@
 # Перевод файла c4_capital.rpy
-# Всего строк: 1748
+# Всего строк: 1749
 
 translate ru strings:
 
-    # c4_capital.rpy:8025, c4_waifu.rpy:3456 (+5 more)
-    old "\" if not sSFW =="
+    # c4_capital.rpy:8025, c4_waifu.rpy:3456, c4_waifu.rpy:8015, c4_waifu.rpy:8185, c4_waifu.rpy:8898 (+2 more)
+    old "" if not sSFW =="
     new ""
 
     # c4_capital.rpy:3229
@@ -39,7 +39,7 @@ translate ru strings:
     old "'ARE YOU AFRAID?'"
     new ""
 
-    # c4_capital.rpy:6433, c5_harem.rpy:5873 (+1 more)
+    # c4_capital.rpy:6433, c5_harem.rpy:5873, c5_harem.rpy:41145
     old "'ARE YOU OKAY?'"
     new ""
 
@@ -123,7 +123,7 @@ translate ru strings:
     old "'GIVE ME A DEMONSTRATION.'"
     new ""
 
-    # c4_capital.rpy:11336, c4_capital.rpy:11399 (+2 more)
+    # c4_capital.rpy:11336, c4_capital.rpy:11399, c5_harem.rpy:3546, c6_herald.rpy:199
     old "'GO ON.'"
     new ""
 
@@ -199,7 +199,7 @@ translate ru strings:
     old "'I LOVE YOU, [nameFangirl!tu].'"
     new ""
 
-    # c4_capital.rpy:2856, c4_capital.rpy:2937 (+5 more)
+    # c4_capital.rpy:2856, c4_capital.rpy:2937, c4_capital.rpy:6772, c4_capital.rpy:7612, c5.rpy:4396 (+2 more)
     old "'I LOVE YOU.'"
     new ""
 
@@ -271,7 +271,7 @@ translate ru strings:
     old "'JOIN ME IN THE ATTACK.'"
     new ""
 
-    # c4_capital.rpy:19022, c4_capital.rpy:19574 (+1 more)
+    # c4_capital.rpy:19022, c4_capital.rpy:19574, c4_capital.rpy:19633
     old "'KNEEL.'"
     new ""
 
@@ -483,7 +483,7 @@ translate ru strings:
     old "'WHAT HAVE YOU DONE TO MY PET?'"
     new ""
 
-    # c4_capital.rpy:6247, c4_capital.rpy:6288 (+7 more)
+    # c4_capital.rpy:6247, c4_capital.rpy:6288, c4_capital.rpy:9050, c4_capital.rpy:9239, c4_capital.rpy:9272 (+4 more)
     old "'WHAT HAVE YOU DONE?'"
     new ""
 
@@ -499,7 +499,7 @@ translate ru strings:
     old "'WHAT'S WRONG?'"
     new ""
 
-    # c4_capital.rpy:10359, c4_capital.rpy:10394 (+1 more)
+    # c4_capital.rpy:10359, c4_capital.rpy:10394, c4_capital.rpy:10431
     old "'WHAT.'"
     new ""
 
@@ -575,7 +575,7 @@ translate ru strings:
     old "'YOU WILL COME WITH ME.'"
     new ""
 
-    # c4_capital.rpy:4414, c4_capital.rpy:4451 (+1 more)
+    # c4_capital.rpy:4414, c4_capital.rpy:4451, c4_capital.rpy:9994
     old "'YOU'RE... OLDER.'"
     new ""
 
@@ -603,7 +603,7 @@ translate ru strings:
     old "'YOUR FUTURE.'"
     new ""
 
-    # c4_capital.rpy:4398, c4_capital.rpy:6231 (+7 more)
+    # c4_capital.rpy:4398, c4_capital.rpy:6231, c4_capital.rpy:9008, c4_capital.rpy:9223, c4_capital.rpy:9425 (+4 more)
     old "'[nameNaga!tu]?'"
     new ""
 
@@ -819,7 +819,7 @@ translate ru strings:
     old "A man after me own heart."
     new ""
 
-    # c4_capital.rpy:10834, c4_capital.rpy:10841 (+1 more)
+    # c4_capital.rpy:10834, c4_capital.rpy:10841, c4_capital.rpy:10848
     old "A memory, unbidden, leaps into your mind."
     new ""
 
@@ -931,7 +931,7 @@ translate ru strings:
     old "A thousand faint memories of a webbing future, roaring, annihilating you with their scope, remaking you in their truth..."
     new ""
 
-    # c4_capital.rpy:8108, c4_waifu.rpy:37127 (+1 more)
+    # c4_capital.rpy:8108, c4_waifu.rpy:37127, c4_waifu.rpy:37897
     old "A throbbing cock springs free, standing proud and needful into the air, quickly enclosed in his hand."
     new ""
 
@@ -991,7 +991,7 @@ translate ru strings:
     old "ARE YOU AFRAID?"
     new ""
 
-    # c4_capital.rpy:6433, c5_harem.rpy:5873 (+1 more)
+    # c4_capital.rpy:6433, c5_harem.rpy:5873, c5_harem.rpy:41145
     old "ARE YOU OKAY?"
     new ""
 
@@ -1015,7 +1015,7 @@ translate ru strings:
     old "Adeline's eyebrow arches."
     new ""
 
-    # c4_capital.rpy:18606, c4_capital.rpy:18636 (+1 more)
+    # c4_capital.rpy:18606, c4_capital.rpy:18636, c6_court.rpy:5106
     old "Adeline."
     new ""
 
@@ -1075,7 +1075,7 @@ translate ru strings:
     old "All that remains, is to seize your prize."
     new ""
 
-    # c4_capital.rpy:8128, c4_waifu.rpy:37153 (+1 more)
+    # c4_capital.rpy:8128, c4_waifu.rpy:37153, c4_waifu.rpy:37924
     old "All that turns into a writhing moan as you press forward, and feel that resistance give beneath you."
     new ""
 
@@ -1263,7 +1263,7 @@ translate ru strings:
     old "Arrows and scorpio fire rain down around them, but they slam against the walls and heft their ladders and grappling lines to the battlements."
     new ""
 
-    # c4_capital.rpy:711, c4_capital.rpy:831 (+3 more)
+    # c4_capital.rpy:711, c4_capital.rpy:831, c4_capital.rpy:944, c4_capital.rpy:1032, c4_capital.rpy:1132
     old "As Master wills."
     new ""
 
@@ -1403,7 +1403,7 @@ translate ru strings:
     old "Balthorne is no more."
     new ""
 
-    # c4_capital.rpy:16597, c4_capital.rpy:16670 (+1 more)
+    # c4_capital.rpy:16597, c4_capital.rpy:16670, c4_capital.rpy:16774
     old "Balthorne's crossbowmen try their damnedest to dissuade them, but their fervor is nigh suicidal, and they slam into the melee around you."
     new ""
 
@@ -1467,7 +1467,7 @@ translate ru strings:
     old "Bodies are reduced to little more than viscera, trampled underfoot by looming titans and the ever-surging tide."
     new ""
 
-    # c4_capital.rpy:707, c4_capital.rpy:827 (+3 more)
+    # c4_capital.rpy:707, c4_capital.rpy:827, c4_capital.rpy:940, c4_capital.rpy:1028, c4_capital.rpy:1128
     old "Breaker grunts."
     new ""
 
@@ -1599,6 +1599,10 @@ translate ru strings:
     old "CHOOSE WISELY."
     new ""
 
+    # c4_capital.rpy:13606
+    old "CONTINUE"
+    new ""
+
     # c4_capital.rpy:3060
     old "Carefully extracting your paw from beneath her drowsy noggin, you make your way out of the chamber, leaving [nameFangirl!t] to her new dreams."
     new ""
@@ -1607,7 +1611,7 @@ translate ru strings:
     old "Cheers, bud."
     new ""
 
-    # c4_capital.rpy:8112, c4_waifu.rpy:37131 (+1 more)
+    # c4_capital.rpy:8112, c4_waifu.rpy:37131, c4_waifu.rpy:37901
     old "Clawed feet touch your sides, curling and bracing against you as you come closer."
     new ""
 
@@ -1735,7 +1739,7 @@ translate ru strings:
     old "Eburon licks his chops, staring out into space."
     new ""
 
-    # c4_capital.rpy:605, c4_capital.rpy:853 (+3 more)
+    # c4_capital.rpy:605, c4_capital.rpy:853, c4_capital.rpy:966, c4_capital.rpy:1054, c4_capital.rpy:1154
     old "Eburon nods slowly."
     new ""
 
@@ -1923,7 +1927,7 @@ translate ru strings:
     old "For a moment, you are left reeling."
     new ""
 
-    # c4_capital.rpy:8993, c4_capital.rpy:9188 (+1 more)
+    # c4_capital.rpy:8993, c4_capital.rpy:9188, c4_capital.rpy:9626
     old "For a moment, you think that perhaps you have just reacted poorly to some tasteless joke of hers."
     new ""
 
@@ -1995,7 +1999,7 @@ translate ru strings:
     old "GIVE ME A DEMONSTRATION."
     new ""
 
-    # c4_capital.rpy:11336, c4_capital.rpy:11399 (+2 more)
+    # c4_capital.rpy:11336, c4_capital.rpy:11399, c5_harem.rpy:3546, c6_herald.rpy:199
     old "GO ON."
     new ""
 
@@ -2019,11 +2023,11 @@ translate ru strings:
     old "Go to him."
     new ""
 
-    # c4_capital.rpy:7165, c4_waifu.rpy:31073 (+15 more)
+    # c4_capital.rpy:7165, c4_waifu.rpy:31073, c4_waifu.rpy:31114, c4_waifu.rpy:31322, c4_waifu.rpy:32389 (+12 more)
     old "Go to sleep."
     new ""
 
-    # c4_capital.rpy:699, c4_capital.rpy:819 (+3 more)
+    # c4_capital.rpy:699, c4_capital.rpy:819, c4_capital.rpy:932, c4_capital.rpy:1020, c4_capital.rpy:1120
     old "Goddess knows that will be an endeavour in itself..."
     new ""
 
@@ -2195,7 +2199,7 @@ translate ru strings:
     old "He proves a surprisingly accurate shot, for a cyclops."
     new ""
 
-    # c4_capital.rpy:667, c4_capital.rpy:783 (+2 more)
+    # c4_capital.rpy:667, c4_capital.rpy:783, c4_capital.rpy:903, c4_capital.rpy:1090
     old "He pulls his gauntlet from the table, and begins to gather up the tools scattered about it."
     new ""
 
@@ -2203,7 +2207,7 @@ translate ru strings:
     old "He rubs at his hands with a cloth, working the fabric carefully between his fingers, before tossing it aside."
     new ""
 
-    # c4_capital.rpy:8104, c4_waifu.rpy:37123 (+1 more)
+    # c4_capital.rpy:8104, c4_waifu.rpy:37123, c4_waifu.rpy:37893
     old "He rubs his cheek into his shoulder, watching you with a sideways glance as you work yourself into a position above him."
     new ""
 
@@ -2227,7 +2231,7 @@ translate ru strings:
     old "He shifts uneasily on his feet."
     new ""
 
-    # c4_capital.rpy:659, c4_capital.rpy:775 (+1 more)
+    # c4_capital.rpy:659, c4_capital.rpy:775, c4_capital.rpy:895
     old "He shrugs it off with a flick of his hand."
     new ""
 
@@ -2407,7 +2411,7 @@ translate ru strings:
     old "His breath is shallow against your scales, and his hands tremble about the haft of his pike."
     new ""
 
-    # c4_capital.rpy:8142, c4_waifu.rpy:37170 (+1 more)
+    # c4_capital.rpy:8142, c4_waifu.rpy:37170, c4_waifu.rpy:37939
     old "His breathing comes in fits and starts, what might seem like pain if his eyelids weren't half closed in delirious pleasure."
     new ""
 
@@ -2431,7 +2435,7 @@ translate ru strings:
     old "His hand moves in a broad, vague gesture that encompasses the length of your body."
     new ""
 
-    # c4_capital.rpy:8148, c4_waifu.rpy:37176 (+1 more)
+    # c4_capital.rpy:8148, c4_waifu.rpy:37176, c4_waifu.rpy:37945
     old "His insides flex and constrict around you, even as they relent against your constant strokes, each building in their intensity as you approach release."
     new ""
 
@@ -2455,7 +2459,7 @@ translate ru strings:
     old "His speech terminates abruptly as you dig your talons into his head and twist it to the side."
     new ""
 
-    # c4_capital.rpy:8093, c4_waifu.rpy:37112 (+1 more)
+    # c4_capital.rpy:8093, c4_waifu.rpy:37112, c4_waifu.rpy:37882
     old "His tail wags, revealing a hint of soft, fleshy red below his rising loincloth."
     new ""
 
@@ -2535,7 +2539,7 @@ translate ru strings:
     old "I LOVE YOU, [nameFangirl!tu]."
     new ""
 
-    # c4_capital.rpy:2856, c4_capital.rpy:2937 (+5 more)
+    # c4_capital.rpy:2856, c4_capital.rpy:2937, c4_capital.rpy:6772, c4_capital.rpy:7612, c5.rpy:4396 (+2 more)
     old "I LOVE YOU."
     new ""
 
@@ -2623,11 +2627,11 @@ translate ru strings:
     old "I must ask, have you released those fleeting vestiges of your former self?"
     new ""
 
-    # c4_capital.rpy:697, c4_capital.rpy:817 (+3 more)
+    # c4_capital.rpy:697, c4_capital.rpy:817, c4_capital.rpy:930, c4_capital.rpy:1018, c4_capital.rpy:1118
     old "I shall do my best to dispel their childish notions, and perhaps even redirect them towards more pressing matters."
     new ""
 
-    # c4_capital.rpy:673, c4_capital.rpy:789 (+1 more)
+    # c4_capital.rpy:673, c4_capital.rpy:789, c4_capital.rpy:909
     old "I should have everything in order for tomorrow."
     new ""
 
@@ -2831,7 +2835,7 @@ translate ru strings:
     old "Instead, with your cock anchored inside her, you immediately begin a ruthless, violent thrusting rhythm."
     new ""
 
-    # c4_capital.rpy:10837, c4_capital.rpy:10844 (+1 more)
+    # c4_capital.rpy:10837, c4_capital.rpy:10844, c4_capital.rpy:10851
     old "Instinctively, you understand that your self-control is slipping, and your will rebels."
     new ""
 
@@ -3095,11 +3099,11 @@ translate ru strings:
     old "Join me."
     new ""
 
-    # c4_capital.rpy:8124, c4_waifu.rpy:37149 (+1 more)
+    # c4_capital.rpy:8124, c4_waifu.rpy:37149, c4_waifu.rpy:37920
     old "Just as warm and soft as the rest of him, this new pleasure."
     new ""
 
-    # c4_capital.rpy:19022, c4_capital.rpy:19574 (+1 more)
+    # c4_capital.rpy:19022, c4_capital.rpy:19574, c4_capital.rpy:19633
     old "KNEEL."
     new ""
 
@@ -3115,7 +3119,7 @@ translate ru strings:
     old "Kinda like how I always treated the animals nice, even though they were sort of my things, too."
     new ""
 
-    # c4_capital.rpy:19353, c4_capital.rpy:19483 (+1 more)
+    # c4_capital.rpy:19353, c4_capital.rpy:19483, c4_capital.rpy:19523
     old "Knock her unconscious."
     new ""
 
@@ -3159,7 +3163,7 @@ translate ru strings:
     old "Largely thanks to your consort, who has made every effort to fill the space with light and joy."
     new ""
 
-    # c4_capital.rpy:8154, c4_waifu.rpy:37184 (+1 more)
+    # c4_capital.rpy:8154, c4_waifu.rpy:37184, c4_waifu.rpy:37953
     old "Laying your weight into him sends Eburon yowling in ecstasy, lifting himself to allow you deeper, and further..."
     new ""
 
@@ -3243,7 +3247,7 @@ translate ru strings:
     old "Longer before even that ends, with a quiet sigh."
     new ""
 
-    # c4_capital.rpy:12840, c4_capital.rpy:12847 (+7 more)
+    # c4_capital.rpy:12840, c4_capital.rpy:12847, c4_capital.rpy:12854, c4_capital.rpy:12877, c4_capital.rpy:12886 (+4 more)
     old "MASTER."
     new ""
 
@@ -3471,7 +3475,7 @@ translate ru strings:
     old "Once, a portcullis protected this passage, but there's no sign of it other than the ancient grooves in the stone at your feet."
     new ""
 
-    # c4_capital.rpy:669, c4_capital.rpy:785 (+2 more)
+    # c4_capital.rpy:669, c4_capital.rpy:785, c4_capital.rpy:905, c4_capital.rpy:1092
     old "One by one they disappear into the shadows of his robes."
     new ""
 
@@ -3591,7 +3595,7 @@ translate ru strings:
     old "Past you she slithers, her hand trailing a line down to the last extremity of your flank."
     new ""
 
-    # c4_capital.rpy:7346, c4_waifu.rpy:32654 (+3 more)
+    # c4_capital.rpy:7346, c4_waifu.rpy:32654, c4_waifu.rpy:32756, c4_waifu.rpy:32849, c4_waifu.rpy:34054
     old "Pat her on the head."
     new ""
 
@@ -3611,7 +3615,7 @@ translate ru strings:
     old "Perhaps, later, you may even reward her."
     new ""
 
-    # c4_capital.rpy:8730, c5_harem.rpy:62936 (+1 more)
+    # c4_capital.rpy:8730, c5_harem.rpy:62936, c6_harem.rpy:31274
     old "Pet her."
     new ""
 
@@ -3743,7 +3747,7 @@ translate ru strings:
     old "Rhyll waves a hand."
     new ""
 
-    # c4_capital.rpy:617, c4_capital.rpy:733 (+3 more)
+    # c4_capital.rpy:617, c4_capital.rpy:733, c4_capital.rpy:978, c4_capital.rpy:1066, c4_capital.rpy:1166
     old "Rhyll waves at the air, shaking his head."
     new ""
 
@@ -4175,7 +4179,7 @@ translate ru strings:
     old "So: hello, and good luck on your war!"
     new ""
 
-    # c4_capital.rpy:19010, c4_capital.rpy:19408 (+2 more)
+    # c4_capital.rpy:19010, c4_capital.rpy:19408, c4_capital.rpy:19555, c4_capital.rpy:19614
     old "Soldiers spill out onto the balcony, before coming to an abrupt halt."
     new ""
 
@@ -4215,7 +4219,7 @@ translate ru strings:
     old "Sometimes she really does just ruin the mood."
     new ""
 
-    # c4_capital.rpy:10350, c4_capital.rpy:10390 (+1 more)
+    # c4_capital.rpy:10350, c4_capital.rpy:10390, c4_capital.rpy:10426
     old "Somewhere, off in the distance, a looming uneasiness drifts into the fringes of your senses."
     new ""
 
@@ -4239,7 +4243,7 @@ translate ru strings:
     old "Stare at her expectantly."
     new ""
 
-    # c4_capital.rpy:10368, c4_capital.rpy:10403 (+1 more)
+    # c4_capital.rpy:10368, c4_capital.rpy:10403, c4_capital.rpy:10440
     old "Stare blankly."
     new ""
 
@@ -4247,7 +4251,7 @@ translate ru strings:
     old "Stare her down."
     new ""
 
-    # c4_capital.rpy:19026, c4_capital.rpy:19578 (+1 more)
+    # c4_capital.rpy:19026, c4_capital.rpy:19578, c4_capital.rpy:19637
     old "Stare them down."
     new ""
 
@@ -4335,7 +4339,7 @@ translate ru strings:
     old "Take him alive."
     new ""
 
-    # c4_capital.rpy:8099, c4_waifu.rpy:37118 (+1 more)
+    # c4_capital.rpy:8099, c4_waifu.rpy:37118, c4_waifu.rpy:37888
     old "Take him."
     new ""
 
@@ -4355,7 +4359,7 @@ translate ru strings:
     old "That alone is enough."
     new ""
 
-    # c4_capital.rpy:5453, c5.rpy:1198 (+2 more)
+    # c4_capital.rpy:5453, c5.rpy:1198, c5_harem.rpy:33509, c5_harem.rpy:36054
     old "That gives her pause."
     new ""
 
@@ -4575,7 +4579,7 @@ translate ru strings:
     old "The ghost of a smile tugs at her lips."
     new ""
 
-    # c4_capital.rpy:6142, c4_capital.rpy:8965 (+3 more)
+    # c4_capital.rpy:6142, c4_capital.rpy:8965, c4_capital.rpy:9162, c4_capital.rpy:9599, c4_capital.rpy:9778
     old "The giggle in your ear seems to come from everywhere, all at once, inside and out, near and far."
     new ""
 
@@ -4775,7 +4779,7 @@ translate ru strings:
     old "The rocks fall once more, tumbling off your back like an avalanche down a mountainside as you brace yourself beneath the deluge."
     new ""
 
-    # c4_capital.rpy:16491, c4_capital.rpy:16655 (+2 more)
+    # c4_capital.rpy:16491, c4_capital.rpy:16655, c4_capital.rpy:16836, c4_capital.rpy:16912
     old "The route forward, up to the Regent's keep, is yours."
     new ""
 
@@ -4951,7 +4955,7 @@ translate ru strings:
     old "The wolfkin, proud and powerful."
     new ""
 
-    # c4_capital.rpy:8126, c4_waifu.rpy:37151 (+1 more)
+    # c4_capital.rpy:8126, c4_waifu.rpy:37151, c4_waifu.rpy:37922
     old "The wolfman snarls at you playfully, almost defiantly, baring fangs even as he digs his toes harder, encouragingly against you."
     new ""
 
@@ -5355,7 +5359,7 @@ translate ru strings:
     old "Unleash Protean madness."
     new ""
 
-    # c4_capital.rpy:8156, c4_waifu.rpy:37192 (+1 more)
+    # c4_capital.rpy:8156, c4_waifu.rpy:37192, c4_waifu.rpy:37955
     old "Until finally you bottom out, and shudder as wave after wave of erupting pleasure consume you both."
     new ""
 
@@ -5427,7 +5431,7 @@ translate ru strings:
     old "WHAT HAVE YOU DONE TO MY PET?"
     new ""
 
-    # c4_capital.rpy:6247, c4_capital.rpy:6288 (+7 more)
+    # c4_capital.rpy:6247, c4_capital.rpy:6288, c4_capital.rpy:9050, c4_capital.rpy:9239, c4_capital.rpy:9272 (+4 more)
     old "WHAT HAVE YOU DONE?"
     new ""
 
@@ -5439,7 +5443,7 @@ translate ru strings:
     old "WHAT WILL YOU DO?"
     new ""
 
-    # c4_capital.rpy:10359, c4_capital.rpy:10394 (+1 more)
+    # c4_capital.rpy:10359, c4_capital.rpy:10394, c4_capital.rpy:10431
     old "WHAT."
     new ""
 
@@ -5599,7 +5603,7 @@ translate ru strings:
     old "When the body slams against the streets below, it's in two separate, gory piles."
     new ""
 
-    # c4_capital.rpy:9004, c4_capital.rpy:9219 (+2 more)
+    # c4_capital.rpy:9004, c4_capital.rpy:9219, c4_capital.rpy:9421, c4_capital.rpy:9648
     old "When you don't respond immediately, she puffs a breath out and up, as if aiming for a lock of hair that isn't there."
     new ""
 
@@ -6407,7 +6411,7 @@ translate ru strings:
     old "Your length presses against the walls of Žižeryx's ass, its cock swinging between its shapely thighs with every thrust."
     new ""
 
-    # c4_capital.rpy:8095, c4_waifu.rpy:37114 (+1 more)
+    # c4_capital.rpy:8095, c4_waifu.rpy:37114, c4_waifu.rpy:37884
     old "Your length presses from its sheath, already pulsing as it slips free below you."
     new ""
 
@@ -6539,7 +6543,7 @@ translate ru strings:
     old "[nameKobold!tc] jumps up and down in place."
     new ""
 
-    # c4_capital.rpy:721, c4_capital.rpy:841 (+3 more)
+    # c4_capital.rpy:721, c4_capital.rpy:841, c4_capital.rpy:954, c4_capital.rpy:1042, c4_capital.rpy:1142
     old "[nameKobold!tc] lowers his eyes."
     new ""
 
@@ -6567,7 +6571,7 @@ translate ru strings:
     old "[nameNaga!tc]'s words end in a gasp, which collapses into a high-pitched shriek of surprise as you sunder her veil and claim her maidenhood."
     new ""
 
-    # c4_capital.rpy:4398, c4_capital.rpy:6231 (+7 more)
+    # c4_capital.rpy:4398, c4_capital.rpy:6231, c4_capital.rpy:9008, c4_capital.rpy:9223, c4_capital.rpy:9425 (+4 more)
     old "[nameNaga!tu]?"
     new ""
 
@@ -6675,7 +6679,7 @@ translate ru strings:
     old "hot and dark as it is..."
     new ""
 
-    # c4_capital.rpy:15505, c4_capital.rpy:15509 (+5 more)
+    # c4_capital.rpy:15505, c4_capital.rpy:15509, c4_capital.rpy:15706, c4_capital.rpy:15710, c4_waifu.rpy:30974 (+2 more)
     old "kobolds"
     new ""
 
@@ -6727,7 +6731,7 @@ translate ru strings:
     old "m sure after you win the war and you"
     new ""
 
-    # c4_capital.rpy:16344, c4_capital.rpy:16348 (+3 more)
+    # c4_capital.rpy:16344, c4_capital.rpy:16348, c4_capital.rpy:16521, c4_capital.rpy:16525, c4_waifu.rpy:42400
     old "mercs"
     new ""
 
@@ -6891,7 +6895,7 @@ translate ru strings:
     old "t notice your arrival, it"
     new ""
 
-    # c4_capital.rpy:9004, c4_capital.rpy:9219 (+2 more)
+    # c4_capital.rpy:9004, c4_capital.rpy:9219, c4_capital.rpy:9421, c4_capital.rpy:9648
     old "t respond immediately, she puffs a breath out and up, as if aiming for a lock of hair that isn"
     new ""
 
@@ -6947,7 +6951,7 @@ translate ru strings:
     old "wet maze that it is..."
     new ""
 
-    # c4_capital.rpy:16957, c4_capital.rpy:16961 (+3 more)
+    # c4_capital.rpy:16957, c4_capital.rpy:16961, c4_capital.rpy:17189, c4_capital.rpy:17193, c4_waifu.rpy:42389
     old "wolfmen"
     new ""
 

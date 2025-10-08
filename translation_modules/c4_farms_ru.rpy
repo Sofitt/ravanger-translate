@@ -1,5 +1,5 @@
 # Перевод файла c4_farms.rpy
-# Всего строк: 229
+# Всего строк: 230
 
 translate ru strings:
 
@@ -107,7 +107,7 @@ translate ru strings:
     old "Any response is cut short by Rhyll draping an arm over his shoulder, the gesture just as threatening as it is jolly, and leading him away."
     new ""
 
-    # c4_farms.rpy:125, c4_fort.rpy:124 (+3 more)
+    # c4_farms.rpy:125, c4_fort.rpy:124, c4_swamp.rpy:125, c4_town.rpy:125, c4_wildlands.rpy:117
     old "Are we committed, then?"
     new ""
 
@@ -509,6 +509,10 @@ translate ru strings:
 
     # c4_farms.rpy:143
     old "THEIR BOUNTY IS MINE."
+    new ""
+
+    # c4_farms.rpy:1654, c4_farms.rpy:2208, c4_town.rpy:3092
+    old "THEY"
     new ""
 
     # c4_farms.rpy:2504

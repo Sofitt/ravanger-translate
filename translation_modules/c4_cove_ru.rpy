@@ -131,7 +131,7 @@ translate ru strings:
     old "Abruptly, the music comes to a juddering halt."
     new ""
 
-    # c4_cove.rpy:98, c4_farms.rpy:153 (+4 more)
+    # c4_cove.rpy:98, c4_farms.rpy:153, c4_fort.rpy:152, c4_swamp.rpy:152, c4_town.rpy:153 (+1 more)
     old "Adjourn the council."
     new ""
 
@@ -175,7 +175,7 @@ translate ru strings:
     old "And a man stands at the edge of the dock, staring down into the water below."
     new ""
 
-    # c4_cove.rpy:1903, c4_cove.rpy:1907 (+1 more)
+    # c4_cove.rpy:1903, c4_cove.rpy:1907, c4_cove.rpy:1911
     old "And on."
     new ""
 
@@ -403,7 +403,7 @@ translate ru strings:
     old "Gold?"
     new ""
 
-    # c4_cove.rpy:939, c4_cove.rpy:978 (+6 more)
+    # c4_cove.rpy:939, c4_cove.rpy:978, c4_cove.rpy:1021, c4_cove.rpy:1061, c4_cove.rpy:3142 (+3 more)
     old "Gutter's Cove lies in your claws now, a nest of vipers flushed out."
     new ""
 
@@ -1059,7 +1059,7 @@ translate ru strings:
     old "The pair avert their eyes and give you both a wide berth as you pass."
     new ""
 
-    # c4_cove.rpy:859, c4_cove.rpy:884 (+1 more)
+    # c4_cove.rpy:859, c4_cove.rpy:884, c4_cove.rpy:910
     old "The remaining humans cower as the kobolds begin to parade around them, yipping and hooting cries of victory."
     new ""
 
@@ -1327,7 +1327,7 @@ translate ru strings:
     old "Where you would expect to hear the echos of brawls, toasts, and cheers from its halls, there is silence."
     new ""
 
-    # c4_cove.rpy:129, c4_farms.rpy:183 (+3 more)
+    # c4_cove.rpy:129, c4_farms.rpy:183, c4_swamp.rpy:182, c4_town.rpy:183, c4_wildlands.rpy:175
     old "Who shall destroy in the Master's name?"
     new ""
 
@@ -1379,7 +1379,7 @@ translate ru strings:
     old "You can see Malagar's eyes darting to and fro, his features creased as he tries to make sense of what's going on."
     new ""
 
-    # c4_cove.rpy:135, c4_farms.rpy:189 (+4 more)
+    # c4_cove.rpy:135, c4_farms.rpy:189, c4_fort.rpy:188, c4_swamp.rpy:188, c4_town.rpy:189 (+1 more)
     old "You consider the forces available to you."
     new ""
 
@@ -1567,7 +1567,7 @@ translate ru strings:
     old "Your eyes meet with the captain's, bright and shining as the deathly tip of the ballista aimed at your heart."
     new ""
 
-    # c4_cove.rpy:940, c4_cove.rpy:979 (+6 more)
+    # c4_cove.rpy:940, c4_cove.rpy:979, c4_cove.rpy:1022, c4_cove.rpy:1062, c4_cove.rpy:3143 (+3 more)
     old "Your rule will be long and untroubled without the threat of them at your back."
     new ""
 

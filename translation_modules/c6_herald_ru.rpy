@@ -147,7 +147,7 @@ translate ru strings:
     old "He squeezes the woman's shoulder and murmurs something to her, whereupon she nods, pulls up her cowl, and quickly shuffles out of sight."
     new ""
 
-    # c6_herald.rpy:1734, c6_herald.rpy:1852 (+1 more)
+    # c6_herald.rpy:1734, c6_herald.rpy:1852, c6_herald.rpy:1925
     old "He strains his lumpy neck to look at you, but you can see nothing but gratitude and relief in his face."
     new ""
 
@@ -443,7 +443,7 @@ translate ru strings:
     old "When she sees you, she lurches forward, her momentum arrested by the men."
     new ""
 
-    # c6_herald.rpy:1787, c6_herald.rpy:1890 (+1 more)
+    # c6_herald.rpy:1787, c6_herald.rpy:1890, c6_herald.rpy:1954
     old "Wherever he lands, he remains in motion even then, talons flexing and weight shifting from one withered limb to another."
     new ""
 

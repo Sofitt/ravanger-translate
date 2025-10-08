@@ -1,5 +1,5 @@
 # Перевод файла c2_world.rpy
-# Всего строк: 434
+# Всего строк: 435
 
 translate ru strings:
 
@@ -23,7 +23,7 @@ translate ru strings:
     old "'How long have you been making this game?'"
     new ""
 
-    # c2_world.rpy:811, c2_world.rpy:838 (+4 more)
+    # c2_world.rpy:811, c2_world.rpy:838, c4_waifu.rpy:19927, c5_harem.rpy:18333, c5_harem.rpy:48614 (+1 more)
     old "'I ACCEPT.'"
     new ""
 
@@ -39,7 +39,7 @@ translate ru strings:
     old "'It's improving!'"
     new ""
 
-    # c2_world.rpy:2411, c3_lair.rpy:1391 (+3 more)
+    # c2_world.rpy:2411, c3_lair.rpy:1391, c3_lair.rpy:2069, c3_lair.rpy:2573, c6_harem.rpy:10233
     old "'JOIN ME.'"
     new ""
 
@@ -55,7 +55,7 @@ translate ru strings:
     old "'SHE'S MINE.'"
     new ""
 
-    # c2_world.rpy:1252, c3_hordes.rpy:16034 (+1 more)
+    # c2_world.rpy:1252, c3_hordes.rpy:16034, c3_lair.rpy:4334
     old "'SHE'S YOURS.'"
     new ""
 
@@ -63,7 +63,7 @@ translate ru strings:
     old "'This game is bad and you should feel bad.'"
     new ""
 
-    # c2_world.rpy:685, c2_world.rpy:715 (+13 more)
+    # c2_world.rpy:685, c2_world.rpy:715, c2_world.rpy:751, c3_captives.rpy:950, c3_captives.rpy:4035 (+10 more)
     old "'WHO ARE YOU?'"
     new ""
 
@@ -159,7 +159,7 @@ translate ru strings:
     old "Almost immediately, a figure comes sprinting up the steps toward you."
     new ""
 
-    # c2_world.rpy:2910, c2_world.rpy:3825 (+5 more)
+    # c2_world.rpy:2910, c2_world.rpy:3825, c3_hordes.rpy:9037, c3_hordes.rpy:9100, c3_hordes.rpy:10620 (+2 more)
     old "Alpha!"
     new ""
 
@@ -167,7 +167,7 @@ translate ru strings:
     old "Always the same."
     new ""
 
-    # c2_world.rpy:247, c2_world.rpy:360 (+1 more)
+    # c2_world.rpy:247, c2_world.rpy:360, c2_world.rpy:473
     old "Am I quite clear?"
     new ""
 
@@ -283,7 +283,7 @@ translate ru strings:
     old "Come back."
     new ""
 
-    # c2_world.rpy:2810, c2_world.rpy:2866 (+1 more)
+    # c2_world.rpy:2810, c2_world.rpy:2866, c5_forces.rpy:283
     old "Come, come see!"
     new ""
 
@@ -319,11 +319,11 @@ translate ru strings:
     old "Did someone mention magic?"
     new ""
 
-    # c2_world.rpy:1833
+    # c2_world.rpy:1833, init-code.rpy:5575
     old "Die, wyrm!"
     new ""
 
-    # c2_world.rpy:5132, c2_world.rpy:5212 (+1 more)
+    # c2_world.rpy:5132, c2_world.rpy:5212, c2_world.rpy:5284
     old "Discuss something else."
     new ""
 
@@ -371,7 +371,7 @@ translate ru strings:
     old "Enough!"
     new ""
 
-    # c2_world.rpy:4559, c3_captives.rpy:4236 (+3 more)
+    # c2_world.rpy:4559, c3_captives.rpy:4236, c3_captures.rpy:4386, c3_hordes.rpy:15930, c3_lair.rpy:32900
     old "Err."
     new ""
 
@@ -395,7 +395,7 @@ translate ru strings:
     old "Fortunately for you, I've got just the ticket."
     new ""
 
-    # c2_world.rpy:675, c2_world.rpy:705 (+1 more)
+    # c2_world.rpy:675, c2_world.rpy:705, c2_world.rpy:737
     old "Glancing up, you can see that many more of them are lining the chamber, of myriad sizes and shapes."
     new ""
 
@@ -431,7 +431,7 @@ translate ru strings:
     old "He claps his hands together smartly."
     new ""
 
-    # c2_world.rpy:3829, c3_lair.rpy:30189 (+2 more)
+    # c2_world.rpy:3829, c3_lair.rpy:30189, c5_court.rpy:3332, c5_court.rpy:3880
     old "He clears his throat."
     new ""
 
@@ -459,7 +459,7 @@ translate ru strings:
     old "He rustles his papers."
     new ""
 
-    # c2_world.rpy:4099, c3_lair.rpy:28906 (+5 more)
+    # c2_world.rpy:4099, c3_lair.rpy:28906, c3_lair.rpy:29042, c4.rpy:910, c4.rpy:1129 (+2 more)
     old "He sighs."
     new ""
 
@@ -511,11 +511,11 @@ translate ru strings:
     old "Hm?"
     new ""
 
-    # c2_world.rpy:4579, c3_captives.rpy:19974 (+5 more)
+    # c2_world.rpy:4579, c3_captives.rpy:19974, c3_lair.rpy:29389, c3_lair.rpy:29439, c3_lair.rpy:29745 (+2 more)
     old "Hmm."
     new ""
 
-    # c2_world.rpy:4067, c3_hordes.rpy:20154 (+2 more)
+    # c2_world.rpy:4067, c3_hordes.rpy:20154, c5_harem.rpy:61710, c6_harem.rpy:29773
     old "Hmph."
     new ""
 
@@ -527,7 +527,7 @@ translate ru strings:
     old "How long have you been making this game?"
     new ""
 
-    # c2_world.rpy:811, c2_world.rpy:838 (+4 more)
+    # c2_world.rpy:811, c2_world.rpy:838, c4_waifu.rpy:19927, c5_harem.rpy:18333, c5_harem.rpy:48614 (+1 more)
     old "I ACCEPT."
     new ""
 
@@ -583,7 +583,7 @@ translate ru strings:
     old "I have your back, alpha!"
     new ""
 
-    # c2_world.rpy:282, c2_world.rpy:397 (+1 more)
+    # c2_world.rpy:282, c2_world.rpy:397, c2_world.rpy:511
     old "I managed to track it down in the forests near Bastion, but..."
     new ""
 
@@ -591,7 +591,7 @@ translate ru strings:
     old "I really thought this one would do the trick."
     new ""
 
-    # c2_world.rpy:201, c2_world.rpy:314 (+6 more)
+    # c2_world.rpy:201, c2_world.rpy:314, c2_world.rpy:427, c2_world.rpy:4603, c3_captives.rpy:50797 (+3 more)
     old "I see."
     new ""
 
@@ -731,6 +731,10 @@ translate ru strings:
     old "Is there going to be DLC?"
     new ""
 
+    # c2_world.rpy:5011, c5_harem.rpy:56394
+    old "It"
+    new ""
+
     # c2_world.rpy:3502
     old "It beckons onward, to the central chamber, and steps forward to take its place amongst the figures there."
     new ""
@@ -775,7 +779,7 @@ translate ru strings:
     old "J-join you?"
     new ""
 
-    # c2_world.rpy:2411, c3_lair.rpy:1391 (+3 more)
+    # c2_world.rpy:2411, c3_lair.rpy:1391, c3_lair.rpy:2069, c3_lair.rpy:2573, c6_harem.rpy:10233
     old "JOIN ME."
     new ""
 
@@ -919,7 +923,7 @@ translate ru strings:
     old "Oh, believe me, Balthorne."
     new ""
 
-    # c2_world.rpy:1010, c3_hordes.rpy:6278 (+1 more)
+    # c2_world.rpy:1010, c3_hordes.rpy:6278, c3_hordes.rpy:13077
     old "Oh, hi dragon!"
     new ""
 
@@ -1115,7 +1119,7 @@ translate ru strings:
     old "Springing onto your haunches, you let loose a bellowing roar."
     new ""
 
-    # c2_world.rpy:820, c2_world.rpy:847 (+1 more)
+    # c2_world.rpy:820, c2_world.rpy:847, c5_harem.rpy:8274
     old "Squish him."
     new ""
 
@@ -1331,15 +1335,15 @@ translate ru strings:
     old "Until next time."
     new ""
 
-    # c2_world.rpy:1187, c3_captures.rpy:5772 (+2 more)
+    # c2_world.rpy:1187, c3_captures.rpy:5772, c3_hordes.rpy:6309, c3_hordes.rpy:13108
     old "WHAAAT?"
     new ""
 
-    # c2_world.rpy:685, c2_world.rpy:715 (+13 more)
+    # c2_world.rpy:685, c2_world.rpy:715, c2_world.rpy:751, c3_captives.rpy:950, c3_captives.rpy:4035 (+10 more)
     old "WHO ARE YOU?"
     new ""
 
-    # c2_world.rpy:1181, c3_captives.rpy:4335 (+6 more)
+    # c2_world.rpy:1181, c3_captives.rpy:4335, c3_captures.rpy:5766, c3_hordes.rpy:6303, c3_hordes.rpy:13102 (+3 more)
     old "Wait."
     new ""
 
@@ -1451,15 +1455,15 @@ translate ru strings:
     old "Yeah."
     new ""
 
-    # c2_world.rpy:4782, c2_world.rpy:5005 (+4 more)
+    # c2_world.rpy:4782, c2_world.rpy:5005, c3_captives.rpy:33000, c3_lair.rpy:36562, c3_lair.rpy:40163 (+1 more)
     old "Yes!"
     new ""
 
-    # c2_world.rpy:258, c2_world.rpy:273 (+4 more)
+    # c2_world.rpy:258, c2_world.rpy:273, c2_world.rpy:371, c2_world.rpy:387, c2_world.rpy:484 (+1 more)
     old "Yes, Balthorne."
     new ""
 
-    # c2_world.rpy:233, c2_world.rpy:346 (+1 more)
+    # c2_world.rpy:233, c2_world.rpy:346, c2_world.rpy:459
     old "Yes, Balthorne?"
     new ""
 
@@ -1467,7 +1471,7 @@ translate ru strings:
     old "Yes, many dragon thing."
     new ""
 
-    # c2_world.rpy:4589, c2_world.rpy:4874 (+2 more)
+    # c2_world.rpy:4589, c2_world.rpy:4874, c2_world.rpy:5033, c5_harem.rpy:48664
     old "Yes?"
     new ""
 
@@ -1479,7 +1483,7 @@ translate ru strings:
     old "You called, chief?"
     new ""
 
-    # c2_world.rpy:291, c2_world.rpy:404 (+1 more)
+    # c2_world.rpy:291, c2_world.rpy:404, c2_world.rpy:518
     old "You couldn't kill it?"
     new ""
 
@@ -1555,11 +1559,11 @@ translate ru strings:
     old "[titlepov!tc] is awake!"
     new ""
 
-    # c2_world.rpy:2799, c2_world.rpy:2855 (+1 more)
+    # c2_world.rpy:2799, c2_world.rpy:2855, c4.rpy:1265
     old "[titlepov!tc]?"
     new ""
 
-    # c2_world.rpy:3670, c2_world.rpy:3676 (+3 more)
+    # c2_world.rpy:3670, c2_world.rpy:3676, c2_world.rpy:4895, c2_world.rpy:4905, c2_world.rpy:4931
     old "demo"
     new ""
 
@@ -1567,7 +1571,7 @@ translate ru strings:
     old "itch"
     new ""
 
-    # c2_world.rpy:205, c2_world.rpy:318 (+1 more)
+    # c2_world.rpy:205, c2_world.rpy:318, c2_world.rpy:431
     old "ll be there waiting for it, won"
     new ""
 
@@ -1575,7 +1579,7 @@ translate ru strings:
     old "ll keep your hands busy while you"
     new ""
 
-    # c2_world.rpy:205, c2_world.rpy:318 (+1 more)
+    # c2_world.rpy:205, c2_world.rpy:318, c2_world.rpy:431
     old "ll need to show its face sometime, won"
     new ""
 
@@ -1651,11 +1655,11 @@ translate ru strings:
     old "s not long before you"
     new ""
 
-    # c2_world.rpy:4825, c2_world.rpy:4832 (+1 more)
+    # c2_world.rpy:4825, c2_world.rpy:4832, c5_forces.rpy:5558
     old "s what we"
     new ""
 
-    # c2_world.rpy:3670, c2_world.rpy:3676 (+2 more)
+    # c2_world.rpy:3670, c2_world.rpy:3676, c2_world.rpy:4895, c2_world.rpy:4931
     old "sfwDemo"
     new ""
 
@@ -1663,7 +1667,7 @@ translate ru strings:
     old "sfwDemoItch"
     new ""
 
-    # c2_world.rpy:3659, c2_world.rpy:3670 (+2 more)
+    # c2_world.rpy:3659, c2_world.rpy:3670, c2_world.rpy:4905, c2_world.rpy:4931
     old "steam"
     new ""
 
@@ -1671,7 +1675,7 @@ translate ru strings:
     old "t matter a damn if she can"
     new ""
 
-    # c2_world.rpy:4672, c3_captives.rpy:26916 (+2 more)
+    # c2_world.rpy:4672, c3_captives.rpy:26916, c3_captives.rpy:36955, c4_wildlands.rpy:817
     old "t say I"
     new ""
 

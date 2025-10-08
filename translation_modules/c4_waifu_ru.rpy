@@ -1,18 +1,18 @@
 # Перевод файла c4_waifu.rpy
-# Всего строк: 3121
+# Всего строк: 3125
 
 translate ru strings:
 
     # c4_waifu.rpy:4498
-    old "\" if sWaifuEvening != \"flex\" and sWaifuEvening != \"sleep\" and sWaifuEvening != \"fight\" and not sSFW =="
+    old "" if sWaifuEvening != "flex" and sWaifuEvening != "sleep" and sWaifuEvening != "fight" and not sSFW =="
     new ""
 
     # c4_waifu.rpy:4423
-    old "\" if sWaifuEvening == \"fight\" and not sSFW =="
+    old "" if sWaifuEvening == "fight" and not sSFW =="
     new ""
 
     # c4_waifu.rpy:4352
-    old "\" if sWaifuEvening == \"flex\" and not sSFW =="
+    old "" if sWaifuEvening == "flex" and not sSFW =="
     new ""
 
     # c4_waifu.rpy:32221
@@ -131,7 +131,7 @@ translate ru strings:
     old "'BOTH OF YOU.'"
     new ""
 
-    # c4_waifu.rpy:40791, c4_waifu.rpy:41260 (+2 more)
+    # c4_waifu.rpy:40791, c4_waifu.rpy:41260, c4_waifu.rpy:41357, c4_waifu.rpy:41440
     old "'BRING THE WOLF'S NETTLE.'"
     new ""
 
@@ -219,7 +219,7 @@ translate ru strings:
     old "'FIND HER.'"
     new ""
 
-    # c4_waifu.rpy:39209, c4_waifu.rpy:39296 (+1 more)
+    # c4_waifu.rpy:39209, c4_waifu.rpy:39296, c4_waifu.rpy:39385
     old "'FIRST, A BATH.'"
     new ""
 
@@ -231,7 +231,7 @@ translate ru strings:
     old "'FORSAKE THOSE WHO HAVE FORSAKEN YOU.'"
     new ""
 
-    # c4_waifu.rpy:2623, c4_waifu.rpy:2652 (+2 more)
+    # c4_waifu.rpy:2623, c4_waifu.rpy:2652, c4_waifu.rpy:2677, c4_waifu.rpy:2697
     old "'FUCK NO.'"
     new ""
 
@@ -331,7 +331,7 @@ translate ru strings:
     old "'HOW LONG HAVE YOU BEEN UNDER THERE?'"
     new ""
 
-    # c4_waifu.rpy:32948, c4_waifu.rpy:33157 (+1 more)
+    # c4_waifu.rpy:32948, c4_waifu.rpy:33157, c4_waifu.rpy:33397
     old "'HOW WAS YOUR NIGHT?'"
     new ""
 
@@ -363,7 +363,7 @@ translate ru strings:
     old "'I HARDLY KNEW MY MOTHER!'"
     new ""
 
-    # c4_waifu.rpy:42819, c4_waifu.rpy:42960 (+2 more)
+    # c4_waifu.rpy:42819, c4_waifu.rpy:42960, c4_waifu.rpy:43071, c4_waifu.rpy:43138
     old "'I HAVE A HEADACHE.'"
     new ""
 
@@ -395,7 +395,7 @@ translate ru strings:
     old "'I TIRE.'"
     new ""
 
-    # c4_waifu.rpy:35167, c4_waifu.rpy:36421 (+8 more)
+    # c4_waifu.rpy:35167, c4_waifu.rpy:36421, c4_waifu.rpy:37035, c5.rpy:5095, c5_harem.rpy:561 (+5 more)
     old "'I WANT YOU.'"
     new ""
 
@@ -447,7 +447,7 @@ translate ru strings:
     old "'INEJ, FETCH THE ROPES.'"
     new ""
 
-    # c4_waifu.rpy:39220, c4_waifu.rpy:39305 (+1 more)
+    # c4_waifu.rpy:39220, c4_waifu.rpy:39305, c4_waifu.rpy:39394
     old "'INTO THE NEST, PET.'"
     new ""
 
@@ -483,7 +483,7 @@ translate ru strings:
     old "'KEEP TRYING. I BELIEVE IN YOU.'"
     new ""
 
-    # c4_waifu.rpy:9054, c4_waifu.rpy:9071 (+1 more)
+    # c4_waifu.rpy:9054, c4_waifu.rpy:9071, c4_waifu.rpy:31421
     old "'LET'S SLEEP.'"
     new ""
 
@@ -515,7 +515,7 @@ translate ru strings:
     old "'MY COCK?'"
     new ""
 
-    # c4_waifu.rpy:10087, c4_waifu.rpy:13141 (+3 more)
+    # c4_waifu.rpy:10087, c4_waifu.rpy:13141, c4_waifu.rpy:13189, c4_waifu.rpy:13528, c4_waifu.rpy:13570
     old "'MY DECISION IS MADE.'"
     new ""
 
@@ -547,7 +547,7 @@ translate ru strings:
     old "'NEITHER.'"
     new ""
 
-    # c4_waifu.rpy:9261, c4_waifu.rpy:9305 (+1 more)
+    # c4_waifu.rpy:9261, c4_waifu.rpy:9305, c4_waifu.rpy:9338
     old "'NEVER AGAIN.'"
     new ""
 
@@ -587,7 +587,7 @@ translate ru strings:
     old "'NOT TONIGHT.'"
     new ""
 
-    # c4_waifu.rpy:39229, c4_waifu.rpy:39314 (+1 more)
+    # c4_waifu.rpy:39229, c4_waifu.rpy:39314, c4_waifu.rpy:39403
     old "'NOW, TO BED.'"
     new ""
 
@@ -603,7 +603,7 @@ translate ru strings:
     old "'ON YOUR BACK.'"
     new ""
 
-    # c4_waifu.rpy:42810, c4_waifu.rpy:42951 (+6 more)
+    # c4_waifu.rpy:42810, c4_waifu.rpy:42951, c4_waifu.rpy:43062, c4_waifu.rpy:43129, c6_harem.rpy:27561 (+3 more)
     old "'ON YOUR HANDS AND KNEES.'"
     new ""
 
@@ -655,7 +655,7 @@ translate ru strings:
     old "'SAY PLEASE.'"
     new ""
 
-    # c4_waifu.rpy:13132, c4_waifu.rpy:13180 (+2 more)
+    # c4_waifu.rpy:13132, c4_waifu.rpy:13180, c4_waifu.rpy:13519, c4_waifu.rpy:13561
     old "'SAY YES.'"
     new ""
 
@@ -671,7 +671,7 @@ translate ru strings:
     old "'SLEEP WELL?'"
     new ""
 
-    # c4_waifu.rpy:37828, c5.rpy:5523 (+1 more)
+    # c4_waifu.rpy:37828, c5.rpy:5523, c5.rpy:5551
     old "'SLEEP.'"
     new ""
 
@@ -719,7 +719,7 @@ translate ru strings:
     old "'THAT DESPERATE?'"
     new ""
 
-    # c4_waifu.rpy:35435, c5.rpy:762 (+3 more)
+    # c4_waifu.rpy:35435, c5.rpy:762, c5.rpy:1597, c5.rpy:2164, c5.rpy:2441
     old "'THAT IS ENOUGH.'"
     new ""
 
@@ -867,7 +867,7 @@ translate ru strings:
     old "'WHAT IS ALL THIS?'"
     new ""
 
-    # c4_waifu.rpy:7097, c4_waifu.rpy:7262 (+1 more)
+    # c4_waifu.rpy:7097, c4_waifu.rpy:7262, c5_forces.rpy:8600
     old "'WHAT WAS THAT?'"
     new ""
 
@@ -931,7 +931,7 @@ translate ru strings:
     old "'YES. SOMETHING ELSE.'"
     new ""
 
-    # c4_waifu.rpy:12704, c6_harem.rpy:7818 (+1 more)
+    # c4_waifu.rpy:12704, c6_harem.rpy:7818, c6_harem.rpy:15423
     old "'YOU ARE BEAUTIFUL.'"
     new ""
 
@@ -955,7 +955,7 @@ translate ru strings:
     old "'YOU DISLIKE MY CHOICE?'"
     new ""
 
-    # c4_waifu.rpy:40966, c4_waifu.rpy:41125 (+4 more)
+    # c4_waifu.rpy:40966, c4_waifu.rpy:41125, c4_waifu.rpy:41210, c4_waifu.rpy:41269, c4_waifu.rpy:41366 (+1 more)
     old "'YOU GET NOTHING TODAY.'"
     new ""
 
@@ -971,7 +971,7 @@ translate ru strings:
     old "'YOU HEARD YOUR MISTRESS.'"
     new ""
 
-    # c4_waifu.rpy:30296, c6.rpy:1827 (+1 more)
+    # c4_waifu.rpy:30296, c6.rpy:1827, c6_harem.rpy:17222
     old "'YOU LOOK BEAUTIFUL.'"
     new ""
 
@@ -1031,7 +1031,7 @@ translate ru strings:
     old "'YOU WILL LEAD THE WOLF TRIBE AGAIN ONE DAY.'"
     new ""
 
-    # c4_waifu.rpy:43720, c4_waifu.rpy:43790 (+3 more)
+    # c4_waifu.rpy:43720, c4_waifu.rpy:43790, c4_waifu.rpy:43846, c4_waifu.rpy:43904, c4_waifu.rpy:43952
     old "'YOU WILL LEARN TO LIVE WITH IT.'"
     new ""
 
@@ -1107,7 +1107,7 @@ translate ru strings:
     old "'YOUR MOUTH IS GOOD.'"
     new ""
 
-    # c4_waifu.rpy:4400, c4_waifu.rpy:4475 (+1 more)
+    # c4_waifu.rpy:4400, c4_waifu.rpy:4475, c4_waifu.rpy:4546
     old "'YOUR MOUTH'"
     new ""
 
@@ -1115,7 +1115,7 @@ translate ru strings:
     old "'YOUR PAST. MORE.'"
     new ""
 
-    # c4_waifu.rpy:27391, c6_harem.rpy:3812 (+2 more)
+    # c4_waifu.rpy:27391, c6_harem.rpy:3812, c6_harem.rpy:4704, c6_harem.rpy:4826
     old "'YOUR TITS.'"
     new ""
 
@@ -1123,7 +1123,7 @@ translate ru strings:
     old "...I hate you..."
     new ""
 
-    # c4_waifu.rpy:42489, c4_waifu.rpy:42558 (+1 more)
+    # c4_waifu.rpy:42489, c4_waifu.rpy:42558, c4_waifu.rpy:42615
     old "...Master."
     new ""
 
@@ -1255,7 +1255,7 @@ translate ru strings:
     old "A moment later, footsteps."
     new ""
 
-    # c4_waifu.rpy:5288, c4_waifu.rpy:9525 (+2 more)
+    # c4_waifu.rpy:5288, c4_waifu.rpy:9525, c5_harem.rpy:10240, c6_harem.rpy:6894
     old "A moment passes."
     new ""
 
@@ -1459,7 +1459,7 @@ translate ru strings:
     old "Abstain."
     new ""
 
-    # c4_waifu.rpy:5300, c4_waifu.rpy:9537 (+2 more)
+    # c4_waifu.rpy:5300, c4_waifu.rpy:9537, c5_harem.rpy:10252, c6_harem.rpy:6906
     old "Admittedly, there are a few hiccups along the way as [nameFangirl!t] trials using her teeth on your sensitive flesh."
     new ""
 
@@ -1479,7 +1479,7 @@ translate ru strings:
     old "After a few more attempts, each less dignified than the last, Valzira gives up."
     new ""
 
-    # c4_waifu.rpy:34948, c4_waifu.rpy:34976 (+2 more)
+    # c4_waifu.rpy:34948, c4_waifu.rpy:34976, c4_waifu.rpy:35028, c4_waifu.rpy:35055
     old "After a few more laboured, indignant breaths, her resentful voice cuts in once more."
     new ""
 
@@ -2163,7 +2163,7 @@ translate ru strings:
     old "BOTH OF YOU."
     new ""
 
-    # c4_waifu.rpy:40791, c4_waifu.rpy:41260 (+2 more)
+    # c4_waifu.rpy:40791, c4_waifu.rpy:41260, c4_waifu.rpy:41357, c4_waifu.rpy:41440
     old "BRING THE WOLF"
     new ""
 
@@ -2255,7 +2255,7 @@ translate ru strings:
     old "Bickering billows up the corridor, accompanied by the squeaks and squawks of the kobolds tasked with ferrying them to you."
     new ""
 
-    # c4_waifu.rpy:13068, c4_waifu.rpy:13098 (+2 more)
+    # c4_waifu.rpy:13068, c4_waifu.rpy:13098, c4_waifu.rpy:13465, c4_waifu.rpy:13489
     old "Bite at her shoulder."
     new ""
 
@@ -2431,7 +2431,7 @@ translate ru strings:
     old "By the time the scintillating aura of orgasm fades, she is grimacing as fiercely as she ever had."
     new ""
 
-    # c4_waifu.rpy:24848, c4_waifu.rpy:25123 (+1 more)
+    # c4_waifu.rpy:24848, c4_waifu.rpy:25123, c4_waifu.rpy:25440
     old "By the time the sisters return, clean and prim and proper, you're comfortably dozing."
     new ""
 
@@ -2523,7 +2523,7 @@ translate ru strings:
     old "Certainly, it doesn't feel like you're alone with him, but the breath of those burning herbs is enough to send your mind swimming."
     new ""
 
-    # c4_waifu.rpy:41054, c4_waifu.rpy:41743 (+1 more)
+    # c4_waifu.rpy:41054, c4_waifu.rpy:41743, c4_waifu.rpy:41981
     old "Chain her first."
     new ""
 
@@ -2599,7 +2599,7 @@ translate ru strings:
     old "Course I"
     new ""
 
-    # c4_waifu.rpy:32547, c4_waifu.rpy:32658 (+13 more)
+    # c4_waifu.rpy:32547, c4_waifu.rpy:32658, c4_waifu.rpy:32760, c4_waifu.rpy:32855, c4_waifu.rpy:32970 (+10 more)
     old "Cover her in furs to shut her up."
     new ""
 
@@ -2695,7 +2695,7 @@ translate ru strings:
     old "Despite your care, she seems to have become dislodged somewhat, and her head now pokes out of the bundle."
     new ""
 
-    # c4_waifu.rpy:38484, c4_waifu.rpy:38557 (+4 more)
+    # c4_waifu.rpy:38484, c4_waifu.rpy:38557, c4_waifu.rpy:38643, c4_waifu.rpy:38728, c4_waifu.rpy:38809 (+1 more)
     old "Did you chain her up?"
     new ""
 
@@ -3011,7 +3011,7 @@ translate ru strings:
     old "FIND HER."
     new ""
 
-    # c4_waifu.rpy:39209, c4_waifu.rpy:39296 (+1 more)
+    # c4_waifu.rpy:39209, c4_waifu.rpy:39296, c4_waifu.rpy:39385
     old "FIRST, A BATH."
     new ""
 
@@ -3023,7 +3023,7 @@ translate ru strings:
     old "FORSAKE THOSE WHO HAVE FORSAKEN YOU."
     new ""
 
-    # c4_waifu.rpy:2623, c4_waifu.rpy:2652 (+2 more)
+    # c4_waifu.rpy:2623, c4_waifu.rpy:2652, c4_waifu.rpy:2677, c4_waifu.rpy:2697
     old "FUCK NO."
     new ""
 
@@ -3115,7 +3115,7 @@ translate ru strings:
     old "Fine!"
     new ""
 
-    # c4_waifu.rpy:44523, c4_waifu.rpy:44916 (+1 more)
+    # c4_waifu.rpy:44523, c4_waifu.rpy:44916, c5_harem.rpy:39639
     old "Fine."
     new ""
 
@@ -3439,6 +3439,10 @@ translate ru strings:
     old "HAVING SECOND THOUGHTS?"
     new ""
 
+    # c4_waifu.rpy:33024
+    old "HE"
+    new ""
+
     # c4_waifu.rpy:19670
     old "HEISTS TOO."
     new ""
@@ -3475,7 +3479,7 @@ translate ru strings:
     old "HOW LONG HAVE YOU BEEN UNDER THERE?"
     new ""
 
-    # c4_waifu.rpy:32948, c4_waifu.rpy:33157 (+1 more)
+    # c4_waifu.rpy:32948, c4_waifu.rpy:33157, c4_waifu.rpy:33397
     old "HOW WAS YOUR NIGHT?"
     new ""
 
@@ -3495,7 +3499,7 @@ translate ru strings:
     old "Have you been using Darja's Special Dragon Hole?"
     new ""
 
-    # c4_waifu.rpy:16106, c5_court.rpy:12296 (+3 more)
+    # c4_waifu.rpy:16106, c5_court.rpy:12296, c5_harem.rpy:28285, c5_harem.rpy:28339, c6_court.rpy:5131
     old "Have you changed Malice's name?"
     new ""
 
@@ -3559,7 +3563,7 @@ translate ru strings:
     old "He looks back to your face again, steady and smouldering."
     new ""
 
-    # c4_waifu.rpy:329, c4_waifu.rpy:379 (+3 more)
+    # c4_waifu.rpy:329, c4_waifu.rpy:379, c4_waifu.rpy:407, c4_waifu.rpy:466, c4_waifu.rpy:497
     old "He makes a frantic little bow, then scuttles out of the room."
     new ""
 
@@ -3659,7 +3663,7 @@ translate ru strings:
     old "He's too canny to risk your ire by sending troublemakers who would abuse your personal pet."
     new ""
 
-    # c4_waifu.rpy:7387, c4_waifu.rpy:20045 (+2 more)
+    # c4_waifu.rpy:7387, c4_waifu.rpy:20045, c4_waifu.rpy:23430, c4_waifu.rpy:24094
     old "Head to bed."
     new ""
 
@@ -4235,7 +4239,7 @@ translate ru strings:
     old "I HARDLY KNEW MY MOTHER!"
     new ""
 
-    # c4_waifu.rpy:42819, c4_waifu.rpy:42960 (+2 more)
+    # c4_waifu.rpy:42819, c4_waifu.rpy:42960, c4_waifu.rpy:43071, c4_waifu.rpy:43138
     old "I HAVE A HEADACHE."
     new ""
 
@@ -4267,7 +4271,7 @@ translate ru strings:
     old "I TIRE."
     new ""
 
-    # c4_waifu.rpy:35167, c4_waifu.rpy:36421 (+8 more)
+    # c4_waifu.rpy:35167, c4_waifu.rpy:36421, c4_waifu.rpy:37035, c5.rpy:5095, c5_harem.rpy:561 (+5 more)
     old "I WANT YOU."
     new ""
 
@@ -4335,7 +4339,7 @@ translate ru strings:
     old "I had thought that, amongst all your other drives, there would be at least a drop of paternal instinct."
     new ""
 
-    # c4_waifu.rpy:41328, c4_waifu.rpy:43775 (+1 more)
+    # c4_waifu.rpy:41328, c4_waifu.rpy:43775, c5_harem.rpy:60410
     old "I hate you."
     new ""
 
@@ -4511,12 +4515,16 @@ translate ru strings:
     old "INEJ, FETCH THE ROPES."
     new ""
 
-    # c4_waifu.rpy:39220, c4_waifu.rpy:39305 (+1 more)
+    # c4_waifu.rpy:39220, c4_waifu.rpy:39305, c4_waifu.rpy:39394
     old "INTO THE NEST, PET."
     new ""
 
     # c4_waifu.rpy:28350
     old "IS THAT A HINT?"
+    new ""
+
+    # c4_waifu.rpy:21686, c5_forces.rpy:7678
+    old "ISN"
     new ""
 
     # c4_waifu.rpy:43657
@@ -4575,7 +4583,7 @@ translate ru strings:
     old "If you've miscalculated somehow, underestimated, her, if she gets her hooks into you now, after all this..."
     new ""
 
-    # c4_waifu.rpy:28395, c4_waifu.rpy:33280 (+8 more)
+    # c4_waifu.rpy:28395, c4_waifu.rpy:33280, c4_waifu.rpy:33421, c4_waifu.rpy:33622, c4_waifu.rpy:33666 (+5 more)
     old "Ignore her and go to sleep."
     new ""
 
@@ -4583,7 +4591,7 @@ translate ru strings:
     old "Ignore her and go to sleep.."
     new ""
 
-    # c4_waifu.rpy:32766, c4_waifu.rpy:32861 (+2 more)
+    # c4_waifu.rpy:32766, c4_waifu.rpy:32861, c4_waifu.rpy:34002, c4_waifu.rpy:34058
     old "Ignore her and leave."
     new ""
 
@@ -4747,7 +4755,7 @@ translate ru strings:
     old "Interpose yourself."
     new ""
 
-    # c4_waifu.rpy:29563, c4_waifu.rpy:30743 (+2 more)
+    # c4_waifu.rpy:29563, c4_waifu.rpy:30743, c4_waifu.rpy:30852, c4_waifu.rpy:31318
     old "Invite him to join you."
     new ""
 
@@ -4939,7 +4947,7 @@ translate ru strings:
     old "It plasters her body almost utterly, thick strands slowly dripping from her chin, down to her ample breasts and further still to sully her lap."
     new ""
 
-    # c4_waifu.rpy:26642, c4_waifu.rpy:26652 (+2 more)
+    # c4_waifu.rpy:26642, c4_waifu.rpy:26652, c4_waifu.rpy:26663, c4_waifu.rpy:26674
     old "It reads:"
     new ""
 
@@ -5107,7 +5115,7 @@ translate ru strings:
     old "Join her."
     new ""
 
-    # c4_waifu.rpy:36146, c4_waifu.rpy:36157 (+1 more)
+    # c4_waifu.rpy:36146, c4_waifu.rpy:36157, c4_waifu.rpy:38199
     old "Join him."
     new ""
 
@@ -5179,7 +5187,7 @@ translate ru strings:
     old "Kobold get kitty-lady ready for master!"
     new ""
 
-    # c4_waifu.rpy:325, c4_waifu.rpy:353 (+3 more)
+    # c4_waifu.rpy:325, c4_waifu.rpy:353, c4_waifu.rpy:375, c4_waifu.rpy:403, c4_waifu.rpy:462
     old "Kobold get lady for Master."
     new ""
 
@@ -5343,7 +5351,7 @@ translate ru strings:
     old "MY COCK?"
     new ""
 
-    # c4_waifu.rpy:10087, c4_waifu.rpy:13141 (+3 more)
+    # c4_waifu.rpy:10087, c4_waifu.rpy:13141, c4_waifu.rpy:13189, c4_waifu.rpy:13528, c4_waifu.rpy:13570
     old "MY DECISION IS MADE."
     new ""
 
@@ -5511,7 +5519,7 @@ translate ru strings:
     old "NEITHER."
     new ""
 
-    # c4_waifu.rpy:9261, c4_waifu.rpy:9305 (+1 more)
+    # c4_waifu.rpy:9261, c4_waifu.rpy:9305, c4_waifu.rpy:9338
     old "NEVER AGAIN."
     new ""
 
@@ -5551,7 +5559,7 @@ translate ru strings:
     old "NOT TONIGHT."
     new ""
 
-    # c4_waifu.rpy:39229, c4_waifu.rpy:39314 (+1 more)
+    # c4_waifu.rpy:39229, c4_waifu.rpy:39314, c4_waifu.rpy:39403
     old "NOW, TO BED."
     new ""
 
@@ -5595,7 +5603,7 @@ translate ru strings:
     old "No cracks appear for a long time, and as the minutes slide by, you grow concerned that she might need help after all."
     new ""
 
-    # c4_waifu.rpy:13747, c4_waifu.rpy:13753 (+1 more)
+    # c4_waifu.rpy:13747, c4_waifu.rpy:13753, c4_waifu.rpy:14122
     old "No doubt you will return soon, once your paternal duty is complete."
     new ""
 
@@ -5723,7 +5731,7 @@ translate ru strings:
     old "ON YOUR BACK."
     new ""
 
-    # c4_waifu.rpy:42810, c4_waifu.rpy:42951 (+6 more)
+    # c4_waifu.rpy:42810, c4_waifu.rpy:42951, c4_waifu.rpy:43062, c4_waifu.rpy:43129, c6_harem.rpy:27561 (+3 more)
     old "ON YOUR HANDS AND KNEES."
     new ""
 
@@ -6303,7 +6311,7 @@ translate ru strings:
     old "Rest a little longer."
     new ""
 
-    # c4_waifu.rpy:3465, c4_waifu.rpy:8081 (+3 more)
+    # c4_waifu.rpy:3465, c4_waifu.rpy:8081, c4_waifu.rpy:11070, c4_waifu.rpy:16786, c4_waifu.rpy:27352
     old "Retire for the night."
     new ""
 
@@ -6319,7 +6327,7 @@ translate ru strings:
     old "Rise and start your day."
     new ""
 
-    # c4_waifu.rpy:13727, c4_waifu.rpy:14016 (+1 more)
+    # c4_waifu.rpy:13727, c4_waifu.rpy:14016, c4_waifu.rpy:14022
     old "Rise and welcome your child into the world."
     new ""
 
@@ -6363,7 +6371,7 @@ translate ru strings:
     old "SAY PLEASE."
     new ""
 
-    # c4_waifu.rpy:13132, c4_waifu.rpy:13180 (+2 more)
+    # c4_waifu.rpy:13132, c4_waifu.rpy:13180, c4_waifu.rpy:13519, c4_waifu.rpy:13561
     old "SAY YES."
     new ""
 
@@ -6379,7 +6387,7 @@ translate ru strings:
     old "SLEEP WELL?"
     new ""
 
-    # c4_waifu.rpy:37828, c5.rpy:5523 (+1 more)
+    # c4_waifu.rpy:37828, c5.rpy:5523, c5.rpy:5551
     old "SLEEP."
     new ""
 
@@ -7295,7 +7303,7 @@ translate ru strings:
     old "Shrug."
     new ""
 
-    # c4_waifu.rpy:13064, c4_waifu.rpy:13094 (+2 more)
+    # c4_waifu.rpy:13064, c4_waifu.rpy:13094, c4_waifu.rpy:13461, c4_waifu.rpy:13485
     old "Shut her up with a kiss."
     new ""
 
@@ -7343,7 +7351,7 @@ translate ru strings:
     old "Sleep well."
     new ""
 
-    # c4_waifu.rpy:600, c4_waifu.rpy:2769 (+5 more)
+    # c4_waifu.rpy:600, c4_waifu.rpy:2769, c4_waifu.rpy:2779, c4_waifu.rpy:29565, c4_waifu.rpy:30745 (+2 more)
     old "Sleep."
     new ""
 
@@ -7403,7 +7411,7 @@ translate ru strings:
     old "Snuggle her."
     new ""
 
-    # c4_waifu.rpy:34638, c4_waifu.rpy:34839 (+1 more)
+    # c4_waifu.rpy:34638, c4_waifu.rpy:34839, c4_waifu.rpy:34891
     old "Snuggle up."
     new ""
 
@@ -7527,7 +7535,7 @@ translate ru strings:
     old "Soon, you can see nothing else but her, can smell nothing else, can hear nothing else."
     new ""
 
-    # c4_waifu.rpy:22811, c4_waifu.rpy:23182 (+1 more)
+    # c4_waifu.rpy:22811, c4_waifu.rpy:23182, c4_waifu.rpy:23625
     old "Sound the alarm!"
     new ""
 
@@ -7611,7 +7619,7 @@ translate ru strings:
     old "Straddling someone's head to muffle their speech and hearing isn't something you've seen done often, but Sabetha is apparently a master at it."
     new ""
 
-    # c4_waifu.rpy:40692, c5_harem.rpy:25493 (+3 more)
+    # c4_waifu.rpy:40692, c5_harem.rpy:25493, c5_harem.rpy:25533, c6_harem.rpy:12523, c6_harem.rpy:12562
     old "Strike her."
     new ""
 
@@ -7687,7 +7695,7 @@ translate ru strings:
     old "THAT DESPERATE?"
     new ""
 
-    # c4_waifu.rpy:35435, c5.rpy:762 (+3 more)
+    # c4_waifu.rpy:35435, c5.rpy:762, c5.rpy:1597, c5.rpy:2164, c5.rpy:2441
     old "THAT IS ENOUGH."
     new ""
 
@@ -7739,6 +7747,10 @@ translate ru strings:
     old "THEN IT IS TIME FOR YOU TO CUT TIES."
     new ""
 
+    # c4_waifu.rpy:30393
+    old "THERE"
+    new ""
+
     # c4_waifu.rpy:26362
     old "THERE WAS A FIGHT."
     new ""
@@ -7779,7 +7791,7 @@ translate ru strings:
     old "Take charge and fuck her."
     new ""
 
-    # c4_waifu.rpy:17479, c4_waifu.rpy:17504 (+2 more)
+    # c4_waifu.rpy:17479, c4_waifu.rpy:17504, c4_waifu.rpy:17562, c4_waifu.rpy:17580
     old "Take her ass."
     new ""
 
@@ -7843,7 +7855,7 @@ translate ru strings:
     old "That's not for you, you greedy animal."
     new ""
 
-    # c4_waifu.rpy:6583, c5_harem.rpy:10015 (+2 more)
+    # c4_waifu.rpy:6583, c5_harem.rpy:10015, c5_harem.rpy:10499, c6_harem.rpy:6616
     old "That..."
     new ""
 
@@ -9027,7 +9039,7 @@ translate ru strings:
     old "Upward her hips rise, and sideways her bushy tail flicks, tickling your burgeoning flesh."
     new ""
 
-    # c4_waifu.rpy:32379, c4_waifu.rpy:32976 (+12 more)
+    # c4_waifu.rpy:32379, c4_waifu.rpy:32976, c4_waifu.rpy:33042, c4_waifu.rpy:33173, c4_waifu.rpy:33272 (+9 more)
     old "Use her as a pillow."
     new ""
 
@@ -9139,8 +9151,12 @@ translate ru strings:
     old "WHAT IS ALL THIS?"
     new ""
 
-    # c4_waifu.rpy:7097, c4_waifu.rpy:7262 (+1 more)
+    # c4_waifu.rpy:7097, c4_waifu.rpy:7262, c5_forces.rpy:8600
     old "WHAT WAS THAT?"
+    new ""
+
+    # c4_waifu.rpy:45295, c5_harem.rpy:62351, c6_harem.rpy:30341
+    old "WHO"
     new ""
 
     # c4_waifu.rpy:17470, c4_waifu.rpy:17489
@@ -9695,7 +9711,7 @@ translate ru strings:
     old "YES. SOMETHING ELSE."
     new ""
 
-    # c4_waifu.rpy:12704, c6_harem.rpy:7818 (+1 more)
+    # c4_waifu.rpy:12704, c6_harem.rpy:7818, c6_harem.rpy:15423
     old "YOU ARE BEAUTIFUL."
     new ""
 
@@ -9719,7 +9735,7 @@ translate ru strings:
     old "YOU DISLIKE MY CHOICE?"
     new ""
 
-    # c4_waifu.rpy:40966, c4_waifu.rpy:41125 (+4 more)
+    # c4_waifu.rpy:40966, c4_waifu.rpy:41125, c4_waifu.rpy:41210, c4_waifu.rpy:41269, c4_waifu.rpy:41366 (+1 more)
     old "YOU GET NOTHING TODAY."
     new ""
 
@@ -9735,7 +9751,7 @@ translate ru strings:
     old "YOU HEARD YOUR MISTRESS."
     new ""
 
-    # c4_waifu.rpy:30296, c6.rpy:1827 (+1 more)
+    # c4_waifu.rpy:30296, c6.rpy:1827, c6_harem.rpy:17222
     old "YOU LOOK BEAUTIFUL."
     new ""
 
@@ -9791,7 +9807,7 @@ translate ru strings:
     old "YOU WILL LEAD THE WOLF TRIBE AGAIN ONE DAY."
     new ""
 
-    # c4_waifu.rpy:43720, c4_waifu.rpy:43790 (+3 more)
+    # c4_waifu.rpy:43720, c4_waifu.rpy:43790, c4_waifu.rpy:43846, c4_waifu.rpy:43904, c4_waifu.rpy:43952
     old "YOU WILL LEARN TO LIVE WITH IT."
     new ""
 
@@ -9843,7 +9859,7 @@ translate ru strings:
     old "YOUR FATE IS SERVICE, NOT DEATH."
     new ""
 
-    # c4_waifu.rpy:4400, c4_waifu.rpy:4475 (+1 more)
+    # c4_waifu.rpy:4400, c4_waifu.rpy:4475, c4_waifu.rpy:4546
     old "YOUR MOUTH"
     new ""
 
@@ -9855,7 +9871,7 @@ translate ru strings:
     old "YOUR PAST. MORE."
     new ""
 
-    # c4_waifu.rpy:27391, c6_harem.rpy:3812 (+2 more)
+    # c4_waifu.rpy:27391, c6_harem.rpy:3812, c6_harem.rpy:4704, c6_harem.rpy:4826
     old "YOUR TITS."
     new ""
 
@@ -10035,7 +10051,7 @@ translate ru strings:
     old "You can scent it on her, a readiness to spring into action at the slightest provocation."
     new ""
 
-    # c4_waifu.rpy:7160, c4_waifu.rpy:7186 (+2 more)
+    # c4_waifu.rpy:7160, c4_waifu.rpy:7186, c4_waifu.rpy:7325, c4_waifu.rpy:7367
     old "You can see [nameFangirl!t] turn to face your voice, her eyes searching in vain to catch sight of you in the darkness."
     new ""
 
@@ -10979,7 +10995,7 @@ translate ru strings:
     old "You slide your eyes closed and open your mouth lazily."
     new ""
 
-    # c4_waifu.rpy:33624, c4_waifu.rpy:33668 (+2 more)
+    # c4_waifu.rpy:33624, c4_waifu.rpy:33668, c4_waifu.rpy:33702, c4_waifu.rpy:33754
     old "You slink onward over the furs, adjust the bedding beneath your claws, and arrange yourself sleepily into a coil nearby."
     new ""
 
@@ -11367,7 +11383,7 @@ translate ru strings:
     old "You're not sure that's true, but you're certainly willing to permit her another try."
     new ""
 
-    # c4_waifu.rpy:13005, c4_waifu.rpy:13412 (+1 more)
+    # c4_waifu.rpy:13005, c4_waifu.rpy:13412, c5_forces.rpy:10598
     old "You're serious."
     new ""
 
@@ -11923,11 +11939,11 @@ translate ru strings:
     old "feed"
     new ""
 
-    # c4_waifu.rpy:4259, c4_waifu.rpy:4423 (+1 more)
+    # c4_waifu.rpy:4259, c4_waifu.rpy:4423, c4_waifu.rpy:4498
     old "fight"
     new ""
 
-    # c4_waifu.rpy:3916, c4_waifu.rpy:4131 (+2 more)
+    # c4_waifu.rpy:3916, c4_waifu.rpy:4131, c4_waifu.rpy:4352, c4_waifu.rpy:4498
     old "flex"
     new ""
 
@@ -12091,7 +12107,7 @@ translate ru strings:
     old "re too poor, because you"
     new ""
 
-    # c4_waifu.rpy:16691, c4_waifu.rpy:27316 (+1 more)
+    # c4_waifu.rpy:16691, c4_waifu.rpy:27316, c4_waifu.rpy:31179
     old "read"
     new ""
 
@@ -12235,7 +12251,7 @@ translate ru strings:
     old "sleep"
     new ""
 
-    # c4_waifu.rpy:16624, c4_waifu.rpy:16768 (+1 more)
+    # c4_waifu.rpy:16624, c4_waifu.rpy:16768, c4_waifu.rpy:24315
     old "soothe"
     new ""
 

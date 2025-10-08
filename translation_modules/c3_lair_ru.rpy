@@ -1,5 +1,5 @@
 # Перевод файла c3_lair.rpy
-# Всего строк: 3498
+# Всего строк: 3503
 
 translate ru strings:
 
@@ -11,7 +11,7 @@ translate ru strings:
     old "'...NO?'"
     new ""
 
-    # c3_lair.rpy:23691, c4_capital.rpy:7328 (+2 more)
+    # c3_lair.rpy:23691, c4_capital.rpy:7328, c4_waifu.rpy:32782, c5_harem.rpy:30952
     old "'...YES?'"
     new ""
 
@@ -47,7 +47,7 @@ translate ru strings:
     old "'AN IDOL OF ME.'"
     new ""
 
-    # c3_lair.rpy:7154, c3_lair.rpy:8427 (+10 more)
+    # c3_lair.rpy:7154, c3_lair.rpy:8427, c3_lair.rpy:15305, c4_waifu.rpy:7344, c4_waifu.rpy:36615 (+7 more)
     old "'ANOTHER TIME.'"
     new ""
 
@@ -147,7 +147,7 @@ translate ru strings:
     old "'DIVINITY?'"
     new ""
 
-    # c3_lair.rpy:6928, c3_lair.rpy:17693 (+1 more)
+    # c3_lair.rpy:6928, c3_lair.rpy:17693, c5_harem.rpy:15210
     old "'DO IT.'"
     new ""
 
@@ -195,7 +195,7 @@ translate ru strings:
     old "'ENTERTAIN ME.'"
     new ""
 
-    # c3_lair.rpy:43134, c3_lair.rpy:47961 (+1 more)
+    # c3_lair.rpy:43134, c3_lair.rpy:47961, c4_waifu.rpy:26376
     old "'ERR...'"
     new ""
 
@@ -203,7 +203,7 @@ translate ru strings:
     old "'EVERY DAY IS SPECIAL.'"
     new ""
 
-    # c3_lair.rpy:25528, c3_lair.rpy:43924 (+2 more)
+    # c3_lair.rpy:25528, c3_lair.rpy:43924, c3_lair.rpy:44142, c4_waifu.rpy:8362
     old "'EXCELLENT.'"
     new ""
 
@@ -219,7 +219,7 @@ translate ru strings:
     old "'GET ALONG, OR GET OUT.'"
     new ""
 
-    # c3_lair.rpy:33058, c3_lair.rpy:33190 (+5 more)
+    # c3_lair.rpy:33058, c3_lair.rpy:33190, c3_lair.rpy:33300, c3_lair.rpy:38008, c3_lair.rpy:38966 (+2 more)
     old "'GET ON WITH IT.'"
     new ""
 
@@ -247,7 +247,7 @@ translate ru strings:
     old "'GOLDS!'"
     new ""
 
-    # c3_lair.rpy:18547, c3_lair.rpy:18592 (+1 more)
+    # c3_lair.rpy:18547, c3_lair.rpy:18592, c4_waifu.rpy:3062
     old "'GOOD POINT.'"
     new ""
 
@@ -343,7 +343,7 @@ translate ru strings:
     old "'I AM PLEASED!'"
     new ""
 
-    # c3_lair.rpy:9373, c3_lair.rpy:20847 (+2 more)
+    # c3_lair.rpy:9373, c3_lair.rpy:20847, c3_lair.rpy:29449, c5_court.rpy:2997
     old "'I ATE HER.'"
     new ""
 
@@ -395,7 +395,7 @@ translate ru strings:
     old "'I HAVE FOUND ANOTHER ELF FOR YOU.'"
     new ""
 
-    # c3_lair.rpy:3237, c3_lair.rpy:3314 (+59 more)
+    # c3_lair.rpy:3237, c3_lair.rpy:3314, c3_lair.rpy:3412, c3_lair.rpy:3524, c3_lair.rpy:3618 (+56 more)
     old "'I HAVE OTHER QUESTIONS.'"
     new ""
 
@@ -575,7 +575,7 @@ translate ru strings:
     old "'LET'S DO THIS.'"
     new ""
 
-    # c3_lair.rpy:15296, c5.rpy:3348 (+5 more)
+    # c3_lair.rpy:15296, c5.rpy:3348, c5_court.rpy:12262, c5_court.rpy:13435, c5_court.rpy:14665 (+2 more)
     old "'LET'S.'"
     new ""
 
@@ -655,11 +655,11 @@ translate ru strings:
     old "'NO. KEEP TRYING.'"
     new ""
 
-    # c3_lair.rpy:44023, c3_lair.rpy:44051 (+2 more)
+    # c3_lair.rpy:44023, c3_lair.rpy:44051, c3_lair.rpy:44239, c3_lair.rpy:44267
     old "'NOBODY ELSE GOT ME ANYTHING, ACTUALLY.'"
     new ""
 
-    # c3_lair.rpy:3132, c3_lair.rpy:34545 (+1 more)
+    # c3_lair.rpy:3132, c3_lair.rpy:34545, c4_waifu.rpy:546
     old "'NOBODY.'"
     new ""
 
@@ -671,7 +671,7 @@ translate ru strings:
     old "'NONE, AT PRESENT.'"
     new ""
 
-    # c3_lair.rpy:27632, c5_forces.rpy:298 (+2 more)
+    # c3_lair.rpy:27632, c5_forces.rpy:298, c5_harem.rpy:64245, c6_harem.rpy:32460
     old "'NOT NOW.'"
     new ""
 
@@ -759,7 +759,7 @@ translate ru strings:
     old "'SLAP YOURSELF.'"
     new ""
 
-    # c3_lair.rpy:20928, c3_lair.rpy:29522 (+1 more)
+    # c3_lair.rpy:20928, c3_lair.rpy:29522, c4_waifu.rpy:34041
     old "'SORRY.'"
     new ""
 
@@ -799,7 +799,7 @@ translate ru strings:
     old "'TELL ME WHY YOU ARE HERE.'"
     new ""
 
-    # c3_lair.rpy:18410, c4_waifu.rpy:30225 (+1 more)
+    # c3_lair.rpy:18410, c4_waifu.rpy:30225, c4_waifu.rpy:30700
     old "'THAT WAS AWESOME.'"
     new ""
 
@@ -819,7 +819,7 @@ translate ru strings:
     old "'THE ARC?'"
     new ""
 
-    # c3_lair.rpy:34461, c3_lair.rpy:34522 (+1 more)
+    # c3_lair.rpy:34461, c3_lair.rpy:34522, c4_waifu.rpy:472
     old "'THE CHAMBERLAIN.'"
     new ""
 
@@ -839,7 +839,7 @@ translate ru strings:
     old "'THE PRINCESS IS MINE.'"
     new ""
 
-    # c3_lair.rpy:29732, c3_lair.rpy:30054 (+9 more)
+    # c3_lair.rpy:29732, c3_lair.rpy:30054, c4_abbey.rpy:237, c4_capital.rpy:517, c4_cove.rpy:143 (+6 more)
     old "'THE WOLF TRIBE.'"
     new ""
 
@@ -895,7 +895,7 @@ translate ru strings:
     old "'WANNA JOIN?'"
     new ""
 
-    # c3_lair.rpy:29338, c5_harem.rpy:62228 (+2 more)
+    # c3_lair.rpy:29338, c5_harem.rpy:62228, c5_harem.rpy:65048, c6_harem.rpy:30218
     old "'WAY AHEAD OF YOU.'"
     new ""
 
@@ -979,7 +979,7 @@ translate ru strings:
     old "'WHAT IF SOMETHING GOES WRONG?'"
     new ""
 
-    # c3_lair.rpy:30148, c4_waifu.rpy:43530 (+3 more)
+    # c3_lair.rpy:30148, c4_waifu.rpy:43530, c4_waifu.rpy:43558, c4_waifu.rpy:44252, c5_harem.rpy:9257
     old "'WHAT IS IT?'"
     new ""
 
@@ -1031,7 +1031,7 @@ translate ru strings:
     old "'WHERE DID YOU LEARN YOUR CRAFT?'"
     new ""
 
-    # c3_lair.rpy:29288, c4_capital.rpy:10730 (+2 more)
+    # c3_lair.rpy:29288, c4_capital.rpy:10730, c4_waifu.rpy:40429, c6_harem.rpy:11792
     old "'WHERE IS SHE?'"
     new ""
 
@@ -1091,7 +1091,7 @@ translate ru strings:
     old "'YES, I AM.'"
     new ""
 
-    # c3_lair.rpy:1779, c4_waifu.rpy:12197 (+2 more)
+    # c3_lair.rpy:1779, c4_waifu.rpy:12197, c4_waifu.rpy:12262, c4_waifu.rpy:12312
     old "'YES, LET'S.'"
     new ""
 
@@ -1123,7 +1123,7 @@ translate ru strings:
     old "'YOU DOUBTED ME?'"
     new ""
 
-    # c3_lair.rpy:631, c5_court.rpy:1900 (+3 more)
+    # c3_lair.rpy:631, c5_court.rpy:1900, c6_harem.rpy:1761, c6_harem.rpy:2389, c6_harem.rpy:2427
     old "'YOU HAVE DONE WELL.'"
     new ""
 
@@ -1151,7 +1151,7 @@ translate ru strings:
     old "'YOU WILL BE TOO, SOME DAY.'"
     new ""
 
-    # c3_lair.rpy:41917, c3_lair.rpy:42009 (+1 more)
+    # c3_lair.rpy:41917, c3_lair.rpy:42009, c3_lair.rpy:42060
     old "'YOU'D LIKE THAT.'"
     new ""
 
@@ -1183,7 +1183,7 @@ translate ru strings:
     old "...NO?"
     new ""
 
-    # c3_lair.rpy:23691, c4_capital.rpy:7328 (+2 more)
+    # c3_lair.rpy:23691, c4_capital.rpy:7328, c4_waifu.rpy:32782, c5_harem.rpy:30952
     old "...YES?"
     new ""
 
@@ -1699,11 +1699,11 @@ translate ru strings:
     old "All the while Žižeryx continues its work beneath you, servicing you with almost religious reverence."
     new ""
 
-    # c3_lair.rpy:48564, c3_lair.rpy:48632 (+2 more)
+    # c3_lair.rpy:48564, c3_lair.rpy:48632, c3_lair.rpy:49057, c3_lair.rpy:49069
     old "All you have to do is decide how it will be spent."
     new ""
 
-    # c3_lair.rpy:24889, c3_lair.rpy:31339 (+3 more)
+    # c3_lair.rpy:24889, c3_lair.rpy:31339, c3_lair.rpy:32479, c3_lair.rpy:38962, c4_cove.rpy:2861
     old "Allow him to continue."
     new ""
 
@@ -1779,7 +1779,7 @@ translate ru strings:
     old "And at least you'll never have to worry about what she thinks about you, mmm?"
     new ""
 
-    # c3_lair.rpy:22461, c4_abbey.rpy:2961 (+1 more)
+    # c3_lair.rpy:22461, c4_abbey.rpy:2961, c5_forces.rpy:7640
     old "And here we are."
     new ""
 
@@ -2011,7 +2011,7 @@ translate ru strings:
     old "As soon as Sabetha and Inej have taken a handful of steps, the room itself groans, like the walls are rising from sleep, stretching..."
     new ""
 
-    # c3_lair.rpy:37480, c3_lair.rpy:37530 (+1 more)
+    # c3_lair.rpy:37480, c3_lair.rpy:37530, c3_lair.rpy:37580
     old "As soon as you're certain you won't injure yourself, you yank the device down hard around your cock."
     new ""
 
@@ -2447,7 +2447,7 @@ translate ru strings:
     old "Breaker is cruel."
     new ""
 
-    # c3_lair.rpy:3983, c3_lair.rpy:4007 (+1 more)
+    # c3_lair.rpy:3983, c3_lair.rpy:4007, c3_lair.rpy:4155
     old "Breaker is still for a long moment, and then nods."
     new ""
 
@@ -2523,7 +2523,7 @@ translate ru strings:
     old "Breaker's scarred hands cradle the carved implement with something approaching reverence."
     new ""
 
-    # c3_lair.rpy:42366, c3_lair.rpy:42487 (+2 more)
+    # c3_lair.rpy:42366, c3_lair.rpy:42487, c5_harem.rpy:30670, c5_harem.rpy:32385
     old "Breed her."
     new ""
 
@@ -2775,7 +2775,7 @@ translate ru strings:
     old "Certainly, in the future I will be more careful about keeping our volunteers where I can keep an eye on them."
     new ""
 
-    # c3_lair.rpy:16528
+    # c3_lair.rpy:16528, init-code.rpy:6038
     old "Chanwe"
     new ""
 
@@ -2827,7 +2827,7 @@ translate ru strings:
     old "Come on fellas, let's have a look-see at what we've won."
     new ""
 
-    # c3_lair.rpy:752, c4_capital.rpy:13364 (+1 more)
+    # c3_lair.rpy:752, c4_capital.rpy:13364, c5_forces.rpy:331
     old "Come, come!"
     new ""
 
@@ -2919,7 +2919,7 @@ translate ru strings:
     old "DIVINITY?"
     new ""
 
-    # c3_lair.rpy:6928, c3_lair.rpy:17693 (+1 more)
+    # c3_lair.rpy:6928, c3_lair.rpy:17693, c5_harem.rpy:15210
     old "DO IT."
     new ""
 
@@ -2983,7 +2983,7 @@ translate ru strings:
     old "Denizens, behold!"
     new ""
 
-    # c3_lair.rpy:339, c4_waifu.rpy:1375 (+1 more)
+    # c3_lair.rpy:339, c4_waifu.rpy:1375, c4_waifu.rpy:16353
     old "Depart."
     new ""
 
@@ -3071,7 +3071,7 @@ translate ru strings:
     old "Does ‘fun’ have any meaning for this strange kobold, so intently focused? His face betrays no hint of joy or pleasure."
     new ""
 
-    # c3_lair.rpy:14812, c3_lair.rpy:20762 (+2 more)
+    # c3_lair.rpy:14812, c3_lair.rpy:20762, c3_lair.rpy:20834, c5_forces.rpy:8368
     old "Don't disappoint us, now."
     new ""
 
@@ -3127,7 +3127,7 @@ translate ru strings:
     old "ENTERTAIN ME."
     new ""
 
-    # c3_lair.rpy:43134, c3_lair.rpy:47961 (+1 more)
+    # c3_lair.rpy:43134, c3_lair.rpy:47961, c4_waifu.rpy:26376
     old "ERR..."
     new ""
 
@@ -3135,7 +3135,7 @@ translate ru strings:
     old "EVERY DAY IS SPECIAL."
     new ""
 
-    # c3_lair.rpy:25528, c3_lair.rpy:43924 (+2 more)
+    # c3_lair.rpy:25528, c3_lair.rpy:43924, c3_lair.rpy:44142, c4_waifu.rpy:8362
     old "EXCELLENT."
     new ""
 
@@ -3171,7 +3171,7 @@ translate ru strings:
     old "End this."
     new ""
 
-    # c3_lair.rpy:1142, c3_lair.rpy:1244 (+1 more)
+    # c3_lair.rpy:1142, c3_lair.rpy:1244, c4_waifu.rpy:10984
     old "Enjoy a nice bath."
     new ""
 
@@ -3395,7 +3395,7 @@ translate ru strings:
     old "Follow."
     new ""
 
-    # c3_lair.rpy:11787, c3_lair.rpy:12001 (+7 more)
+    # c3_lair.rpy:11787, c3_lair.rpy:12001, c3_lair.rpy:12176, c3_lair.rpy:12364, c3_lair.rpy:12760 (+4 more)
     old "Following Mother's gesture, you return to the stairwell."
     new ""
 
@@ -3479,7 +3479,7 @@ translate ru strings:
     old "GET ALONG, OR GET OUT."
     new ""
 
-    # c3_lair.rpy:33058, c3_lair.rpy:33190 (+5 more)
+    # c3_lair.rpy:33058, c3_lair.rpy:33190, c3_lair.rpy:33300, c3_lair.rpy:38008, c3_lair.rpy:38966 (+2 more)
     old "GET ON WITH IT."
     new ""
 
@@ -3511,7 +3511,7 @@ translate ru strings:
     old "GOLDS!"
     new ""
 
-    # c3_lair.rpy:18547, c3_lair.rpy:18592 (+1 more)
+    # c3_lair.rpy:18547, c3_lair.rpy:18592, c4_waifu.rpy:3062
     old "GOOD POINT."
     new ""
 
@@ -3687,7 +3687,7 @@ translate ru strings:
     old "Hang on, I think I've got something..."
     new ""
 
-    # c3_lair.rpy:44037, c3_lair.rpy:44065 (+2 more)
+    # c3_lair.rpy:44037, c3_lair.rpy:44065, c3_lair.rpy:44253, c3_lair.rpy:44281
     old "Happy Moonday, I suppose."
     new ""
 
@@ -3723,7 +3723,7 @@ translate ru strings:
     old "Have a bath."
     new ""
 
-    # c3_lair.rpy:44038, c3_lair.rpy:44066 (+2 more)
+    # c3_lair.rpy:44038, c3_lair.rpy:44066, c3_lair.rpy:44254, c3_lair.rpy:44282
     old "Have a good one, chief!"
     new ""
 
@@ -3879,7 +3879,7 @@ translate ru strings:
     old "He grins to you."
     new ""
 
-    # c3_lair.rpy:8514, c3_lair.rpy:8567 (+1 more)
+    # c3_lair.rpy:8514, c3_lair.rpy:8567, c3_lair.rpy:8591
     old "He grips his hands together and kicks up his feet, bouncing with energy."
     new ""
 
@@ -3959,7 +3959,7 @@ translate ru strings:
     old "He looks up only briefly."
     new ""
 
-    # c3_lair.rpy:24657, c3_lair.rpy:36809 (+1 more)
+    # c3_lair.rpy:24657, c3_lair.rpy:36809, c3_lair.rpy:36847
     old "He looks up to you."
     new ""
 
@@ -3995,7 +3995,7 @@ translate ru strings:
     old "He nods briskly, and scuttles away."
     new ""
 
-    # c3_lair.rpy:33067, c3_lair.rpy:33199 (+1 more)
+    # c3_lair.rpy:33067, c3_lair.rpy:33199, c3_lair.rpy:33309
     old "He nods, briskly."
     new ""
 
@@ -4067,7 +4067,7 @@ translate ru strings:
     old "He regards you coolly with his one good eye, scraping a whetstone rhythmically back and forth across the edge of a cleaver clutched in one claw."
     new ""
 
-    # c3_lair.rpy:37511, c3_lair.rpy:37561 (+1 more)
+    # c3_lair.rpy:37511, c3_lair.rpy:37561, c3_lair.rpy:37607
     old "He retrieves the dowel from you and puts it away along with the other two."
     new ""
 
@@ -4079,7 +4079,7 @@ translate ru strings:
     old "He rifles through his belongings, stooping down to search through packs and under tables."
     new ""
 
-    # c3_lair.rpy:8520, c3_lair.rpy:8572 (+2 more)
+    # c3_lair.rpy:8520, c3_lair.rpy:8572, c3_lair.rpy:8596, c3_lair.rpy:8621
     old "He scurries off, grabbing the first other lizardman he sees and talking to them in a quick, excitable chatter."
     new ""
 
@@ -4899,7 +4899,7 @@ translate ru strings:
     old "I AM PLEASED!"
     new ""
 
-    # c3_lair.rpy:9373, c3_lair.rpy:20847 (+2 more)
+    # c3_lair.rpy:9373, c3_lair.rpy:20847, c3_lair.rpy:29449, c5_court.rpy:2997
     old "I ATE HER."
     new ""
 
@@ -4955,7 +4955,7 @@ translate ru strings:
     old "I HAVE FOUND ANOTHER ELF FOR YOU."
     new ""
 
-    # c3_lair.rpy:3237, c3_lair.rpy:3314 (+59 more)
+    # c3_lair.rpy:3237, c3_lair.rpy:3314, c3_lair.rpy:3412, c3_lair.rpy:3524, c3_lair.rpy:3618 (+56 more)
     old "I HAVE OTHER QUESTIONS."
     new ""
 
@@ -5175,7 +5175,7 @@ translate ru strings:
     old "I suppose ‘human woman’ was halfway right, at least."
     new ""
 
-    # c3_lair.rpy:23356, c3_lair.rpy:23544 (+2 more)
+    # c3_lair.rpy:23356, c3_lair.rpy:23544, c3_lair.rpy:23645, c3_lair.rpy:23836
     old "I suspect you will."
     new ""
 
@@ -5435,7 +5435,7 @@ translate ru strings:
     old "If your mind breaks, I'll let the teeming hordes below reduce you to little more than meat."
     new ""
 
-    # c3_lair.rpy:44601, c4_waifu.rpy:34127 (+5 more)
+    # c3_lair.rpy:44601, c4_waifu.rpy:34127, c4_waifu.rpy:34167, c4_waifu.rpy:34187, c4_waifu.rpy:42100 (+2 more)
     old "Ignore her."
     new ""
 
@@ -5983,7 +5983,7 @@ translate ru strings:
     old "It smiles more deeply now, showing off its fangs."
     new ""
 
-    # c3_lair.rpy:16672, c3_lair.rpy:16847 (+7 more)
+    # c3_lair.rpy:16672, c3_lair.rpy:16847, c3_lair.rpy:17169, c3_lair.rpy:17525, c3_lair.rpy:17745 (+4 more)
     old "It smiles, an assembly of thorns, and leaves you to ponder the significance of that statement."
     new ""
 
@@ -6555,7 +6555,7 @@ translate ru strings:
     old "MAËLYS DOES NOT SEEM HAPPY."
     new ""
 
-    # c3_lair.rpy:29757, c3_lair.rpy:30043 (+1 more)
+    # c3_lair.rpy:29757, c3_lair.rpy:30043, c4_town.rpy:2589
     old "ME."
     new ""
 
@@ -6599,7 +6599,7 @@ translate ru strings:
     old "Malagar glances up, his expression calm and neutral."
     new ""
 
-    # c3_lair.rpy:33138, c3_lair.rpy:33249 (+1 more)
+    # c3_lair.rpy:33138, c3_lair.rpy:33249, c3_lair.rpy:33380
     old "Malagar helps them move her body into the cradle, securing her hands and feet into shackles built along its curving arms."
     new ""
 
@@ -6741,6 +6741,10 @@ translate ru strings:
 
     # c3_lair.rpy:44546
     old "Marie-Anne."
+    new ""
+
+    # c3_lair.rpy:8661
+    old "Master"
     new ""
 
     # c3_lair.rpy:4933
@@ -7007,11 +7011,11 @@ translate ru strings:
     old "NO. KEEP TRYING."
     new ""
 
-    # c3_lair.rpy:44023, c3_lair.rpy:44051 (+2 more)
+    # c3_lair.rpy:44023, c3_lair.rpy:44051, c3_lair.rpy:44239, c3_lair.rpy:44267
     old "NOBODY ELSE GOT ME ANYTHING, ACTUALLY."
     new ""
 
-    # c3_lair.rpy:3132, c3_lair.rpy:34545 (+1 more)
+    # c3_lair.rpy:3132, c3_lair.rpy:34545, c4_waifu.rpy:546
     old "NOBODY."
     new ""
 
@@ -7023,7 +7027,7 @@ translate ru strings:
     old "NONE, AT PRESENT."
     new ""
 
-    # c3_lair.rpy:27632, c5_forces.rpy:298 (+2 more)
+    # c3_lair.rpy:27632, c5_forces.rpy:298, c5_harem.rpy:64245, c6_harem.rpy:32460
     old "NOT NOW."
     new ""
 
@@ -7175,7 +7179,7 @@ translate ru strings:
     old "Now, any questions?"
     new ""
 
-    # c3_lair.rpy:23209, c3_lair.rpy:23234 (+1 more)
+    # c3_lair.rpy:23209, c3_lair.rpy:23234, c3_lair.rpy:23271
     old "Now, can we get down to business?"
     new ""
 
@@ -7203,7 +7207,7 @@ translate ru strings:
     old "Now, was there anything else you wanted to discuss?"
     new ""
 
-    # c3_lair.rpy:24279, c3_lair.rpy:24510 (+5 more)
+    # c3_lair.rpy:24279, c3_lair.rpy:24510, c3_lair.rpy:24573, c3_lair.rpy:24675, c3_lair.rpy:24723 (+2 more)
     old "Now, what can I help you with?"
     new ""
 
@@ -7479,7 +7483,7 @@ translate ru strings:
     old "Panting with anticipation, Heloïse lifts her hips and spreads herself open to Maëlys."
     new ""
 
-    # c3_lair.rpy:8037, c4_waifu.rpy:35718 (+1 more)
+    # c3_lair.rpy:8037, c4_waifu.rpy:35718, c4_waifu.rpy:35820
     old "Pass."
     new ""
 
@@ -7735,7 +7739,7 @@ translate ru strings:
     old "SLAP YOURSELF."
     new ""
 
-    # c3_lair.rpy:20928, c3_lair.rpy:29522 (+1 more)
+    # c3_lair.rpy:20928, c3_lair.rpy:29522, c4_waifu.rpy:34041
     old "SORRY."
     new ""
 
@@ -8391,7 +8395,7 @@ translate ru strings:
     old "She's panting when you withdraw yourself from her, slopping seed across the stone, and her legs."
     new ""
 
-    # c3_lair.rpy:47187, c3_lair.rpy:47327 (+1 more)
+    # c3_lair.rpy:47187, c3_lair.rpy:47327, c5_harem.rpy:7290
     old "She's panting, body wracked with ecstatic shudders, as she struggles to form the words."
     new ""
 
@@ -8535,7 +8539,7 @@ translate ru strings:
     old "Something so repugnant, even your ‘Master’ here wouldn't spare a glance."
     new ""
 
-    # c3_lair.rpy:13335, c4_waifu.rpy:42220 (+4 more)
+    # c3_lair.rpy:13335, c4_waifu.rpy:42220, c4_waifu.rpy:42270, c4_waifu.rpy:42503, c4_waifu.rpy:42572 (+1 more)
     old "Sometime later..."
     new ""
 
@@ -8599,7 +8603,7 @@ translate ru strings:
     old "Splinters of light from the flickering candles lining the passage cast the boy's bewilderment in shifting hues as he approaches."
     new ""
 
-    # c3_lair.rpy:41335, c3_lair.rpy:41368 (+1 more)
+    # c3_lair.rpy:41335, c3_lair.rpy:41368, c3_lair.rpy:41408
     old "Stacks of rich furs shore up the piles, and rolls of silk lay draped here and there."
     new ""
 
@@ -8675,7 +8679,7 @@ translate ru strings:
     old "Stone polished to a mirror finish reflects the torchlight, revealing smooth scales etched along its length with artisan precision."
     new ""
 
-    # c3_lair.rpy:43282, c5_court.rpy:3431 (+2 more)
+    # c3_lair.rpy:43282, c5_court.rpy:3431, c5_court.rpy:3812, c5_court.rpy:4097
     old "Stop him."
     new ""
 
@@ -8771,7 +8775,7 @@ translate ru strings:
     old "TELL ME WHY YOU ARE HERE."
     new ""
 
-    # c3_lair.rpy:18410, c4_waifu.rpy:30225 (+2 more)
+    # c3_lair.rpy:18410, c4_waifu.rpy:30225, c4_waifu.rpy:30700, c5_forces.rpy:8003
     old "THAT WAS AWESOME."
     new ""
 
@@ -8787,7 +8791,7 @@ translate ru strings:
     old "THE ARC?"
     new ""
 
-    # c3_lair.rpy:34461, c3_lair.rpy:34522 (+1 more)
+    # c3_lair.rpy:34461, c3_lair.rpy:34522, c4_waifu.rpy:472
     old "THE CHAMBERLAIN."
     new ""
 
@@ -8807,7 +8811,7 @@ translate ru strings:
     old "THE PRINCESS IS MINE."
     new ""
 
-    # c3_lair.rpy:29732, c3_lair.rpy:30054 (+9 more)
+    # c3_lair.rpy:29732, c3_lair.rpy:30054, c4_abbey.rpy:237, c4_capital.rpy:517, c4_cove.rpy:143 (+6 more)
     old "THE WOLF TRIBE."
     new ""
 
@@ -8851,7 +8855,7 @@ translate ru strings:
     old "Take her roughly."
     new ""
 
-    # c3_lair.rpy:41913, c3_lair.rpy:42005 (+3 more)
+    # c3_lair.rpy:41913, c3_lair.rpy:42005, c3_lair.rpy:42056, c6_harem.rpy:932, c6_harem.rpy:997
     old "Tear her clothes off."
     new ""
 
@@ -8935,7 +8939,7 @@ translate ru strings:
     old "The Cove draws near."
     new ""
 
-    # c3_lair.rpy:15125, c3_lair.rpy:16577 (+1 more)
+    # c3_lair.rpy:15125, c3_lair.rpy:16577, c3_lair.rpy:19764
     old "The Infernal Court accepts this sacrifice {i}gladly{/i}."
     new ""
 
@@ -9087,11 +9091,11 @@ translate ru strings:
     old "The chamber itself seems to pause as if holding a breath."
     new ""
 
-    # c3_lair.rpy:14826, c3_lair.rpy:20770 (+1 more)
+    # c3_lair.rpy:14826, c3_lair.rpy:20770, c3_lair.rpy:20842
     old "The chamber returns to eerie silence, although the pregnant sense of potential lingers in the air."
     new ""
 
-    # c3_lair.rpy:20693, c3_lair.rpy:20892 (+1 more)
+    # c3_lair.rpy:20693, c3_lair.rpy:20892, c3_lair.rpy:20997
     old "The chamber returns to eerie silence, although there is no longer that pregnant sense of potential in the air."
     new ""
 
@@ -9471,7 +9475,7 @@ translate ru strings:
     old "The kobold, his breath quickening, shudders in place like a fever patient."
     new ""
 
-    # c3_lair.rpy:33131, c3_lair.rpy:33245 (+1 more)
+    # c3_lair.rpy:33131, c3_lair.rpy:33245, c3_lair.rpy:33376
     old "The kobolds drag her to the centre of the room, where the curious metal frame awaits."
     new ""
 
@@ -9655,7 +9659,7 @@ translate ru strings:
     old "The path to the heart of the temple has always warped in your perceptions and memories, but something seems especially strange now."
     new ""
 
-    # c3_lair.rpy:37463, c3_lair.rpy:37524 (+1 more)
+    # c3_lair.rpy:37463, c3_lair.rpy:37524, c3_lair.rpy:37574
     old "The portal set into its end remains utterly black no matter how closely you peer into it, and a curious sniff reveals no human odor from within."
     new ""
 
@@ -10139,7 +10143,7 @@ translate ru strings:
     old "There is something fitting about your own treasure being stored in a place where men of old once stored theirs, fresh from the earth."
     new ""
 
-    # c3_lair.rpy:20568, c3_lair.rpy:20615 (+1 more)
+    # c3_lair.rpy:20568, c3_lair.rpy:20615, c3_lair.rpy:20661
     old "There is something we need from you, first."
     new ""
 
@@ -10299,7 +10303,7 @@ translate ru strings:
     old "They slam down against the edge of the box, pinned there as if held in place by a great force."
     new ""
 
-    # c3_lair.rpy:23362, c3_lair.rpy:23552 (+2 more)
+    # c3_lair.rpy:23362, c3_lair.rpy:23552, c3_lair.rpy:23651, c3_lair.rpy:23842
     old "They step back to let him pass."
     new ""
 
@@ -10555,7 +10559,7 @@ translate ru strings:
     old "Use your tail!"
     new ""
 
-    # c3_lair.rpy:38317, c4_waifu.rpy:17221 (+1 more)
+    # c3_lair.rpy:38317, c4_waifu.rpy:17221, c4_waifu.rpy:17768
     old "Use your tongue first."
     new ""
 
@@ -10635,7 +10639,7 @@ translate ru strings:
     old "WANNA JOIN?"
     new ""
 
-    # c3_lair.rpy:29338, c5_harem.rpy:62228 (+2 more)
+    # c3_lair.rpy:29338, c5_harem.rpy:62228, c5_harem.rpy:65048, c6_harem.rpy:30218
     old "WAY AHEAD OF YOU."
     new ""
 
@@ -10679,6 +10683,10 @@ translate ru strings:
     old "WELL, WHAT IS IT?"
     new ""
 
+    # c3_lair.rpy:32631, c4_capital.rpy:2540, c6_harem.rpy:21007
+    old "WHAT"
+    new ""
+
     # c3_lair.rpy:28586
     old "WHAT ABOUT THE INQUISITRIX?"
     new ""
@@ -10719,7 +10727,7 @@ translate ru strings:
     old "WHAT IF SOMETHING GOES WRONG?"
     new ""
 
-    # c3_lair.rpy:30148, c4_waifu.rpy:43530 (+3 more)
+    # c3_lair.rpy:30148, c4_waifu.rpy:43530, c4_waifu.rpy:43558, c4_waifu.rpy:44252, c5_harem.rpy:9257
     old "WHAT IS IT?"
     new ""
 
@@ -10767,7 +10775,7 @@ translate ru strings:
     old "WHERE DID YOU LEARN YOUR CRAFT?"
     new ""
 
-    # c3_lair.rpy:29288, c4_capital.rpy:10730 (+2 more)
+    # c3_lair.rpy:29288, c4_capital.rpy:10730, c4_waifu.rpy:40429, c6_harem.rpy:11792
     old "WHERE IS SHE?"
     new ""
 
@@ -11063,6 +11071,18 @@ translate ru strings:
     old "What do you need me to...?"
     new ""
 
+    # c3_lair.rpy:8661
+    old "What do you want them to call you?"
+    new ""
+
+    # c3_lair.rpy:8696
+    old "What do you want to call them?"
+    new ""
+
+    # c3_lair.rpy:8281, c5_harem.rpy:64387, c5_harem.rpy:64430, c6_harem.rpy:32604, c6_harem.rpy:32647
+    old "What do you want to call your little pet?"
+    new ""
+
     # c3_lair.rpy:25753
     old "What emerges from the mix is a floating question mark, starkly white."
     new ""
@@ -11131,7 +11151,7 @@ translate ru strings:
     old "What's..."
     new ""
 
-    # c3_lair.rpy:14146, c5.rpy:465 (+1 more)
+    # c3_lair.rpy:14146, c5.rpy:465, c5.rpy:3180
     old "What..."
     new ""
 
@@ -11143,7 +11163,7 @@ translate ru strings:
     old "Whatever Mother might have said to your daughter, you will not hear it now."
     new ""
 
-    # c3_lair.rpy:39420, c3_lair.rpy:39570 (+1 more)
+    # c3_lair.rpy:39420, c3_lair.rpy:39570, c3_lair.rpy:39882
     old "Whatever enchantment Malagar had laid upon her throat seems to have dissolved in the transformation that wracked her body."
     new ""
 
@@ -11263,7 +11283,7 @@ translate ru strings:
     old "When you resurface in your more familiar chambers, it is with a palpable sense of relief."
     new ""
 
-    # c3_lair.rpy:11803, c3_lair.rpy:12017 (+4 more)
+    # c3_lair.rpy:11803, c3_lair.rpy:12017, c3_lair.rpy:12192, c3_lair.rpy:12776, c3_lair.rpy:13642 (+1 more)
     old "When you return to the chamber, there is no sign of Mother."
     new ""
 
@@ -11527,7 +11547,7 @@ translate ru strings:
     old "With one last flash of those razor-teeth, [nameDemon!t] ignites into roiling tar-thick smoke."
     new ""
 
-    # c3_lair.rpy:47173, c3_lair.rpy:47311 (+1 more)
+    # c3_lair.rpy:47173, c3_lair.rpy:47311, c5_harem.rpy:7263
     old "With one, swift, savage thrust, you drive yourself as far inside her as you can, and unload."
     new ""
 
@@ -11623,7 +11643,7 @@ translate ru strings:
     old "YES, I AM."
     new ""
 
-    # c3_lair.rpy:1779, c4_waifu.rpy:12197 (+2 more)
+    # c3_lair.rpy:1779, c4_waifu.rpy:12197, c4_waifu.rpy:12262, c4_waifu.rpy:12312
     old "YES, LET"
     new ""
 
@@ -11651,7 +11671,7 @@ translate ru strings:
     old "YOU DOUBTED ME?"
     new ""
 
-    # c3_lair.rpy:631, c5_court.rpy:1900 (+3 more)
+    # c3_lair.rpy:631, c5_court.rpy:1900, c6_harem.rpy:1761, c6_harem.rpy:2389, c6_harem.rpy:2427
     old "YOU HAVE DONE WELL."
     new ""
 
@@ -11707,7 +11727,7 @@ translate ru strings:
     old "Yes, that will prove quite sufficient for our purposes."
     new ""
 
-    # c3_lair.rpy:30496, c3_lair.rpy:35873 (+5 more)
+    # c3_lair.rpy:30496, c3_lair.rpy:35873, c4_waifu.rpy:324, c4_waifu.rpy:352, c4_waifu.rpy:374 (+2 more)
     old "Yes-yes!"
     new ""
 
@@ -11723,7 +11743,7 @@ translate ru strings:
     old "Yet there is a {i}wrongness{/i} to them, an unsettling closeness and a sense of disproportion, that increases as the smoke recedes."
     new ""
 
-    # c3_lair.rpy:33042, c3_lair.rpy:33054 (+5 more)
+    # c3_lair.rpy:33042, c3_lair.rpy:33054, c3_lair.rpy:33174, c3_lair.rpy:33186, c3_lair.rpy:33284 (+2 more)
     old "You advance, keen to claim your prize."
     new ""
 
@@ -11879,7 +11899,7 @@ translate ru strings:
     old "You depart, leaving its steamy temptation in your wake."
     new ""
 
-    # c3_lair.rpy:2812, c3_lair.rpy:2904 (+3 more)
+    # c3_lair.rpy:2812, c3_lair.rpy:2904, c3_lair.rpy:2958, c3_lair.rpy:2990, c3_lair.rpy:3022
     old "You descend deep into the kobolds' warrens, to the chamber that Breaker calls home."
     new ""
 
@@ -12783,7 +12803,7 @@ translate ru strings:
     old "Your claw intervenes between [nameKobold!t]'s hand and the surface of his drums, snapping him from his cacophonous rapture."
     new ""
 
-    # c3_lair.rpy:47189, c3_lair.rpy:47329 (+1 more)
+    # c3_lair.rpy:47189, c3_lair.rpy:47329, c5_harem.rpy:7294
     old "Your cock hangs over her like a club above a beaten brawler, lashing her with stripe after stripe of your seed."
     new ""
 
@@ -12875,7 +12895,7 @@ translate ru strings:
     old "Your minions look up to you, uncertain."
     new ""
 
-    # c3_lair.rpy:7443, c3_lair.rpy:7501 (+2 more)
+    # c3_lair.rpy:7443, c3_lair.rpy:7501, c3_lair.rpy:7649, c3_lair.rpy:7679
     old "Your minions will no doubt find somewhere more convenient to put her, while she contemplates her new reality."
     new ""
 
@@ -13243,7 +13263,7 @@ translate ru strings:
     old "ll get that you don"
     new ""
 
-    # c3_lair.rpy:4128, c3_lair.rpy:4177 (+1 more)
+    # c3_lair.rpy:4128, c3_lair.rpy:4177, c3_lair.rpy:4207
     old "ll learn eventually, you"
     new ""
 
@@ -13280,7 +13300,7 @@ translate ru strings:
     new ""
 
     # c3_lair.rpy:8991
-    old "m going to peek.\" if not sSFW =="
+    old "m going to peek." if not sSFW =="
     new ""
 
     # c3_lair.rpy:36207
@@ -13295,7 +13315,7 @@ translate ru strings:
     old "m not even going to ask you what it"
     new ""
 
-    # c3_lair.rpy:17655, c3_lair.rpy:45703 (+2 more)
+    # c3_lair.rpy:17655, c3_lair.rpy:45703, c6_forces.rpy:531, c6_forces.rpy:1765
     old "m sure they"
     new ""
 
@@ -13343,7 +13363,7 @@ translate ru strings:
     old "re bloody lucky you"
     new ""
 
-    # c3_lair.rpy:37480, c3_lair.rpy:37530 (+1 more)
+    # c3_lair.rpy:37480, c3_lair.rpy:37530, c3_lair.rpy:37580
     old "re certain you won"
     new ""
 
@@ -13979,7 +13999,7 @@ translate ru strings:
     old "Žižeryx ushers [nameFangirl!t] toward it."
     new ""
 
-    # c3_lair.rpy:16650, c3_lair.rpy:16825 (+5 more)
+    # c3_lair.rpy:16650, c3_lair.rpy:16825, c3_lair.rpy:17147, c3_lair.rpy:17503, c3_lair.rpy:18753 (+2 more)
     old "Žižeryx's eyes light up with a flame-like glow, and it gives you a joyful grin."
     new ""
 

@@ -7,8 +7,8 @@ import re
 def split_translation_file():
     """Разделяет большой файл переводов на модули по исходным файлам"""
     
-    input_file = "dialogue_keys.txt"
-    output_dir = "translation_modules"
+    input_file = "../temp_files/dialogue_keys.txt"
+    output_dir = "../translation_modules"
     
     # Создаем папку для модулей
     os.makedirs(output_dir, exist_ok=True)

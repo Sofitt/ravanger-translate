@@ -1,5 +1,5 @@
 # Перевод файла c1.rpy
-# Всего строк: 236
+# Всего строк: 242
 
 translate ru strings:
 
@@ -27,7 +27,7 @@ translate ru strings:
     old "A wet crunch, and he falls silent."
     new ""
 
-    # c1.rpy:1555, c1.rpy:1589 (+1 more)
+    # c1.rpy:1555, c1.rpy:1589, c1.rpy:1632
     old "AAARGH!"
     new ""
 
@@ -91,7 +91,7 @@ translate ru strings:
     old "Beneath you is the city, a honeycomb of white stone buildings turned a ghostly blue by the moonlight."
     new ""
 
-    # c1.rpy:195, c1.rpy:226 (+3 more)
+    # c1.rpy:195, c1.rpy:226, c1.rpy:333, c5_harem.rpy:28445, c6_harem.rpy:30861
     old "Bite her."
     new ""
 
@@ -143,11 +143,11 @@ translate ru strings:
     old "Create a nest."
     new ""
 
-    # c1.rpy:2614, c3_captives.rpy:34904 (+5 more)
+    # c1.rpy:2614, c3_captives.rpy:34904, c3_captives.rpy:35110, c4_waifu.rpy:27921, c4_waifu.rpy:28079 (+2 more)
     old "Cum in her."
     new ""
 
-    # c1.rpy:2620, c3_captives.rpy:34834 (+5 more)
+    # c1.rpy:2620, c3_captives.rpy:34834, c3_captives.rpy:35036, c4_waifu.rpy:27877, c4_waifu.rpy:28026 (+2 more)
     old "Cum on her."
     new ""
 
@@ -195,11 +195,11 @@ translate ru strings:
     old "Give up and nestle closer."
     new ""
 
-    # c1.rpy:321, c1.rpy:996 (+12 more)
+    # c1.rpy:321, c1.rpy:996, c2_highlands.rpy:5845, c2_lowlands.rpy:3205, c3_lair.rpy:26418 (+9 more)
     old "Growl."
     new ""
 
-    # c1.rpy:984, c3_lair.rpy:18601 (+5 more)
+    # c1.rpy:984, c3_lair.rpy:18601, c5_court.rpy:1219, c5_harem.rpy:40772, c5_harem.rpy:62250 (+2 more)
     old "Grunt."
     new ""
 
@@ -331,7 +331,7 @@ translate ru strings:
     old "It saws back and forth over her clit, making her twitch as you unleash your seed onto her."
     new ""
 
-    # c1.rpy:2301, c1.rpy:2411 (+15 more)
+    # c1.rpy:2301, c1.rpy:2411, c1.rpy:2699, c2_lowlands.rpy:4006, c2_lowlands.rpy:4630 (+12 more)
     old "Kill her."
     new ""
 
@@ -367,7 +367,7 @@ translate ru strings:
     old "Look at your food."
     new ""
 
-    # c1.rpy:216, c1.rpy:379 (+2 more)
+    # c1.rpy:216, c1.rpy:379, c2_mountains.rpy:407, c2_mountains.rpy:527
     old "Look quizzically at her."
     new ""
 
@@ -375,7 +375,7 @@ translate ru strings:
     old "Looking down at them gives you a swell of pride, but your enthusiasm is held back by the knowledge that they are not truly yours."
     new ""
 
-    # c1.rpy:938, c1.rpy:1010 (+2 more)
+    # c1.rpy:938, c1.rpy:1010, c2_highlands.rpy:6655, c2_lowlands.rpy:4766
     old "Lose interest."
     new ""
 
@@ -387,7 +387,7 @@ translate ru strings:
     old "Lunge for his arm!"
     new ""
 
-    # c1.rpy:1984, c1.rpy:2205 (+2 more)
+    # c1.rpy:1984, c1.rpy:2205, c1.rpy:2404, c1.rpy:2692
     old "Make good your escape."
     new ""
 
@@ -395,7 +395,7 @@ translate ru strings:
     old "Motivate her a little."
     new ""
 
-    # c1.rpy:263, c3_captives.rpy:47839 (+4 more)
+    # c1.rpy:263, c3_captives.rpy:47839, c3_captives.rpy:47844, c3_captives.rpy:48230, c3_captives.rpy:48239 (+1 more)
     old "Mount her."
     new ""
 
@@ -403,7 +403,7 @@ translate ru strings:
     old "Mugger"
     new ""
 
-    # c1.rpy:239, c3_captives.rpy:9385 (+1 more)
+    # c1.rpy:239, c3_captives.rpy:9385, c3_captives.rpy:12508
     old "My beautiful companion."
     new ""
 
@@ -419,7 +419,7 @@ translate ru strings:
     old "Never mind about that!"
     new ""
 
-    # c1.rpy:590, c3_captives.rpy:4389 (+3 more)
+    # c1.rpy:590, c3_captives.rpy:4389, c4_capital.rpy:13540, c4_waifu.rpy:35870, c5_court.rpy:1116
     old "Nod."
     new ""
 
@@ -475,7 +475,7 @@ translate ru strings:
     old "Putting the epithet aside, you decide to concentrate on more pressing matters."
     new ""
 
-    # c1.rpy:106, c1.rpy:121 (+1 more)
+    # c1.rpy:106, c1.rpy:121, c3_hordes.rpy:3841
     old "Reach out."
     new ""
 
@@ -543,7 +543,7 @@ translate ru strings:
     old "Shkree!"
     new ""
 
-    # c1.rpy:2763, c2_highlands.rpy:5518 (+3 more)
+    # c1.rpy:2763, c2_highlands.rpy:5518, c2_highlands.rpy:5556, c2_mountains.rpy:2290, c2_mountains.rpy:2369
     old "Sleep comes easily."
     new ""
 
@@ -563,7 +563,7 @@ translate ru strings:
     old "So much for your pet lizard, princess."
     new ""
 
-    # c1.rpy:472, c1.rpy:498 (+2 more)
+    # c1.rpy:472, c1.rpy:498, c1.rpy:510, c1.rpy:522
     old "Something else, perhaps."
     new ""
 
@@ -615,7 +615,7 @@ translate ru strings:
     old "Th-the dragon, it..."
     new ""
 
-    # c1.rpy:2753, c3_lair.rpy:24653 (+3 more)
+    # c1.rpy:2753, c3_lair.rpy:24653, c5_harem.rpy:59537, c5_harem.rpy:63870, c6_harem.rpy:32140
     old "That's better."
     new ""
 
@@ -699,7 +699,7 @@ translate ru strings:
     old "Toy with them."
     new ""
 
-    # c1.rpy:736
+    # c1.rpy:451, c1.rpy:736, c1.rpy:738, c3_captives.rpy:23658, c3_captives.rpy:37387 (+37 more)
     old "What is your name?"
     new ""
 
@@ -711,7 +711,7 @@ translate ru strings:
     old "What's happened here?"
     new ""
 
-    # c1.rpy:1962, c1.rpy:2036 (+3 more)
+    # c1.rpy:1962, c1.rpy:2036, c2_mountains.rpy:2107, c3_captures.rpy:5251, c5_harem.rpy:11661
     old "Wha–"
     new ""
 
@@ -735,7 +735,7 @@ translate ru strings:
     old "With each burst, a shock of pleasure, better than anything you can remember feeling in your short life, runs through your cock."
     new ""
 
-    # c1.rpy:267, c2_lowlands.rpy:1292 (+10 more)
+    # c1.rpy:267, c2_lowlands.rpy:1292, c2_lowlands.rpy:1325, c2_lowlands.rpy:1434, c2_lowlands.rpy:3660 (+7 more)
     old "Withdraw."
     new ""
 
@@ -895,6 +895,14 @@ translate ru strings:
     old "[namepov!tc],{nw}"
     new ""
 
+    # c1.rpy:23
+    old "bottomless{#treasure}"
+    new ""
+
+    # c1.rpy:19
+    old "irresistible{#charm}"
+    new ""
+
     # c1.rpy:407
     old "m fortunate you haven"
     new ""
@@ -907,7 +915,7 @@ translate ru strings:
     old "m, I-I"
     new ""
 
-    # c1.rpy:2777, c2_world.rpy:70 (+2 more)
+    # c1.rpy:2777, c2_world.rpy:70, c3_captives.rpy:40272, c3_captures.rpy:1904
     old "meanwhile..."
     new ""
 
@@ -945,5 +953,21 @@ translate ru strings:
 
     # c1.rpy:315
     old "t you? Why don"
+    new ""
+
+    # c1.rpy:20
+    old "unadulterated{#potency}"
+    new ""
+
+    # c1.rpy:21
+    old "unimpeachable{#mercy}"
+    new ""
+
+    # c1.rpy:22
+    old "unquestionable{#cruelty}"
+    new ""
+
+    # c1.rpy:24
+    old "worriless{#prosperity}"
     new ""
 

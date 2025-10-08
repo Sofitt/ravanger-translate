@@ -1,5 +1,5 @@
 # Перевод файла c4_town.rpy
-# Всего строк: 417
+# Всего строк: 418
 
 translate ru strings:
 
@@ -7,7 +7,7 @@ translate ru strings:
     old "'BASTION'S WEALTH IS MINE.'"
     new ""
 
-    # c4_town.rpy:2140, c4_wildlands.rpy:467 (+5 more)
+    # c4_town.rpy:2140, c4_wildlands.rpy:467, c4_wildlands.rpy:2668, c4_wildlands.rpy:2896, c4_wildlands.rpy:2980 (+2 more)
     old "'DO AS YOU WISH.'"
     new ""
 
@@ -235,7 +235,7 @@ translate ru strings:
     old "As his eyes catch yours, the hulking kobold stomps his way over."
     new ""
 
-    # c4_town.rpy:567, c4_town.rpy:634 (+1 more)
+    # c4_town.rpy:567, c4_town.rpy:634, c4_town.rpy:706
     old "As the words are spoken, they surge inside."
     new ""
 
@@ -253,6 +253,10 @@ translate ru strings:
 
     # c4_town.rpy:860
     old "Attack"
+    new ""
+
+    # c4_town.rpy:143
+    old "BASTION"
     new ""
 
     # c4_town.rpy:2604
@@ -327,7 +331,7 @@ translate ru strings:
     old "Cries of pain and expressions of disbelief come from the soldiers above, as several of the rocks clobber the men on their way into the sky."
     new ""
 
-    # c4_town.rpy:2140, c4_wildlands.rpy:467 (+5 more)
+    # c4_town.rpy:2140, c4_wildlands.rpy:467, c4_wildlands.rpy:2668, c4_wildlands.rpy:2896, c4_wildlands.rpy:2980 (+2 more)
     old "DO AS YOU WISH."
     new ""
 
@@ -399,7 +403,7 @@ translate ru strings:
     old "Explosions of gore punctuate the terrible cacophony, already descending into a percussive ripple of echoes."
     new ""
 
-    # c4_town.rpy:1985, c4_town.rpy:2030 (+1 more)
+    # c4_town.rpy:1985, c4_town.rpy:2030, c4_town.rpy:3422
     old "Fire!"
     new ""
 
@@ -543,7 +547,7 @@ translate ru strings:
     old "He waves his hand."
     new ""
 
-    # c4_town.rpy:958, c4_town.rpy:1001 (+1 more)
+    # c4_town.rpy:958, c4_town.rpy:1001, c4_town.rpy:1052
     old "He's panting, covered in the sweat and filth of recent combat, but nonetheless manages a respectful greeting."
     new ""
 
@@ -891,7 +895,7 @@ translate ru strings:
     old "Scores of the little things race past you in the hallways, all of them carrying scraps of dark cloth and other unusual materials."
     new ""
 
-    # c4_town.rpy:764
+    # c4_town.rpy:764, init-code.rpy:4791
     old "Silence."
     new ""
 
@@ -927,7 +931,7 @@ translate ru strings:
     old "Soon there's nothing but a faint glow of torchlight framing it, and panicked voices screaming behind you as they snap back into sense."
     new ""
 
-    # c4_town.rpy:550, c4_town.rpy:617 (+1 more)
+    # c4_town.rpy:550, c4_town.rpy:617, c4_town.rpy:689
     old "Soon they're all moving as one, racing through the grass towards the distant wagons with scarcely a sound to their credit."
     new ""
 
@@ -1027,7 +1031,7 @@ translate ru strings:
     old "The flames reach high into the night sky, many times higher than even the tallest of them, crackling wildly."
     new ""
 
-    # c4_town.rpy:549, c4_town.rpy:616 (+1 more)
+    # c4_town.rpy:549, c4_town.rpy:616, c4_town.rpy:688
     old "The front of the swarm nod frantically, and rush out to relay the order to the others."
     new ""
 
@@ -1091,7 +1095,7 @@ translate ru strings:
     old "The kobolds may be a blunt tool of warfare, but their resourcefulness has been impressive."
     new ""
 
-    # c4_town.rpy:554, c4_town.rpy:621 (+1 more)
+    # c4_town.rpy:554, c4_town.rpy:621, c4_town.rpy:693
     old "The kobolds spread outwards and onwards, like a dark and dirty pool, until soon the caravan is surrounded."
     new ""
 
@@ -1143,7 +1147,7 @@ translate ru strings:
     old "The rest are split between watches on the wall and in the streets, skeleton crews both."
     new ""
 
-    # c4_town.rpy:981, c4_town.rpy:1038 (+2 more)
+    # c4_town.rpy:981, c4_town.rpy:1038, c4_town.rpy:1108, c4_town.rpy:1152
     old "The satisfaction of victory follows you all the way home."
     new ""
 
@@ -1283,7 +1287,7 @@ translate ru strings:
     old "They are covered in cryptic symbols and geometric designs, and the warlock's attention is absorbed in them."
     new ""
 
-    # c4_town.rpy:555, c4_town.rpy:622 (+1 more)
+    # c4_town.rpy:555, c4_town.rpy:622, c4_town.rpy:694
     old "They climb the sides and perch above the fabric canopies, shanks clutched in their teeth."
     new ""
 

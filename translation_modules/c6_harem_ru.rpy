@@ -1,5 +1,5 @@
 # Перевод файла c6_harem.rpy
-# Всего строк: 1859
+# Всего строк: 1862
 
 translate ru strings:
 
@@ -67,7 +67,7 @@ translate ru strings:
     old "'ARE YOU UPSET?'"
     new ""
 
-    # c6_harem.rpy:1646, c6_harem.rpy:2083 (+3 more)
+    # c6_harem.rpy:1646, c6_harem.rpy:2083, c6_harem.rpy:7280, c6_harem.rpy:8443, c6_harem.rpy:17240
     old "'ARE YOU WELL?'"
     new ""
 
@@ -179,7 +179,7 @@ translate ru strings:
     old "'ENJOY THE SHOW.'"
     new ""
 
-    # c6_harem.rpy:12029, c6_harem.rpy:16412 (+1 more)
+    # c6_harem.rpy:12029, c6_harem.rpy:16412, c6_harem.rpy:20150
     old "'ENJOYING YOUR STAY?'"
     new ""
 
@@ -223,7 +223,7 @@ translate ru strings:
     old "'GET USED TO THEM. THERE WILL BE MORE.'"
     new ""
 
-    # c6_harem.rpy:9853, c6_harem.rpy:9890 (+1 more)
+    # c6_harem.rpy:9853, c6_harem.rpy:9890, c6_harem.rpy:9923
     old "'GO. CLEAN YOURSELF.'"
     new ""
 
@@ -303,7 +303,7 @@ translate ru strings:
     old "'HOW WAS THE EXPERIENCE?'"
     new ""
 
-    # c6_harem.rpy:2107, c6_harem.rpy:4311 (+2 more)
+    # c6_harem.rpy:2107, c6_harem.rpy:4311, c6_harem.rpy:7286, c6_harem.rpy:8439
     old "'HOW WAS YOUR PREGNANCY?'"
     new ""
 
@@ -343,7 +343,7 @@ translate ru strings:
     old "'I HATE IT.'"
     new ""
 
-    # c6_harem.rpy:9857, c6_harem.rpy:9886 (+1 more)
+    # c6_harem.rpy:9857, c6_harem.rpy:9886, c6_harem.rpy:9919
     old "'I HAVE ANOTHER USE FOR YOU.'"
     new ""
 
@@ -359,7 +359,7 @@ translate ru strings:
     old "'I HAVE NO IDEA.'"
     new ""
 
-    # c6_harem.rpy:4319, c6_harem.rpy:7298 (+1 more)
+    # c6_harem.rpy:4319, c6_harem.rpy:7298, c6_harem.rpy:10959
     old "'I HAVE NO MORE QUESTIONS.'"
     new ""
 
@@ -367,7 +367,7 @@ translate ru strings:
     old "'I IMPREGNATED YOUR OLD LOVER.'"
     new ""
 
-    # c6_harem.rpy:2170, c6_harem.rpy:2194 (+1 more)
+    # c6_harem.rpy:2170, c6_harem.rpy:2194, c6_harem.rpy:7050
     old "'I LIKE IT.'"
     new ""
 
@@ -383,11 +383,11 @@ translate ru strings:
     old "'I PREFER YOU IN HERE.'"
     new ""
 
-    # c6_harem.rpy:13485, c6_harem.rpy:16770 (+1 more)
+    # c6_harem.rpy:13485, c6_harem.rpy:16770, c6_harem.rpy:25399
     old "'I RESTORED THE OLD CULTS.'"
     new ""
 
-    # c6_harem.rpy:13473, c6_harem.rpy:16762 (+1 more)
+    # c6_harem.rpy:13473, c6_harem.rpy:16762, c6_harem.rpy:25387
     old "'I RESTORED THE SUN FAITH.'"
     new ""
 
@@ -531,7 +531,7 @@ translate ru strings:
     old "'LET US DISCUSS OUR CHILDREN.'"
     new ""
 
-    # c6_harem.rpy:12041, c6_harem.rpy:16424 (+1 more)
+    # c6_harem.rpy:12041, c6_harem.rpy:16424, c6_harem.rpy:24484
     old "'LET US DISCUSS RECENT EVENTS.'"
     new ""
 
@@ -563,7 +563,7 @@ translate ru strings:
     old "'MAYBE IT WON'T BE SO BAD.'"
     new ""
 
-    # c6_harem.rpy:3836, c6_harem.rpy:27570 (+3 more)
+    # c6_harem.rpy:3836, c6_harem.rpy:27570, c6_harem.rpy:27602, c6_harem.rpy:28781, c6_harem.rpy:28813
     old "'MAYBE LATER.'"
     new ""
 
@@ -867,7 +867,7 @@ translate ru strings:
     old "'WHAT'S WITH THE KOBOLD OUT THERE?'"
     new ""
 
-    # c6_harem.rpy:2489, c6_harem.rpy:7400 (+1 more)
+    # c6_harem.rpy:2489, c6_harem.rpy:7400, c6_harem.rpy:8497
     old "'WHERE ARE THEY NOW?'"
     new ""
 
@@ -1019,7 +1019,7 @@ translate ru strings:
     old "A betraying tremor runs through her parted thighs."
     new ""
 
-    # c6_harem.rpy:159, c6_harem.rpy:1911 (+1 more)
+    # c6_harem.rpy:159, c6_harem.rpy:1911, c6_herald.rpy:1242
     old "A cadre of young women, dressed in revealing red gowns the same shade as your scales, tend to the chamber."
     new ""
 
@@ -1187,7 +1187,7 @@ translate ru strings:
     old "ARE YOU UPSET?"
     new ""
 
-    # c6_harem.rpy:1646, c6_harem.rpy:2083 (+3 more)
+    # c6_harem.rpy:1646, c6_harem.rpy:2083, c6_harem.rpy:7280, c6_harem.rpy:8443, c6_harem.rpy:17240
     old "ARE YOU WELL?"
     new ""
 
@@ -1379,7 +1379,7 @@ translate ru strings:
     old "Another long pause."
     new ""
 
-    # c6_harem.rpy:3928, c6_harem.rpy:4067 (+2 more)
+    # c6_harem.rpy:3928, c6_harem.rpy:4067, c6_harem.rpy:4885, c6_harem.rpy:4979
     old "Another peeks through her fingers with an affected gasp of shock."
     new ""
 
@@ -1807,10 +1807,6 @@ translate ru strings:
     old "Conquer these bubbly jubblies with your kingly rod!"
     new ""
 
-    # c6_harem.rpy:4634
-    old "Cooch"
-    new ""
-
     # c6_harem.rpy:9578, c6_harem.rpy:11179
     old "Cool fingers squeeze gently at your sack as her other hand continues its pumping, and your cock jumps in her grip."
     new ""
@@ -1951,8 +1947,12 @@ translate ru strings:
     old "ENJOY THE SHOW."
     new ""
 
-    # c6_harem.rpy:12029, c6_harem.rpy:16412 (+1 more)
+    # c6_harem.rpy:12029, c6_harem.rpy:16412, c6_harem.rpy:20150
     old "ENJOYING YOUR STAY?"
+    new ""
+
+    # c6_harem.rpy:5270
+    old "ENOUGH"
     new ""
 
     # c6_harem.rpy:14940
@@ -2223,7 +2223,7 @@ translate ru strings:
     old "GET USED TO THEM. THERE WILL BE MORE."
     new ""
 
-    # c6_harem.rpy:9853, c6_harem.rpy:9890 (+1 more)
+    # c6_harem.rpy:9853, c6_harem.rpy:9890, c6_harem.rpy:9923
     old "GO. CLEAN YOURSELF."
     new ""
 
@@ -2347,7 +2347,7 @@ translate ru strings:
     old "HOW WAS THE EXPERIENCE?"
     new ""
 
-    # c6_harem.rpy:2107, c6_harem.rpy:4311 (+2 more)
+    # c6_harem.rpy:2107, c6_harem.rpy:4311, c6_harem.rpy:7286, c6_harem.rpy:8439
     old "HOW WAS YOUR PREGNANCY?"
     new ""
 
@@ -2831,7 +2831,7 @@ translate ru strings:
     old "Here, on this profane ground, we shall embrace once more the ecstasies of the flesh, and be consumed by the fires of lust!"
     new ""
 
-    # c6_harem.rpy:118, c6_harem.rpy:190 (+2 more)
+    # c6_harem.rpy:118, c6_harem.rpy:190, c6_harem.rpy:711, c6_harem.rpy:1876
     old "Here, the flawless marble walls give way to sloping alcoves, filled with clusters of flickering candles."
     new ""
 
@@ -2951,7 +2951,7 @@ translate ru strings:
     old "I HATE IT."
     new ""
 
-    # c6_harem.rpy:9857, c6_harem.rpy:9886 (+1 more)
+    # c6_harem.rpy:9857, c6_harem.rpy:9886, c6_harem.rpy:9919
     old "I HAVE ANOTHER USE FOR YOU."
     new ""
 
@@ -2967,7 +2967,7 @@ translate ru strings:
     old "I HAVE NO IDEA."
     new ""
 
-    # c6_harem.rpy:4319, c6_harem.rpy:7298 (+1 more)
+    # c6_harem.rpy:4319, c6_harem.rpy:7298, c6_harem.rpy:10959
     old "I HAVE NO MORE QUESTIONS."
     new ""
 
@@ -2975,7 +2975,7 @@ translate ru strings:
     old "I IMPREGNATED YOUR OLD LOVER."
     new ""
 
-    # c6_harem.rpy:2170, c6_harem.rpy:2194 (+1 more)
+    # c6_harem.rpy:2170, c6_harem.rpy:2194, c6_harem.rpy:7050
     old "I LIKE IT."
     new ""
 
@@ -2991,11 +2991,11 @@ translate ru strings:
     old "I PREFER YOU IN HERE."
     new ""
 
-    # c6_harem.rpy:13485, c6_harem.rpy:16770 (+1 more)
+    # c6_harem.rpy:13485, c6_harem.rpy:16770, c6_harem.rpy:25399
     old "I RESTORED THE OLD CULTS."
     new ""
 
-    # c6_harem.rpy:13473, c6_harem.rpy:16762 (+1 more)
+    # c6_harem.rpy:13473, c6_harem.rpy:16762, c6_harem.rpy:25387
     old "I RESTORED THE SUN FAITH."
     new ""
 
@@ -3435,7 +3435,7 @@ translate ru strings:
     old "It is with great effort that she stands, first going to hands and knees and then carefully rising on shaking legs."
     new ""
 
-    # c6_harem.rpy:189, c6_harem.rpy:780 (+1 more)
+    # c6_harem.rpy:189, c6_harem.rpy:780, c6_harem.rpy:2563
     old "It leads you from the chamber your minions have prepared for her, down towards the fore of the palace."
     new ""
 
@@ -3563,7 +3563,7 @@ translate ru strings:
     old "LET US DISCUSS OUR CHILDREN."
     new ""
 
-    # c6_harem.rpy:12041, c6_harem.rpy:16424 (+1 more)
+    # c6_harem.rpy:12041, c6_harem.rpy:16424, c6_harem.rpy:24484
     old "LET US DISCUSS RECENT EVENTS."
     new ""
 
@@ -3647,7 +3647,7 @@ translate ru strings:
     old "MAYBE IT WON"
     new ""
 
-    # c6_harem.rpy:3836, c6_harem.rpy:27570 (+3 more)
+    # c6_harem.rpy:3836, c6_harem.rpy:27570, c6_harem.rpy:27602, c6_harem.rpy:28781, c6_harem.rpy:28813
     old "MAYBE LATER."
     new ""
 
@@ -3687,6 +3687,10 @@ translate ru strings:
     old "May our dynasty prove ever as wise and regal as you have grown to be."
     new ""
 
+    # c6_harem.rpy:9334, init-code.rpy:6069
+    old "Maëlys"
+    new ""
+
     # c6_harem.rpy:21131
     old "Me back don't hurt like someone's been beating a hammer on it."
     new ""
@@ -3719,11 +3723,11 @@ translate ru strings:
     old "Moon's {i}tits{/i}, how is that not splitting her in half?"
     new ""
 
-    # c6_harem.rpy:3871, c6_harem.rpy:4008 (+2 more)
+    # c6_harem.rpy:3871, c6_harem.rpy:4008, c6_harem.rpy:4844, c6_harem.rpy:4936
     old "More pairs of eyes, tipsy and astonished and everything in between, turn your way as [nameDrunk!t] accepts a bucket from an approaching kobold."
     new ""
 
-    # c6_harem.rpy:2873, c6_harem.rpy:3004 (+1 more)
+    # c6_harem.rpy:2873, c6_harem.rpy:3004, c6_harem.rpy:3157
     old "Mother Chanwe, we've been {i}over{/i} this–"
     new ""
 
@@ -3755,7 +3759,7 @@ translate ru strings:
     old "NO. IT CANNOT BE YOU."
     new ""
 
-    # c6_harem.rpy:3927, c6_harem.rpy:4066 (+2 more)
+    # c6_harem.rpy:3927, c6_harem.rpy:4066, c6_harem.rpy:4884, c6_harem.rpy:4978
     old "Nearby, a young woman fans her flushed cheeks with one hand, the other pressed low on her belly."
     new ""
 
@@ -4355,7 +4359,7 @@ translate ru strings:
     old "She does not even pause to register the absurdity."
     new ""
 
-    # c6_harem.rpy:82, c6_harem.rpy:682 (+1 more)
+    # c6_harem.rpy:82, c6_harem.rpy:682, c6_harem.rpy:1847
     old "She doesn't seem like the type to stay out of trouble."
     new ""
 
@@ -5743,12 +5747,20 @@ translate ru strings:
     old "WATCH YOUR TONGUE ABOUT MY DAUGHTER."
     new ""
 
+    # c6_harem.rpy:25311
+    old "WE"
+    new ""
+
     # c6_harem.rpy:21105
     old "WE CAN START ON A NEW BATCH."
     new ""
 
     # c6_harem.rpy:14207
     old "WE WILL FIND ANOTHER WAY."
+    new ""
+
+    # c6_harem.rpy:20146
+    old "WEREN"
     new ""
 
     # c6_harem.rpy:25651
@@ -5827,7 +5839,7 @@ translate ru strings:
     old "WHAT SHOULD WE CALL THE NEW BATCH?"
     new ""
 
-    # c6_harem.rpy:2489, c6_harem.rpy:7400 (+1 more)
+    # c6_harem.rpy:2489, c6_harem.rpy:7400, c6_harem.rpy:8497
     old "WHERE ARE THEY NOW?"
     new ""
 
@@ -6663,7 +6675,7 @@ translate ru strings:
     old "You thrust, faster now, as Adeline's thighs squeeze in eager rhythm with each rise and fall of her body."
     new ""
 
-    # c6_harem.rpy:151, c6_harem.rpy:738 (+1 more)
+    # c6_harem.rpy:151, c6_harem.rpy:738, c6_harem.rpy:1903
     old "You traverse the narrow passage toward the temple, weaving your way silently between its waterfalls of wax, and into the chamber beyond."
     new ""
 
@@ -6791,7 +6803,7 @@ translate ru strings:
     old "Your maw opens, and you thrust your tongue between them, slathering her with that wet, commanding muscle as you batter her tongue into submission."
     new ""
 
-    # c6_harem.rpy:9289, c6_harem.rpy:9486 (+1 more)
+    # c6_harem.rpy:9289, c6_harem.rpy:9486, c6_harem.rpy:11156
     old "Your member swells beneath her touch, lengthening so eagerly that [nameHunter!t] has to lean back to keep it from striking her face as she services you."
     new ""
 
@@ -7211,7 +7223,7 @@ translate ru strings:
     old "re ready for even more of them, because it"
     new ""
 
-    # c6_harem.rpy:163, c6_harem.rpy:743 (+2 more)
+    # c6_harem.rpy:163, c6_harem.rpy:743, c6_harem.rpy:1915, c6_harem.rpy:1922
     old "re sure she"
     new ""
 

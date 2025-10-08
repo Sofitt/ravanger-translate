@@ -7,7 +7,7 @@ translate ru strings:
     old "'ATTACK!'"
     new ""
 
-    # c4_abbey.rpy:866, c4_abbey.rpy:1357 (+28 more)
+    # c4_abbey.rpy:866, c4_abbey.rpy:1357, c4_abbey.rpy:1847, c4_abbey.rpy:2224, c4_abbey.rpy:2694 (+25 more)
     old "'LEAVE THEM BE.'"
     new ""
 
@@ -19,27 +19,27 @@ translate ru strings:
     old "'OPEN THE DOOR.'"
     new ""
 
-    # c4_abbey.rpy:816, c4_abbey.rpy:1318 (+18 more)
+    # c4_abbey.rpy:816, c4_abbey.rpy:1318, c4_abbey.rpy:1773, c4_abbey.rpy:2610, c4_abbey.rpy:3056 (+15 more)
     old "'TAKE WHAT YOU WANT.'"
     new ""
 
-    # c4_abbey.rpy:257, c4_capital.rpy:529 (+7 more)
+    # c4_abbey.rpy:257, c4_capital.rpy:529, c4_cove.rpy:149, c4_farms.rpy:217, c4_fort.rpy:217 (+4 more)
     old "'THE CENTAURS.'"
     new ""
 
-    # c4_abbey.rpy:283, c4_capital.rpy:541 (+6 more)
+    # c4_abbey.rpy:283, c4_capital.rpy:541, c4_cove.rpy:161, c4_farms.rpy:234, c4_fort.rpy:232 (+3 more)
     old "'THE INFERNAL COURT.'"
     new ""
 
-    # c4_abbey.rpy:247, c4_capital.rpy:523 (+5 more)
+    # c4_abbey.rpy:247, c4_capital.rpy:523, c4_farms.rpy:209, c4_fort.rpy:208, c4_swamp.rpy:207 (+2 more)
     old "'THE MERCENARIES.'"
     new ""
 
-    # c4_abbey.rpy:266, c4_capital.rpy:535 (+6 more)
+    # c4_abbey.rpy:266, c4_capital.rpy:535, c4_cove.rpy:155, c4_farms.rpy:225, c4_fort.rpy:223 (+3 more)
     old "'THE PROTEANS.'"
     new ""
 
-    # c4_abbey.rpy:294, c4_capital.rpy:547 (+6 more)
+    # c4_abbey.rpy:294, c4_capital.rpy:547, c4_cove.rpy:167, c4_farms.rpy:243, c4_fort.rpy:241 (+3 more)
     old "'THE WARLOCK.'"
     new ""
 
@@ -191,7 +191,7 @@ translate ru strings:
     old "Chanwe's image twists and bulges."
     new ""
 
-    # c4_abbey.rpy:167, c4_capital.rpy:151 (+6 more)
+    # c4_abbey.rpy:167, c4_capital.rpy:151, c4_cove.rpy:92, c4_farms.rpy:147, c4_fort.rpy:146 (+3 more)
     old "Choose another target."
     new ""
 
@@ -347,7 +347,7 @@ translate ru strings:
     old "His eye settles at last on the many openings in the stone surface high above."
     new ""
 
-    # c4_abbey.rpy:1921, c4_abbey.rpy:3374 (+4 more)
+    # c4_abbey.rpy:1921, c4_abbey.rpy:3374, c4_farms.rpy:1705, c4_fort.rpy:2240, c4_town.rpy:2297 (+2 more)
     old "How did you get here?"
     new ""
 
@@ -451,7 +451,7 @@ translate ru strings:
     old "It's little more than the right outfit and the right body language could effect, but it proves enough."
     new ""
 
-    # c4_abbey.rpy:866, c4_abbey.rpy:1357 (+28 more)
+    # c4_abbey.rpy:866, c4_abbey.rpy:1357, c4_abbey.rpy:1847, c4_abbey.rpy:2224, c4_abbey.rpy:2694 (+25 more)
     old "LEAVE THEM BE."
     new ""
 
@@ -775,27 +775,27 @@ translate ru strings:
     old "Sweet, naïve child."
     new ""
 
-    # c4_abbey.rpy:816, c4_abbey.rpy:1318 (+18 more)
+    # c4_abbey.rpy:816, c4_abbey.rpy:1318, c4_abbey.rpy:1773, c4_abbey.rpy:2610, c4_abbey.rpy:3056 (+15 more)
     old "TAKE WHAT YOU WANT."
     new ""
 
-    # c4_abbey.rpy:257, c4_capital.rpy:529 (+7 more)
+    # c4_abbey.rpy:257, c4_capital.rpy:529, c4_cove.rpy:149, c4_farms.rpy:217, c4_fort.rpy:217 (+4 more)
     old "THE CENTAURS."
     new ""
 
-    # c4_abbey.rpy:283, c4_capital.rpy:541 (+6 more)
+    # c4_abbey.rpy:283, c4_capital.rpy:541, c4_cove.rpy:161, c4_farms.rpy:234, c4_fort.rpy:232 (+3 more)
     old "THE INFERNAL COURT."
     new ""
 
-    # c4_abbey.rpy:247, c4_capital.rpy:523 (+5 more)
+    # c4_abbey.rpy:247, c4_capital.rpy:523, c4_farms.rpy:209, c4_fort.rpy:208, c4_swamp.rpy:207 (+2 more)
     old "THE MERCENARIES."
     new ""
 
-    # c4_abbey.rpy:266, c4_capital.rpy:535 (+6 more)
+    # c4_abbey.rpy:266, c4_capital.rpy:535, c4_cove.rpy:155, c4_farms.rpy:225, c4_fort.rpy:223 (+3 more)
     old "THE PROTEANS."
     new ""
 
-    # c4_abbey.rpy:294, c4_capital.rpy:547 (+6 more)
+    # c4_abbey.rpy:294, c4_capital.rpy:547, c4_cove.rpy:167, c4_farms.rpy:243, c4_fort.rpy:241 (+3 more)
     old "THE WARLOCK."
     new ""
 
@@ -819,15 +819,15 @@ translate ru strings:
     old "The centaurs won't much like the march up the mountains."
     new ""
 
-    # c4_abbey.rpy:1991, c4_abbey.rpy:2334 (+1 more)
+    # c4_abbey.rpy:1991, c4_abbey.rpy:2334, c4_abbey.rpy:2810
     old "The convent's sheltered position keeps most of the snow away, with only a thin dusting marring the compound's expansive gardens."
     new ""
 
-    # c4_abbey.rpy:395, c4_cove.rpy:178 (+5 more)
+    # c4_abbey.rpy:395, c4_cove.rpy:178, c4_farms.rpy:257, c4_fort.rpy:255, c4_swamp.rpy:255 (+2 more)
     old "The council chamber erupts into a flurry of excited activity, kobolds scuttling back and forth and barking commands at one another."
     new ""
 
-    # c4_abbey.rpy:394, c4_cove.rpy:177 (+5 more)
+    # c4_abbey.rpy:394, c4_cove.rpy:177, c4_farms.rpy:256, c4_fort.rpy:254, c4_swamp.rpy:254 (+2 more)
     old "The decision made, you adjourn your war council with a flick of your wing."
     new ""
 
@@ -931,7 +931,7 @@ translate ru strings:
     old "The stone melts and flows up her hands and forearms, locking her in place."
     new ""
 
-    # c4_abbey.rpy:1990, c4_abbey.rpy:2333 (+1 more)
+    # c4_abbey.rpy:1990, c4_abbey.rpy:2333, c4_abbey.rpy:2809
     old "The stony visage of the Goddess emerges from a light flurry of snow beneath you, Her impassive face still looming in quiet reassurance."
     new ""
 
@@ -1339,7 +1339,7 @@ translate ru strings:
     old "s not hard to imagine that she"
     new ""
 
-    # c4_abbey.rpy:1991, c4_abbey.rpy:2334 (+1 more)
+    # c4_abbey.rpy:1991, c4_abbey.rpy:2334, c4_abbey.rpy:2810
     old "s sheltered position keeps most of the snow away, with only a thin dusting marring the compound"
     new ""
 

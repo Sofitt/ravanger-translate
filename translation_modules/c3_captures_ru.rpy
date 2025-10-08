@@ -1,5 +1,5 @@
 # Перевод файла c3_captures.rpy
-# Всего строк: 467
+# Всего строк: 468
 
 translate ru strings:
 
@@ -31,7 +31,7 @@ translate ru strings:
     old "'BUSINESS PARTNER.'"
     new ""
 
-    # c3_captures.rpy:4966, c3_lair.rpy:31278 (+6 more)
+    # c3_captures.rpy:4966, c3_lair.rpy:31278, c3_lair.rpy:31343, c3_lair.rpy:34692, c3_lair.rpy:35924 (+3 more)
     old "'CAN WE GET ON WITH IT?'"
     new ""
 
@@ -39,7 +39,7 @@ translate ru strings:
     old "'CAPTURE HER.'"
     new ""
 
-    # c3_captures.rpy:1368, c4_waifu.rpy:9270 (+5 more)
+    # c3_captures.rpy:1368, c4_waifu.rpy:9270, c4_waifu.rpy:9314, c4_waifu.rpy:9347, c5_court.rpy:2047 (+2 more)
     old "'FAIR ENOUGH.'"
     new ""
 
@@ -67,7 +67,7 @@ translate ru strings:
     old "'I'LL JUST RAPE YOU.'"
     new ""
 
-    # c3_captures.rpy:6238, c4_waifu.rpy:14377 (+1 more)
+    # c3_captures.rpy:6238, c4_waifu.rpy:14377, c5.rpy:4387
     old "'I'M SORRY.'"
     new ""
 
@@ -103,11 +103,11 @@ translate ru strings:
     old "'SET THEM FREE.'"
     new ""
 
-    # c3_captures.rpy:1498, c3_captures.rpy:1706 (+2 more)
+    # c3_captures.rpy:1498, c3_captures.rpy:1706, c3_captures.rpy:5072, c3_captures.rpy:5796
     old "'SHE IS MINE.'"
     new ""
 
-    # c3_captures.rpy:1539, c3_captures.rpy:1731 (+3 more)
+    # c3_captures.rpy:1539, c3_captures.rpy:1731, c3_captures.rpy:5116, c3_captures.rpy:5824, c3_hordes.rpy:3270
     old "'SHE IS YOURS.'"
     new ""
 
@@ -207,7 +207,7 @@ translate ru strings:
     old "After a long few heartbeats, one of them steps forward."
     new ""
 
-    # c3_captures.rpy:1572, c3_captures.rpy:1755 (+1 more)
+    # c3_captures.rpy:1572, c3_captures.rpy:1755, c3_hordes.rpy:6439
     old "Ahhh!"
     new ""
 
@@ -231,7 +231,7 @@ translate ru strings:
     old "And you!"
     new ""
 
-    # c3_captures.rpy:2444, c5_harem.rpy:44664 (+1 more)
+    # c3_captures.rpy:2444, c5_harem.rpy:44664, c6_harem.rpy:10126
     old "And?"
     new ""
 
@@ -327,7 +327,7 @@ translate ru strings:
     old "Bet you'd like a bit more of it, wouldn't you?"
     new ""
 
-    # c3_captures.rpy:5533, c3_captures.rpy:5604 (+1 more)
+    # c3_captures.rpy:5533, c3_captures.rpy:5604, c3_captures.rpy:5677
     old "Bleh!"
     new ""
 
@@ -343,7 +343,7 @@ translate ru strings:
     old "But she's not the prize she once was."
     new ""
 
-    # c3_captures.rpy:4966, c3_lair.rpy:31278 (+6 more)
+    # c3_captures.rpy:4966, c3_lair.rpy:31278, c3_lair.rpy:31343, c3_lair.rpy:34692, c3_lair.rpy:35924 (+3 more)
     old "CAN WE GET ON WITH IT?"
     new ""
 
@@ -415,7 +415,7 @@ translate ru strings:
     old "Everyone looks at you, expectantly."
     new ""
 
-    # c3_captures.rpy:1368, c4_waifu.rpy:9270 (+5 more)
+    # c3_captures.rpy:1368, c4_waifu.rpy:9270, c4_waifu.rpy:9314, c4_waifu.rpy:9347, c5_court.rpy:2047 (+2 more)
     old "FAIR ENOUGH."
     new ""
 
@@ -467,7 +467,7 @@ translate ru strings:
     old "Gh-ghrk!"
     new ""
 
-    # c3_captures.rpy:2599, c3_captures.rpy:3865 (+5 more)
+    # c3_captures.rpy:2599, c3_captures.rpy:3865, c3_hordes.rpy:6888, c3_hordes.rpy:7007, c3_lair.rpy:18171 (+2 more)
     old "Ghk!"
     new ""
 
@@ -485,6 +485,10 @@ translate ru strings:
 
     # c3_captures.rpy:620
     old "Greetin's t'you as well."
+    new ""
+
+    # c3_captures.rpy:3072
+    old "HASN"
     new ""
 
     # c3_captures.rpy:2935
@@ -515,7 +519,7 @@ translate ru strings:
     old "He glances down at his defiled leader."
     new ""
 
-    # c3_captures.rpy:2593, c3_hordes.rpy:6882 (+1 more)
+    # c3_captures.rpy:2593, c3_hordes.rpy:6882, c3_hordes.rpy:7001
     old "He grabs the soft leather of her breastpiece, and squeezes with gleeful firmness."
     new ""
 
@@ -555,7 +559,7 @@ translate ru strings:
     old "He picks her up under both armpits, and begins to haul her away."
     new ""
 
-    # c3_captures.rpy:1584, c3_captures.rpy:1767 (+1 more)
+    # c3_captures.rpy:1584, c3_captures.rpy:1767, c3_hordes.rpy:6449
     old "He pulls upward, forcing her to her feet to ease the sudden and urgent pain on her nipples."
     new ""
 
@@ -583,7 +587,7 @@ translate ru strings:
     old "Heh."
     new ""
 
-    # c3_captures.rpy:3359, c3_captures.rpy:3782 (+1 more)
+    # c3_captures.rpy:3359, c3_captures.rpy:3782, c3_captures.rpy:3987
     old "Her bonds are little match for your talons, which cut rope and prise open latches with equal ease."
     new ""
 
@@ -599,7 +603,7 @@ translate ru strings:
     old "Her cries fade slowly into the distance."
     new ""
 
-    # c3_captures.rpy:6382, c3_lair.rpy:35676 (+1 more)
+    # c3_captures.rpy:6382, c3_lair.rpy:35676, c4_swamp.rpy:671
     old "Her eyes go wide."
     new ""
 
@@ -759,7 +763,7 @@ translate ru strings:
     old "It offers a cheery wave."
     new ""
 
-    # c3_captures.rpy:5371, c3_captures.rpy:5433 (+2 more)
+    # c3_captures.rpy:5371, c3_captures.rpy:5433, c3_captures.rpy:5564, c3_captures.rpy:5635
     old "It's all so beautiful!"
     new ""
 
@@ -775,7 +779,7 @@ translate ru strings:
     old "It's obvious that your kobolds will have difficulty working this situation out for themselves."
     new ""
 
-    # c3_captures.rpy:4305, c3_captures.rpy:4329 (+1 more)
+    # c3_captures.rpy:4305, c3_captures.rpy:4329, c3_captures.rpy:4345
     old "It's only as you approach your lair that she breaks her quiet, stepping back to view the structure."
     new ""
 
@@ -843,7 +847,7 @@ translate ru strings:
     old "Mean lady over there!"
     new ""
 
-    # c3_captures.rpy:1998, c3_hordes.rpy:20369 (+3 more)
+    # c3_captures.rpy:1998, c3_hordes.rpy:20369, c4_waifu.rpy:20320, c5_harem.rpy:42624, c5_harem.rpy:43857
     old "Mhm."
     new ""
 
@@ -871,7 +875,7 @@ translate ru strings:
     old "No other interruptions come, and it is not long before you are back asleep."
     new ""
 
-    # c3_captures.rpy:4452, c3_captures.rpy:4471 (+2 more)
+    # c3_captures.rpy:4452, c3_captures.rpy:4471, c3_captures.rpy:4749, c3_captures.rpy:4766
     old "Nodding eagerly, he leads the guards back through to your lair."
     new ""
 
@@ -923,7 +927,7 @@ translate ru strings:
     old "Oh, thanks you, [titlepov!t]!"
     new ""
 
-    # c3_captures.rpy:443, c3_lair.rpy:19443 (+1 more)
+    # c3_captures.rpy:443, c3_lair.rpy:19443, c5_harem.rpy:38879
     old "Oh?"
     new ""
 
@@ -935,7 +939,7 @@ translate ru strings:
     old "One final, fervent sprint across the open grasses brings you to the hidden valley where your lair resides."
     new ""
 
-    # c3_captures.rpy:4516, c3_hordes.rpy:7130 (+1 more)
+    # c3_captures.rpy:4516, c3_hordes.rpy:7130, c3_hordes.rpy:16002
     old "One of the kobolds grabs the edge of her cloak, and yanks it free."
     new ""
 
@@ -979,7 +983,7 @@ translate ru strings:
     old "QUITE THE MOUTH YOU HAVE."
     new ""
 
-    # c3_captures.rpy:5131, c3_hordes.rpy:6036 (+10 more)
+    # c3_captures.rpy:5131, c3_hordes.rpy:6036, c3_hordes.rpy:6130, c3_hordes.rpy:6238, c3_hordes.rpy:6379 (+7 more)
     old "Realsies?"
     new ""
 
@@ -999,11 +1003,11 @@ translate ru strings:
     old "SET THEM FREE."
     new ""
 
-    # c3_captures.rpy:1498, c3_captures.rpy:1706 (+2 more)
+    # c3_captures.rpy:1498, c3_captures.rpy:1706, c3_captures.rpy:5072, c3_captures.rpy:5796
     old "SHE IS MINE."
     new ""
 
-    # c3_captures.rpy:1539, c3_captures.rpy:1731 (+3 more)
+    # c3_captures.rpy:1539, c3_captures.rpy:1731, c3_captures.rpy:5116, c3_captures.rpy:5824, c3_hordes.rpy:3270
     old "SHE IS YOURS."
     new ""
 
@@ -1151,11 +1155,11 @@ translate ru strings:
     old "She struggles but, winded and abused, there's little she can do as the wolf thrusts itself deeper into her ass with quick, frantic thrusts."
     new ""
 
-    # c3_captures.rpy:2751, c3_captures.rpy:4543 (+1 more)
+    # c3_captures.rpy:2751, c3_captures.rpy:4543, c3_hordes.rpy:7157
     old "She struggles, but the kobold's claws paw and grab at her exposed flesh, making focus impossible."
     new ""
 
-    # c3_captures.rpy:3406, c3_captures.rpy:4039 (+1 more)
+    # c3_captures.rpy:3406, c3_captures.rpy:4039, c3_captures.rpy:4150
     old "She totters over to the side of the caravan and picks up a discarded cloak."
     new ""
 
@@ -1323,7 +1327,7 @@ translate ru strings:
     old "The scaled wolf must offer more."
     new ""
 
-    # c3_captures.rpy:4530, c3_hordes.rpy:7097 (+1 more)
+    # c3_captures.rpy:4530, c3_hordes.rpy:7097, c3_hordes.rpy:7144
     old "The slap stops her in her tracks."
     new ""
 
@@ -1427,7 +1431,7 @@ translate ru strings:
     old "Well then, alpha, you'd better lead the way."
     new ""
 
-    # c3_captures.rpy:5354, c3_captures.rpy:5416 (+2 more)
+    # c3_captures.rpy:5354, c3_captures.rpy:5416, c3_captures.rpy:5547, c3_captures.rpy:5618
     old "Wh-whoa!"
     new ""
 
@@ -1451,7 +1455,7 @@ translate ru strings:
     old "When she looks to you again, her eyes burn fiercely."
     new ""
 
-    # c3_captures.rpy:5375, c3_captures.rpy:5437 (+2 more)
+    # c3_captures.rpy:5375, c3_captures.rpy:5437, c3_captures.rpy:5568, c3_captures.rpy:5639
     old "Which bit is yours?"
     new ""
 
@@ -1459,7 +1463,7 @@ translate ru strings:
     old "While you can't run them all down, you make quick work of the one still trapped under the body of his comrade."
     new ""
 
-    # c3_captures.rpy:5381, c3_captures.rpy:5444 (+2 more)
+    # c3_captures.rpy:5381, c3_captures.rpy:5444, c3_captures.rpy:5574, c3_captures.rpy:5646
     old "Whoooaa!"
     new ""
 
@@ -1543,7 +1547,7 @@ translate ru strings:
     old "You fucking what now?"
     new ""
 
-    # c3_captures.rpy:5356, c3_captures.rpy:5418 (+2 more)
+    # c3_captures.rpy:5356, c3_captures.rpy:5418, c3_captures.rpy:5549, c3_captures.rpy:5620
     old "You gather strength in your hind legs, and launch yourself into the night air."
     new ""
 
@@ -1723,7 +1727,7 @@ translate ru strings:
     old "d like a bit more of it, wouldn"
     new ""
 
-    # c3_captures.rpy:2583, c3_hordes.rpy:6872 (+1 more)
+    # c3_captures.rpy:2583, c3_hordes.rpy:6872, c3_hordes.rpy:6989
     old "hey, watch where you're touching!"
     new ""
 

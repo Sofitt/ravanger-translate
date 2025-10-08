@@ -19,7 +19,7 @@ translate ru strings:
     old "'ARE YOU A MAN OR A WOMAN?'"
     new ""
 
-    # c5_forces.rpy:1350, c6_forces.rpy:664 (+1 more)
+    # c5_forces.rpy:1350, c6_forces.rpy:664, c6_forces.rpy:999
     old "'AS YOU WERE, BOYS.'"
     new ""
 
@@ -59,7 +59,7 @@ translate ru strings:
     old "'DO YOU REMEMBER THE LAST DRAGON?'"
     new ""
 
-    # c5_forces.rpy:1580, c5_harem.rpy:5804 (+5 more)
+    # c5_forces.rpy:1580, c5_harem.rpy:5804, c5_harem.rpy:8500, c5_harem.rpy:10826, c5_harem.rpy:22740 (+2 more)
     old "'DO YOU WISH TO BE MY QUEEN?'"
     new ""
 
@@ -163,7 +163,7 @@ translate ru strings:
     old "'HOW IS MY HORDE?'"
     new ""
 
-    # c5_forces.rpy:1291, c6_forces.rpy:587 (+1 more)
+    # c5_forces.rpy:1291, c6_forces.rpy:587, c6_forces.rpy:916
     old "'I AM JUST CHECKING IN.'"
     new ""
 
@@ -183,7 +183,7 @@ translate ru strings:
     old "'I HAVE SOME QUESTIONS ABOUT YOU.'"
     new ""
 
-    # c5_forces.rpy:8618, c5_forces.rpy:8671 (+1 more)
+    # c5_forces.rpy:8618, c5_forces.rpy:8671, c5_forces.rpy:8736
     old "'I JUST WANTED TO KNOW WHERE YOU WERE.'"
     new ""
 
@@ -191,7 +191,7 @@ translate ru strings:
     old "'I LIKE WHAT YOU'VE DONE WITH THE PLACE.'"
     new ""
 
-    # c5_forces.rpy:1322, c6_forces.rpy:630 (+1 more)
+    # c5_forces.rpy:1322, c6_forces.rpy:630, c6_forces.rpy:965
     old "'I LOVE YOU ALL.'"
     new ""
 
@@ -199,15 +199,15 @@ translate ru strings:
     old "'I MUST GO.'"
     new ""
 
-    # c5_forces.rpy:3141, c5_harem.rpy:569 (+7 more)
+    # c5_forces.rpy:3141, c5_harem.rpy:569, c5_harem.rpy:10738, c5_harem.rpy:33031, c5_harem.rpy:38706 (+4 more)
     old "'I TAKE MY LEAVE.'"
     new ""
 
-    # c5_forces.rpy:1273, c6_forces.rpy:569 (+1 more)
+    # c5_forces.rpy:1273, c6_forces.rpy:569, c6_forces.rpy:908
     old "'I WANTED TO SEE MY CHILDREN.'"
     new ""
 
-    # c5_forces.rpy:1282, c6_forces.rpy:578 (+1 more)
+    # c5_forces.rpy:1282, c6_forces.rpy:578, c6_forces.rpy:912
     old "'I WANTED TO SEE YOU.'"
     new ""
 
@@ -255,7 +255,7 @@ translate ru strings:
     old "'LET'S DISCUSS THE HUNDRED COMPANIES.'"
     new ""
 
-    # c5_forces.rpy:799, c5_forces.rpy:843 (+6 more)
+    # c5_forces.rpy:799, c5_forces.rpy:843, c5_forces.rpy:892, c5_forces.rpy:3569, c5_forces.rpy:4327 (+3 more)
     old "'MAKE DO WITH WHAT YOU HAVE.'"
     new ""
 
@@ -275,7 +275,7 @@ translate ru strings:
     old "'NOBODY WARNED ME.'"
     new ""
 
-    # c5_forces.rpy:8918, c5_forces.rpy:10574 (+2 more)
+    # c5_forces.rpy:8918, c5_forces.rpy:10574, c5_harem.rpy:64363, c6_harem.rpy:32580
     old "'NOTHING, FOR NOW.'"
     new ""
 
@@ -291,7 +291,7 @@ translate ru strings:
     old "'SPEAK YOUR MIND.'"
     new ""
 
-    # c5_forces.rpy:8263, c5_forces.rpy:8301 (+1 more)
+    # c5_forces.rpy:8263, c5_forces.rpy:8301, c5_forces.rpy:8322
     old "'SWEET.'"
     new ""
 
@@ -343,7 +343,7 @@ translate ru strings:
     old "'THE ‘PALE CONVOCATION’ INTENDS TO OPPOSE US.'"
     new ""
 
-    # c5_forces.rpy:1333, c6_forces.rpy:641 (+1 more)
+    # c5_forces.rpy:1333, c6_forces.rpy:641, c6_forces.rpy:976
     old "'TOGETHER WE WILL DESTROY MY ENEMIES.'"
     new ""
 
@@ -359,7 +359,7 @@ translate ru strings:
     old "'WHAT ARE DRAKES?'"
     new ""
 
-    # c5_forces.rpy:4144, c5_forces.rpy:5211 (+2 more)
+    # c5_forces.rpy:4144, c5_forces.rpy:5211, c5_forces.rpy:8952, c5_harem.rpy:27721
     old "'WHAT ARE YOUR PLANS?'"
     new ""
 
@@ -383,7 +383,7 @@ translate ru strings:
     old "'WHAT DO YOU THINK I SHOULD DO WITH HIM?'"
     new ""
 
-    # c5_forces.rpy:3319, c5_forces.rpy:5220 (+1 more)
+    # c5_forces.rpy:3319, c5_forces.rpy:5220, c5_harem.rpy:20799
     old "'WHAT DO YOU THINK OF THE CATACLYSM?'"
     new ""
 
@@ -475,7 +475,7 @@ translate ru strings:
     old "'WHY NOT JUST TAKE WHAT YOU NEED?'"
     new ""
 
-    # c5_forces.rpy:790, c5_forces.rpy:834 (+1 more)
+    # c5_forces.rpy:790, c5_forces.rpy:834, c5_forces.rpy:883
     old "'WHY NOT {i}TAKE{/i} SOME LADIES? MAKE MORE KOBOLD?'"
     new ""
 
@@ -535,7 +535,7 @@ translate ru strings:
     old "'YOU WILL BE GIVEN WHAT YOU NEED.'"
     new ""
 
-    # c5_forces.rpy:4318, c5_forces.rpy:4356 (+2 more)
+    # c5_forces.rpy:4318, c5_forces.rpy:4356, c5_forces.rpy:5370, c5_forces.rpy:5430
     old "'YOU WILL HAVE WHAT YOU NEED.'"
     new ""
 
@@ -603,7 +603,7 @@ translate ru strings:
     old "ARE YOU A MAN OR A WOMAN?"
     new ""
 
-    # c5_forces.rpy:1350, c6_forces.rpy:664 (+1 more)
+    # c5_forces.rpy:1350, c6_forces.rpy:664, c6_forces.rpy:999
     old "AS YOU WERE, BOYS."
     new ""
 
@@ -915,7 +915,7 @@ translate ru strings:
     old "DO YOU REMEMBER THE LAST DRAGON?"
     new ""
 
-    # c5_forces.rpy:1580, c5_harem.rpy:5804 (+5 more)
+    # c5_forces.rpy:1580, c5_harem.rpy:5804, c5_harem.rpy:8500, c5_harem.rpy:10826, c5_harem.rpy:22740 (+2 more)
     old "DO YOU WISH TO BE MY QUEEN?"
     new ""
 
@@ -939,7 +939,7 @@ translate ru strings:
     old "Did you lie to me {i}again{/i}, you mendacious old witch?"
     new ""
 
-    # c5_forces.rpy:1397, c6_forces.rpy:715 (+1 more)
+    # c5_forces.rpy:1397, c6_forces.rpy:715, c6_forces.rpy:1039
     old "Die!"
     new ""
 
@@ -991,7 +991,7 @@ translate ru strings:
     old "Eat the paint."
     new ""
 
-    # c5_forces.rpy:10
+    # c5_forces.rpy:10, init-code.rpy:6124
     old "Eburon"
     new ""
 
@@ -1331,7 +1331,7 @@ translate ru strings:
     old "Heavily-chewed armour stands are lined along one wall, and a lopsided ring of chalk has been drawn around a scuffed and torn rug."
     new ""
 
-    # c5_forces.rpy:13
+    # c5_forces.rpy:13, init-code.rpy:6053
     old "Hector"
     new ""
 
@@ -1407,7 +1407,7 @@ translate ru strings:
     old "His tone becomes briefly bitter, though his voice still carries the soft rumble of anticipation."
     new ""
 
-    # c5_forces.rpy:1291, c6_forces.rpy:587 (+1 more)
+    # c5_forces.rpy:1291, c6_forces.rpy:587, c6_forces.rpy:916
     old "I AM JUST CHECKING IN."
     new ""
 
@@ -1427,7 +1427,7 @@ translate ru strings:
     old "I HAVE SOME QUESTIONS ABOUT YOU."
     new ""
 
-    # c5_forces.rpy:8618, c5_forces.rpy:8671 (+1 more)
+    # c5_forces.rpy:8618, c5_forces.rpy:8671, c5_forces.rpy:8736
     old "I JUST WANTED TO KNOW WHERE YOU WERE."
     new ""
 
@@ -1435,7 +1435,7 @@ translate ru strings:
     old "I LIKE WHAT YOU"
     new ""
 
-    # c5_forces.rpy:1322, c6_forces.rpy:630 (+1 more)
+    # c5_forces.rpy:1322, c6_forces.rpy:630, c6_forces.rpy:965
     old "I LOVE YOU ALL."
     new ""
 
@@ -1443,15 +1443,15 @@ translate ru strings:
     old "I MUST GO."
     new ""
 
-    # c5_forces.rpy:3141, c5_harem.rpy:569 (+7 more)
+    # c5_forces.rpy:3141, c5_harem.rpy:569, c5_harem.rpy:10738, c5_harem.rpy:33031, c5_harem.rpy:38706 (+4 more)
     old "I TAKE MY LEAVE."
     new ""
 
-    # c5_forces.rpy:1273, c6_forces.rpy:569 (+1 more)
+    # c5_forces.rpy:1273, c6_forces.rpy:569, c6_forces.rpy:908
     old "I WANTED TO SEE MY CHILDREN."
     new ""
 
-    # c5_forces.rpy:1282, c6_forces.rpy:578 (+1 more)
+    # c5_forces.rpy:1282, c6_forces.rpy:578, c6_forces.rpy:912
     old "I WANTED TO SEE YOU."
     new ""
 
@@ -1607,7 +1607,7 @@ translate ru strings:
     old "Immediately he lifts his other hand, palm held out."
     new ""
 
-    # c5_forces.rpy:1344, c6_forces.rpy:652 (+1 more)
+    # c5_forces.rpy:1344, c6_forces.rpy:652, c6_forces.rpy:987
     old "Impress them with a show of draconic power."
     new ""
 
@@ -1783,7 +1783,7 @@ translate ru strings:
     old "Little old me, eh?"
     new ""
 
-    # c5_forces.rpy:799, c5_forces.rpy:843 (+6 more)
+    # c5_forces.rpy:799, c5_forces.rpy:843, c5_forces.rpy:892, c5_forces.rpy:3569, c5_forces.rpy:4327 (+3 more)
     old "MAKE DO WITH WHAT YOU HAVE."
     new ""
 
@@ -1799,7 +1799,7 @@ translate ru strings:
     old "MY DAUGHTER WILL NOT RUIN ANYTHING."
     new ""
 
-    # c5_forces.rpy:22
+    # c5_forces.rpy:22, init-code.rpy:6120
     old "Malagar"
     new ""
 
@@ -1875,7 +1875,7 @@ translate ru strings:
     old "NOBODY WARNED ME."
     new ""
 
-    # c5_forces.rpy:8918, c5_forces.rpy:10574 (+2 more)
+    # c5_forces.rpy:8918, c5_forces.rpy:10574, c5_harem.rpy:64363, c6_harem.rpy:32580
     old "NOTHING, FOR NOW."
     new ""
 
@@ -2007,7 +2007,7 @@ translate ru strings:
     old "Perhaps some imperceptible shift in his manner catches their attention, because a handful of them turn their heads to regard him."
     new ""
 
-    # c5_forces.rpy:592
+    # c5_forces.rpy:592, init-code.rpy:6079
     old "Petruk"
     new ""
 
@@ -2035,7 +2035,7 @@ translate ru strings:
     old "Returning to the barracks, you find them somewhat tidier and less festive than you did at first."
     new ""
 
-    # c5_forces.rpy:16
+    # c5_forces.rpy:16, init-code.rpy:6050
     old "Rhyll"
     new ""
 
@@ -2059,7 +2059,7 @@ translate ru strings:
     old "SPEAK YOUR MIND."
     new ""
 
-    # c5_forces.rpy:8263, c5_forces.rpy:8301 (+1 more)
+    # c5_forces.rpy:8263, c5_forces.rpy:8301, c5_forces.rpy:8322
     old "SWEET."
     new ""
 
@@ -2231,7 +2231,7 @@ translate ru strings:
     old "THE ‘PALE CONVOCATION’ INTENDS TO OPPOSE US."
     new ""
 
-    # c5_forces.rpy:1333, c6_forces.rpy:641 (+1 more)
+    # c5_forces.rpy:1333, c6_forces.rpy:641, c6_forces.rpy:976
     old "TOGETHER WE WILL DESTROY MY ENEMIES."
     new ""
 
@@ -2287,7 +2287,7 @@ translate ru strings:
     old "The broom's bristles tickle a little, but otherwise her frenzied assault proves harmless."
     new ""
 
-    # c5_forces.rpy:1452, c6_forces.rpy:778 (+1 more)
+    # c5_forces.rpy:1452, c6_forces.rpy:778, c6_forces.rpy:1094
     old "The burst of fire is brief, and when it extinguishes, its vanishing light leaves the nursery feeling even darker than it was before."
     new ""
 
@@ -2383,7 +2383,7 @@ translate ru strings:
     old "The lazy crook of his smile invites you to join in with his humour."
     new ""
 
-    # c5_forces.rpy:1450, c6_forces.rpy:776 (+1 more)
+    # c5_forces.rpy:1450, c6_forces.rpy:776, c6_forces.rpy:1092
     old "The light from the flame dances across the upturned faces of your awestruck children, kindling in their reptilian eyes."
     new ""
 
@@ -2479,7 +2479,7 @@ translate ru strings:
     old "They seem so far to operate on a local scale, and gradually spread, instead."
     new ""
 
-    # c5_forces.rpy:1439, c6_forces.rpy:765 (+1 more)
+    # c5_forces.rpy:1439, c6_forces.rpy:765, c6_forces.rpy:1081
     old "This is the power that overshadowed her, bred her, marked her as forever yours."
     new ""
 
@@ -2507,7 +2507,7 @@ translate ru strings:
     old "Tools and construction supplies lie scattered about the work in progress."
     new ""
 
-    # c5_forces.rpy:3692, c6_harem.rpy:5534 (+1 more)
+    # c5_forces.rpy:3692, c6_harem.rpy:5534, c6_harem.rpy:7418
     old "Turn to other matters."
     new ""
 
@@ -2543,7 +2543,7 @@ translate ru strings:
     old "WHAT ARE DRAKES?"
     new ""
 
-    # c5_forces.rpy:4144, c5_forces.rpy:5211 (+2 more)
+    # c5_forces.rpy:4144, c5_forces.rpy:5211, c5_forces.rpy:8952, c5_harem.rpy:27721
     old "WHAT ARE YOUR PLANS?"
     new ""
 
@@ -2567,7 +2567,7 @@ translate ru strings:
     old "WHAT DO YOU THINK I SHOULD DO WITH HIM?"
     new ""
 
-    # c5_forces.rpy:3319, c5_forces.rpy:5220 (+1 more)
+    # c5_forces.rpy:3319, c5_forces.rpy:5220, c5_harem.rpy:20799
     old "WHAT DO YOU THINK OF THE CATACLYSM?"
     new ""
 
@@ -2651,7 +2651,7 @@ translate ru strings:
     old "WHY DID YOU STUDY UNDER HER?"
     new ""
 
-    # c5_forces.rpy:10178, c5_harem.rpy:38883 (+2 more)
+    # c5_forces.rpy:10178, c5_harem.rpy:38883, c5_harem.rpy:38889, c5_herald.rpy:1031
     old "WHY DIDN"
     new ""
 
@@ -2659,7 +2659,7 @@ translate ru strings:
     old "WHY NOT JUST TAKE WHAT YOU NEED?"
     new ""
 
-    # c5_forces.rpy:790, c5_forces.rpy:834 (+1 more)
+    # c5_forces.rpy:790, c5_forces.rpy:834, c5_forces.rpy:883
     old "WHY NOT {i}TAKE{/i} SOME LADIES? MAKE MORE KOBOLD?"
     new ""
 
@@ -2867,7 +2867,7 @@ translate ru strings:
     old "YOU WILL BE GIVEN WHAT YOU NEED."
     new ""
 
-    # c5_forces.rpy:4318, c5_forces.rpy:4356 (+2 more)
+    # c5_forces.rpy:4318, c5_forces.rpy:4356, c5_forces.rpy:5370, c5_forces.rpy:5430
     old "YOU WILL HAVE WHAT YOU NEED."
     new ""
 
@@ -2875,7 +2875,7 @@ translate ru strings:
     old "YOU WILL HAVE YOUR PRINCESS."
     new ""
 
-    # c5_forces.rpy:1381, c6_forces.rpy:699 (+1 more)
+    # c5_forces.rpy:1381, c6_forces.rpy:699, c6_forces.rpy:1023
     old "Yeah!"
     new ""
 
@@ -2923,7 +2923,7 @@ translate ru strings:
     old "You clutch at her wrist and pivot, all but flinging her toward the hammock."
     new ""
 
-    # c5_forces.rpy:1401, c6_forces.rpy:727 (+1 more)
+    # c5_forces.rpy:1401, c6_forces.rpy:727, c6_forces.rpy:1051
     old "You come to her aid with a sharp rumble deep in your throat, which distracts the brood enough for her to get them lined up again."
     new ""
 
@@ -3227,7 +3227,7 @@ translate ru strings:
     old "{i}You{/i} were to be the one to change that."
     new ""
 
-    # c5_forces.rpy:19
+    # c5_forces.rpy:19, init-code.rpy:6057
     old "Žižeryx"
     new ""
 

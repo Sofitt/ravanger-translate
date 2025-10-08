@@ -71,7 +71,7 @@ translate ru strings:
     old "As you take your final meal before departure, Mother appears silently at the entrance to the room."
     new ""
 
-    # c4_wildlands.rpy:490, c4_wildlands.rpy:593 (+2 more)
+    # c4_wildlands.rpy:490, c4_wildlands.rpy:593, c4_wildlands.rpy:2691, c4_wildlands.rpy:2816
     old "As you withdraw, you see them struggling to wrestle them down with ropes, and no small number of sticks."
     new ""
 
@@ -259,7 +259,7 @@ translate ru strings:
     old "He acknowledges you with a glance and a nod, but the greater part of his attention is fixed on the clutter of magical paraphernalia littering his workbench."
     new ""
 
-    # c4_wildlands.rpy:484, c4_wildlands.rpy:587 (+2 more)
+    # c4_wildlands.rpy:484, c4_wildlands.rpy:587, c4_wildlands.rpy:2685, c4_wildlands.rpy:2810
     old "He barks a few commands, and your minions begin rounding up the wounded survivors."
     new ""
 
@@ -1175,7 +1175,7 @@ translate ru strings:
     old "re recovering a bit more quickly than I"
     new ""
 
-    # c4_wildlands.rpy:491, c4_wildlands.rpy:594 (+2 more)
+    # c4_wildlands.rpy:491, c4_wildlands.rpy:594, c4_wildlands.rpy:2692, c4_wildlands.rpy:2817
     old "re sure they"
     new ""
 

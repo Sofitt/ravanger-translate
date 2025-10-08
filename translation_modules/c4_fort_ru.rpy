@@ -863,7 +863,7 @@ translate ru strings:
     old "Rhyll walks up beside you, looking pleased."
     new ""
 
-    # c4_fort.rpy:464, c4_fort.rpy:487 (+1 more)
+    # c4_fort.rpy:464, c4_fort.rpy:487, c4_fort.rpy:515
     old "Satisfied, you ferry the kobolds back to your lair."
     new ""
 
@@ -1455,7 +1455,7 @@ translate ru strings:
     old "You catch them looking amongst one another, brows furrowed, murmuring questions."
     new ""
 
-    # c4_fort.rpy:1663, c4_waifu.rpy:28186 (+4 more)
+    # c4_fort.rpy:1663, c4_waifu.rpy:28186, c5_harem.rpy:57513, c5_harem.rpy:57541, c6_harem.rpy:25822 (+1 more)
     old "You do."
     new ""
 
@@ -1539,7 +1539,7 @@ translate ru strings:
     old "You need to find a smaller force, pick them apart little by little, rather than throw yourself against a wall of steel."
     new ""
 
-    # c4_fort.rpy:511, c4_waifu.rpy:7230 (+4 more)
+    # c4_fort.rpy:511, c4_waifu.rpy:7230, c4_waifu.rpy:19716, c4_waifu.rpy:19764, c5_harem.rpy:51202 (+1 more)
     old "You nod."
     new ""
 
@@ -1623,7 +1623,7 @@ translate ru strings:
     old "You will simply have to hope that the element of surprise, combined with numbers and enthusiasm, will suffice."
     new ""
 
-    # c4_fort.rpy:315, c4_fort.rpy:330 (+1 more)
+    # c4_fort.rpy:315, c4_fort.rpy:330, c4_fort.rpy:345
     old "You will take him, along with a few of the kobolds' better engineers, to scout for a suitable spot to begin undermining Coldreach."
     new ""
 

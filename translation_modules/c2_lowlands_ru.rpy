@@ -19,7 +19,7 @@ translate ru strings:
     old "'DRAGONS.'"
     new ""
 
-    # c2_lowlands.rpy:3131, c2_lowlands.rpy:3221 (+12 more)
+    # c2_lowlands.rpy:3131, c2_lowlands.rpy:3221, c2_mountains.rpy:282, c2_mountains.rpy:297, c3_captives.rpy:11804 (+9 more)
     old "'GREETINGS.'"
     new ""
 
@@ -43,7 +43,7 @@ translate ru strings:
     old "'I DID.'"
     new ""
 
-    # c2_lowlands.rpy:2989, c3_captives.rpy:44812 (+4 more)
+    # c2_lowlands.rpy:2989, c3_captives.rpy:44812, c3_captures.rpy:1268, c5_harem.rpy:54927, c6_harem.rpy:2817 (+1 more)
     old "'I WILL.'"
     new ""
 
@@ -59,7 +59,7 @@ translate ru strings:
     old "'NO!'"
     new ""
 
-    # c2_lowlands.rpy:1910, c3_captives.rpy:33894 (+7 more)
+    # c2_lowlands.rpy:1910, c3_captives.rpy:33894, c3_captives.rpy:33975, c3_hordes.rpy:5706, c3_hordes.rpy:12125 (+4 more)
     old "'RICHES.'"
     new ""
 
@@ -71,11 +71,11 @@ translate ru strings:
     old "'WHAT CAN YOU DO FOR ME?'"
     new ""
 
-    # c2_lowlands.rpy:2837, c3_lair.rpy:11303 (+2 more)
+    # c2_lowlands.rpy:2837, c3_lair.rpy:11303, c3_lair.rpy:14737, c5_forces.rpy:7268
     old "'WHAT DO YOU WANT?'"
     new ""
 
-    # c2_lowlands.rpy:289, c2_lowlands.rpy:2708 (+11 more)
+    # c2_lowlands.rpy:289, c2_lowlands.rpy:2708, c2_lowlands.rpy:3710, c2_mountains.rpy:359, c2_mountains.rpy:390 (+8 more)
     old "'WHAT?'"
     new ""
 
@@ -107,7 +107,7 @@ translate ru strings:
     old "'[namepov!tc].'"
     new ""
 
-    # c2_lowlands.rpy:567, c2_lowlands.rpy:593 (+2 more)
+    # c2_lowlands.rpy:567, c2_lowlands.rpy:593, c4_waifu.rpy:2826, c4_waifu.rpy:4052
     old "After a long pause, she falls silent and still once again."
     new ""
 
@@ -207,7 +207,7 @@ translate ru strings:
     old "Confront them."
     new ""
 
-    # c2_lowlands.rpy:3590, c3_lair.rpy:9661 (+5 more)
+    # c2_lowlands.rpy:3590, c3_lair.rpy:9661, c3_lair.rpy:14080, c3_lair.rpy:29799, c3_lair.rpy:30015 (+2 more)
     old "Continue."
     new ""
 
@@ -223,7 +223,7 @@ translate ru strings:
     old "DRAGONS."
     new ""
 
-    # c2_lowlands.rpy:2244, c2_lowlands.rpy:2264 (+2 more)
+    # c2_lowlands.rpy:2244, c2_lowlands.rpy:2264, c2_lowlands.rpy:2318, c2_lowlands.rpy:2370
     old "Do tuck in."
     new ""
 
@@ -231,7 +231,7 @@ translate ru strings:
     old "Drawing closer, the smell of brine gives way to kelp, guano, and something you cannot quite place."
     new ""
 
-    # c2_lowlands.rpy:2324, c3_captives.rpy:37720 (+4 more)
+    # c2_lowlands.rpy:2324, c3_captives.rpy:37720, c3_captives.rpy:39525, c5_harem.rpy:40295, c5_harem.rpy:40426 (+1 more)
     old "Eat him."
     new ""
 
@@ -255,7 +255,7 @@ translate ru strings:
     old "F-fuck me, Rhyll!"
     new ""
 
-    # c2_lowlands.rpy:4307, c3_captives.rpy:24662 (+9 more)
+    # c2_lowlands.rpy:4307, c3_captives.rpy:24662, c3_captives.rpy:24891, c3_captives.rpy:25404, c3_captives.rpy:54362 (+6 more)
     old "F-fuck!"
     new ""
 
@@ -271,7 +271,7 @@ translate ru strings:
     old "Fishing Village"
     new ""
 
-    # c2_lowlands.rpy:377, c3_hordes.rpy:3578 (+1 more)
+    # c2_lowlands.rpy:377, c3_hordes.rpy:3578, c3_lair.rpy:44596
     old "Follow her."
     new ""
 
@@ -299,7 +299,7 @@ translate ru strings:
     old "GLORY."
     new ""
 
-    # c2_lowlands.rpy:3131, c2_lowlands.rpy:3221 (+13 more)
+    # c2_lowlands.rpy:3131, c2_lowlands.rpy:3221, c2_mountains.rpy:282, c2_mountains.rpy:297, c3_captives.rpy:11804 (+10 more)
     old "GREETINGS."
     new ""
 
@@ -375,7 +375,7 @@ translate ru strings:
     old "Heavy boots tramp down the steps, and another of the mercenaries comes into view."
     new ""
 
-    # c2_lowlands.rpy:4207, c2_lowlands.rpy:4567 (+1 more)
+    # c2_lowlands.rpy:4207, c2_lowlands.rpy:4567, c2_lowlands.rpy:5135
     old "Her cries echo across the plains as you return back to more civilised lands."
     new ""
 
@@ -391,7 +391,7 @@ translate ru strings:
     old "Her eyes go wide, and she sinks down onto her knees."
     new ""
 
-    # c2_lowlands.rpy:4967, c3_captives.rpy:54494 (+2 more)
+    # c2_lowlands.rpy:4967, c3_captives.rpy:54494, c3_captives.rpy:55123, c5_harem.rpy:65703
     old "Her hands scrabble with rabid abandon, but all hope of resistance is lost with the torturous sensation that wracks up her spine."
     new ""
 
@@ -423,7 +423,7 @@ translate ru strings:
     old "His partner breaks into a run, slipping and sliding in the thick mud underfoot."
     new ""
 
-    # c2_lowlands.rpy:4950, c3_captives.rpy:54461 (+5 more)
+    # c2_lowlands.rpy:4950, c3_captives.rpy:54461, c3_captives.rpy:55089, c5_harem.rpy:59499, c5_harem.rpy:60690 (+2 more)
     old "Hn?"
     new ""
 
@@ -439,7 +439,7 @@ translate ru strings:
     old "I DID."
     new ""
 
-    # c2_lowlands.rpy:2989, c3_captives.rpy:44812 (+4 more)
+    # c2_lowlands.rpy:2989, c3_captives.rpy:44812, c3_captures.rpy:1268, c5_harem.rpy:54927, c6_harem.rpy:2817 (+1 more)
     old "I WILL."
     new ""
 
@@ -487,7 +487,7 @@ translate ru strings:
     old "If you'd paid for a, whatsit, an expedited permit, you'd be on your way back already."
     new ""
 
-    # c2_lowlands.rpy:4041, c2_lowlands.rpy:4692 (+23 more)
+    # c2_lowlands.rpy:4041, c2_lowlands.rpy:4692, c3_hordes.rpy:883, c3_hordes.rpy:915, c3_hordes.rpy:953 (+20 more)
     old "Ignore them."
     new ""
 
@@ -499,7 +499,7 @@ translate ru strings:
     old "Infiltrate a ship."
     new ""
 
-    # c2_lowlands.rpy:2507, c3_captives.rpy:13006 (+3 more)
+    # c2_lowlands.rpy:2507, c3_captives.rpy:13006, c3_captives.rpy:14649, c3_captives.rpy:51060, c3_lair.rpy:44356
     old "Intervene."
     new ""
 
@@ -519,7 +519,7 @@ translate ru strings:
     old "It stands there, silently, apparently expecting a response."
     new ""
 
-    # c2_lowlands.rpy:4996, c3_captives.rpy:54518 (+2 more)
+    # c2_lowlands.rpy:4996, c3_captives.rpy:54518, c3_captives.rpy:55143, c5_harem.rpy:65720
     old "It would be a shame not to finish the job."
     new ""
 
@@ -527,7 +527,7 @@ translate ru strings:
     old "It would be better not to return there until you have a better plan for dealing with the witch."
     new ""
 
-    # c2_lowlands.rpy:4958, c3_captives.rpy:54485 (+2 more)
+    # c2_lowlands.rpy:4958, c3_captives.rpy:54485, c3_captives.rpy:55112, c5_harem.rpy:65694
     old "It's as you draw yourself back, ready for another thrust, that she finally realises what is happening to her."
     new ""
 
@@ -547,7 +547,7 @@ translate ru strings:
     old "Kidnap her."
     new ""
 
-    # c2_lowlands.rpy:1165, c3_captives.rpy:41115 (+5 more)
+    # c2_lowlands.rpy:1165, c3_captives.rpy:41115, c3_captives.rpy:41199, c3_captives.rpy:41396, c4_capital.rpy:18033 (+2 more)
     old "Kill him."
     new ""
 
@@ -567,11 +567,11 @@ translate ru strings:
     old "MAN."
     new ""
 
-    # c2_lowlands.rpy:4000, c2_lowlands.rpy:4052 (+1 more)
+    # c2_lowlands.rpy:4000, c2_lowlands.rpy:4052, c4_wildlands.rpy:2422
     old "Make her submit to you anyway."
     new ""
 
-    # c2_lowlands.rpy:232, c2_lowlands.rpy:401 (+3 more)
+    # c2_lowlands.rpy:232, c2_lowlands.rpy:401, c2_lowlands.rpy:772, c3_captives.rpy:4769, c3_captives.rpy:52175
     old "Mmrgh!"
     new ""
 
@@ -587,7 +587,7 @@ translate ru strings:
     old "No way."
     new ""
 
-    # c2_lowlands.rpy:3416, c2_lowlands.rpy:3453 (+130 more)
+    # c2_lowlands.rpy:3416, c2_lowlands.rpy:3453, c2_mountains.rpy:1987, c2_mountains.rpy:2373, c2_mountains.rpy:2420 (+127 more)
     old "No."
     new ""
 
@@ -627,7 +627,7 @@ translate ru strings:
     old "POWER."
     new ""
 
-    # c2_lowlands.rpy:5005, c3_captives.rpy:54527 (+2 more)
+    # c2_lowlands.rpy:5005, c3_captives.rpy:54527, c3_captives.rpy:55154, c5_harem.rpy:65730
     old "Pangs of deep pleasure coarse through your balls, and your climax approaches fast."
     new ""
 
@@ -659,7 +659,7 @@ translate ru strings:
     old "Pull out and cum all over her."
     new ""
 
-    # c2_lowlands.rpy:1910, c3_captives.rpy:33894 (+7 more)
+    # c2_lowlands.rpy:1910, c3_captives.rpy:33894, c3_captives.rpy:33975, c3_hordes.rpy:5706, c3_hordes.rpy:12125 (+4 more)
     old "RICHES."
     new ""
 
@@ -671,7 +671,7 @@ translate ru strings:
     old "Reassert your dominance."
     new ""
 
-    # c2_lowlands.rpy:3584, c2_lowlands.rpy:3638 (+1 more)
+    # c2_lowlands.rpy:3584, c2_lowlands.rpy:3638, c3_lair.rpy:14531
     old "Retreat."
     new ""
 
@@ -787,7 +787,7 @@ translate ru strings:
     old "Take advantage."
     new ""
 
-    # c2_lowlands.rpy:4037, c2_lowlands.rpy:4182 (+7 more)
+    # c2_lowlands.rpy:4037, c2_lowlands.rpy:4182, c2_lowlands.rpy:4363, c2_lowlands.rpy:4443, c2_lowlands.rpy:4542 (+4 more)
     old "Take control of the pack."
     new ""
 
@@ -799,7 +799,7 @@ translate ru strings:
     old "That was very rude."
     new ""
 
-    # c2_lowlands.rpy:3664, c2_lowlands.rpy:3777 (+3 more)
+    # c2_lowlands.rpy:3664, c2_lowlands.rpy:3777, c2_lowlands.rpy:3814, c2_lowlands.rpy:4710, c2_lowlands.rpy:4772
     old "That's what I thought."
     new ""
 
@@ -955,7 +955,7 @@ translate ru strings:
     old "Travel elsewhere."
     new ""
 
-    # c2_lowlands.rpy:4048, c2_lowlands.rpy:4873 (+1 more)
+    # c2_lowlands.rpy:4048, c2_lowlands.rpy:4873, c2_lowlands.rpy:5079
     old "Turn her over to her pack."
     new ""
 
@@ -975,11 +975,11 @@ translate ru strings:
     old "WHAT CAN YOU DO FOR ME?"
     new ""
 
-    # c2_lowlands.rpy:2837, c3_lair.rpy:11303 (+2 more)
+    # c2_lowlands.rpy:2837, c3_lair.rpy:11303, c3_lair.rpy:14737, c5_forces.rpy:7268
     old "WHAT DO YOU WANT?"
     new ""
 
-    # c2_lowlands.rpy:289, c2_lowlands.rpy:2708 (+12 more)
+    # c2_lowlands.rpy:289, c2_lowlands.rpy:2708, c2_lowlands.rpy:3710, c2_mountains.rpy:359, c2_mountains.rpy:390 (+9 more)
     old "WHAT?"
     new ""
 
@@ -1035,11 +1035,11 @@ translate ru strings:
     old "With a step forward, the mercenary brings his elbow into the back of her neck."
     new ""
 
-    # c2_lowlands.rpy:4256, c3_captives.rpy:54311 (+3 more)
+    # c2_lowlands.rpy:4256, c3_captives.rpy:54311, c3_captives.rpy:54966, c4_wildlands.rpy:2490, c5_harem.rpy:65555
     old "With a thrust of your hips, you press the tip of your cock into the tight folds of her cunt."
     new ""
 
-    # c2_lowlands.rpy:5001, c3_captives.rpy:54523 (+2 more)
+    # c2_lowlands.rpy:5001, c3_captives.rpy:54523, c3_captives.rpy:55150, c5_harem.rpy:65726
     old "Without her senseless squirming, there's nothing to stop you from enjoying her as much as you want."
     new ""
 
@@ -1063,7 +1063,7 @@ translate ru strings:
     old "Yeah, you'n me both."
     new ""
 
-    # c2_lowlands.rpy:3408, c2_lowlands.rpy:3445 (+129 more)
+    # c2_lowlands.rpy:3408, c2_lowlands.rpy:3445, c2_mountains.rpy:1980, c2_mountains.rpy:2364, c2_mountains.rpy:2416 (+127 more)
     old "Yes."
     new ""
 
@@ -1115,7 +1115,7 @@ translate ru strings:
     old "You hold her head in place with one foreclaw, her nose crunching under the force, while you slice through her primitive garb with a talon."
     new ""
 
-    # c2_lowlands.rpy:5026, c3_captives.rpy:54543 (+2 more)
+    # c2_lowlands.rpy:5026, c3_captives.rpy:54543, c3_captives.rpy:55169, c5_harem.rpy:65751
     old "You hold position, pinning her in place as her toned belly slowly begins to swell."
     new ""
 
@@ -1139,7 +1139,7 @@ translate ru strings:
     old "You make good your escape before anyone discovers the remains."
     new ""
 
-    # c2_lowlands.rpy:3418, c2_lowlands.rpy:3426 (+1 more)
+    # c2_lowlands.rpy:3418, c2_lowlands.rpy:3426, c2_lowlands.rpy:3455
     old "You make your way back across the channel, resting where need be on the reefs you found earlier."
     new ""
 
@@ -1155,11 +1155,11 @@ translate ru strings:
     old "You make your way back to the sunken temple by wing, resting where need be on the reefs you found earlier."
     new ""
 
-    # c2_lowlands.rpy:4938, c3_captives.rpy:54479 (+2 more)
+    # c2_lowlands.rpy:4938, c3_captives.rpy:54479, c3_captives.rpy:55106, c5_harem.rpy:65690
     old "You redouble your efforts, sinking the ridged length of your cock all the way in with one slow, deep, implacable movement."
     new ""
 
-    # c2_lowlands.rpy:5002, c3_captives.rpy:54524 (+2 more)
+    # c2_lowlands.rpy:5002, c3_captives.rpy:54524, c3_captives.rpy:55151, c5_harem.rpy:65727
     old "You thrust harder, deeper, every stroke causing her body to shake and buck with recoil."
     new ""
 
@@ -1171,7 +1171,7 @@ translate ru strings:
     old "You what?"
     new ""
 
-    # c2_lowlands.rpy:5031, c3_captives.rpy:54554 (+2 more)
+    # c2_lowlands.rpy:5031, c3_captives.rpy:54554, c3_captives.rpy:55178, c5_harem.rpy:65759
     old "You withdraw, carefully, savouring the tingling last grip of her cum-filled ass as your cock leaves it gaping."
     new ""
 
@@ -1195,7 +1195,7 @@ translate ru strings:
     old "You've had my mercy."
     new ""
 
-    # c2_lowlands.rpy:5019, c3_captives.rpy:54540 (+2 more)
+    # c2_lowlands.rpy:5019, c3_captives.rpy:54540, c3_captives.rpy:55165, c5_harem.rpy:65740
     old "Your final thrust buries you in the depths of her ass, and you release a torrent of cum into her guts."
     new ""
 

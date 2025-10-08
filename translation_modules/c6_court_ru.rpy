@@ -23,7 +23,7 @@ translate ru strings:
     old "'DEFENCES.'"
     new ""
 
-    # c6_court.rpy:2720, c6_court.rpy:2784 (+1 more)
+    # c6_court.rpy:2720, c6_court.rpy:2784, c6_court.rpy:2882
     old "'DRAFT MY KOBOLDS.'"
     new ""
 
@@ -171,7 +171,7 @@ translate ru strings:
     old "'THE WOMEN ARE YOURS TO FUCK.'"
     new ""
 
-    # c6_court.rpy:2724, c6_court.rpy:2788 (+1 more)
+    # c6_court.rpy:2724, c6_court.rpy:2788, c6_court.rpy:2886
     old "'THERE IS NOTHING WE CAN DO.'"
     new ""
 
@@ -187,7 +187,7 @@ translate ru strings:
     old "'WE SHALL PRACTISE UNRESTRICTED SLAVERY.'"
     new ""
 
-    # c6_court.rpy:3167, c6_court.rpy:4031 (+4 more)
+    # c6_court.rpy:3167, c6_court.rpy:4031, c6_court.rpy:5368, c6_court.rpy:6020, c6_court.rpy:6496 (+1 more)
     old "'WHAT DO YOU THINK, PRINCESS?'"
     new ""
 
@@ -467,7 +467,7 @@ translate ru strings:
     old "DEFENCES."
     new ""
 
-    # c6_court.rpy:2720, c6_court.rpy:2784 (+1 more)
+    # c6_court.rpy:2720, c6_court.rpy:2784, c6_court.rpy:2882
     old "DRAFT MY KOBOLDS."
     new ""
 
@@ -983,7 +983,7 @@ translate ru strings:
     old "NOT HERE."
     new ""
 
-    # c6_court.rpy:119, c6_court.rpy:163 (+1 more)
+    # c6_court.rpy:119, c6_court.rpy:163, c6_court.rpy:219
     old "No sooner has he finished speaking than a burst of excitement draws your attention back to the front of the room."
     new ""
 
@@ -1175,7 +1175,7 @@ translate ru strings:
     old "Such offers are, of course, in good faith, but the terms often prove to be confusing and unpalatable."
     new ""
 
-    # c6_court.rpy:541, c6_court.rpy:569 (+2 more)
+    # c6_court.rpy:541, c6_court.rpy:569, c6_herald.rpy:313, c6_herald.rpy:341
     old "Suffice to say, the Infernal Court is not being subtle in its ambitions upon Your [sPOVFaithTitle!t]'s Realm."
     new ""
 
@@ -1191,7 +1191,7 @@ translate ru strings:
     old "THE WOMEN ARE YOURS TO FUCK."
     new ""
 
-    # c6_court.rpy:2724, c6_court.rpy:2788 (+1 more)
+    # c6_court.rpy:2724, c6_court.rpy:2788, c6_court.rpy:2886
     old "THERE IS NOTHING WE CAN DO."
     new ""
 
@@ -1443,7 +1443,7 @@ translate ru strings:
     old "WE SHALL PRACTISE UNRESTRICTED SLAVERY."
     new ""
 
-    # c6_court.rpy:3167, c6_court.rpy:4031 (+4 more)
+    # c6_court.rpy:3167, c6_court.rpy:4031, c6_court.rpy:5368, c6_court.rpy:6020, c6_court.rpy:6496 (+1 more)
     old "WHAT DO YOU THINK, PRINCESS?"
     new ""
 

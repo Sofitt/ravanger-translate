@@ -7,11 +7,11 @@ translate ru strings:
     old "'CARRY ON.'"
     new ""
 
-    # c6.rpy:1420, c6.rpy:1833 (+3 more)
+    # c6.rpy:1420, c6.rpy:1833, c6.rpy:2024, c6.rpy:2241, c6_harem.rpy:17228
     old "'HAS THERE BEEN TROUBLE IN MY ABSENCE?'"
     new ""
 
-    # c6.rpy:1432, c6.rpy:1845 (+1 more)
+    # c6.rpy:1432, c6.rpy:1845, c6.rpy:2036
     old "'LET'S GET TO WORK.'"
     new ""
 
@@ -19,7 +19,7 @@ translate ru strings:
     old "'SNEAKING A SNACK WHILE I WAS OUT?'"
     new ""
 
-    # c6.rpy:1426, c6.rpy:1839 (+3 more)
+    # c6.rpy:1426, c6.rpy:1839, c6.rpy:2030, c6.rpy:2247, c6_harem.rpy:17234
     old "'WHERE IS MY PET?'"
     new ""
 
@@ -151,7 +151,7 @@ translate ru strings:
     old "Gutter's Cove status is unknown. Please report this."
     new ""
 
-    # c6.rpy:1420, c6.rpy:1833 (+3 more)
+    # c6.rpy:1420, c6.rpy:1833, c6.rpy:2024, c6.rpy:2241, c6_harem.rpy:17228
     old "HAS THERE BEEN TROUBLE IN MY ABSENCE?"
     new ""
 
@@ -483,7 +483,7 @@ translate ru strings:
     old "Visit the kobold nursery."
     new ""
 
-    # c6.rpy:1426, c6.rpy:1839 (+3 more)
+    # c6.rpy:1426, c6.rpy:1839, c6.rpy:2030, c6.rpy:2247, c6_harem.rpy:17234
     old "WHERE IS MY PET?"
     new ""
 

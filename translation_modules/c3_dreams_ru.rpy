@@ -1,5 +1,5 @@
 # Перевод файла c3_dreams.rpy
-# Всего строк: 386
+# Всего строк: 387
 
 translate ru strings:
 
@@ -31,7 +31,7 @@ translate ru strings:
     old "'HOW DID YOU GET HERE?'"
     new ""
 
-    # c3_dreams.rpy:872, c3_lair.rpy:37287 (+2 more)
+    # c3_dreams.rpy:872, c3_lair.rpy:37287, c5_court.rpy:13661, c5_harem.rpy:38690
     old "'I HAVE QUESTIONS.'"
     new ""
 
@@ -43,7 +43,7 @@ translate ru strings:
     old "'I MISSED YOU TOO.'"
     new ""
 
-    # c3_dreams.rpy:1680, c3_hordes.rpy:5776 (+8 more)
+    # c3_dreams.rpy:1680, c3_hordes.rpy:5776, c3_hordes.rpy:12212, c3_hordes.rpy:19999, c3_lair.rpy:11482 (+5 more)
     old "'THE INQUISITRIX.'"
     new ""
 
@@ -51,7 +51,7 @@ translate ru strings:
     old "'THE PRINCESS.'"
     new ""
 
-    # c3_dreams.rpy:2225, c5_court.rpy:4622 (+4 more)
+    # c3_dreams.rpy:2225, c5_court.rpy:4622, c5_harem.rpy:742, c5_harem.rpy:4147, c5_harem.rpy:16557 (+1 more)
     old "'WHY ARE YOU HERE?'"
     new ""
 
@@ -495,7 +495,7 @@ translate ru strings:
     old "How long's it even been since you were in here for real?"
     new ""
 
-    # c3_dreams.rpy:872, c3_lair.rpy:37287 (+2 more)
+    # c3_dreams.rpy:872, c3_lair.rpy:37287, c5_court.rpy:13661, c5_harem.rpy:38690
     old "I HAVE QUESTIONS."
     new ""
 
@@ -939,7 +939,7 @@ translate ru strings:
     old "Silence returns to your bedchamber, disturbed only by the sound of your breathing."
     new ""
 
-    # c3_dreams.rpy:1564, c4_capital.rpy:7516 (+1 more)
+    # c3_dreams.rpy:1564, c4_capital.rpy:7516, c4_capital.rpy:7634
     old "Sit."
     new ""
 
@@ -987,7 +987,7 @@ translate ru strings:
     old "Startled, you lift a foreclaw toward your daughter, intending to push her to the side, or at least roll atop her..."
     new ""
 
-    # c3_dreams.rpy:1680, c3_hordes.rpy:5776 (+8 more)
+    # c3_dreams.rpy:1680, c3_hordes.rpy:5776, c3_hordes.rpy:12212, c3_hordes.rpy:19999, c3_lair.rpy:11482 (+5 more)
     old "THE INQUISITRIX."
     new ""
 
@@ -1183,7 +1183,7 @@ translate ru strings:
     old "Uh, Trojan, what're you doin'?"
     new ""
 
-    # c3_dreams.rpy:2225, c5_court.rpy:4622 (+4 more)
+    # c3_dreams.rpy:2225, c5_court.rpy:4622, c5_harem.rpy:742, c5_harem.rpy:4147, c5_harem.rpy:16557 (+1 more)
     old "WHY ARE YOU HERE?"
     new ""
 
@@ -1205,6 +1205,10 @@ translate ru strings:
 
     # c3_dreams.rpy:3944
     old "Were you going to leave without me, [namepov!t]-chan?"
+    new ""
+
+    # c3_dreams.rpy:2309, c4_waifu.rpy:14762, c4_waifu.rpy:15802
+    old "What is your daughter's name?"
     new ""
 
     # c3_dreams.rpy:4022

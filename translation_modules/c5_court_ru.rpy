@@ -1,5 +1,5 @@
 # Перевод файла c5_court.rpy
-# Всего строк: 931
+# Всего строк: 932
 
 translate ru strings:
 
@@ -31,7 +31,7 @@ translate ru strings:
     old "'COMMANDER.'"
     new ""
 
-    # c5_court.rpy:10483, c5_court.rpy:10582 (+3 more)
+    # c5_court.rpy:10483, c5_court.rpy:10582, c5_court.rpy:10710, c5_court.rpy:11694, c5_court.rpy:11782
     old "'DARJA WILL BE MY WIFE.'"
     new ""
 
@@ -51,7 +51,7 @@ translate ru strings:
     old "'EBURON.'"
     new ""
 
-    # c5_court.rpy:8699, c5_court.rpy:8778 (+1 more)
+    # c5_court.rpy:8699, c5_court.rpy:8778, c6_harem.rpy:16774
     old "'EVERYONE MAY WORSHIP AS THEY PLEASE.'"
     new ""
 
@@ -211,7 +211,7 @@ translate ru strings:
     old "'LEAVE MY DAUGHTER OUT OF THIS.'"
     new ""
 
-    # c5_court.rpy:658, c6_court.rpy:1447 (+1 more)
+    # c5_court.rpy:658, c6_court.rpy:1447, c6_court.rpy:1478
     old "'LET US BEGIN.'"
     new ""
 
@@ -235,11 +235,11 @@ translate ru strings:
     old "'PLEASURE DOING BUSINESS.'"
     new ""
 
-    # c5_court.rpy:667, c6_court.rpy:1456 (+1 more)
+    # c5_court.rpy:667, c6_court.rpy:1456, c6_court.rpy:1487
     old "'SEND THE NEXT ONE IN.'"
     new ""
 
-    # c5_court.rpy:4491, c5_court.rpy:11462 (+1 more)
+    # c5_court.rpy:4491, c5_court.rpy:11462, c5_court.rpy:12117
     old "'TAKE HER TO THE DUNGEONS.'"
     new ""
 
@@ -291,7 +291,7 @@ translate ru strings:
     old "'WAIT. I WILL REVIVE THE OLD CULTS INSTEAD.'"
     new ""
 
-    # c5_court.rpy:3422, c5_court.rpy:3803 (+1 more)
+    # c5_court.rpy:3422, c5_court.rpy:3803, c5_court.rpy:4083
     old "'WAIT.'"
     new ""
 
@@ -311,7 +311,7 @@ translate ru strings:
     old "'WELCOME, MOTHER.'"
     new ""
 
-    # c5_court.rpy:909, c5_court.rpy:1107 (+3 more)
+    # c5_court.rpy:909, c5_court.rpy:1107, c5_court.rpy:1206, c5_harem.rpy:51644, c6_harem.rpy:21989
     old "'WELL DONE.'"
     new ""
 
@@ -331,7 +331,7 @@ translate ru strings:
     old "'WHAT DO YOU MEAN BY ‘VARIATIONS’?'"
     new ""
 
-    # c5_court.rpy:414, c5_court.rpy:3191 (+6 more)
+    # c5_court.rpy:414, c5_court.rpy:3191, c5_court.rpy:3679, c5_court.rpy:4690, c5_court.rpy:5071 (+3 more)
     old "'WHAT DO YOU THINK, ADELINE?'"
     new ""
 
@@ -879,7 +879,7 @@ translate ru strings:
     old "By His dark blessing, we stand ready to be the architects of the greatest and most wonderful blasphemies the world has ever seen."
     new ""
 
-    # c5_court.rpy:6886, c5_court.rpy:7192 (+3 more)
+    # c5_court.rpy:6886, c5_court.rpy:7192, c5_court.rpy:9010, c5_court.rpy:9240, c5_court.rpy:9641
     old "By order of the Crown."
     new ""
 
@@ -943,7 +943,7 @@ translate ru strings:
     old "Courtiers here and there tense and shift their weight as if seriously considering the wisdom of stepping forward and raising objection."
     new ""
 
-    # c5_court.rpy:10483, c5_court.rpy:10582 (+3 more)
+    # c5_court.rpy:10483, c5_court.rpy:10582, c5_court.rpy:10710, c5_court.rpy:11694, c5_court.rpy:11782
     old "DARJA WILL BE MY WIFE."
     new ""
 
@@ -983,7 +983,7 @@ translate ru strings:
     old "EBURON."
     new ""
 
-    # c5_court.rpy:8699, c5_court.rpy:8778 (+1 more)
+    # c5_court.rpy:8699, c5_court.rpy:8778, c6_harem.rpy:16774
     old "EVERYONE MAY WORSHIP AS THEY PLEASE."
     new ""
 
@@ -1075,15 +1075,15 @@ translate ru strings:
     old "Gasps and muted shrieks arise from the crowd as his body tumbles to the ground, falling into a slack, disordered heap."
     new ""
 
-    # c5_court.rpy:10878, c5_court.rpy:11032 (+6 more)
+    # c5_court.rpy:10878, c5_court.rpy:11032, c5_court.rpy:11536, c5_court.rpy:11629, c5_court.rpy:11876 (+3 more)
     old "Go in peace."
     new ""
 
-    # c5_court.rpy:10864, c5_court.rpy:11017 (+6 more)
+    # c5_court.rpy:10864, c5_court.rpy:11017, c5_court.rpy:11522, c5_court.rpy:11615, c5_court.rpy:11862 (+3 more)
     old "Go with the Moon."
     new ""
 
-    # c5_court.rpy:10860, c5_court.rpy:11013 (+6 more)
+    # c5_court.rpy:10860, c5_court.rpy:11013, c5_court.rpy:11518, c5_court.rpy:11611, c5_court.rpy:11858 (+3 more)
     old "Go with the Sun."
     new ""
 
@@ -1135,7 +1135,7 @@ translate ru strings:
     old "He claps his hands together, but before he can speak, the herald clears his throat."
     new ""
 
-    # c5_court.rpy:2838, c5_court.rpy:2899 (+2 more)
+    # c5_court.rpy:2838, c5_court.rpy:2899, c5_court.rpy:2958, c5_court.rpy:3041
     old "He clears his throat, then again, loudly."
     new ""
 
@@ -1163,11 +1163,11 @@ translate ru strings:
     old "He harrumphs instead, and resumes his ready posture."
     new ""
 
-    # c5_court.rpy:11852, c5_court.rpy:11918 (+1 more)
+    # c5_court.rpy:11852, c5_court.rpy:11918, c5_court.rpy:12225
     old "He hikes his chin, turning to address the court."
     new ""
 
-    # c5_court.rpy:2850, c5_court.rpy:2911 (+2 more)
+    # c5_court.rpy:2850, c5_court.rpy:2911, c5_court.rpy:2970, c5_court.rpy:3053
     old "He hurries to the herald's side and passes it over."
     new ""
 
@@ -1255,7 +1255,7 @@ translate ru strings:
     old "He throws a wave up behind him, and is gone."
     new ""
 
-    # c5_court.rpy:2854, c5_court.rpy:2915 (+2 more)
+    # c5_court.rpy:2854, c5_court.rpy:2915, c5_court.rpy:2974, c5_court.rpy:3057
     old "He unfolds the parchment and glances down at it for only a moment, before his brows rise to meet the thin line where his hat once sat."
     new ""
 
@@ -1579,7 +1579,7 @@ translate ru strings:
     old "I would advise the instruction of one better versed in matters of theology, if you should require further details."
     new ""
 
-    # c5_court.rpy:10680, c5_court.rpy:11665 (+1 more)
+    # c5_court.rpy:10680, c5_court.rpy:11665, c5_court.rpy:12928
     old "I would be grateful if you could resolve this uncertainty."
     new ""
 
@@ -1815,7 +1815,7 @@ translate ru strings:
     old "LEAVE MY DAUGHTER OUT OF THIS."
     new ""
 
-    # c5_court.rpy:658, c6_court.rpy:1447 (+1 more)
+    # c5_court.rpy:658, c6_court.rpy:1447, c6_court.rpy:1478
     old "LET US BEGIN."
     new ""
 
@@ -1899,6 +1899,10 @@ translate ru strings:
     old "Malagar takes her wrists, pulls them apart."
     new ""
 
+    # c5_court.rpy:12300, c5_harem.rpy:28289, c5_harem.rpy:28343, c6_court.rpy:5133, init-code.rpy:6092
+    old "Malice"
+    new ""
+
     # c5_court.rpy:1394
     old "Many many thankings, master dragon king!"
     new ""
@@ -1915,7 +1919,7 @@ translate ru strings:
     old "Master's blood is strong, and humans are weak."
     new ""
 
-    # c5_court.rpy:10874, c5_court.rpy:11028 (+6 more)
+    # c5_court.rpy:10874, c5_court.rpy:11028, c5_court.rpy:11532, c5_court.rpy:11625, c5_court.rpy:11872 (+3 more)
     old "May His [sPOVFaithTitle!t] watch over you."
     new ""
 
@@ -1943,7 +1947,7 @@ translate ru strings:
     old "Murmurings of assent echo around him."
     new ""
 
-    # c5_court.rpy:5274, c5_court.rpy:5346 (+1 more)
+    # c5_court.rpy:5274, c5_court.rpy:5346, c5_court.rpy:5445
     old "My liege, I–"
     new ""
 
@@ -2175,7 +2179,7 @@ translate ru strings:
     old "Rising, the wolfman barks an order to his kind."
     new ""
 
-    # c5_court.rpy:667, c6_court.rpy:1456 (+1 more)
+    # c5_court.rpy:667, c6_court.rpy:1456, c6_court.rpy:1487
     old "SEND THE NEXT ONE IN."
     new ""
 
@@ -2379,7 +2383,7 @@ translate ru strings:
     old "Such unforeseen joy does not extend to the contingent of Infernals loitering at the far end of the throne room."
     new ""
 
-    # c5_court.rpy:4491, c5_court.rpy:11462 (+1 more)
+    # c5_court.rpy:4491, c5_court.rpy:11462, c5_court.rpy:12117
     old "TAKE HER TO THE DUNGEONS."
     new ""
 
@@ -2707,7 +2711,7 @@ translate ru strings:
     old "The other kobolds, perhaps regretting their former haste in expelling their new commander, break into scattered hoots and hollers."
     new ""
 
-    # c5_court.rpy:2844, c5_court.rpy:2905 (+2 more)
+    # c5_court.rpy:2844, c5_court.rpy:2905, c5_court.rpy:2964, c5_court.rpy:3047
     old "The page flees the hall at a sprint, while the herald turns a stiff but obsequious smile in your direction."
     new ""
 
@@ -2979,7 +2983,7 @@ translate ru strings:
     old "Unfortunately for the majority they swiftly get distracted by their bickering and sprawl outward, missing out upon your selection."
     new ""
 
-    # c5_court.rpy:10755, c5_court.rpy:11729 (+3 more)
+    # c5_court.rpy:10755, c5_court.rpy:11729, c5_court.rpy:11817, c5_court.rpy:12790, c5_court.rpy:13120
     old "Unlike certain other of your retainers, I am not some kind of impulsive barbarian."
     new ""
 
@@ -2995,7 +2999,7 @@ translate ru strings:
     old "Violet."
     new ""
 
-    # c5_court.rpy:3422, c5_court.rpy:3803 (+1 more)
+    # c5_court.rpy:3422, c5_court.rpy:3803, c5_court.rpy:4083
     old "WAIT."
     new ""
 
@@ -3023,7 +3027,7 @@ translate ru strings:
     old "WELCOME, MOTHER."
     new ""
 
-    # c5_court.rpy:909, c5_court.rpy:1107 (+3 more)
+    # c5_court.rpy:909, c5_court.rpy:1107, c5_court.rpy:1206, c5_harem.rpy:51644, c6_harem.rpy:21989
     old "WELL DONE."
     new ""
 
@@ -3043,7 +3047,7 @@ translate ru strings:
     old "WHAT DO YOU MEAN BY ‘VARIATIONS’?"
     new ""
 
-    # c5_court.rpy:414, c5_court.rpy:3191 (+6 more)
+    # c5_court.rpy:414, c5_court.rpy:3191, c5_court.rpy:3679, c5_court.rpy:4690, c5_court.rpy:5071 (+3 more)
     old "WHAT DO YOU THINK, ADELINE?"
     new ""
 
@@ -3155,7 +3159,7 @@ translate ru strings:
     old "When at last your loins have settled and your cock retreated, you stir yourself from the throne and stretch your limbs."
     new ""
 
-    # c5_court.rpy:3404, c5_court.rpy:4061 (+1 more)
+    # c5_court.rpy:3404, c5_court.rpy:4061, c6_court.rpy:5778
     old "When he manages to speak again, his voice carries the taut string tremble of pain."
     new ""
 
@@ -3375,7 +3379,7 @@ translate ru strings:
     old "You gotta respect a conviction so totalising that there isn't even a {i}single{/i} tiny little route around it."
     new ""
 
-    # c5_court.rpy:10745, c5_court.rpy:11719 (+2 more)
+    # c5_court.rpy:10745, c5_court.rpy:11719, c5_court.rpy:11807, c5_court.rpy:12780
     old "You have made it clear that neither our means nor our goals ultimately intersect."
     new ""
 

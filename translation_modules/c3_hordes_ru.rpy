@@ -1,5 +1,5 @@
 # Перевод файла c3_hordes.rpy
-# Всего строк: 1626
+# Всего строк: 1629
 
 translate ru strings:
 
@@ -63,19 +63,19 @@ translate ru strings:
     old "'I COULD KILL A DOZEN MEN BY MYSELF.'"
     new ""
 
-    # c3_hordes.rpy:5503, c3_hordes.rpy:11586 (+3 more)
+    # c3_hordes.rpy:5503, c3_hordes.rpy:11586, c3_hordes.rpy:19720, c3_lair.rpy:11314, c3_lair.rpy:14779
     old "'I HAVE A GIFT FOR YOU.'"
     new ""
 
-    # c3_hordes.rpy:5512, c3_hordes.rpy:11577 (+1 more)
+    # c3_hordes.rpy:5512, c3_hordes.rpy:11577, c3_lair.rpy:27973
     old "'I HAVE A JOB FOR YOU.'"
     new ""
 
-    # c3_hordes.rpy:19213, c5_court.rpy:4315 (+2 more)
+    # c3_hordes.rpy:19213, c5_court.rpy:4315, c5_harem.rpy:56691, c6_harem.rpy:24531
     old "'I THINK NOT.'"
     new ""
 
-    # c3_hordes.rpy:4461, c3_hordes.rpy:4800 (+4 more)
+    # c3_hordes.rpy:4461, c3_hordes.rpy:4800, c4_capital.rpy:11601, c4_capital.rpy:11628, c5_forces.rpy:1924 (+1 more)
     old "'I WAS NOT ASKING.'"
     new ""
 
@@ -107,7 +107,7 @@ translate ru strings:
     old "'LET ME HAVE A TASTE.'"
     new ""
 
-    # c3_hordes.rpy:4059, c4_capital.rpy:4626 (+1 more)
+    # c3_hordes.rpy:4059, c4_capital.rpy:4626, c6_harem.rpy:16136
     old "'NICE TITS.'"
     new ""
 
@@ -115,7 +115,7 @@ translate ru strings:
     old "'NOT UNTIL YOU'RE OLDER.'"
     new ""
 
-    # c3_hordes.rpy:19204, c4_waifu.rpy:24343 (+11 more)
+    # c3_hordes.rpy:19204, c4_waifu.rpy:24343, c5_court.rpy:7468, c5_harem.rpy:13523, c5_harem.rpy:13546 (+8 more)
     old "'PROCEED.'"
     new ""
 
@@ -127,7 +127,7 @@ translate ru strings:
     old "'SAY ONE MORE WORD AND I WILL KILL YOU.'"
     new ""
 
-    # c3_hordes.rpy:15126, c3_hordes.rpy:15183 (+1 more)
+    # c3_hordes.rpy:15126, c3_hordes.rpy:15183, c3_hordes.rpy:15238
     old "'SAY ‘THANK YOU’, [nameNaga!tu].'"
     new ""
 
@@ -171,7 +171,7 @@ translate ru strings:
     old "'THAT'S PRETTY NEAT.'"
     new ""
 
-    # c3_hordes.rpy:5731, c3_hordes.rpy:12167 (+3 more)
+    # c3_hordes.rpy:5731, c3_hordes.rpy:12167, c3_hordes.rpy:19963, c3_lair.rpy:16528, c3_lair.rpy:29816
     old "'THE ABBESS.'"
     new ""
 
@@ -179,39 +179,39 @@ translate ru strings:
     old "'THE DIFFERENCE IS THEY'RE NOT MAKING A HABIT OF IT.'"
     new ""
 
-    # c3_hordes.rpy:5740, c3_hordes.rpy:12176 (+5 more)
+    # c3_hordes.rpy:5740, c3_hordes.rpy:12176, c3_lair.rpy:11446, c3_lair.rpy:16537, c3_lair.rpy:29837 (+2 more)
     old "'THE DRUNK.'"
     new ""
 
-    # c3_hordes.rpy:5749, c3_hordes.rpy:12185 (+4 more)
+    # c3_hordes.rpy:5749, c3_hordes.rpy:12185, c3_hordes.rpy:19972, c3_lair.rpy:11455, c3_lair.rpy:16546 (+1 more)
     old "'THE FANGIRL.'"
     new ""
 
-    # c3_hordes.rpy:5758, c3_hordes.rpy:12194 (+10 more)
+    # c3_hordes.rpy:5758, c3_hordes.rpy:12194, c3_hordes.rpy:19981, c3_lair.rpy:3049, c3_lair.rpy:3087 (+7 more)
     old "'THE FARMGIRL.'"
     new ""
 
-    # c3_hordes.rpy:5767, c3_hordes.rpy:12203 (+3 more)
+    # c3_hordes.rpy:5767, c3_hordes.rpy:12203, c3_hordes.rpy:19990, c3_lair.rpy:11473, c3_lair.rpy:16564
     old "'THE HUNTRESS.'"
     new ""
 
-    # c3_hordes.rpy:5794, c3_hordes.rpy:12230 (+3 more)
+    # c3_hordes.rpy:5794, c3_hordes.rpy:12230, c3_hordes.rpy:20008, c3_lair.rpy:11500, c3_lair.rpy:16590
     old "'THE KOBOLD.'"
     new ""
 
-    # c3_hordes.rpy:5785, c3_hordes.rpy:12239 (+9 more)
+    # c3_hordes.rpy:5785, c3_hordes.rpy:12239, c3_hordes.rpy:20017, c3_lair.rpy:3058, c3_lair.rpy:3105 (+6 more)
     old "'THE MERCHANT.'"
     new ""
 
-    # c3_hordes.rpy:5803, c3_hordes.rpy:12221 (+3 more)
+    # c3_hordes.rpy:5803, c3_hordes.rpy:12221, c3_hordes.rpy:20026, c3_lair.rpy:3096, c3_lair.rpy:11509
     old "'THE THIEVES.'"
     new ""
 
-    # c3_hordes.rpy:5818, c3_hordes.rpy:12248 (+6 more)
+    # c3_hordes.rpy:5818, c3_hordes.rpy:12248, c3_hordes.rpy:20035, c3_lair.rpy:3067, c3_lair.rpy:3114 (+3 more)
     old "'THE WITCH.'"
     new ""
 
-    # c3_hordes.rpy:5827, c3_hordes.rpy:12257 (+10 more)
+    # c3_hordes.rpy:5827, c3_hordes.rpy:12257, c3_hordes.rpy:20044, c3_lair.rpy:3076, c3_lair.rpy:3123 (+7 more)
     old "'THE WOLFGIRL.'"
     new ""
 
@@ -235,7 +235,7 @@ translate ru strings:
     old "'WELCOME.'"
     new ""
 
-    # c3_hordes.rpy:15656, c4_capital.rpy:10003 (+8 more)
+    # c3_hordes.rpy:15656, c4_capital.rpy:10003, c5.rpy:4557, c5_harem.rpy:5793, c5_harem.rpy:8411 (+5 more)
     old "'WHAT ARE YOU DOING HERE?'"
     new ""
 
@@ -251,7 +251,7 @@ translate ru strings:
     old "'WHY DOES MY DAUGHTER SMELL LIKE WHISKEY?'"
     new ""
 
-    # c3_hordes.rpy:15135, c3_hordes.rpy:15192 (+1 more)
+    # c3_hordes.rpy:15135, c3_hordes.rpy:15192, c3_hordes.rpy:15247
     old "'WHY DON'T YOU TAKE HER WITH YOU?'"
     new ""
 
@@ -339,7 +339,7 @@ translate ru strings:
     old "A broken cup whistles past your ear, smashing on the chamber wall behind you."
     new ""
 
-    # c3_hordes.rpy:6054, c3_hordes.rpy:6148 (+6 more)
+    # c3_hordes.rpy:6054, c3_hordes.rpy:6148, c3_hordes.rpy:6256, c3_hordes.rpy:6499, c3_hordes.rpy:6919 (+3 more)
     old "A cheer rises up, and a bundle of your warriors go running to the cells."
     new ""
 
@@ -363,7 +363,7 @@ translate ru strings:
     old "A crowd of soldiers sit clustered around makeshift tables and seats, eating and drinking with abandon."
     new ""
 
-    # c3_hordes.rpy:9501, c4_waifu.rpy:36510 (+1 more)
+    # c3_hordes.rpy:9501, c4_waifu.rpy:36510, c4_waifu.rpy:38064
     old "A devious grin tugs the edges of his already stretched lips, and for a moment they pull back to reveal the row of hard, white teeth grazing your cock."
     new ""
 
@@ -515,7 +515,7 @@ translate ru strings:
     old "Aaaghh!"
     new ""
 
-    # c3_hordes.rpy:7830, c3_hordes.rpy:15468 (+7 more)
+    # c3_hordes.rpy:7830, c3_hordes.rpy:15468, c3_hordes.rpy:15527, c3_hordes.rpy:15586, c3_hordes.rpy:22395 (+4 more)
     old "Achievement ‘Bring Your Daughter To Work Day’ unlocked."
     new ""
 
@@ -619,7 +619,7 @@ translate ru strings:
     old "Amidst the perverse spectacle, one of the pack peels off to greet you."
     new ""
 
-    # c3_hordes.rpy:1383, c3_hordes.rpy:1482 (+2 more)
+    # c3_hordes.rpy:1383, c3_hordes.rpy:1482, c3_hordes.rpy:1617, c3_hordes.rpy:1713
     old "Amidst the sudden surge in noise, [nameKobold!t] is quick to run up."
     new ""
 
@@ -663,7 +663,7 @@ translate ru strings:
     old "And then silence."
     new ""
 
-    # c3_hordes.rpy:9444, c4_waifu.rpy:36451 (+1 more)
+    # c3_hordes.rpy:9444, c4_waifu.rpy:36451, c4_waifu.rpy:38008
     old "And then, his grin firmly in place, the wolfman surges up with a grunt of effort and hefts your entire front half off the ground."
     new ""
 
@@ -739,11 +739,11 @@ translate ru strings:
     old "As her protests fade beneath the rowdy clamour of the makeshift tavern, your focus returns to Rhyll and his calm, satisfied smile."
     new ""
 
-    # c3_hordes.rpy:9559, c4_waifu.rpy:36570 (+1 more)
+    # c3_hordes.rpy:9559, c4_waifu.rpy:36570, c4_waifu.rpy:38122
     old "As his breathing becomes more labored, so does the pace of his tending to himself, stroking the entire length of his cock into his hand's grip."
     new ""
 
-    # c3_hordes.rpy:9455, c4_waifu.rpy:36462 (+1 more)
+    # c3_hordes.rpy:9455, c4_waifu.rpy:36462, c4_waifu.rpy:38019
     old "As his grip reaches your sides, those smoldering eyes look back up into yours with growing, devilish mischief."
     new ""
 
@@ -779,7 +779,7 @@ translate ru strings:
     old "As the furred hands of the pack release her, she collapses onto the ground."
     new ""
 
-    # c3_hordes.rpy:12877, c3_hordes.rpy:13006 (+5 more)
+    # c3_hordes.rpy:12877, c3_hordes.rpy:13006, c3_hordes.rpy:13177, c3_hordes.rpy:13332, c3_hordes.rpy:14296 (+2 more)
     old "As the howls subside, Eburon and the remaining warriors eye you with a newfound reverence."
     new ""
 
@@ -1187,7 +1187,7 @@ translate ru strings:
     old "Come on, I'll race you to the others."
     new ""
 
-    # c3_hordes.rpy:9457, c4_waifu.rpy:36464 (+1 more)
+    # c3_hordes.rpy:9457, c4_waifu.rpy:36464, c4_waifu.rpy:38021
     old "Come on, then."
     new ""
 
@@ -1237,6 +1237,10 @@ translate ru strings:
 
     # c3_hordes.rpy:4048
     old "DO YOU WISH TO BE MY CONSORT?"
+    new ""
+
+    # c3_hordes.rpy:4442, c3_lair.rpy:19855, c4_capital.rpy:9865, c5_forces.rpy:1906, c5_harem.rpy:62452 (+1 more)
+    old "DON"
     new ""
 
     # c3_hordes.rpy:20879
@@ -1319,7 +1323,7 @@ translate ru strings:
     old "Eburon is quickly coming back to his senses, a sly grin returning to his expression even as he licks his chops clean."
     new ""
 
-    # c3_hordes.rpy:9496, c4_waifu.rpy:36505 (+1 more)
+    # c3_hordes.rpy:9496, c4_waifu.rpy:36505, c4_waifu.rpy:38059
     old "Eburon leans forward with a practised motion to straighten his neck, letting your cock slide deeper even as he continues his unrelenting lapping."
     new ""
 
@@ -1375,7 +1379,7 @@ translate ru strings:
     old "Eburon whirls, his claws grazing [nameTrap!t]'s flesh as the boy barely sidesteps the would-be fatal blow."
     new ""
 
-    # c3_hordes.rpy:9571, c4_waifu.rpy:36582 (+1 more)
+    # c3_hordes.rpy:9571, c4_waifu.rpy:36582, c4_waifu.rpy:38133
     old "Eburon's throat rumbles louder and louder, reaching a peak as he swallows each powerful pulse, still masturbating wildly."
     new ""
 
@@ -1671,7 +1675,7 @@ translate ru strings:
     old "He clears his throat, looking down."
     new ""
 
-    # c3_hordes.rpy:8509, c3_hordes.rpy:8531 (+3 more)
+    # c3_hordes.rpy:8509, c3_hordes.rpy:8531, c3_hordes.rpy:8553, c3_hordes.rpy:9405, c3_hordes.rpy:11552
     old "He dips his head deferently."
     new ""
 
@@ -1711,7 +1715,7 @@ translate ru strings:
     old "He gives you an amiable slap on the foreshoulder, and leads you aside."
     new ""
 
-    # c3_hordes.rpy:20093, c3_hordes.rpy:20286 (+3 more)
+    # c3_hordes.rpy:20093, c3_hordes.rpy:20286, c3_hordes.rpy:20553, c3_hordes.rpy:21155, c3_hordes.rpy:21575
     old "He glances down to one of the lounging mercenaries, and moves his arm in a quick, complex signal."
     new ""
 
@@ -1739,11 +1743,11 @@ translate ru strings:
     old "He grunts, and his gaze veers to the side a moment."
     new ""
 
-    # c3_hordes.rpy:9548, c4_waifu.rpy:36559 (+1 more)
+    # c3_hordes.rpy:9548, c4_waifu.rpy:36559, c4_waifu.rpy:38111
     old "He holds your gaze as his mouth promptly descends back over your cock."
     new ""
 
-    # c3_hordes.rpy:9462, c4_waifu.rpy:36469 (+1 more)
+    # c3_hordes.rpy:9462, c4_waifu.rpy:36469, c4_waifu.rpy:38026
     old "He holds your gaze, still staring up at you as that hand continues over your sheath, which strains against your growing member."
     new ""
 
@@ -1775,7 +1779,7 @@ translate ru strings:
     old "He looks up and grins at your approach."
     new ""
 
-    # c3_hordes.rpy:9497, c4_waifu.rpy:36506 (+1 more)
+    # c3_hordes.rpy:9497, c4_waifu.rpy:36506, c4_waifu.rpy:38060
     old "He looks up at you, his eyes as fiery and self-assured as always."
     new ""
 
@@ -1803,7 +1807,7 @@ translate ru strings:
     old "He nudges at the prone form of the witch with his foot."
     new ""
 
-    # c3_hordes.rpy:779, c3_hordes.rpy:811 (+3 more)
+    # c3_hordes.rpy:779, c3_hordes.rpy:811, c3_hordes.rpy:840, c3_hordes.rpy:5437, c3_hordes.rpy:5461
     old "He performs an enthusiastic, if somewhat graceless, bow."
     new ""
 
@@ -1863,7 +1867,7 @@ translate ru strings:
     old "He slaps the frame he was just using, looking it over proudly."
     new ""
 
-    # c3_hordes.rpy:17575, c3_hordes.rpy:17932 (+1 more)
+    # c3_hordes.rpy:17575, c3_hordes.rpy:17932, c3_hordes.rpy:18011
     old "He snatches a bottle from one of the cowed mercenaries, and settles down next to [nameDrunk!t]'s insensate body."
     new ""
 
@@ -1879,7 +1883,7 @@ translate ru strings:
     old "He squints, looking at some inscrutable point in the middle distance."
     new ""
 
-    # c3_hordes.rpy:6040, c3_hordes.rpy:6134 (+6 more)
+    # c3_hordes.rpy:6040, c3_hordes.rpy:6134, c3_hordes.rpy:6242, c3_hordes.rpy:6383, c3_hordes.rpy:6485 (+3 more)
     old "He stomps his feet, getting the attention of some of the rest of the horde."
     new ""
 
@@ -1903,7 +1907,7 @@ translate ru strings:
     old "He takes in the sordid diorama in front of him for the first time."
     new ""
 
-    # c3_hordes.rpy:9486, c4_waifu.rpy:36495 (+1 more)
+    # c3_hordes.rpy:9486, c4_waifu.rpy:36495, c4_waifu.rpy:38052
     old "He takes the tip against his lips, and slowly drags them down the length of you."
     new ""
 
@@ -2171,7 +2175,7 @@ translate ru strings:
     old "Her words fade away as she emerges into the chamber, and sees the vastness of your horde."
     new ""
 
-    # c3_hordes.rpy:12697, c3_hordes.rpy:12901 (+2 more)
+    # c3_hordes.rpy:12697, c3_hordes.rpy:12901, c3_hordes.rpy:13201, c3_hordes.rpy:14109
     old "Her?"
     new ""
 
@@ -2207,7 +2211,7 @@ translate ru strings:
     old "His broad, furry bulk pins her down, paws curling around her thighs, legs pulling her back onto his cock at the peak of every thrust."
     new ""
 
-    # c3_hordes.rpy:17563, c3_hordes.rpy:17920 (+1 more)
+    # c3_hordes.rpy:17563, c3_hordes.rpy:17920, c3_hordes.rpy:17999
     old "His brow furrows, and he works his jaw silently."
     new ""
 
@@ -2251,7 +2255,7 @@ translate ru strings:
     old "His head begins a rhythm a short, powerful rocking motions, swallowing eagerly until your tip presses firmly into his throat, before pulling back again."
     new ""
 
-    # c3_hordes.rpy:9493, c4_waifu.rpy:36502 (+1 more)
+    # c3_hordes.rpy:9493, c4_waifu.rpy:36502, c4_waifu.rpy:38056
     old "His long snout gently tilts up and down to let him draw long licks against your cock as it presses further into the hot, wet grip of his mouth."
     new ""
 
@@ -2267,7 +2271,7 @@ translate ru strings:
     old "His sturdy haunches swing seductively to either side with each step, offset by a playful wag of his tail to the opposite side."
     new ""
 
-    # c3_hordes.rpy:9463, c4_waifu.rpy:36470 (+1 more)
+    # c3_hordes.rpy:9463, c4_waifu.rpy:36470, c4_waifu.rpy:38027
     old "His touch is unexpectedly tender, and soon you feel the tip pressing out towards him."
     new ""
 
@@ -2327,19 +2331,19 @@ translate ru strings:
     old "I COULD KILL A DOZEN MEN BY MYSELF."
     new ""
 
-    # c3_hordes.rpy:5503, c3_hordes.rpy:11586 (+3 more)
+    # c3_hordes.rpy:5503, c3_hordes.rpy:11586, c3_hordes.rpy:19720, c3_lair.rpy:11314, c3_lair.rpy:14779
     old "I HAVE A GIFT FOR YOU."
     new ""
 
-    # c3_hordes.rpy:5512, c3_hordes.rpy:11577 (+1 more)
+    # c3_hordes.rpy:5512, c3_hordes.rpy:11577, c3_lair.rpy:27973
     old "I HAVE A JOB FOR YOU."
     new ""
 
-    # c3_hordes.rpy:19213, c5_court.rpy:4315 (+2 more)
+    # c3_hordes.rpy:19213, c5_court.rpy:4315, c5_harem.rpy:56691, c6_harem.rpy:24531
     old "I THINK NOT."
     new ""
 
-    # c3_hordes.rpy:4461, c3_hordes.rpy:4800 (+4 more)
+    # c3_hordes.rpy:4461, c3_hordes.rpy:4800, c4_capital.rpy:11601, c4_capital.rpy:11628, c5_forces.rpy:1924 (+1 more)
     old "I WAS NOT ASKING."
     new ""
 
@@ -2431,7 +2435,7 @@ translate ru strings:
     old "I'm Captain Rhyll, and these boys are attending on my say-so."
     new ""
 
-    # c3_hordes.rpy:20115, c3_hordes.rpy:20308 (+2 more)
+    # c3_hordes.rpy:20115, c3_hordes.rpy:20308, c3_hordes.rpy:20575, c3_hordes.rpy:21597
     old "I'm not one to look a gift whore in the mouth."
     new ""
 
@@ -2439,7 +2443,7 @@ translate ru strings:
     old "I'm sure some city-dwellers might call it wrong, or unnatural."
     new ""
 
-    # c3_hordes.rpy:12703, c3_hordes.rpy:12907 (+3 more)
+    # c3_hordes.rpy:12703, c3_hordes.rpy:12907, c3_hordes.rpy:13044, c3_hordes.rpy:13207, c3_hordes.rpy:14115
     old "I'm sure we can find some use for her."
     new ""
 
@@ -2507,7 +2511,7 @@ translate ru strings:
     old "Ignore him and move on."
     new ""
 
-    # c3_hordes.rpy:16380, c3_hordes.rpy:16418 (+3 more)
+    # c3_hordes.rpy:16380, c3_hordes.rpy:16418, c3_lair.rpy:15808, c3_lair.rpy:16278, c6_harem.rpy:18351
     old "Ignore it."
     new ""
 
@@ -2687,7 +2691,7 @@ translate ru strings:
     old "It sits upon the slanted slate and granite of the isle, braced to accommodate the slanting geometry of the rock below."
     new ""
 
-    # c3_hordes.rpy:9552, c4_waifu.rpy:36563 (+1 more)
+    # c3_hordes.rpy:9552, c4_waifu.rpy:36563, c4_waifu.rpy:38115
     old "It slides in snugly, the sensation only growing tighter as he continues to press forward and swallow you."
     new ""
 
@@ -2745,6 +2749,10 @@ translate ru strings:
 
     # c3_hordes.rpy:1661
     old "Its twisted cock is anchored in her cunt, pouring out another spray of seed as its long orgasm protracts, filling her more and more."
+    new ""
+
+    # c3_hordes.rpy:3531, c6_harem.rpy:9172
+    old "I–"
     new ""
 
     # c3_hordes.rpy:6550, c3_hordes.rpy:6647
@@ -2831,7 +2839,7 @@ translate ru strings:
     old "Let her answer."
     new ""
 
-    # c3_hordes.rpy:3612, c5_court.rpy:3437 (+2 more)
+    # c3_hordes.rpy:3612, c5_court.rpy:3437, c5_court.rpy:3817, c5_court.rpy:4092
     old "Let him go."
     new ""
 
@@ -2863,7 +2871,7 @@ translate ru strings:
     old "Little noises of protest escape her parted lips as the wolf sniffs and laps at her, eliciting yet more laughter from the pack."
     new ""
 
-    # c3_hordes.rpy:9580, c4_waifu.rpy:36591 (+1 more)
+    # c3_hordes.rpy:9580, c4_waifu.rpy:36591, c4_waifu.rpy:38142
     old "Long strings of pearly saliva drool from the lips of the dazed, half conscious male, and spill over the wet mess covering his still-throbbing cock."
     new ""
 
@@ -2883,7 +2891,7 @@ translate ru strings:
     old "Looks like you might have overplayed your hand, little miss."
     new ""
 
-    # c3_hordes.rpy:2963, c3_hordes.rpy:3064 (+1 more)
+    # c3_hordes.rpy:2963, c3_hordes.rpy:3064, c3_hordes.rpy:13826
     old "M-Master?"
     new ""
 
@@ -2895,7 +2903,7 @@ translate ru strings:
     old "Master give big gifts to kobold, pretty gifts!"
     new ""
 
-    # c3_hordes.rpy:21620, c4.rpy:1426 (+2 more)
+    # c3_hordes.rpy:21620, c4.rpy:1426, c4_waifu.rpy:265, c4_waifu.rpy:40234
     old "Master?"
     new ""
 
@@ -2923,7 +2931,7 @@ translate ru strings:
     old "Mggh...!"
     new ""
 
-    # c3_hordes.rpy:9554, c4_waifu.rpy:36565 (+1 more)
+    # c3_hordes.rpy:9554, c4_waifu.rpy:36565, c4_waifu.rpy:38117
     old "Mgh..."
     new ""
 
@@ -2931,11 +2939,11 @@ translate ru strings:
     old "Mh, a challenge then."
     new ""
 
-    # c3_hordes.rpy:9518, c4_waifu.rpy:36527 (+1 more)
+    # c3_hordes.rpy:9518, c4_waifu.rpy:36527, c4_waifu.rpy:38081
     old "Mh, doesn't take long to get you excited."
     new ""
 
-    # c3_hordes.rpy:9425, c4_waifu.rpy:36432 (+1 more)
+    # c3_hordes.rpy:9425, c4_waifu.rpy:36432, c4_waifu.rpy:37989
     old "Mhh..."
     new ""
 
@@ -2959,7 +2967,7 @@ translate ru strings:
     old "Mmmph!"
     new ""
 
-    # c3_hordes.rpy:18480, c3_lair.rpy:38158 (+1 more)
+    # c3_hordes.rpy:18480, c3_lair.rpy:38158, c4_waifu.rpy:28690
     old "Mngh!"
     new ""
 
@@ -2987,7 +2995,7 @@ translate ru strings:
     old "More than they're worth, I'd say."
     new ""
 
-    # c3_hordes.rpy:9557, c4_waifu.rpy:36568 (+1 more)
+    # c3_hordes.rpy:9557, c4_waifu.rpy:36568, c4_waifu.rpy:38120
     old "More than willing to oblige the eager wolfman, you lean your hips in to thrust into his wet mouth."
     new ""
 
@@ -3019,7 +3027,7 @@ translate ru strings:
     old "N-no?"
     new ""
 
-    # c3_hordes.rpy:4059, c4_capital.rpy:4626 (+1 more)
+    # c3_hordes.rpy:4059, c4_capital.rpy:4626, c6_harem.rpy:16136
     old "NICE TITS."
     new ""
 
@@ -3039,12 +3047,16 @@ translate ru strings:
     old "Nearby, a pack of pureblood wolves bring a bare-breasted wolfgirl to the ground, fighting to be the first to take her."
     new ""
 
-    # c3_hordes.rpy:17571, c3_hordes.rpy:17928 (+1 more)
+    # c3_hordes.rpy:17571, c3_hordes.rpy:17928, c3_hordes.rpy:18007
     old "Never a dull day 'round here, is there?"
     new ""
 
     # c3_hordes.rpy:17788
     old "Nngh!"
+    new ""
+
+    # c3_hordes.rpy:3461, c5_forces.rpy:1019, screens.rpy:2646
+    old "No"
     new ""
 
     # c3_hordes.rpy:15281
@@ -3087,11 +3099,11 @@ translate ru strings:
     old "Now, I don't suppose you had any other lovely gifts for us today?"
     new ""
 
-    # c3_hordes.rpy:19487, c3_hordes.rpy:19789 (+4 more)
+    # c3_hordes.rpy:19487, c3_hordes.rpy:19789, c3_hordes.rpy:20257, c3_hordes.rpy:20524, c3_hordes.rpy:21399 (+1 more)
     old "Now, is there anything else you're wanting?"
     new ""
 
-    # c3_hordes.rpy:16353, c3_hordes.rpy:16391 (+8 more)
+    # c3_hordes.rpy:16353, c3_hordes.rpy:16391, c3_hordes.rpy:17581, c3_hordes.rpy:17938, c3_hordes.rpy:18017 (+5 more)
     old "Now, what is it that's troubling you?"
     new ""
 
@@ -3223,7 +3235,7 @@ translate ru strings:
     old "Our patience wears thin."
     new ""
 
-    # c3_hordes.rpy:19204, c4_waifu.rpy:24343 (+11 more)
+    # c3_hordes.rpy:19204, c4_waifu.rpy:24343, c5_court.rpy:7468, c5_harem.rpy:13523, c5_harem.rpy:13546 (+8 more)
     old "PROCEED."
     new ""
 
@@ -3359,7 +3371,7 @@ translate ru strings:
     old "Rhyll simply nods."
     new ""
 
-    # c3_hordes.rpy:17550, c3_hordes.rpy:17907 (+1 more)
+    # c3_hordes.rpy:17550, c3_hordes.rpy:17907, c3_hordes.rpy:17985
     old "Rhyll steps into the circle, his good eye sparkling in the firelight."
     new ""
 
@@ -3407,7 +3419,7 @@ translate ru strings:
     old "SAY ONE MORE WORD AND I WILL KILL YOU."
     new ""
 
-    # c3_hordes.rpy:15126, c3_hordes.rpy:15183 (+1 more)
+    # c3_hordes.rpy:15126, c3_hordes.rpy:15183, c3_hordes.rpy:15238
     old "SAY ‘THANK YOU’, [nameNaga!tu]."
     new ""
 
@@ -3971,7 +3983,7 @@ translate ru strings:
     old "THAT IS ENOUGH QUESTIONS FOR NOW."
     new ""
 
-    # c3_hordes.rpy:5731, c3_hordes.rpy:12167 (+3 more)
+    # c3_hordes.rpy:5731, c3_hordes.rpy:12167, c3_hordes.rpy:19963, c3_lair.rpy:16528, c3_lair.rpy:29816
     old "THE ABBESS."
     new ""
 
@@ -3979,31 +3991,31 @@ translate ru strings:
     old "THE DIFFERENCE IS THEY"
     new ""
 
-    # c3_hordes.rpy:5740, c3_hordes.rpy:12176 (+5 more)
+    # c3_hordes.rpy:5740, c3_hordes.rpy:12176, c3_lair.rpy:11446, c3_lair.rpy:16537, c3_lair.rpy:29837 (+2 more)
     old "THE DRUNK."
     new ""
 
-    # c3_hordes.rpy:5749, c3_hordes.rpy:12185 (+4 more)
+    # c3_hordes.rpy:5749, c3_hordes.rpy:12185, c3_hordes.rpy:19972, c3_lair.rpy:11455, c3_lair.rpy:16546 (+1 more)
     old "THE FANGIRL."
     new ""
 
-    # c3_hordes.rpy:5758, c3_hordes.rpy:12194 (+10 more)
+    # c3_hordes.rpy:5758, c3_hordes.rpy:12194, c3_hordes.rpy:19981, c3_lair.rpy:3049, c3_lair.rpy:3087 (+7 more)
     old "THE FARMGIRL."
     new ""
 
-    # c3_hordes.rpy:5767, c3_hordes.rpy:12203 (+3 more)
+    # c3_hordes.rpy:5767, c3_hordes.rpy:12203, c3_hordes.rpy:19990, c3_lair.rpy:11473, c3_lair.rpy:16564
     old "THE HUNTRESS."
     new ""
 
-    # c3_hordes.rpy:5794, c3_hordes.rpy:12230 (+3 more)
+    # c3_hordes.rpy:5794, c3_hordes.rpy:12230, c3_hordes.rpy:20008, c3_lair.rpy:11500, c3_lair.rpy:16590
     old "THE KOBOLD."
     new ""
 
-    # c3_hordes.rpy:5785, c3_hordes.rpy:12239 (+9 more)
+    # c3_hordes.rpy:5785, c3_hordes.rpy:12239, c3_hordes.rpy:20017, c3_lair.rpy:3058, c3_lair.rpy:3105 (+6 more)
     old "THE MERCHANT."
     new ""
 
-    # c3_hordes.rpy:5803, c3_hordes.rpy:12221 (+3 more)
+    # c3_hordes.rpy:5803, c3_hordes.rpy:12221, c3_hordes.rpy:20026, c3_lair.rpy:3096, c3_lair.rpy:11509
     old "THE THIEVES."
     new ""
 
@@ -4011,11 +4023,11 @@ translate ru strings:
     old "THE WHOLE THING!"
     new ""
 
-    # c3_hordes.rpy:5818, c3_hordes.rpy:12248 (+6 more)
+    # c3_hordes.rpy:5818, c3_hordes.rpy:12248, c3_hordes.rpy:20035, c3_lair.rpy:3067, c3_lair.rpy:3114 (+3 more)
     old "THE WITCH."
     new ""
 
-    # c3_hordes.rpy:5827, c3_hordes.rpy:12257 (+10 more)
+    # c3_hordes.rpy:5827, c3_hordes.rpy:12257, c3_hordes.rpy:20044, c3_lair.rpy:3076, c3_lair.rpy:3123 (+7 more)
     old "THE WOLFGIRL."
     new ""
 
@@ -4031,7 +4043,7 @@ translate ru strings:
     old "TOUCH MY CHILD AGAIN AND DIE."
     new ""
 
-    # c3_hordes.rpy:12860, c3_hordes.rpy:12991 (+5 more)
+    # c3_hordes.rpy:12860, c3_hordes.rpy:12991, c3_hordes.rpy:13150, c3_hordes.rpy:13317, c3_hordes.rpy:14281 (+2 more)
     old "Take her away!"
     new ""
 
@@ -4535,7 +4547,7 @@ translate ru strings:
     old "The smell of sex is heavy in the air, and only grows thicker as you crane your neck down to look beneath the canopy."
     new ""
 
-    # c3_hordes.rpy:20103, c3_hordes.rpy:20296 (+3 more)
+    # c3_hordes.rpy:20103, c3_hordes.rpy:20296, c3_hordes.rpy:20563, c3_hordes.rpy:21165, c3_hordes.rpy:21585
     old "The soldier rushes to his feet, and launches into a run towards the entrance to your lair."
     new ""
 
@@ -4579,7 +4591,7 @@ translate ru strings:
     old "The three kobolds peel away from her reluctantly, and as soon as they do, the next batch of three takes up their positions on her."
     new ""
 
-    # c3_hordes.rpy:9523, c4_waifu.rpy:36534 (+1 more)
+    # c3_hordes.rpy:9523, c4_waifu.rpy:36534, c4_waifu.rpy:38086
     old "The tightening fist draws up and down his length slowly, forcing a rumbling gasp from the wolfman as his breathing quickens."
     new ""
 
@@ -4703,7 +4715,7 @@ translate ru strings:
     old "Then he opens his mouth."
     new ""
 
-    # c3_hordes.rpy:17567, c3_hordes.rpy:17924 (+1 more)
+    # c3_hordes.rpy:17567, c3_hordes.rpy:17924, c3_hordes.rpy:18003
     old "Then he smiles."
     new ""
 
@@ -4799,7 +4811,7 @@ translate ru strings:
     old "They offer their usual bowing and praise, but there's a cautious, watchful edge in their eyes as they do so."
     new ""
 
-    # c3_hordes.rpy:6406, c3_hordes.rpy:7072 (+1 more)
+    # c3_hordes.rpy:6406, c3_hordes.rpy:7072, c3_hordes.rpy:14136
     old "They pull her bodily into view."
     new ""
 
@@ -4863,7 +4875,7 @@ translate ru strings:
     old "Though the smell of roast meat and gruel reaches your nostrils, suggesting mess time, the paths seem not quite as full of men as anticipated."
     new ""
 
-    # c3_hordes.rpy:13034, c3_hordes.rpy:14320 (+1 more)
+    # c3_hordes.rpy:13034, c3_hordes.rpy:14320, c3_hordes.rpy:14575
     old "Thought you'd keep her for yourself."
     new ""
 
@@ -4923,7 +4935,7 @@ translate ru strings:
     old "WELCOME."
     new ""
 
-    # c3_hordes.rpy:15656, c4_capital.rpy:10003 (+8 more)
+    # c3_hordes.rpy:15656, c4_capital.rpy:10003, c5.rpy:4557, c5_harem.rpy:5793, c5_harem.rpy:8411 (+5 more)
     old "WHAT ARE YOU DOING HERE?"
     new ""
 
@@ -4939,7 +4951,7 @@ translate ru strings:
     old "WHY DOES MY DAUGHTER SMELL LIKE WHISKEY?"
     new ""
 
-    # c3_hordes.rpy:15135, c3_hordes.rpy:15192 (+5 more)
+    # c3_hordes.rpy:15135, c3_hordes.rpy:15192, c3_hordes.rpy:15247, c4_waifu.rpy:29516, c5_harem.rpy:62162 (+2 more)
     old "WHY DON"
     new ""
 
@@ -4999,7 +5011,7 @@ translate ru strings:
     old "Weakly, [nameFarmer!t] tries to lever her hips to the side and away, but her attempts to escape only encourage the beast further."
     new ""
 
-    # c3_hordes.rpy:17546, c3_hordes.rpy:17903 (+1 more)
+    # c3_hordes.rpy:17546, c3_hordes.rpy:17903, c3_hordes.rpy:17981
     old "Well well, what have we got ourselves here?"
     new ""
 
@@ -5047,7 +5059,7 @@ translate ru strings:
     old "What does the scaled wolf need of his pack?"
     new ""
 
-    # c3_hordes.rpy:789, c3_hordes.rpy:819 (+13 more)
+    # c3_hordes.rpy:789, c3_hordes.rpy:819, c3_hordes.rpy:848, c3_hordes.rpy:1401, c3_hordes.rpy:1496 (+10 more)
     old "What dragon want of kobold?"
     new ""
 
@@ -5147,7 +5159,7 @@ translate ru strings:
     old "While she is preoccupied with the child, you finally have a chance to look around."
     new ""
 
-    # c3_hordes.rpy:9474, c4_waifu.rpy:36481 (+1 more)
+    # c3_hordes.rpy:9474, c4_waifu.rpy:36481, c4_waifu.rpy:38038
     old "While still massaging the base of your sheath, he leans forward to take a deft lap at the underside of your cock."
     new ""
 
@@ -5159,7 +5171,7 @@ translate ru strings:
     old "While the mercenaries are busy cheering, you rise from your hiding place and casually stride forward into the firelight."
     new ""
 
-    # c3_hordes.rpy:7176, c3_hordes.rpy:13757 (+4 more)
+    # c3_hordes.rpy:7176, c3_hordes.rpy:13757, c3_hordes.rpy:21548, c3_lair.rpy:13292, c3_lair.rpy:19039 (+1 more)
     old "While you are briefly tempted, giving away the commander of your forces ultimately strikes you as a bad idea."
     new ""
 
@@ -5311,7 +5323,7 @@ translate ru strings:
     old "Yeah, yeah."
     new ""
 
-    # c3_hordes.rpy:3457, c5_forces.rpy:1014
+    # c3_hordes.rpy:3457, c5_forces.rpy:1014, screens.rpy:2645
     old "Yes"
     new ""
 
@@ -5415,7 +5427,7 @@ translate ru strings:
     old "You doesn't happen to like a bit of drink now and then, does you?"
     new ""
 
-    # c3_hordes.rpy:20089, c3_hordes.rpy:20282 (+2 more)
+    # c3_hordes.rpy:20089, c3_hordes.rpy:20282, c3_hordes.rpy:20549, c3_hordes.rpy:21571
     old "You don't have to answer that."
     new ""
 
@@ -5431,7 +5443,7 @@ translate ru strings:
     old "You emerge from the spire and head over to the copse of pine trees nearby that the pack has claimed as their own."
     new ""
 
-    # c3_hordes.rpy:9561, c4_waifu.rpy:36572 (+1 more)
+    # c3_hordes.rpy:9561, c4_waifu.rpy:36572, c4_waifu.rpy:38124
     old "You feel the peak of your pleasure quickly approaching, and redouble your powerful thrusts into Eburon's throat."
     new ""
 
@@ -5511,7 +5523,7 @@ translate ru strings:
     old "You need no further invitation."
     new ""
 
-    # c3_hordes.rpy:9507, c4_waifu.rpy:36516 (+1 more)
+    # c3_hordes.rpy:9507, c4_waifu.rpy:36516, c4_waifu.rpy:38070
     old "You notice his own arousal growing between his legs, pressing past his loin cloth to jut out and shudder with steady, heavy throbs."
     new ""
 
@@ -5623,7 +5635,7 @@ translate ru strings:
     old "You'd never..."
     new ""
 
-    # c3_hordes.rpy:9540, c4_waifu.rpy:36551 (+1 more)
+    # c3_hordes.rpy:9540, c4_waifu.rpy:36551, c4_waifu.rpy:38103
     old "You'd swear the wolfman's eyes light up when you speak the words, though he keeps his composure otherwise."
     new ""
 
@@ -5687,7 +5699,7 @@ translate ru strings:
     old "Your breath musses her hair, and goosebumps arise on the bare skin of her neck."
     new ""
 
-    # c3_hordes.rpy:9579, c4_waifu.rpy:36590 (+1 more)
+    # c3_hordes.rpy:9579, c4_waifu.rpy:36590, c4_waifu.rpy:38141
     old "Your cock slips heavily from Eburon's slick jaw to dangle before him, leaving him panting deep, needful breaths."
     new ""
 
@@ -6003,7 +6015,7 @@ translate ru strings:
     old "d like to be tidying things up fast, if you don"
     new ""
 
-    # c3_hordes.rpy:9540, c4_waifu.rpy:36551 (+1 more)
+    # c3_hordes.rpy:9540, c4_waifu.rpy:36551, c4_waifu.rpy:38103
     old "d swear the wolfman"
     new ""
 
@@ -6079,7 +6091,7 @@ translate ru strings:
     old "m sure there"
     new ""
 
-    # c3_hordes.rpy:20109, c3_hordes.rpy:20302 (+8 more)
+    # c3_hordes.rpy:20109, c3_hordes.rpy:20302, c3_hordes.rpy:20569, c3_hordes.rpy:21183, c3_hordes.rpy:21591 (+5 more)
     old "m sure we"
     new ""
 
@@ -6375,7 +6387,7 @@ translate ru strings:
     old "s tutelage they"
     new ""
 
-    # c3_hordes.rpy:17690, c3_lair.rpy:5461 (+2 more)
+    # c3_hordes.rpy:17690, c3_lair.rpy:5461, c5_harem.rpy:62102, c6_harem.rpy:30101
     old "s what I"
     new ""
 

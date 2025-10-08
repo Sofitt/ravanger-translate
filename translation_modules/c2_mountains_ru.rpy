@@ -1,5 +1,5 @@
 # Перевод файла c2_mountains.rpy
-# Всего строк: 204
+# Всего строк: 205
 
 translate ru strings:
 
@@ -11,11 +11,11 @@ translate ru strings:
     old "'COME WITH ME.'"
     new ""
 
-    # c2_mountains.rpy:1842, c3_lair.rpy:22221 (+6 more)
+    # c2_mountains.rpy:1842, c3_lair.rpy:22221, c3_lair.rpy:28973, c3_lair.rpy:30076, c3_lair.rpy:46917 (+3 more)
     old "'ERR.'"
     new ""
 
-    # c2_mountains.rpy:1695, c3_captives.rpy:25594 (+6 more)
+    # c2_mountains.rpy:1695, c3_captives.rpy:25594, c3_captives.rpy:37700, c3_captives.rpy:37711, c3_captives.rpy:37949 (+3 more)
     old "'EXPLAIN.'"
     new ""
 
@@ -31,11 +31,11 @@ translate ru strings:
     old "'OKAY THEN.'"
     new ""
 
-    # c2_mountains.rpy:1781, c2_world.rpy:1306 (+7 more)
+    # c2_mountains.rpy:1781, c2_world.rpy:1306, c3_captives.rpy:19233, c3_captives.rpy:23398, c3_captures.rpy:5870 (+4 more)
     old "'PERHAPS.'"
     new ""
 
-    # c2_mountains.rpy:491, c2_mountains.rpy:617 (+2 more)
+    # c2_mountains.rpy:491, c2_mountains.rpy:617, c2_mountains.rpy:941, c2_mountains.rpy:961
     old "'PLEASE.'"
     new ""
 
@@ -43,7 +43,7 @@ translate ru strings:
     old "'PLEASE.' (End Replay)"
     new ""
 
-    # c2_mountains.rpy:1729, c3_captives.rpy:33291 (+3 more)
+    # c2_mountains.rpy:1729, c3_captives.rpy:33291, c3_captives.rpy:34541, c4_waifu.rpy:29477, c4_waifu.rpy:34337
     old "'REALLY?'"
     new ""
 
@@ -51,7 +51,7 @@ translate ru strings:
     old "'SO?'"
     new ""
 
-    # c2_mountains.rpy:2007, c3_captives.rpy:54226 (+3 more)
+    # c2_mountains.rpy:2007, c3_captives.rpy:54226, c3_captures.rpy:5198, c6_harem.rpy:18714, c6_harem.rpy:18755
     old "'SURE.'"
     new ""
 
@@ -63,7 +63,7 @@ translate ru strings:
     old "'WHY?'"
     new ""
 
-    # c2_mountains.rpy:1766, c3_lair.rpy:8752 (+1 more)
+    # c2_mountains.rpy:1766, c3_lair.rpy:8752, c4_waifu.rpy:32356
     old "'YES?'"
     new ""
 
@@ -91,7 +91,7 @@ translate ru strings:
     old "After hopping around for a while on one leg, she manages it, and makes a clumsy bow."
     new ""
 
-    # c2_mountains.rpy:335, c2_mountains.rpy:707 (+1 more)
+    # c2_mountains.rpy:335, c2_mountains.rpy:707, c3_captives.rpy:52275
     old "Ahh!"
     new ""
 
@@ -119,11 +119,11 @@ translate ru strings:
     old "And then we can consummate our love!"
     new ""
 
-    # c2_mountains.rpy:2706, c4_waifu.rpy:6133 (+1 more)
+    # c2_mountains.rpy:2706, c4_waifu.rpy:6133, c5_harem.rpy:10390
     old "And then, with a surge of fierce pleasure and pressure around the tip of your cock, it slips inside."
     new ""
 
-    # c2_mountains.rpy:463, c2_mountains.rpy:585 (+1 more)
+    # c2_mountains.rpy:463, c2_mountains.rpy:585, c2_mountains.rpy:883
     old "And thus I shall take their place."
     new ""
 
@@ -147,7 +147,7 @@ translate ru strings:
     old "As you move to investigate, her eyes open."
     new ""
 
-    # c2_mountains.rpy:2490, c2_mountains.rpy:2514 (+1 more)
+    # c2_mountains.rpy:2490, c2_mountains.rpy:2514, c5_harem.rpy:10352
     old "As your forelimbs anchor into the ground on either side of her head, you slide your cock against the narrow cleft of her buttocks."
     new ""
 
@@ -159,7 +159,7 @@ translate ru strings:
     old "Aww!"
     new ""
 
-    # c2_mountains.rpy:2674, c3_captives.rpy:8945 (+3 more)
+    # c2_mountains.rpy:2674, c3_captives.rpy:8945, c4_waifu.rpy:6109, c4_waifu.rpy:6408, c5_harem.rpy:10360
     old "Be careful now, it's my first time!"
     new ""
 
@@ -211,7 +211,7 @@ translate ru strings:
     old "Do you have a lair yet?"
     new ""
 
-    # c2_mountains.rpy:2702, c3_captives.rpy:3369 (+9 more)
+    # c2_mountains.rpy:2702, c3_captives.rpy:3369, c3_captives.rpy:3454, c3_captives.rpy:5285, c3_captives.rpy:5295 (+6 more)
     old "Do your worst."
     new ""
 
@@ -219,11 +219,11 @@ translate ru strings:
     old "Drawing a deep breath into your lungs, you release a bellowing howl that echoes across the distant slopes."
     new ""
 
-    # c2_mountains.rpy:1842, c3_lair.rpy:22221 (+6 more)
+    # c2_mountains.rpy:1842, c3_lair.rpy:22221, c3_lair.rpy:28973, c3_lair.rpy:30076, c3_lair.rpy:46917 (+3 more)
     old "ERR."
     new ""
 
-    # c2_mountains.rpy:1695, c3_captives.rpy:25594 (+6 more)
+    # c2_mountains.rpy:1695, c3_captives.rpy:25594, c3_captives.rpy:37700, c3_captives.rpy:37711, c3_captives.rpy:37949 (+3 more)
     old "EXPLAIN."
     new ""
 
@@ -231,11 +231,11 @@ translate ru strings:
     old "Eee! I always wanted to do this!"
     new ""
 
-    # c2_mountains.rpy:2772, c4_waifu.rpy:6201 (+1 more)
+    # c2_mountains.rpy:2772, c4_waifu.rpy:6201, c5_harem.rpy:10454
     old "Emboldened, you pull back, and then thrust your way back inside her."
     new ""
 
-    # c2_mountains.rpy:2746, c4_waifu.rpy:6173 (+1 more)
+    # c2_mountains.rpy:2746, c4_waifu.rpy:6173, c5_harem.rpy:10430
     old "Even so, she adjusts her grip and presses back against you, insatiable."
     new ""
 
@@ -255,11 +255,11 @@ translate ru strings:
     old "Fortified Village"
     new ""
 
-    # c2_mountains.rpy:430, c2_mountains.rpy:552 (+1 more)
+    # c2_mountains.rpy:430, c2_mountains.rpy:552, c2_mountains.rpy:845
     old "Foul creature, stop this at once!"
     new ""
 
-    # c2_mountains.rpy:2714, c3_captives.rpy:7688 (+6 more)
+    # c2_mountains.rpy:2714, c3_captives.rpy:7688, c3_captives.rpy:8997, c4_waifu.rpy:6141, c4_waifu.rpy:6450 (+3 more)
     old "Ghuh!"
     new ""
 
@@ -287,7 +287,7 @@ translate ru strings:
     old "Guuh!"
     new ""
 
-    # c2_mountains.rpy:2414, c3_captives.rpy:4817 (+13 more)
+    # c2_mountains.rpy:2414, c3_captives.rpy:4817, c3_captives.rpy:8288, c3_captives.rpy:8807, c3_captives.rpy:41949 (+10 more)
     old "Have you changed Darja's name?"
     new ""
 
@@ -299,7 +299,7 @@ translate ru strings:
     old "Her brow furrows."
     new ""
 
-    # c2_mountains.rpy:2835, c4_waifu.rpy:6261 (+1 more)
+    # c2_mountains.rpy:2835, c4_waifu.rpy:6261, c5_harem.rpy:10513
     old "Her hands touch at the sticky pool between her legs, and she shivers again."
     new ""
 
@@ -311,7 +311,7 @@ translate ru strings:
     old "How do you want to make your approach?"
     new ""
 
-    # c2_mountains.rpy:452, c2_mountains.rpy:574 (+1 more)
+    # c2_mountains.rpy:452, c2_mountains.rpy:574, c5_harem.rpy:39565
     old "I WASN"
     new ""
 
@@ -331,7 +331,7 @@ translate ru strings:
     old "I know what you want, and you shall not have it!"
     new ""
 
-    # c2_mountains.rpy:2735, c4_waifu.rpy:6162 (+1 more)
+    # c2_mountains.rpy:2735, c4_waifu.rpy:6162, c5_harem.rpy:10418
     old "I must...!"
     new ""
 
@@ -347,7 +347,7 @@ translate ru strings:
     old "I will not tolerate my sisters to be defiled so."
     new ""
 
-    # c2_mountains.rpy:2759, c3_captives.rpy:7730 (+6 more)
+    # c2_mountains.rpy:2759, c3_captives.rpy:7730, c3_captives.rpy:9040, c4_waifu.rpy:6186, c4_waifu.rpy:6495 (+3 more)
     old "I'M DOING IT!"
     new ""
 
@@ -375,7 +375,7 @@ translate ru strings:
     old "It's time to make me your queen!"
     new ""
 
-    # c2_mountains.rpy:1102, c2_mountains.rpy:1456 (+3 more)
+    # c2_mountains.rpy:1102, c2_mountains.rpy:1456, c3_captives.rpy:24157, c4_waifu.rpy:26761, c4_waifu.rpy:26767
     old "Leave her be."
     new ""
 
@@ -411,7 +411,7 @@ translate ru strings:
     old "OKAY THEN."
     new ""
 
-    # c2_mountains.rpy:2478, c2_mountains.rpy:2502 (+10 more)
+    # c2_mountains.rpy:2478, c2_mountains.rpy:2502, c3_captives.rpy:1908, c3_captives.rpy:21336, c3_captives.rpy:33639 (+7 more)
     old "Oblige her."
     new ""
 
@@ -427,11 +427,11 @@ translate ru strings:
     old "One of her hands snakes down, to rub urgently at the cloth that covers her clit."
     new ""
 
-    # c2_mountains.rpy:1781, c2_world.rpy:1306 (+7 more)
+    # c2_mountains.rpy:1781, c2_world.rpy:1306, c3_captives.rpy:19233, c3_captives.rpy:23398, c3_captures.rpy:5870 (+4 more)
     old "PERHAPS."
     new ""
 
-    # c2_mountains.rpy:491, c2_mountains.rpy:617 (+3 more)
+    # c2_mountains.rpy:491, c2_mountains.rpy:617, c2_mountains.rpy:919, c2_mountains.rpy:941, c2_mountains.rpy:961
     old "PLEASE."
     new ""
 
@@ -439,15 +439,15 @@ translate ru strings:
     old "Peaks"
     new ""
 
-    # c2_mountains.rpy:1729, c3_captives.rpy:33291 (+3 more)
+    # c2_mountains.rpy:1729, c3_captives.rpy:33291, c3_captives.rpy:34541, c4_waifu.rpy:29477, c4_waifu.rpy:34337
     old "REALLY?"
     new ""
 
-    # c2_mountains.rpy:2125, c3_captives.rpy:23849 (+1 more)
+    # c2_mountains.rpy:2125, c3_captives.rpy:23849, c3_captures.rpy:5267
     old "Reconsider the whole thing."
     new ""
 
-    # c2_mountains.rpy:2728, c4_waifu.rpy:6155 (+1 more)
+    # c2_mountains.rpy:2728, c4_waifu.rpy:6155, c5_harem.rpy:10411
     old "SO GOOD!"
     new ""
 
@@ -455,7 +455,7 @@ translate ru strings:
     old "SO?"
     new ""
 
-    # c2_mountains.rpy:2007, c3_captives.rpy:54226 (+3 more)
+    # c2_mountains.rpy:2007, c3_captives.rpy:54226, c3_captures.rpy:5198, c6_harem.rpy:18714, c6_harem.rpy:18755
     old "SURE."
     new ""
 
@@ -467,7 +467,7 @@ translate ru strings:
     old "Satisfied, you head up to the top of the tower."
     new ""
 
-    # c2_mountains.rpy:2690, c3_captives.rpy:7652 (+4 more)
+    # c2_mountains.rpy:2690, c3_captives.rpy:7652, c3_captives.rpy:8961, c4_waifu.rpy:6117, c4_waifu.rpy:6420 (+1 more)
     old "She adjusts her footing, bracing her feet against the rug underneath, and lowering her head down."
     new ""
 
@@ -475,11 +475,11 @@ translate ru strings:
     old "She begins to pull her leathers back on, hopping from foot to foot."
     new ""
 
-    # c2_mountains.rpy:2763, c4_waifu.rpy:6190 (+1 more)
+    # c2_mountains.rpy:2763, c4_waifu.rpy:6190, c5_harem.rpy:10447
     old "She brings a hand across to cradle her stomach, marvelling at how it distends around your cock within."
     new ""
 
-    # c2_mountains.rpy:2806, c4_waifu.rpy:6230 (+1 more)
+    # c2_mountains.rpy:2806, c4_waifu.rpy:6230, c5_harem.rpy:10482
     old "She contorts around you, gripped by a fresh convulsion of pleasure with every gout that enters her."
     new ""
 
@@ -511,15 +511,15 @@ translate ru strings:
     old "She rises to her feet, fixing you with a fierce gaze."
     new ""
 
-    # c2_mountains.rpy:2831, c4_waifu.rpy:6257 (+1 more)
+    # c2_mountains.rpy:2831, c4_waifu.rpy:6257, c5_harem.rpy:10509
     old "She rolls onto her back, gazing adoringly up at you."
     new ""
 
-    # c2_mountains.rpy:2732, c4_waifu.rpy:6159 (+1 more)
+    # c2_mountains.rpy:2732, c4_waifu.rpy:6159, c5_harem.rpy:10415
     old "She shifts her hips back and forth, working you in inch by inch, determined to have you."
     new ""
 
-    # c2_mountains.rpy:487, c2_mountains.rpy:613 (+1 more)
+    # c2_mountains.rpy:487, c2_mountains.rpy:613, c2_mountains.rpy:911
     old "She shivers a little, but stands firm."
     new ""
 
@@ -539,7 +539,7 @@ translate ru strings:
     old "Sneak up and subdue them."
     new ""
 
-    # c2_mountains.rpy:2913, c3_lair.rpy:4001 (+1 more)
+    # c2_mountains.rpy:2913, c3_lair.rpy:4001, c3_lair.rpy:4189
     old "Spare her."
     new ""
 
@@ -555,15 +555,15 @@ translate ru strings:
     old "Th-that..."
     new ""
 
-    # c2_mountains.rpy:2396, c3_captives.rpy:8789 (+50 more)
+    # c2_mountains.rpy:2396, c3_captives.rpy:8789, c3_captives.rpy:12903, c3_captives.rpy:23677, c3_captives.rpy:25275 (+47 more)
     old "The Abandoned Mine"
     new ""
 
-    # c2_mountains.rpy:2403, c3_captives.rpy:8796 (+50 more)
+    # c2_mountains.rpy:2403, c3_captives.rpy:8796, c3_captives.rpy:12913, c3_captives.rpy:23686, c3_captives.rpy:25284 (+47 more)
     old "The Ancient Spire"
     new ""
 
-    # c2_mountains.rpy:2389, c3_captives.rpy:8782 (+50 more)
+    # c2_mountains.rpy:2389, c3_captives.rpy:8782, c3_captives.rpy:12893, c3_captives.rpy:23668, c3_captives.rpy:25266 (+47 more)
     old "The Sunken Temple"
     new ""
 
@@ -631,7 +631,7 @@ translate ru strings:
     old "Um, can you get pregnant that way?"
     new ""
 
-    # c2_mountains.rpy:415, c2_mountains.rpy:535 (+3 more)
+    # c2_mountains.rpy:415, c2_mountains.rpy:535, c3_captives.rpy:7048, c3_hordes.rpy:7715, c3_hordes.rpy:20465
     old "Um."
     new ""
 
@@ -655,7 +655,11 @@ translate ru strings:
     old "Whaaaat!"
     new ""
 
-    # c2_mountains.rpy:2387, c3_captives.rpy:8780 (+50 more)
+    # c2_mountains.rpy:2418, c3_captives.rpy:4478, c3_captives.rpy:4621, c3_captives.rpy:4810, c3_captives.rpy:4821 (+63 more)
+    old "What do you want to call her?"
+    new ""
+
+    # c2_mountains.rpy:2387, c3_captives.rpy:8780, c3_captives.rpy:12891, c3_captives.rpy:23666, c3_captives.rpy:25264 (+47 more)
     old "What lair are you in?"
     new ""
 
@@ -663,11 +667,11 @@ translate ru strings:
     old "What strange people."
     new ""
 
-    # c2_mountains.rpy:483, c2_mountains.rpy:609 (+1 more)
+    # c2_mountains.rpy:483, c2_mountains.rpy:609, c2_mountains.rpy:907
     old "Will you have me, then?"
     new ""
 
-    # c2_mountains.rpy:2680, c3_captives.rpy:8951 (+1 more)
+    # c2_mountains.rpy:2680, c3_captives.rpy:8951, c5_harem.rpy:10366
     old "With a dragon, that is."
     new ""
 
@@ -679,15 +683,15 @@ translate ru strings:
     old "With that she scrambles out of the chamber, leaving you alone once more."
     new ""
 
-    # c2_mountains.rpy:2842, c3_captives.rpy:7858 (+6 more)
+    # c2_mountains.rpy:2842, c3_captives.rpy:7858, c3_captives.rpy:9181, c4_waifu.rpy:6279, c4_waifu.rpy:6625 (+3 more)
     old "Wordlessly, she reaches up to accept you into her embrace."
     new ""
 
-    # c2_mountains.rpy:1606, c2_mountains.rpy:1650 (+1 more)
+    # c2_mountains.rpy:1606, c2_mountains.rpy:1650, c4_waifu.rpy:4814
     old "YES!"
     new ""
 
-    # c2_mountains.rpy:1766, c3_lair.rpy:8752 (+1 more)
+    # c2_mountains.rpy:1766, c3_lair.rpy:8752, c4_waifu.rpy:32356
     old "YES?"
     new ""
 
@@ -723,7 +727,7 @@ translate ru strings:
     old "You drop her, and she scrabbles to her feet."
     new ""
 
-    # c2_mountains.rpy:2846, c3_captives.rpy:7859 (+6 more)
+    # c2_mountains.rpy:2846, c3_captives.rpy:7859, c3_captives.rpy:9182, c4_waifu.rpy:6283, c4_waifu.rpy:6626 (+3 more)
     old "You have to be a little careful not to crush her, but her touch is warm and adoring."
     new ""
 
@@ -743,7 +747,7 @@ translate ru strings:
     old "You make your way back to the spire, which is as quiet and lifeless as the last time you were there."
     new ""
 
-    # c2_mountains.rpy:2742, c4_waifu.rpy:6169 (+1 more)
+    # c2_mountains.rpy:2742, c4_waifu.rpy:6169, c5_harem.rpy:10426
     old "You press deeper, pushing the air from her lungs and her body down onto the furs."
     new ""
 
@@ -763,7 +767,7 @@ translate ru strings:
     old "You slip into the gardens, across the growing crops and between high trellises laden with fruit."
     new ""
 
-    # c2_mountains.rpy:2150, c2_mountains.rpy:2201 (+3 more)
+    # c2_mountains.rpy:2150, c2_mountains.rpy:2201, c2_mountains.rpy:2339, c3_captures.rpy:5328, c3_captures.rpy:5513
     old "You soon round the gulley, and the spire comes into view."
     new ""
 
@@ -807,11 +811,11 @@ translate ru strings:
     old "t believe I"
     new ""
 
-    # c2_mountains.rpy:2039, c2_mountains.rpy:2083 (+1 more)
+    # c2_mountains.rpy:2039, c2_mountains.rpy:2083, c3_captures.rpy:5231
     old "t see it when you"
     new ""
 
-    # c2_mountains.rpy:2827, c3_captives.rpy:7831 (+6 more)
+    # c2_mountains.rpy:2827, c3_captives.rpy:7831, c3_captives.rpy:9145, c4_waifu.rpy:6253, c4_waifu.rpy:6589 (+3 more)
     old "was AMAZING!"
     new ""
 

@@ -103,7 +103,7 @@ translate ru strings:
     old "'WAS ADELINE THE LAST?'"
     new ""
 
-    # c5_herald.rpy:283, c5_herald.rpy:738 (+3 more)
+    # c5_herald.rpy:283, c5_herald.rpy:738, c5_herald.rpy:1037, c5_herald.rpy:1217, c5_herald.rpy:1388
     old "'WE WILL DISCUSS SOMETHING ELSE.'"
     new ""
 
@@ -527,7 +527,7 @@ translate ru strings:
     old "WAS ADELINE THE LAST?"
     new ""
 
-    # c5_herald.rpy:283, c5_herald.rpy:738 (+3 more)
+    # c5_herald.rpy:283, c5_herald.rpy:738, c5_herald.rpy:1037, c5_herald.rpy:1217, c5_herald.rpy:1388
     old "WE WILL DISCUSS SOMETHING ELSE."
     new ""
 

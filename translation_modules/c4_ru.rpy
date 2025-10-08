@@ -1,5 +1,5 @@
 # Перевод файла c4.rpy
-# Всего строк: 263
+# Всего строк: 271
 
 translate ru strings:
 
@@ -39,7 +39,7 @@ translate ru strings:
     old "'SHE BELONGS TO DADDY.'"
     new ""
 
-    # c4.rpy:3075, c5_court.rpy:2207 (+1 more)
+    # c4.rpy:3075, c5_court.rpy:2207, c5_harem.rpy:15219
     old "'STOP THIS AT ONCE.'"
     new ""
 
@@ -87,7 +87,7 @@ translate ru strings:
     old "Ah! Master."
     new ""
 
-    # c4.rpy:1912, c4.rpy:1930 (+1 more)
+    # c4.rpy:1912, c4.rpy:1930, c4.rpy:1945
     old "Ah, [titlepov!t]."
     new ""
 
@@ -129,6 +129,10 @@ translate ru strings:
 
     # c4.rpy:1035, c4.rpy:1254
     old "BREAKER."
+    new ""
+
+    # c4.rpy:2153
+    old "Bastion: A region of the Highlands"
     new ""
 
     # c4.rpy:3131
@@ -199,6 +203,10 @@ translate ru strings:
     old "Choose your prey carefully."
     new ""
 
+    # c4.rpy:2148
+    old "Coldreach: A region of the Mountains"
+    new ""
+
     # c4.rpy:906, c4.rpy:1125
     old "Cruel as they might be, the people of this Realm, they..."
     new ""
@@ -207,7 +215,7 @@ translate ru strings:
     old "DRAGONS HAVE SPECIAL RULES."
     new ""
 
-    # c4.rpy:2028, c4.rpy:2050 (+1 more)
+    # c4.rpy:2028, c4.rpy:2050, c4.rpy:2070
     old "Did you have a particular objective in mind?"
     new ""
 
@@ -215,7 +223,7 @@ translate ru strings:
     old "Did you have somewhere in mind?"
     new ""
 
-    # c4.rpy:1290, c4.rpy:1384 (+1 more)
+    # c4.rpy:1290, c4.rpy:1384, c4.rpy:1449
     old "Do come and see me once this is all done, Master."
     new ""
 
@@ -265,6 +273,10 @@ translate ru strings:
 
     # c4.rpy:868, c4.rpy:1096
     old "Goodness, it is terribly busy in here..."
+    new ""
+
+    # c4.rpy:2168
+    old "Gutter's Cove: A region of the Lowlands"
     new ""
 
     # c4.rpy:3210
@@ -323,7 +335,7 @@ translate ru strings:
     old "His fluttering footsteps lead you back out into the winding passages, and toward the great chamber which now doubles as a war room."
     new ""
 
-    # c4.rpy:1334, c4.rpy:1341 (+2 more)
+    # c4.rpy:1334, c4.rpy:1341, c4.rpy:1391, c4.rpy:1398
     old "His work done, he backs away from his place."
     new ""
 
@@ -535,6 +547,10 @@ translate ru strings:
     old "P-please."
     new ""
 
+    # c4.rpy:2138
+    old "Pale Rock: The Capital of the Realm"
+    new ""
+
     # c4.rpy:3226
     old "Perhaps {i}that{/i} will teach you some respect."
     new ""
@@ -559,7 +575,7 @@ translate ru strings:
     old "SHE BELONGS TO DADDY."
     new ""
 
-    # c4.rpy:3075, c5_court.rpy:2207 (+1 more)
+    # c4.rpy:3075, c5_court.rpy:2207, c5_harem.rpy:15219
     old "STOP THIS AT ONCE."
     new ""
 
@@ -579,7 +595,7 @@ translate ru strings:
     old "She slithers up your frame and snakes her way around your limbs and over the base of your wings, at last to perch herself on your shoulder."
     new ""
 
-    # c4.rpy:1763, c4.rpy:1780 (+1 more)
+    # c4.rpy:1763, c4.rpy:1780, c4.rpy:1794
     old "Son of my son."
     new ""
 
@@ -603,8 +619,24 @@ translate ru strings:
     old "Thanks, Daddy!"
     new ""
 
+    # c4.rpy:2143
+    old "The Convent: A region of the Mountains"
+    new ""
+
+    # c4.rpy:2158
+    old "The Farmsteads: A region of the Highlands"
+    new ""
+
     # c4.rpy:658
     old "The Regent's a coward, and you've got him all riled up."
+    new ""
+
+    # c4.rpy:2173
+    old "The Swamp: A region of the Lowlands"
+    new ""
+
+    # c4.rpy:2178
+    old "The Wildlands: A region of the Lowlands"
     new ""
 
     # c4.rpy:743
@@ -763,7 +795,7 @@ translate ru strings:
     old "Well, in the interests of future cooperation, I shall be sure to use much smaller words–"
     new ""
 
-    # c4.rpy:2087, c4.rpy:2106 (+1 more)
+    # c4.rpy:2087, c4.rpy:2106, c4.rpy:2121
     old "What does Master command?"
     new ""
 
@@ -775,7 +807,7 @@ translate ru strings:
     old "When next he speaks, his muzzle hovers so close to [nameTrap!t]'s neck that the kobold must surely be able to feel the disdainful heat of his breath."
     new ""
 
-    # c4.rpy:1966, c4.rpy:1985 (+1 more)
+    # c4.rpy:1966, c4.rpy:1985, c4.rpy:2002
     old "Where Master attack next?"
     new ""
 
@@ -979,7 +1011,7 @@ translate ru strings:
     old "kobold can not mend [nameKobold!t]."
     new ""
 
-    # c4.rpy:2701, c4.rpy:2736 (+5 more)
+    # c4.rpy:2701, c4.rpy:2736, c4.rpy:2773, c4.rpy:2814, c4.rpy:2862 (+2 more)
     old "ll have the opportunity to revisit it with her when she"
     new ""
 
