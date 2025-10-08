@@ -2,7 +2,9 @@
 
 ## 1. Получить ключи для переводов
 ```bash
-cd tools && python3 extract_dialogue_only.py
+# /tools
+python3 extract_scripts.py
+python3 extract_dialogue_only.py
 ```
 
 ## 2. Разбить на модули для перевода
@@ -27,6 +29,7 @@ translate ru strings:
 
 ## 4. Упаковать переводы в игру
 ```bash
+cd ../tools
 python3 smart_pack_translations.py
 ```
 
