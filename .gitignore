@@ -24,7 +24,10 @@ _translations/
 extracted_scripts/
 
 # Виртуальное окружение
+venv/
 renpy_tools/
+translation_modules/*
+!translation_modules/README.md
 
 # Резервные копии
 *_BACKUP.*
@@ -36,7 +39,7 @@ translation_progress.json
 
 # ТРЕКАЕМ СТРУКТУРИРОВАННЫЕ ПАПКИ:
 # ✅ tools/ - инструменты Python
-# ✅ documentation/ - документация  
+# ✅ documentation/ - документация
 # ✅ translation_modules/ - модули переводов
 # ✅ tests/ - тестовые файлы
 # ✅ temp_files/ - временные данные (можно пересоздать)
