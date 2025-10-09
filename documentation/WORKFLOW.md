@@ -78,13 +78,14 @@ cd ..
 
 ### Извлечение новых строк (при обновлении игры)
 ```bash
-cd tools
+cd ../tools
 python3 extract_dialogue_only.py
 python3 split_translation.py
 ```
 
 ### Анализ прогресса
 ```bash
+cd ../tools
 python3 translation_helper.py
 ```
 

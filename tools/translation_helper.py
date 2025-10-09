@@ -7,7 +7,7 @@ import json
 from typing import Dict, List, Tuple
 
 class TranslationHelper:
-    def __init__(self, modules_dir="translation_modules"):
+    def __init__(self, modules_dir="../translation_modules"):
         self.modules_dir = modules_dir
         self.progress_file = "translation_progress.json"
         self.load_progress()

@@ -63,12 +63,6 @@ python3 -m unrpa --version
 ```bash
 # ВСЕГДА активируйте venv перед работой
 source venv/bin/activate
-
-# Извлечь скрипты игры (первый раз)
-cd tools && python3 extract_scripts.py
-
-# Упаковать переводы
-python3 smart_pack_translations.py
 ```
 
 ## 🛠️ Деактивация venv

@@ -17,3 +17,4 @@
 
 - `WORKFLOW.md` - пошаговое руководство для переводчиков
 - `translation_work_plan.md` - план работы по приоритетам
+- `LLM_TRANSLATION_GUIDE.md` - автоматизация перевода через LLM ⭐
