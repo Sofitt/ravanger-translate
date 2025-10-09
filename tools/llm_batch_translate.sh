@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Скрипт для массового перевода модулей через LLM
-# Использование: ./llm_batch_translate.sh [--prepare-only] [--translate-only] [--apply-only]
+# Использование: ./llm_batch_translate.sh [--prepare-only] [--translate-only] [--apply-only] [--cli]
 
 set -e  # Останов при ошибке
 
@@ -43,6 +43,102 @@ print_warning() {
     echo -e "${YELLOW}⚠️  $1${NC}"
 }
 
+# Интерактивный выбор файлов
+select_files_cli() {
+    print_header "📁 Выбор модулей для перевода"
+    
+    echo "Доступные модули (всего файлов в списке ниже):"
+    echo ""
+    
+    # Получаем список всех .rpy файлов
+    files=()
+    index=1
+    
+    for file in "$MODULES_DIR"/*_ru.rpy; do
+        if [ -f "$file" ]; then
+            files+=("$file")
+            file_name=$(basename "$file")
+            
+            # Проверяем, есть ли уже перевод
+            local json_file="$JSON_DIR/${file_name%.rpy}.json"
+            local translated_file="$JSON_DIR/${file_name%.rpy}_translated.json"
+            local status=""
+            
+            if [ -f "$translated_file" ]; then
+                status="${GREEN}[✓ Переведен]${NC}"
+            elif [ -f "$json_file" ]; then
+                status="${YELLOW}[○ Подготовлен]${NC}"
+            else
+                status="${BLUE}[  Не обработан]${NC}"
+            fi
+            
+            echo -e "  ${BLUE}[$index]${NC} $file_name $status"
+            index=$((index + 1))
+        fi
+    done
+    
+    echo ""
+    echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
+    echo -e "${YELLOW}Всего модулей: ${#files[@]}${NC}"
+    echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
+    echo ""
+    echo "Легенда статусов:"
+    echo -e "  ${GREEN}[✓ Переведен]${NC}     - перевод завершен"
+    echo -e "  ${YELLOW}[○ Подготовлен]${NC}   - JSON создан, готов к переводу"
+    echo -e "  ${BLUE}[  Не обработан]${NC} - еще не подготовлен"
+    echo ""
+    echo "Варианты выбора:"
+    echo "  - Номера файлов (например: 1 3 5)"
+    echo "  - Диапазон (например: 1-5)"
+    echo "  - 'all' для всех файлов"
+    echo "  - 'q' для отмены"
+    echo ""
+    echo -e "${GREEN}Прокрутите вверх ↑ чтобы увидеть весь список${NC}"
+    echo ""
+    read -p "Ваш выбор: " choice
+    
+    if [ "$choice" = "q" ]; then
+        echo "Отменено"
+        exit 0
+    fi
+    
+    # Обработка выбора
+    SELECTED_FILES=()
+    
+    if [ "$choice" = "all" ]; then
+        SELECTED_FILES=("${files[@]}")
+    elif [[ "$choice" =~ ^[0-9]+-[0-9]+$ ]]; then
+        # Диапазон
+        local start=$(echo "$choice" | cut -d'-' -f1)
+        local end=$(echo "$choice" | cut -d'-' -f2)
+        
+        for ((i=start; i<=end; i++)); do
+            if [ $i -ge 1 ] && [ $i -le ${#files[@]} ]; then
+                SELECTED_FILES+=("${files[$((i-1))]}")
+            fi
+        done
+    else
+        # Отдельные номера
+        for num in $choice; do
+            if [ $num -ge 1 ] && [ $num -le ${#files[@]} ]; then
+                SELECTED_FILES+=("${files[$((num-1))]}")
+            fi
+        done
+    fi
+    
+    if [ ${#SELECTED_FILES[@]} -eq 0 ]; then
+        print_error "Не выбрано ни одного файла"
+        exit 1
+    fi
+    
+    echo ""
+    print_success "Выбрано файлов: ${#SELECTED_FILES[@]}"
+    for file in "${SELECTED_FILES[@]}"; do
+        echo "  - $(basename "$file")"
+    done
+    echo ""
+}
+
 # Создать резервную копию
 backup_modules() {
     print_header "Создание резервной копии"
@@ -62,9 +158,21 @@ prepare_modules() {
 
     mkdir -p "$JSON_DIR"
 
-    python3 llm_translate_prepare.py \
-        --batch "$MODULES_DIR" \
-        --batch-output "$JSON_DIR"
+    if [ ${#SELECTED_FILES[@]} -gt 0 ]; then
+        # CLI режим: обрабатываем только выбранные файлы
+        for file in "${SELECTED_FILES[@]}"; do
+            file_base=$(basename "$file" .rpy)
+            echo "Подготовка: $file_base"
+            python3 llm_translate_prepare.py \
+                --module "$file" \
+                --output "$JSON_DIR/${file_base}.json"
+        done
+    else
+        # Обычный режим: обрабатываем все файлы
+        python3 llm_translate_prepare.py \
+            --batch "$MODULES_DIR" \
+            --batch-output "$JSON_DIR"
+    fi
 
     print_success "Модули подготовлены"
 }
@@ -83,29 +191,63 @@ translate_modules() {
     success=0
     failed=0
 
-    # Перебираем все JSON файлы
-    for input_file in "$JSON_DIR"/*.json; do
+    # Определяем список файлов для обработки
+    files_to_process=()
+    
+    if [ ${#SELECTED_FILES[@]} -gt 0 ]; then
+        # CLI режим: только выбранные файлы
+        for file in "${SELECTED_FILES[@]}"; do
+            local file_base=$(basename "$file" .rpy)
+            local json_file="$JSON_DIR/${file_base}.json"
+            
+            # Если JSON не существует, подготовим его автоматически
+            if [ ! -f "$json_file" ]; then
+                print_warning "JSON не найден: $json_file"
+                echo "Автоматическая подготовка..."
+                python3 llm_translate_prepare.py \
+                    --module "$file" \
+                    --output "$json_file"
+            fi
+            
+            if [ -f "$json_file" ]; then
+                files_to_process+=("$json_file")
+            else
+                print_error "Не удалось подготовить: $file_base"
+            fi
+        done
+    else
+        # Обычный режим: все JSON файлы
+        for json_file in "$JSON_DIR"/*.json; do
+            if [ -f "$json_file" ]; then
+                files_to_process+=("$json_file")
+            fi
+        done
+    fi
+
+    # Перебираем файлы для перевода
+    for input_file in "${files_to_process[@]}"; do
         # Пропускаем уже переведенные файлы
-        basename=$(basename "$input_file" .json)
-        if [[ "$basename" == *"_translated" ]]; then
+        file_base=$(basename "$input_file" .json)
+        if [[ "$file_base" == *"_translated" ]]; then
             continue
         fi
 
-        output_file="${JSON_DIR}/${basename}_translated.json"
+        output_file="${JSON_DIR}/${file_base}_translated.json"
 
         # Пропускаем, если перевод уже существует
         if [ -f "$output_file" ]; then
-            print_warning "Пропущен (уже переведен): $basename"
+            print_warning "Пропущен (уже переведен): $file_base"
             continue
         fi
 
+        total=$((total + 1))
 
         echo ""
         echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-        echo "Перевод модуля: $basename"
+        echo "Перевод модуля: $file_base"
         echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
         # Выполняем перевод
-        echo -e "${BLUE}Перевод $json_file...${NC}"
+        echo -e "${BLUE}Перевод $input_file...${NC}"
         echo -e "${YELLOW}Параметры запуска:${NC}"
         echo "  Backend: $BACKEND"
         echo "  API URL: $API_URL"
@@ -114,8 +256,8 @@ translate_modules() {
         echo "  Top-p: $TOP_P"
 
         if python3 llm_translate.py \
-            --input "$json_file" \
-            --output "${json_file%.json}_translated.json" \
+            --input "$input_file" \
+            --output "$output_file" \
             --backend "$BACKEND" \
             --api-url "$API_URL" \
             --model "$MODEL" \
@@ -125,10 +267,10 @@ translate_modules() {
             --top-p "$TOP_P"; then
 
             success=$((success + 1))
-            print_success "Успешно переведен: $basename"
+            print_success "Успешно переведен: $file_base"
         else
             failed=$((failed + 1))
-            print_error "Ошибка при переводе: $basename"
+            print_error "Ошибка при переводе: $file_base"
         fi
     done
 
@@ -182,6 +324,8 @@ main() {
     TRANSLATE_ONLY=false
     APPLY_ONLY=false
     SKIP_BACKUP=false
+    CLI_MODE=false
+    SELECTED_FILES=()
 
     for arg in "$@"; do
         case $arg in
@@ -197,6 +341,9 @@ main() {
             --skip-backup)
                 SKIP_BACKUP=true
                 ;;
+            --cli)
+                CLI_MODE=true
+                ;;
             --help)
                 echo "Использование: $0 [опции]"
                 echo ""
@@ -205,17 +352,25 @@ main() {
                 echo "  --translate-only  Только перевод через LLM"
                 echo "  --apply-only      Только применение переводов"
                 echo "  --skip-backup     Пропустить резервное копирование"
+                echo "  --cli             Интерактивный выбор файлов"
                 echo "  --help            Показать эту справку"
                 echo ""
                 echo "Переменные окружения:"
-                echo "  LLM_API_URL       URL API (по умолчанию: http://localhost:8080/v1/chat/completions)"
-                echo "  LLM_MODEL         Название модели (по умолчанию: local-model)"
-                echo "  LLM_TEMPERATURE   Temperature (по умолчанию: 0.3)"
-                echo "  LLM_MAX_TOKENS    Max tokens (по умолчанию: 2000)"
+                echo "  LLM_API_URL       URL API (по умолчанию: http://127.0.0.1:11434/api/chat)"
+                echo "  LLM_MODEL         Название модели (по умолчанию: saiga)"
+                echo "  LLM_BACKEND       Backend (по умолчанию: ollama)"
+                echo "  LLM_TEMPERATURE   Temperature (по умолчанию: 0.1)"
+                echo "  LLM_TOP_P         Top-p (по умолчанию: 0.7)"
                 exit 0
                 ;;
         esac
     done
+
+    # Если включен CLI режим, показываем выбор файлов
+    if [ "$CLI_MODE" = true ]; then
+        select_files_cli
+        echo ""
+    fi
 
     # Резервное копирование (если не пропущено)
     if [ "$SKIP_BACKUP" = false ] && [ "$TRANSLATE_ONLY" = false ] && [ "$PREPARE_ONLY" = false ]; then

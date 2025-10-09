@@ -153,7 +153,10 @@ class TranslationApplicator:
         
         for json_file in json_files:
             # Определяем соответствующий .rpy файл
-            basename = os.path.basename(json_file).replace('.json', '.rpy')
+            json_basename = os.path.basename(json_file)
+            # Убираем _translated если есть
+            json_basename = json_basename.replace('_translated.json', '.json')
+            basename = json_basename.replace('.json', '.rpy')
             rpy_file = os.path.join(rpy_dir, basename)
             
             if not os.path.exists(rpy_file):
