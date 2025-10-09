@@ -1,0 +1,38 @@
+```
+проблема с "–{w=[persistent.cpspt]}". после тире появился пробел.
+"original": "A movement to one side startles you –{w=[persistent.cpspt]} a scruffily dressed man jumps out, knife glinting in the moonlight."
+"translation": "Внезапное движение в сторону застаёт тебя врасплох — {w=[persistent.cpspt]} из тени выпрыгивает оборванец с блестящим клинком при лунном свете."
+
+Лишние переносы строк
+      "original": "He raises an arm to point at you, though it quivers.{w=[persistent.cpspt]} The guards look between themselves, but do not move.{w=[persistent.cpspt]} The Regent casts a glance back at them.{w=[persistent.cpspt]} Now is your chance.",
+      "translation": "Он поднимает дрожащую руку, указывая на тебя. {w=[persistent.cpspt]}\nСтражники переглядываются меж собой, но не шелохнутся. {w=[persistent.cpspt]}\nРегент бросает взгляд назад на них. {w=[persistent.cpspt]}\nТеперь твой шанс настал.",
+```
+```
+Появился пробел перед {w=[persistent.cpspt]}
+      "original": "Again and again, gouts of your cum soak her, far more than she was prepared for.{w=[persistent.cpspt]} Beneath you, with her mouth full and eyes closed, there is little she can do but bear it.",
+      "translation": "Опять и опять, потоки твоего семени заливали её, гораздо больше, чем она ожидала. {w=[persistent.cpspt]} Под тобой, с полным ртом и закрытыми глазами, ей оставалось лишь терпеть это наслаждение.",
+```
+```
+Нарушена очередность форматирования и лишний перенос строки
+      "original": "An alleyway opens up in one corner, with an old cart rested next to it.{w=[persistent.cpspt]} Wooden stairs lead up the rear of the building.",
+      "translation": "В углу открывается узкий переулок, где стоит древний возок. Деревянные ступени ведут к задней стороне здания.\n{w=[persistent.cpspt]}",
+```
+```
+Лишний капс
+      "original": "Charge!",
+      "translation": "ЗАРЯЖАЙ!",
+```
+```
+Нужно было разделить предложение на части
+      "original": "Does this...{w=[persistent.cpspt]} please you?",
+      "translation": "Понравится ли тебе это... {w=[persistent.cpspt]}?",
+
+      "original": "Finally, driven by fury and desperation, your claws catch on one of the weapons assaulting you.{w=[persistent.cpspt]} With a sharp crack, it splits in two.",
+      "translation": "Наконец, в ярости и отчаянии, твои когти зацепляются за одно из оружий, что обрушивается на тебя. С громким треском оно рассыпается пополам. {w=[persistent.cpspt]}",
+```
+
+```
+Речь сильно высокая. Несмотря на средневековую стилизацию, диалоги должны быть проще, но с упоминанием специфических для мира слов. Например "камзол", вместо "куртка"
+      "original": "I suppose I should introduce myself.{w=[persistent.cpspt]} I am Princess Adeline, last of my line.",
+      "translation": "Я полагаю, следует представиться. {w=[persistent.cpspt]} Я — принцесса Аделина, последняя из рода моего.",
+```
