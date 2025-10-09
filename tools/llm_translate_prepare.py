@@ -27,8 +27,9 @@ class TranslationPreparer:
             content = f.read()
         
         # Паттерн для поиска блоков перевода
-        pattern = r'    # ([^\n]+)\n    old "([^"]+)"\n    new "([^"]*)"'
-        matches = re.findall(pattern, content, re.MULTILINE)
+        # Используем (?:[^"\\]|\\.)* для корректной обработки экранированных кавычек
+        pattern = r'    # ([^\n]+)\n    old "((?:[^"\\\\]|\\\\.)*)"\n    new "((?:[^"\\\\]|\\\\.)*)"'
+        matches = re.findall(pattern, content, re.MULTILINE | re.DOTALL)
         
         strings = []
         for idx, (comment, old_text, new_text) in enumerate(matches):

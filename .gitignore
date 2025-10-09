@@ -38,7 +38,7 @@ sample_*.txt
 translation_progress.json
 traceback.txt
 temp_files/*
-!temp_files/dialogue_keys.txt
+#temp_files/dialogue_keys.txt
 !temp_files/README.md
 
 # ТРЕКАЕМ СТРУКТУРИРОВАННЫЕ ПАПКИ:

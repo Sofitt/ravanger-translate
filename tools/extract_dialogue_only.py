@@ -18,10 +18,16 @@ def is_dialogue_string(text):
         return False
 
     # Исключаем технические строки
-    if any(pattern in text.lower() for pattern in [
+    # Но разрешаем {w=[persistent.cpspt]} - это таймер в диалогах
+    text_lower = text.lower()
+    
+    # Убираем теги Ren'Py для проверки
+    text_without_tags = re.sub(r'\{[^}]+\}', '', text)
+    
+    if any(pattern in text_without_tags.lower() for pattern in [
         'renpy', 'config.', 'persistent.', 'gui.', '.rpy', '.rpyc',
         'what_suffix', 'who_suffix', 'what_prefix', 'who_prefix',
-        'nvl_', 'adv_', 'ctc_', 'cps_', 'cpspt'
+        'nvl_', 'adv_', 'ctc_', 'cps_'
     ]):
         return False
 
@@ -83,11 +89,13 @@ def extract_dialogue_from_file(file_path):
             if not line.startswith('_'):  # Не дублируем _() строки
                 quote_matches.append((text, 'regular'))
 
-        # Одинарные кавычки
-        for match in re.finditer(r"'([^'\\]*(?:\\.[^'\\]*)*)'", line):
-            text = match.group(1)
-            if not line.startswith('_'):
-                quote_matches.append((text, 'regular'))
+        # Одинарные кавычки - но только если в строке НЕТ двойных кавычек
+        # Это избегает ложных срабатываний на апострофы внутри строк в двойных кавычках
+        if '"' not in line:
+            for match in re.finditer(r"'([^'\\]*(?:\\.[^'\\]*)*)'", line):
+                text = match.group(1)
+                if not line.startswith('_'):
+                    quote_matches.append((text, 'regular'))
 
         for text, source_type in quote_matches:
             if is_dialogue_string(text):
@@ -157,8 +165,11 @@ def save_dialogue_keys(dialogues, output_file):
             if len(contexts) > 5:
                 context_list += f" (+{len(contexts)-5} more)"
 
+            # Экранируем кавычки и обратные слеши в тексте
+            escaped_text = text.replace('\\', '\\\\').replace('"', '\\"')
+            
             f.write(f"    # {context_list}\n")
-            f.write(f'    old "{text}"\n')
+            f.write(f'    old "{escaped_text}"\n')
             f.write(f'    new ""\n\n')
 
     print(f"💾 Сохранено в: {output_file}")
