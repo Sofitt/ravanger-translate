@@ -27,7 +27,7 @@ class TranslationPreparerV2:
         'text_font', 'text_color', 'text', 'style_suffix', 'layout',
         'mousewheel', 'scrollbars', 'size_group', 'style_group', 'style_prefix',
         'add', 'alt', 'auto','background', 'draggable', 'font', 'foreground',
-        'hover_background', 'id', 'idle', 'key',
+        'hover_background', 'id', 'idle', 'key', 'thumb', 'fmw'
     }
 
     def __init__(self):

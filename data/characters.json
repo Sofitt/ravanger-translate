@@ -216,13 +216,6 @@
     "gender": "male",
     "notes": ""
   },
-  "fmw": {
-    "entities": [
-      "fmw"
-    ],
-    "gender": "neutral",
-    "notes": "добавить в фильтр"
-  },
   "guard": {
     "entities": [
       "guard",
@@ -678,12 +671,5 @@
     ],
     "gender": "female",
     "notes": ""
-  },
-  "thumb": {
-    "entities": [
-      "thumb"
-    ],
-    "gender": "n",
-    "notes": "добавить в фильтр"
   }
 }
