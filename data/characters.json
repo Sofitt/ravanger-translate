@@ -1,0 +1,689 @@
+{
+  "abbess": {
+    "entities": [
+      "abbess",
+      "nabbess"
+    ],
+    "gender": "female",
+    "notes": ""
+  },
+  "acolyte": {
+    "entities": [
+      "acolyte"
+    ],
+    "gender": "female",
+    "notes": ""
+  },
+  "babby": {
+    "entities": [
+      "babby",
+      "nbabby"
+    ],
+    "gender": "female",
+    "notes": ""
+  },
+  "baroness": {
+    "entities": [
+      "baroness",
+      "nbaroness"
+    ],
+    "gender": "female",
+    "notes": ""
+  },
+  "boof": {
+    "entities": [
+      "boof",
+      "nboof"
+    ],
+    "gender": "neutral",
+    "notes": ""
+  },
+  "brat": {
+    "entities": [
+      "brat"
+    ],
+    "gender": "unknown",
+    "notes": ""
+  },
+  "breaker": {
+    "entities": [
+      "breaker",
+      "nbreaker"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "captain": {
+    "entities": [
+      "captain",
+      "ncaptain"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "centaur": {
+    "entities": [
+      "centaur",
+      "ncentaur"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "centauress": {
+    "entities": [
+      "centauress"
+    ],
+    "gender": "female",
+    "notes": ""
+  },
+  "changeling": {
+    "entities": [
+      "changeling",
+      "nchangeling"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "commander": {
+    "entities": [
+      "commander",
+      "ncommander"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "commoner1": {
+    "entities": [
+      "commoner1"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "commoner2": {
+    "entities": [
+      "commoner2"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "cook": {
+    "entities": [
+      "cook"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "demon": {
+    "entities": [
+      "demon",
+      "ndemon"
+    ],
+    "gender": "neutral",
+    "notes": ""
+  },
+  "demon2": {
+    "entities": [
+      "demon2",
+      "ndemon2"
+    ],
+    "gender": "female",
+    "notes": ""
+  },
+  "dguard": {
+    "entities": [
+      "dguard",
+      "ndguard"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "dguard1": {
+    "entities": [
+      "dguard1",
+      "ndguard1"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "dguard2": {
+    "entities": [
+      "dguard2"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "dguardcap": {
+    "entities": [
+      "dguardcap",
+      "ndguardcap"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "dracolyte": {
+    "entities": [
+      "dracolyte",
+      "ndracolyte"
+    ],
+    "gender": "female",
+    "notes": ""
+  },
+  "drunk": {
+    "entities": [
+      "drunk",
+      "ndrunk"
+    ],
+    "gender": "female",
+    "notes": ""
+  },
+  "fangirl": {
+    "entities": [
+      "fangirl",
+      "nfangirl"
+    ],
+    "gender": "female",
+    "notes": ""
+  },
+  "farmboy": {
+    "entities": [
+      "farmboy",
+      "nfarmboy"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "farmcaptain": {
+    "entities": [
+      "farmcaptain",
+      "nfarmcaptain"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "farmer": {
+    "entities": [
+      "farmer",
+      "nfarmer"
+    ],
+    "gender": "female",
+    "notes": ""
+  },
+  "firstblood": {
+    "entities": [
+      "firstblood",
+      "nfirstblood"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "fmw": {
+    "entities": [
+      "fmw"
+    ],
+    "gender": "neutral",
+    "notes": "добавить в фильтр"
+  },
+  "guard": {
+    "entities": [
+      "guard",
+      "nguard"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "guard1": {
+    "entities": [
+      "guard1",
+      "nguard1"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "guard2": {
+    "entities": [
+      "guard2",
+      "nguard2"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "heiress": {
+    "entities": [
+      "heiress",
+      "nheiress"
+    ],
+    "gender": "female",
+    "notes": ""
+  },
+  "herald": {
+    "entities": [
+      "herald",
+      "nherald"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "hunter": {
+    "entities": [
+      "hunter",
+      "nhunter"
+    ],
+    "gender": "female",
+    "notes": ""
+  },
+  "infernal": {
+    "entities": [
+      "infernal",
+      "ninfernal"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "inqui": {
+    "entities": [
+      "inqui",
+      "ninqui"
+    ],
+    "gender": "female",
+    "notes": ""
+  },
+  "kobold": {
+    "entities": [
+      "kobold",
+      "nkobold"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "kobold2": {
+    "entities": [
+      "kobold2",
+      "nkobold2"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "kobold3": {
+    "entities": [
+      "kobold3",
+      "nkobold3"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "maid": {
+    "entities": [
+      "maid",
+      "nmaid"
+    ],
+    "gender": "female",
+    "notes": ""
+  },
+  "maids": {
+    "entities": [
+      "maids",
+      "nmaids"
+    ],
+    "gender": "neutral",
+    "notes": ""
+  },
+  "merc": {
+    "entities": [
+      "merc",
+      "nmerc"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "merc1": {
+    "entities": [
+      "merc1",
+      "nmerc1"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "merc2": {
+    "entities": [
+      "merc2",
+      "nmerc2"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "mercs": {
+    "entities": [
+      "mercs"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "mother": {
+    "entities": [
+      "mother",
+      "nmother"
+    ],
+    "gender": "female",
+    "notes": ""
+  },
+  "aberrant": {
+    "entities": [
+      "naberrant"
+    ],
+    "gender": "female",
+    "notes": ""
+  },
+  "aga": {
+    "entities": [
+      "naga",
+      "nnaga"
+    ],
+    "gender": "female",
+    "notes": ""
+  },
+  "babby2": {
+    "entities": [
+      "nbabby2"
+    ],
+    "gender": "female",
+    "notes": ""
+  },
+  "cambion": {
+    "entities": [
+      "ncambion"
+    ],
+    "gender": "female",
+    "notes": ""
+  },
+  "fury": {
+    "entities": [
+      "nfury"
+    ],
+    "gender": "neutral",
+    "notes": ""
+  },
+  "hellhound": {
+    "entities": [
+      "nhellhound"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "katbold": {
+    "entities": [
+      "nkatbold"
+    ],
+    "gender": "neutral",
+    "notes": ""
+  },
+  "koboof": {
+    "entities": [
+      "nkoboof"
+    ],
+    "gender": "neutral",
+    "notes": ""
+  },
+  "un": {
+    "entities": [
+      "nnun",
+      "nun"
+    ],
+    "gender": "female",
+    "notes": ""
+  },
+  "obleman": {
+    "entities": [
+      "nobleman"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "omen": {
+    "entities": [
+      "nomen",
+      "omen"
+    ],
+    "gender": "unknown",
+    "notes": ""
+  },
+  "omenmother": {
+    "entities": [
+      "nomenmother",
+      "omenmother"
+    ],
+    "gender": "female",
+    "notes": ""
+  },
+  "peasant": {
+    "entities": [
+      "npeasant",
+      "peasant"
+    ],
+    "gender": "female",
+    "notes": ""
+  },
+  "priest": {
+    "entities": [
+      "npriest",
+      "priest"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "priestess": {
+    "entities": [
+      "npriestess",
+      "priestess"
+    ],
+    "gender": "female",
+    "notes": ""
+  },
+  "princess": {
+    "entities": [
+      "nprincess",
+      "princess"
+    ],
+    "gender": "female",
+    "notes": ""
+  },
+  "puppetfangirl": {
+    "entities": [
+      "npuppetfangirl",
+      "puppetfangirl"
+    ],
+    "gender": "female",
+    "notes": ""
+  },
+  "regent": {
+    "entities": [
+      "nregent",
+      "regent"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "rogue1": {
+    "entities": [
+      "nrogue1",
+      "rogue1"
+    ],
+    "gender": "female",
+    "notes": ""
+  },
+  "rogue12": {
+    "entities": [
+      "nrogue12",
+      "rogue12"
+    ],
+    "gender": "neutral",
+    "notes": ""
+  },
+  "rogue2": {
+    "entities": [
+      "nrogue2",
+      "rogue2"
+    ],
+    "gender": "female",
+    "notes": ""
+  },
+  "selkie": {
+    "entities": [
+      "nselkie",
+      "selkie"
+    ],
+    "gender": "female",
+    "notes": ""
+  },
+  "stallion": {
+    "entities": [
+      "nstallion",
+      "stallion"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "succ": {
+    "entities": [
+      "nsucc",
+      "succ"
+    ],
+    "gender": "female",
+    "notes": ""
+  },
+  "trader": {
+    "entities": [
+      "ntrader",
+      "trader"
+    ],
+    "gender": "female",
+    "notes": ""
+  },
+  "trap": {
+    "entities": [
+      "ntrap",
+      "trap"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "warlock": {
+    "entities": [
+      "nwarlock",
+      "warlock"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "wisp": {
+    "entities": [
+      "nwisp",
+      "wisp"
+    ],
+    "gender": "neutral",
+    "notes": ""
+  },
+  "witch": {
+    "entities": [
+      "nwitch",
+      "witch"
+    ],
+    "gender": "female",
+    "notes": ""
+  },
+  "wolfboy": {
+    "entities": [
+      "nwolfboy",
+      "wolfboy"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "wolfgirl": {
+    "entities": [
+      "nwolfgirl",
+      "wolfgirl"
+    ],
+    "gender": "female",
+    "notes": ""
+  },
+  "wolfman": {
+    "entities": [
+      "nwolfman",
+      "wolfman"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "wolfman2": {
+    "entities": [
+      "nwolfman2",
+      "wolfman2"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "wolfwoman": {
+    "entities": [
+      "nwolfwoman",
+      "wolfwoman"
+    ],
+    "gender": "female",
+    "notes": ""
+  },
+  "peasant1": {
+    "entities": [
+      "peasant1"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "peasant2": {
+    "entities": [
+      "peasant2"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "puppetdragon": {
+    "entities": [
+      "puppetdragon"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "puppetfarmboy": {
+    "entities": [
+      "puppetfarmboy"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "puppetnarrator": {
+    "entities": [
+      "puppetnarrator"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "puppetwarlock": {
+    "entities": [
+      "puppetwarlock"
+    ],
+    "gender": "male",
+    "notes": ""
+  },
+  "puppetwitch": {
+    "entities": [
+      "puppetwitch"
+    ],
+    "gender": "female",
+    "notes": ""
+  },
+  "thumb": {
+    "entities": [
+      "thumb"
+    ],
+    "gender": "n",
+    "notes": "добавить в фильтр"
+  }
+}
