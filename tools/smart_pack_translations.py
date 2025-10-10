@@ -206,8 +206,8 @@ def main():
                 os.rename(archive, disabled_name)
                 print(f"  ✅ Отключен: {archive} -> {disabled_name}")
 
-    # Загружаем существующие переводы из _translations
-    packer.load_existing_translations("../_translations/tl/ru")
+    # Загружаем существующие переводы из game/tl/ru
+    packer.load_existing_translations("../game/tl/ru")
 
     # Загружаем новые переводы из модулей
     packer.load_new_translations("../translation_modules")
