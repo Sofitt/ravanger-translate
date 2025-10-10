@@ -191,40 +191,70 @@ class TranslationPreparerV2:
     def save_character_map(self, character_entities: Set[str], output_file: str):
         """Сохраняет map персонажей в JSON файл для проставления пола"""
 
-        # Добавляем дату к имени файла
-        if output_file:
-            dir_name = os.path.dirname(output_file)
-            base_name = os.path.basename(output_file)
-            name, ext = os.path.splitext(base_name)
-
-            # Формат даты: день.месяц.год
-            date_str = datetime.now().strftime("%d.%m.%Y-%H:%M:%S")
-            output_file = os.path.join(dir_name, f"{name}_{date_str}{ext}")
-
         # Создаем директорию, если не существует
-        os.makedirs(os.path.dirname(output_file), exist_ok=True)
+        dir_name = os.path.dirname(output_file)
+        os.makedirs(dir_name, exist_ok=True)
+        
+        # Путь к основному файлу (без даты)
+        main_file = output_file
+        
+        # Загружаем существующую карту персонажей из основного файла
+        existing_map = {}
+        if os.path.exists(main_file):
+            try:
+                with open(main_file, 'r', encoding='utf-8') as f:
+                    existing_map = json.load(f)
+                print(f"✅ Загружена существующая карта: {main_file}")
+            except Exception as e:
+                print(f"⚠️  Ошибка загрузки существующей карты: {e}")
 
-        # Группируем по базовому имени (без префикса n)
-        character_map = {}
+        # Группируем новые персонажи по базовому имени (без префикса n)
+        new_character_map = {}
+        all_character_map = {}
 
         for entity in sorted(character_entities):
             base_name = entity.lstrip('n') if entity.startswith('n') and len(entity) > 1 else entity
 
-            if base_name not in character_map:
-                character_map[base_name] = {
+            # Добавляем в общую карту
+            if base_name not in all_character_map:
+                all_character_map[base_name] = {
                     "entities": [],
-                    "gender": "",  # Заполняется вручную: "male", "female", "neutral", "unknown"
+                    "gender": "",
                     "notes": ""
                 }
+            all_character_map[base_name]["entities"].append(entity)
+            
+            # Проверяем, есть ли персонаж в существующей карте
+            if base_name not in existing_map:
+                # Новый персонаж - добавляем в карту новых
+                if base_name not in new_character_map:
+                    new_character_map[base_name] = {
+                        "entities": [],
+                        "gender": "",
+                        "notes": ""
+                    }
+                new_character_map[base_name]["entities"].append(entity)
 
-            character_map[base_name]["entities"].append(entity)
+        # Сохраняем только новых персонажей в файл с датой
+        if new_character_map:
+            base_name_file = os.path.basename(output_file)
+            name, ext = os.path.splitext(base_name_file)
+            
+            # Формат даты: день.месяц.год-час:минута:секунда
+            date_str = datetime.now().strftime("%d.%m.%Y-%H:%M:%S")
+            new_file = os.path.join(dir_name, f"{name}_{date_str}{ext}")
+            
+            with open(new_file, 'w', encoding='utf-8') as f:
+                json.dump(new_character_map, f, ensure_ascii=False, indent=2)
+            
+            print(f"💾 Новые персонажи сохранены: {new_file}")
+            print(f"   Новых персонажей: {len(new_character_map)}")
+            print(f"   Новых сущностей: {sum(len(v['entities']) for v in new_character_map.values())}")
+        else:
+            print(f"✅ Новых персонажей не обнаружено")
 
-        with open(output_file, 'w', encoding='utf-8') as f:
-            json.dump(character_map, f, ensure_ascii=False, indent=2)
-
-        print(f"💾 Сохранена карта персонажей: {output_file}")
-        print(f"   Всего уникальных персонажей: {len(character_map)}")
-        print(f"   Всего сущностей: {len(character_entities)}")
+        print(f"📊 Всего уникальных персонажей: {len(all_character_map)}")
+        print(f"📊 Всего сущностей: {len(character_entities)}")
 
     def load_character_map(self, character_map_file: str) -> Dict[str, str]:
         """Загружает map персонажей и возвращает словарь entity -> gender"""
