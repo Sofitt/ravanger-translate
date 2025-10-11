@@ -14,8 +14,10 @@ MAX_RETRIES="${LLM_MAX_RETRIES:-3}"  # Максимальное количест
 TEMPERATURE="${LLM_TEMPERATURE:-0.1}"  # Температура для генерации (0.0-1.0)
 TOP_P="${LLM_TOP_P:-0.7}"  # Top-p sampling (0.0-1.0)
 MODULES_DIR="../translation_modules"
-JSON_DIR="../temp_files/llm_json"
+SOURCE_DIR="../extracted_scripts"  # Исходные .rpy файлы для v2
+JSON_DIR="../temp_files/llm_json_v2"
 BACKUP_DIR="../temp_files/backups"
+CHARACTER_MAP="../data/characters.json"  # Карта персонажей с полом
 
 # Цвета для вывода
 RED='\033[0;31m'
@@ -50,11 +52,11 @@ select_files_cli() {
     echo "Доступные модули (всего файлов в списке ниже):"
     echo ""
 
-    # Получаем список всех .rpy файлов
+    # Получаем список всех .rpy файлов из extracted_scripts
     files=()
     index=1
 
-    for file in "$MODULES_DIR"/*_ru.rpy; do
+    for file in "$SOURCE_DIR"/*.rpy; do
         if [ -f "$file" ]; then
             files+=("$file")
             file_name=$(basename "$file")
@@ -164,14 +166,16 @@ prepare_modules() {
             file_base=$(basename "$file" .rpy)
             echo "Подготовка: $file_base"
             python3 llm_translate_prepare_v2.py \
-                --module "$file" \
-                --output "$JSON_DIR/${file_base}.json"
+                --source "$file" \
+                --output "$JSON_DIR/${file_base}.json" \
+                --character-map "$CHARACTER_MAP"
         done
     else
         # Обычный режим: обрабатываем все файлы
         python3 llm_translate_prepare_v2.py \
-            --batch "$MODULES_DIR" \
-            --batch-output "$JSON_DIR"
+            --batch "$SOURCE_DIR" \
+            --batch-output "$JSON_DIR" \
+            --character-map "$CHARACTER_MAP"
     fi
 
     print_success "Модули подготовлены"
@@ -205,8 +209,9 @@ translate_modules() {
                 print_warning "JSON не найден: $json_file"
                 echo "Автоматическая подготовка..."
                 python3 llm_translate_prepare_v2.py \
-                    --module "$file" \
-                    --output "$json_file"
+                    --source "$file" \
+                    --output "$json_file" \
+                    --character-map "$CHARACTER_MAP"
             fi
 
             if [ -f "$json_file" ]; then

@@ -164,7 +164,7 @@ class LLMTranslator:
 
         return False
 
-    def translate_single(self, text: str, context: str = "") -> Optional[str]:
+    def translate_single(self, text: str, context: str = "", speaker_gender: str = "") -> Optional[str]:
         """Переводит одну строку"""
 
         # Проверяем, нужно ли пропустить перевод
@@ -173,7 +173,8 @@ class LLMTranslator:
 
         # Формируем промпт в формате Instruct
         # Правила перевода зашиты в модель, поэтому используем простой формат
-        user_prompt = f'[INST]Переведи: "{text}"[/INST]'
+        gender_prefix = f"{speaker_gender}: " if speaker_gender else ""
+        user_prompt = f'[INST]Переведи {gender_prefix}"{text}"[/INST]'
 
         # Для Ollama отправляем как обычное сообщение
         messages = [
@@ -233,10 +234,11 @@ class LLMTranslator:
 
             original = string_obj["original"]
             context = string_obj.get("context", "")
+            speaker_gender = string_obj.get("speaker_gender", "")
 
             print(f"  [{idx+1}/{total}] 🔄 Перевожу: {original[:50]}...")
 
-            translation = self.translate_single(original, context)
+            translation = self.translate_single(original, context, speaker_gender)
 
             if translation:
                 string_obj["translation"] = translation
