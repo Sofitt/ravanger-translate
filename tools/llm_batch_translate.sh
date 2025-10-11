@@ -46,24 +46,24 @@ print_warning() {
 # Интерактивный выбор файлов
 select_files_cli() {
     print_header "📁 Выбор модулей для перевода"
-    
+
     echo "Доступные модули (всего файлов в списке ниже):"
     echo ""
-    
+
     # Получаем список всех .rpy файлов
     files=()
     index=1
-    
+
     for file in "$MODULES_DIR"/*_ru.rpy; do
         if [ -f "$file" ]; then
             files+=("$file")
             file_name=$(basename "$file")
-            
+
             # Проверяем, есть ли уже перевод
             local json_file="$JSON_DIR/${file_name%.rpy}.json"
             local translated_file="$JSON_DIR/${file_name%.rpy}_translated.json"
             local status=""
-            
+
             if [ -f "$translated_file" ]; then
                 status="${GREEN}[✓ Переведен]${NC}"
             elif [ -f "$json_file" ]; then
@@ -71,12 +71,12 @@ select_files_cli() {
             else
                 status="${BLUE}[  Не обработан]${NC}"
             fi
-            
+
             echo -e "  ${BLUE}[$index]${NC} $file_name $status"
             index=$((index + 1))
         fi
     done
-    
+
     echo ""
     echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
     echo -e "${YELLOW}Всего модулей: ${#files[@]}${NC}"
@@ -96,22 +96,22 @@ select_files_cli() {
     echo -e "${GREEN}Прокрутите вверх ↑ чтобы увидеть весь список${NC}"
     echo ""
     read -p "Ваш выбор: " choice
-    
+
     if [ "$choice" = "q" ]; then
         echo "Отменено"
         exit 0
     fi
-    
+
     # Обработка выбора
     SELECTED_FILES=()
-    
+
     if [ "$choice" = "all" ]; then
         SELECTED_FILES=("${files[@]}")
     elif [[ "$choice" =~ ^[0-9]+-[0-9]+$ ]]; then
         # Диапазон
         local start=$(echo "$choice" | cut -d'-' -f1)
         local end=$(echo "$choice" | cut -d'-' -f2)
-        
+
         for ((i=start; i<=end; i++)); do
             if [ $i -ge 1 ] && [ $i -le ${#files[@]} ]; then
                 SELECTED_FILES+=("${files[$((i-1))]}")
@@ -125,12 +125,12 @@ select_files_cli() {
             fi
         done
     fi
-    
+
     if [ ${#SELECTED_FILES[@]} -eq 0 ]; then
         print_error "Не выбрано ни одного файла"
         exit 1
     fi
-    
+
     echo ""
     print_success "Выбрано файлов: ${#SELECTED_FILES[@]}"
     for file in "${SELECTED_FILES[@]}"; do
@@ -163,13 +163,13 @@ prepare_modules() {
         for file in "${SELECTED_FILES[@]}"; do
             file_base=$(basename "$file" .rpy)
             echo "Подготовка: $file_base"
-            python3 llm_translate_prepare.py \
+            python3 llm_translate_prepare_v2.py \
                 --module "$file" \
                 --output "$JSON_DIR/${file_base}.json"
         done
     else
         # Обычный режим: обрабатываем все файлы
-        python3 llm_translate_prepare.py \
+        python3 llm_translate_prepare_v2.py \
             --batch "$MODULES_DIR" \
             --batch-output "$JSON_DIR"
     fi
@@ -193,22 +193,22 @@ translate_modules() {
 
     # Определяем список файлов для обработки
     files_to_process=()
-    
+
     if [ ${#SELECTED_FILES[@]} -gt 0 ]; then
         # CLI режим: только выбранные файлы
         for file in "${SELECTED_FILES[@]}"; do
             local file_base=$(basename "$file" .rpy)
             local json_file="$JSON_DIR/${file_base}.json"
-            
+
             # Если JSON не существует, подготовим его автоматически
             if [ ! -f "$json_file" ]; then
                 print_warning "JSON не найден: $json_file"
                 echo "Автоматическая подготовка..."
-                python3 llm_translate_prepare.py \
+                python3 llm_translate_prepare_v2.py \
                     --module "$file" \
                     --output "$json_file"
             fi
-            
+
             if [ -f "$json_file" ]; then
                 files_to_process+=("$json_file")
             else

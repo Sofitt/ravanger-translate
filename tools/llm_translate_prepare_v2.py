@@ -46,6 +46,7 @@ class TranslationPreparerV2:
         strings = []
         character_entities = set()
         current_speaker = None  # Текущий говорящий (из show или предыдущей реплики)
+        seen_texts = set()  # Отслеживание дубликатов
 
         idx = 0
         for line_num, line in enumerate(lines, 1):
@@ -67,15 +68,147 @@ class TranslationPreparerV2:
                     current_speaker = None
                 continue
 
+            # Паттерн для textbutton (ДОЛЖЕН БЫТЬ ПЕРЕД dialog_match!)
+            # Формат: textbutton "текст": или textbutton 'текст':
+            textbutton_match = re.match(r'\s+textbutton\s+["\'](.+?)["\']\s*:', line)
+            if textbutton_match:
+                text = textbutton_match.group(1)
+                
+                # Пропускаем пустые и очень короткие строки
+                if not text.strip() or len(text.strip()) < 2:
+                    continue
+                
+                # Пропускаем hex цвета
+                if re.match(r'^#[0-9a-fA-F]+$', text.strip()):
+                    continue
+                
+                analysis = self._analyze_text(text)
+                
+                strings.append({
+                    "id": idx,
+                    "line": line_num,
+                    "file": os.path.basename(file_path),
+                    "speaker": "ui",
+                    "speaker_prefix": "ui",
+                    "original": text,
+                    "translation": "",
+                    "context": "ui",
+                    "tags": analysis["tags"],
+                    "variables_curly": analysis["variables_curly"],
+                    "variables_square": analysis["variables_square"],
+                    "special_chars": analysis["special_chars"]
+                })
+                
+                idx += 1
+                continue
+
+            # Паттерн для menu items
+            # Формат: "'текст'": или '"текст"': или "текст":
+            menu_match = re.match(r'\s+["\'](.+?)["\']\s*:', line)
+            if menu_match:
+                text = menu_match.group(1)
+                
+                # Пропускаем пустые и очень короткие технические строки
+                if not text.strip() or len(text.strip()) < 2:
+                    continue
+                
+                # Пропускаем технические строки (hex цвета, числа)
+                if re.match(r'^#[0-9a-fA-F]+$', text.strip()):
+                    continue
+                
+                analysis = self._analyze_text(text)
+                
+                strings.append({
+                    "id": idx,
+                    "line": line_num,
+                    "file": os.path.basename(file_path),
+                    "speaker": "menu",
+                    "speaker_prefix": "menu",
+                    "original": text,
+                    "translation": "",
+                    "context": "menu",
+                    "tags": analysis["tags"],
+                    "variables_curly": analysis["variables_curly"],
+                    "variables_square": analysis["variables_square"],
+                    "special_chars": analysis["special_chars"]
+                })
+                
+                idx += 1
+                continue
+
+            # Паттерн для функций перевода _("текст")
+            translate_func_match = re.search(r'_\("([^"]+)"\)', line)
+            if translate_func_match:
+                text = translate_func_match.group(1)
+                
+                # Пропускаем пустые и очень короткие строки
+                if not text.strip() or len(text.strip()) < 2:
+                    continue
+                
+                # Пропускаем hex цвета
+                if re.match(r'^#[0-9a-fA-F]+$', text.strip()):
+                    continue
+                
+                # Пропускаем дубликаты
+                if text in seen_texts:
+                    continue
+                
+                seen_texts.add(text)
+                analysis = self._analyze_text(text)
+                
+                strings.append({
+                    "id": idx,
+                    "line": line_num,
+                    "file": os.path.basename(file_path),
+                    "speaker": "system",
+                    "speaker_prefix": "system",
+                    "original": text,
+                    "translation": "",
+                    "context": "text",
+                    "tags": analysis["tags"],
+                    "variables_curly": analysis["variables_curly"],
+                    "variables_square": analysis["variables_square"],
+                    "special_chars": analysis["special_chars"]
+                })
+                
+                idx += 1
+                continue
+
+            # Паттерн для text_color и других атрибутов (пропускаем)
+            if re.match(r'\s+(text_color|text_hover_color|text_selected_color|text_font)\s+', line):
+                continue
+
             # Паттерн для диалогов с явным указанием персонажа
-            # Формат: персонаж [talk] "текст"
+            # Формат: персонаж [talk] "текст" или centered "текст" или extend "текст"
             dialog_match = re.match(r'\s+(\w+)\s+(?:talk\s+)?"([^"]*)"', line)
             if dialog_match:
                 speaker = dialog_match.group(1)
                 text = dialog_match.group(2)
 
-                # Пропускаем служебные слова RenPy
+                # Пропускаем пустые строки
+                if not text.strip():
+                    continue
+
+                # Если это служебное слово RenPy, сохраняем текст но не персонажа
                 if speaker in self.RENPY_KEYWORDS:
+                    analysis = self._analyze_text(text)
+                    
+                    strings.append({
+                        "id": idx,
+                        "line": line_num,
+                        "file": os.path.basename(file_path),
+                        "speaker": current_speaker if current_speaker else "narrator",
+                        "speaker_prefix": self._get_speaker_prefix(current_speaker) if current_speaker else "narrator",
+                        "original": text,
+                        "translation": "",
+                        "context": self._detect_context(text, current_speaker),
+                        "tags": analysis["tags"],
+                        "variables_curly": analysis["variables_curly"],
+                        "variables_square": analysis["variables_square"],
+                        "special_chars": analysis["special_chars"]
+                    })
+                    
+                    idx += 1
                     continue
 
                 character_entities.add(speaker)
@@ -110,6 +243,10 @@ class TranslationPreparerV2:
 
                 # Пропускаем пустые строки и короткие технические строки
                 if not text.strip() or len(text.strip()) < 3:
+                    continue
+                
+                # Пропускаем hex цвета
+                if re.match(r'^#[0-9a-fA-F]+$', text.strip()):
                     continue
 
                 analysis = self._analyze_text(text)
