@@ -217,8 +217,23 @@ class LLMTranslator:
 
         return None
 
-    def translate_batch(self, strings: List[Dict]) -> List[Dict]:
-        """Переводит пакет строк"""
+    def _save_progress(self, output_file: str, strings: List[Dict], metadata: Optional[Dict], translated: int, failed: int):
+        """Сохраняет текущий прогресс перевода"""
+        if metadata:
+            metadata["translated"] = translated
+            metadata["failed"] = failed
+            metadata["untranslated"] = len(strings) - translated - failed
+        
+        output = {
+            "metadata": metadata or {},
+            "strings": strings
+        }
+        
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(output, f, ensure_ascii=False, indent=2)
+
+    def translate_batch(self, strings: List[Dict], output_file: Optional[str] = None, metadata: Optional[Dict] = None) -> List[Dict]:
+        """Переводит пакет строк с сохранением после каждой строки"""
 
         total = len(strings)
         translated = 0
@@ -248,6 +263,10 @@ class LLMTranslator:
                 failed += 1
                 print(f"  [{idx+1}/{total}] ❌ Не удалось перевести")
 
+            # Сохраняем прогресс после каждой строки
+            if output_file:
+                self._save_progress(output_file, strings, metadata, translated, failed)
+
             # Задержка между запросами
             time.sleep(0.5)
 
@@ -274,24 +293,10 @@ class LLMTranslator:
         print(f"📊 Переведено: {metadata.get('translated', 0)}")
         print()
 
-        # Переводим
-        translated_strings = self.translate_batch(strings)
+        # Переводим с автосохранением прогресса
+        translated_strings = self.translate_batch(strings, output_file, metadata)
 
-        # Обновляем метаданные
-        translated_count = sum(1 for s in translated_strings if s.get("translation", "").strip())
-        metadata["translated"] = translated_count
-        metadata["untranslated"] = len(strings) - translated_count
-
-        # Сохраняем результат
-        output = {
-            "metadata": metadata,
-            "strings": translated_strings
-        }
-
-        with open(output_file, 'w', encoding='utf-8') as f:
-            json.dump(output, f, ensure_ascii=False, indent=2)
-
-        print(f"\n💾 Сохранено в: {output_file}")
+        print(f"\n💾 Перевод завершен и сохранен в: {output_file}")
 
 
 def main():

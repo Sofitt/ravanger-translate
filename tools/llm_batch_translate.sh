@@ -149,7 +149,7 @@ backup_modules() {
     BACKUP_PATH="${BACKUP_DIR}/backup_${TIMESTAMP}"
 
     mkdir -p "$BACKUP_PATH"
-    cp -r "$MODULES_DIR"/*.rpy "$BACKUP_PATH/" 2>/dev/null || true
+    cp "$MODULES_DIR"/*.rpy "$BACKUP_PATH/" 2>/dev/null || true
 
     print_success "Резервная копия создана: $BACKUP_PATH"
 }

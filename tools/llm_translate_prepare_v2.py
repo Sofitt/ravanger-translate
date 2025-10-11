@@ -429,7 +429,11 @@ class TranslationPreparerV2:
 
         # Сохраняем карту персонажей, если требуется
         if save_char_map:
-            char_map_output = character_map_file or output_file.replace('.json', '_characters.json')
+            if character_map_file:
+                char_map_output = character_map_file
+            else:
+                # По умолчанию сохраняем в data/characters.json
+                char_map_output = os.path.join(os.path.dirname(os.path.dirname(output_file)), 'data', 'characters.json')
             self.save_character_map(character_entities, char_map_output)
 
         # Загружаем информацию о поле персонажей, если файл существует
