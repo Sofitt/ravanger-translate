@@ -293,7 +293,8 @@ class TranslationPreparerV2:
         # Теги форматирования
         tags = re.findall(r'\{/?(?:color|b|i|u|size|center|w|nw|p|fast)[^}]*\}', text)
 
-        # Спецсимволы
+        # Спецсимволы (ищем буквальные escape-последовательности, как они записаны в .rpy)
+        # В .rpy файлах escape-последовательности записаны как \\n (два символа)
         special_chars = {
             "newlines": text.count('\\n'),
             "tabs": text.count('\\t'),

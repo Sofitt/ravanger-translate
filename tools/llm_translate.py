@@ -174,7 +174,7 @@ class LLMTranslator:
         # Формируем промпт в формате Instruct
         # Правила перевода зашиты в модель, поэтому используем простой формат
         gender_prefix = f"{speaker_gender}: " if speaker_gender else ""
-        user_prompt = f'[INST]Переведи {gender_prefix}"{text}"[/INST]'
+        user_prompt = f'[INST]Переведи {gender_prefix} {text} [/INST]'
 
         # Для Ollama отправляем как обычное сообщение
         messages = [
@@ -182,12 +182,11 @@ class LLMTranslator:
         ]
 
         # Вызываем API
-        translation = self._call_openai_api(messages)
+        raw_translation = self._call_openai_api(messages)
 
-        if translation:
-            # Убираем внешние кавычки если LLM добавила их
-            translation = translation.strip('"\'')
-
+        if raw_translation:
+            # Сохраняем сырой ответ
+            translation = raw_translation
             # Убираем markdown разделители
             translation = translation.replace('---\n\n', '').replace('---\n', '').replace('---', '')
             translation = translation.strip()
@@ -199,11 +198,28 @@ class LLMTranslator:
             ]
             for prefix in prefixes_to_remove:
                 if translation.startswith(prefix):
-                    translation = translation[len(prefix):].strip('"\'')
+                    translation = translation[len(prefix):].strip()
                     break
 
-            # Финальная очистка
+            # Убираем внешние кавычки только если они добавлены LLM (оригинал без кавычек)
+            # Проверяем: если оригинал не начинался с кавычки, но перевод обёрнут в них - убираем
+            if not text.startswith(("'", '"')):
+                # Убираем одну пару внешних двойных кавычек
+                if translation.startswith('"') and translation.endswith('"') and len(translation) > 1:
+                    translation = translation[1:-1]
+                # Убираем одну пару внешних одинарных кавычек
+                elif translation.startswith("'") and translation.endswith("'") and len(translation) > 1:
+                    translation = translation[1:-1]
+
+            # Финальная очистка пробелов
             translation = translation.strip()
+            
+            # Восстанавливаем escape-последовательности, если они были в оригинале
+            # LLM может преобразовать \\n в реальный перевод строки, нужно вернуть обратно
+            if '\\n' in text and '\n' in translation and '\\n' not in translation:
+                translation = translation.replace('\n', '\\n')
+            if '\\t' in text and '\t' in translation and '\\t' not in translation:
+                translation = translation.replace('\t', '\\t')
 
             # Валидация (без самопроверки - правила в модели)
             errors = self.validator.validate(text, translation)
@@ -213,9 +229,10 @@ class LLMTranslator:
                 for error in errors:
                     print(f"      - {error}")
 
-            return translation
+            # Возвращаем кортеж (обработанный перевод, сырой ответ)
+            return (translation, raw_translation)
 
-        return None
+        return (None, None)
 
     def _save_progress(self, output_file: str, strings: List[Dict], metadata: Optional[Dict], translated: int, failed: int):
         """Сохраняет текущий прогресс перевода"""
@@ -223,14 +240,37 @@ class LLMTranslator:
             metadata["translated"] = translated
             metadata["failed"] = failed
             metadata["untranslated"] = len(strings) - translated - failed
-        
+
         output = {
             "metadata": metadata or {},
             "strings": strings
         }
-        
+
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(output, f, ensure_ascii=False, indent=2)
+
+    def _save_errors(self, output_file: str, error_strings: List[Dict], metadata: Optional[Dict]):
+        """Сохраняет строки с ошибками валидации для повторного перевода"""
+        if not error_strings:
+            return
+
+        # Формируем имя файла для ошибок
+        base_name = output_file.rsplit('.', 1)[0]
+        error_file = f"{base_name}_errors.json"
+
+        error_metadata = metadata.copy() if metadata else {}
+        error_metadata["error_count"] = len(error_strings)
+        error_metadata["description"] = "Строки с ошибками валидации для повторного перевода"
+
+        output = {
+            "metadata": error_metadata,
+            "strings": error_strings
+        }
+
+        with open(error_file, 'w', encoding='utf-8') as f:
+            json.dump(output, f, ensure_ascii=False, indent=2)
+
+        print(f"\n⚠️  Сохранено строк с ошибками: {len(error_strings)} в {error_file}")
 
     def translate_batch(self, strings: List[Dict], output_file: Optional[str] = None, metadata: Optional[Dict] = None) -> List[Dict]:
         """Переводит пакет строк с сохранением после каждой строки"""
@@ -238,6 +278,7 @@ class LLMTranslator:
         total = len(strings)
         translated = 0
         failed = 0
+        error_strings = []  # Строки с ошибками валидации
 
         print(f"🔄 Начинаю перевод {total} строк...")
 
@@ -253,12 +294,38 @@ class LLMTranslator:
 
             print(f"  [{idx+1}/{total}] 🔄 Перевожу: {original[:50]}...")
 
-            translation = self.translate_single(original, context, speaker_gender)
+            result = self.translate_single(original, context, speaker_gender)
 
-            if translation:
-                string_obj["translation"] = translation
+            if result and result[0]:
+                translation, raw_translation = result
+                
+                # Вставляем поля в нужном порядке: translation, translated_raw
+                # Создаем временный словарь с нужным порядком
+                temp_obj = {}
+                for key in string_obj:
+                    temp_obj[key] = string_obj[key]
+                    if key == "translation" or (key == "original" and "translation" not in string_obj):
+                        temp_obj["translation"] = translation
+                        temp_obj["translated_raw"] = raw_translation
+                
+                # Если translation не было добавлено, добавляем в конец
+                if "translation" not in temp_obj:
+                    temp_obj["translation"] = translation
+                    temp_obj["translated_raw"] = raw_translation
+                
+                string_obj.clear()
+                string_obj.update(temp_obj)
+                
                 translated += 1
                 print(f"  [{idx+1}/{total}] ✅ {translation[:50]}...")
+
+                # Проверяем наличие ошибок валидации
+                errors = self.validator.validate(original, translation)
+                if errors:
+                    # Добавляем строку с ошибками в список для повторного перевода
+                    error_obj = string_obj.copy()
+                    error_obj["validation_errors"] = errors
+                    error_strings.append(error_obj)
             else:
                 failed += 1
                 print(f"  [{idx+1}/{total}] ❌ Не удалось перевести")
@@ -274,6 +341,11 @@ class LLMTranslator:
         print(f"  ✅ Переведено: {translated}")
         print(f"  ❌ Ошибки: {failed}")
         print(f"  ⏭️  Пропущено: {total - translated - failed}")
+        print(f"  ⚠️  С предупреждениями: {len(error_strings)}")
+
+        # Сохраняем строки с ошибками в отдельный файл
+        if output_file and error_strings:
+            self._save_errors(output_file, error_strings, metadata)
 
         return strings
 
