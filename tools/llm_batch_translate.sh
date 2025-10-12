@@ -288,20 +288,9 @@ translate_modules() {
     fi
 }
 
-# Шаг 3: Применение переводов
-apply_translations() {
-    print_header "Шаг 3: Применение переводов"
-
-    python3 llm_translate_apply.py \
-        --batch-json "$JSON_DIR" \
-        --batch-rpy "$MODULES_DIR"
-
-    print_success "Переводы применены"
-}
-
-# Шаг 4: Упаковка в игру
+# Шаг 3: Упаковка в игру (включает конвертацию JSON->RPY и упаковку в game/tl/ru)
 pack_translations() {
-    print_header "Шаг 4: Упаковка переводов в игру"
+    print_header "Шаг 3: Упаковка переводов в игру"
 
     python3 smart_pack_translations.py
 
@@ -327,7 +316,7 @@ main() {
     # Парсинг аргументов
     PREPARE_ONLY=false
     TRANSLATE_ONLY=false
-    APPLY_ONLY=false
+    PACK_ONLY=false
     SKIP_BACKUP=false
     CLI_MODE=false
     SELECTED_FILES=()
@@ -340,8 +329,8 @@ main() {
             --translate-only)
                 TRANSLATE_ONLY=true
                 ;;
-            --apply-only)
-                APPLY_ONLY=true
+            --pack-only)
+                PACK_ONLY=true
                 ;;
             --skip-backup)
                 SKIP_BACKUP=true
@@ -355,7 +344,7 @@ main() {
                 echo "Опции:"
                 echo "  --prepare-only    Только подготовка JSON"
                 echo "  --translate-only  Только перевод через LLM"
-                echo "  --apply-only      Только применение переводов"
+                echo "  --pack-only       Только упаковка в игру (JSON->RPY->game/tl/ru)"
                 echo "  --skip-backup     Пропустить резервное копирование"
                 echo "  --cli             Интерактивный выбор файлов"
                 echo "  --help            Показать эту справку"
@@ -388,9 +377,7 @@ main() {
         prepare_modules
     elif [ "$TRANSLATE_ONLY" = true ]; then
         translate_modules
-    elif [ "$APPLY_ONLY" = true ]; then
-        apply_translations
-        echo ""
+    elif [ "$PACK_ONLY" = true ]; then
         pack_translations
     else
         # Полный пайплайн
@@ -398,9 +385,6 @@ main() {
         echo ""
 
         translate_modules
-        echo ""
-
-        apply_translations
         echo ""
 
         pack_translations
@@ -413,9 +397,14 @@ main() {
     print_header "🎉 Готово!"
     echo ""
     echo "Следующие шаги:"
-    echo "1. Проверьте качество переводов в translation_modules/"
+    echo "1. Проверьте переводы в game/tl/ru/"
     echo "2. Запустите игру для тестирования: cd .. && ./Ravager.sh"
     echo "3. В игре выберите русский язык в настройках"
+    echo ""
+    echo "💡 Промежуточные файлы:"
+    echo "   - JSON переводы: temp_files/llm_json_v2/*_translated.json"
+    echo "   - RPY модули: translation_modules/*_ru.rpy"
+    echo "   - Финальные переводы: game/tl/ru/*.rpy"
 }
 
 # Запуск

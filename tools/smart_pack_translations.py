@@ -4,7 +4,9 @@
 import os
 import re
 import json
+import glob
 from typing import Dict, List, Tuple, Optional
+from create_ru_ui_fix import create_ui_fix
 
 class SmartTranslationPacker:
     def __init__(self):
@@ -170,6 +172,81 @@ class SmartTranslationPacker:
                 f.write(f'    old "{key}"\n')
                 f.write(f'    new "{value}"\n\n')
 
+    def convert_json_to_rpy(self, json_dir: str, output_dir: str):
+        """Конвертирует *_translated.json в *.rpy файлы для translation_modules"""
+        print(f"🔄 Конвертирую JSON -> RPY...")
+        print(f"   Источник: {json_dir}")
+        print(f"   Назначение: {output_dir}")
+        
+        os.makedirs(output_dir, exist_ok=True)
+        
+        # Находим все *_translated.json файлы
+        json_files = glob.glob(os.path.join(json_dir, "*_translated.json"))
+        
+        if not json_files:
+            print(f"⚠️  Не найдено файлов *_translated.json в {json_dir}")
+            return 0
+        
+        converted_count = 0
+        
+        for json_file in json_files:
+            basename = os.path.basename(json_file)
+            module_name = basename.replace('_translated.json', '')
+            output_file = os.path.join(output_dir, f"{module_name}_ru.rpy")
+            
+            try:
+                # Загружаем JSON
+                with open(json_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                
+                metadata = data.get("metadata", {})
+                strings = data.get("strings", [])
+                
+                # Фильтруем только переведенные строки
+                translated_strings = [
+                    s for s in strings 
+                    if s.get("translation", "").strip()
+                ]
+                
+                if not translated_strings:
+                    print(f"  ⚠️  {module_name}: нет переведенных строк, пропускаю")
+                    continue
+                
+                # Создаем .rpy файл
+                with open(output_file, 'w', encoding='utf-8') as f:
+                    f.write(f"# Перевод файла {module_name}.rpy\n")
+                    f.write(f"# Всего строк: {len(translated_strings)}\n")
+                    f.write(f"# Источник: {basename}\n\n")
+                    f.write("translate ru strings:\n\n")
+                    
+                    for s in translated_strings:
+                        original = s["original"]
+                        translation = s["translation"]
+                        speaker = s.get("speaker", "")
+                        context = s.get("context", "")
+                        
+                        # Формируем комментарий
+                        comment_parts = []
+                        if speaker and speaker != "narrator":
+                            comment_parts.append(speaker)
+                        if context:
+                            comment_parts.append(context)
+                        
+                        comment = " - ".join(comment_parts) if comment_parts else module_name
+                        
+                        f.write(f"    # {comment}\n")
+                        f.write(f'    old "{original}"\n')
+                        f.write(f'    new "{translation}"\n\n')
+                
+                converted_count += 1
+                print(f"  ✅ {module_name}_ru.rpy: {len(translated_strings)} переводов")
+                
+            except Exception as e:
+                print(f"  ❌ Ошибка при конвертации {basename}: {e}")
+        
+        print(f"\n✅ Конвертировано файлов: {converted_count}")
+        return converted_count
+
     def pack_to_game(self, output_dir: str):
         """Упаковывает переводы в игру"""
         print(f"📦 Упаковка переводов в {output_dir}...")
@@ -196,8 +273,24 @@ class SmartTranslationPacker:
 def main():
     packer = SmartTranslationPacker()
 
-    # Отключаем оригинальные архивы переводов для избежания конфликтов
-    print("🔧 Отключение оригинальных архивов переводов...")
+    # Шаг 1: Конвертируем JSON переводы в RPY файлы
+    print("="*70)
+    print("ШАГ 1: КОНВЕРТАЦИЯ JSON -> RPY")
+    print("="*70)
+    json_dir = "../temp_files/llm_json_v2"
+    modules_dir = "../translation_modules"
+    
+    converted = packer.convert_json_to_rpy(json_dir, modules_dir)
+    
+    if converted == 0:
+        print(f"\n⚠️  Нет переведенных файлов для упаковки")
+        print(f"   Запустите сначала перевод: ./llm_batch_translate.sh --translate-only")
+        return
+
+    # Шаг 2: Отключаем оригинальные архивы переводов
+    print("\n" + "="*70)
+    print("ШАГ 2: ОТКЛЮЧЕНИЕ ОРИГИНАЛЬНЫХ АРХИВОВ")
+    print("="*70)
     translation_archives = ["../game/Translations.rpa", "../game/translations.rpa"]
     for archive in translation_archives:
         if os.path.exists(archive):
@@ -206,14 +299,29 @@ def main():
                 os.rename(archive, disabled_name)
                 print(f"  ✅ Отключен: {archive} -> {disabled_name}")
 
-    # Загружаем существующие переводы из game/tl/ru
+    # Шаг 3: Загружаем существующие переводы из game/tl/ru
+    print("\n" + "="*70)
+    print("ШАГ 3: ЗАГРУЗКА СУЩЕСТВУЮЩИХ ПЕРЕВОДОВ")
+    print("="*70)
     packer.load_existing_translations("../game/tl/ru")
 
-    # Загружаем новые переводы из модулей
+    # Шаг 4: Загружаем новые переводы из модулей
+    print("\n" + "="*70)
+    print("ШАГ 4: ЗАГРУЗКА НОВЫХ ПЕРЕВОДОВ")
+    print("="*70)
     packer.load_new_translations("../translation_modules")
 
-    # Упаковываем в игру
+    # Шаг 5: Упаковываем в игру
+    print("\n" + "="*70)
+    print("ШАГ 5: УПАКОВКА В ИГРУ")
+    print("="*70)
     files_count, translations_count = packer.pack_to_game("../game/tl/ru")
+
+    # Шаг 6: Создаем настройки интерфейса для русского языка
+    print("\n" + "="*70)
+    print("ШАГ 6: НАСТРОЙКА ИНТЕРФЕЙСА")
+    print("="*70)
+    create_ui_fix()
 
     print(f"\n🎯 Готово к тестированию!")
     print(f"   Файлов: {files_count}")
