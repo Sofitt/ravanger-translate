@@ -74,6 +74,13 @@ class TranslationPreparerV2:
             if textbutton_match:
                 text = textbutton_match.group(1)
                 
+                # Сохраняем полную оригинальную строку для упаковки
+                original_line = line.strip()
+                
+                # Проверка: если после текста идёт условие
+                remaining_line = line[textbutton_match.end():]
+                has_condition = ('==' in remaining_line or 'True' in remaining_line or 'False' in remaining_line)
+                
                 # Пропускаем пустые и очень короткие строки
                 if not text.strip() or len(text.strip()) < 2:
                     continue
@@ -84,7 +91,7 @@ class TranslationPreparerV2:
                 
                 analysis = self._analyze_text(text)
                 
-                strings.append({
+                string_obj = {
                     "id": idx,
                     "line": line_num,
                     "file": os.path.basename(file_path),
@@ -97,16 +104,38 @@ class TranslationPreparerV2:
                     "variables_curly": analysis["variables_curly"],
                     "variables_square": analysis["variables_square"],
                     "special_chars": analysis["special_chars"]
-                })
+                }
+                
+                # Если есть условие - сохраняем полную строку для упаковки
+                if has_condition:
+                    string_obj["original_full"] = original_line
+                
+                strings.append(string_obj)
                 
                 idx += 1
                 continue
 
             # Паттерн для menu items
-            # Формат: "'текст'": или '"текст"': или "текст":
-            menu_match = re.match(r'\s+["\'](.+?)["\']\s*:', line)
+            # Формат: "текст": или 'текст': (может быть с условием между кавычкой и двоеточием)
+            # Ловим двойные и одинарные кавычки отдельно, чтобы не пересекались
+            menu_match = re.match(r'\s+"([^"]+)".*:$|' + r'\s+\'([^\']+)\'.*:$', line)
             if menu_match:
-                text = menu_match.group(1)
+                # group(1) для двойных кавычек, group(2) для одинарных
+                text = menu_match.group(1) if menu_match.group(1) else menu_match.group(2)
+                
+                # Сохраняем полную оригинальную строку для упаковки
+                original_line = line.strip()
+                
+                # Проверка: если в строке есть условие между кавычкой и двоеточием
+                # Находим позицию закрывающей кавычки и двоеточия
+                if text:
+                    # Ищем что идёт после закрывающей кавычки до двоеточия
+                    quote_char = '"' if menu_match.group(1) else "'"
+                    after_quote_pos = line.find(quote_char + text + quote_char) + len(quote_char + text + quote_char)
+                    between_quote_and_colon = line[after_quote_pos:]
+                    has_condition = ('==' in between_quote_and_colon or 'True' in between_quote_and_colon or 'False' in between_quote_and_colon)
+                else:
+                    has_condition = False
                 
                 # Пропускаем пустые и очень короткие технические строки
                 if not text.strip() or len(text.strip()) < 2:
@@ -118,7 +147,7 @@ class TranslationPreparerV2:
                 
                 analysis = self._analyze_text(text)
                 
-                strings.append({
+                string_obj = {
                     "id": idx,
                     "line": line_num,
                     "file": os.path.basename(file_path),
@@ -131,7 +160,13 @@ class TranslationPreparerV2:
                     "variables_curly": analysis["variables_curly"],
                     "variables_square": analysis["variables_square"],
                     "special_chars": analysis["special_chars"]
-                })
+                }
+                
+                # Если есть условие - сохраняем полную строку для упаковки
+                if has_condition:
+                    string_obj["original_full"] = original_line
+                
+                strings.append(string_obj)
                 
                 idx += 1
                 continue
@@ -184,6 +219,17 @@ class TranslationPreparerV2:
             if dialog_match:
                 speaker = dialog_match.group(1)
                 text = dialog_match.group(2)
+                
+                # Сохраняем полную оригинальную строку (включая условие) для корректной упаковки
+                # Но для перевода используем только текст в кавычках
+                original_line = line.strip()
+                
+                # Проверка: если в строке есть == или True/False после текста, это условие
+                remaining_line = line[dialog_match.end():]
+                has_condition = ('==' in remaining_line or 'True' in remaining_line or 'False' in remaining_line)
+                
+                # Если есть условие - сохраняем полную строку в metadata для упаковки
+                # При упаковке будем искать по этой полной строке и заменять только текст в кавычках
 
                 # Пропускаем пустые строки
                 if not text.strip():
@@ -193,7 +239,7 @@ class TranslationPreparerV2:
                 if speaker in self.RENPY_KEYWORDS:
                     analysis = self._analyze_text(text)
                     
-                    strings.append({
+                    string_obj = {
                         "id": idx,
                         "line": line_num,
                         "file": os.path.basename(file_path),
@@ -206,7 +252,13 @@ class TranslationPreparerV2:
                         "variables_curly": analysis["variables_curly"],
                         "variables_square": analysis["variables_square"],
                         "special_chars": analysis["special_chars"]
-                    })
+                    }
+                    
+                    # Если есть условие - сохраняем полную строку для упаковки
+                    if has_condition:
+                        string_obj["original_full"] = original_line
+                    
+                    strings.append(string_obj)
                     
                     idx += 1
                     continue
@@ -216,7 +268,7 @@ class TranslationPreparerV2:
                 # Анализируем текст
                 analysis = self._analyze_text(text)
 
-                strings.append({
+                string_obj = {
                     "id": idx,
                     "line": line_num,
                     "file": os.path.basename(file_path),
@@ -229,17 +281,35 @@ class TranslationPreparerV2:
                     "variables_curly": analysis["variables_curly"],
                     "variables_square": analysis["variables_square"],
                     "special_chars": analysis["special_chars"]
-                })
+                }
+                
+                # Если есть условие - сохраняем полную строку для упаковки
+                if has_condition:
+                    string_obj["original_full"] = original_line
+                
+                strings.append(string_obj)
 
                 idx += 1
                 current_speaker = speaker
                 continue
 
             # Паттерн для анонимных диалогов (повествование)
-            # Формат: "текст"
+            # Формат: "текст" (НЕ заканчивается на :, иначе это menu item)
             anon_match = re.match(r'\s+"([^"]*)"', line)
             if anon_match:
+                # Проверяем что это НЕ menu item (не заканчивается на :)
+                if line.strip().endswith(':'):
+                    # Это menu item, пропускаем - он уже обработан выше
+                    continue
+                
                 text = anon_match.group(1)
+                
+                # Сохраняем полную оригинальную строку для упаковки
+                original_line = line.strip()
+                
+                # Проверка: если после текста идёт условие
+                remaining_line = line[anon_match.end():]
+                has_condition = ('==' in remaining_line or 'True' in remaining_line or 'False' in remaining_line)
 
                 # Пропускаем пустые строки и короткие технические строки
                 if not text.strip() or len(text.strip()) < 3:
@@ -251,7 +321,7 @@ class TranslationPreparerV2:
 
                 analysis = self._analyze_text(text)
 
-                strings.append({
+                string_obj = {
                     "id": idx,
                     "line": line_num,
                     "file": os.path.basename(file_path),
@@ -264,7 +334,13 @@ class TranslationPreparerV2:
                     "variables_curly": analysis["variables_curly"],
                     "variables_square": analysis["variables_square"],
                     "special_chars": analysis["special_chars"]
-                })
+                }
+                
+                # Если есть условие - сохраняем полную строку для упаковки
+                if has_condition:
+                    string_obj["original_full"] = original_line
+                
+                strings.append(string_obj)
 
                 idx += 1
                 continue

@@ -236,12 +236,30 @@ class SmartTranslationPacker:
                         speaker = s.get("speaker", "")
                         context = s.get("context", "")
                         
+                        # Если есть original_full - это строка с условием
+                        # Нужно заменить только текст в кавычках в полной строке
+                        original_full = s.get("original_full")
+                        if original_full:
+                            # Находим текст в кавычках и заменяем его на перевод
+                            # Паттерн: находим "текст" в полной строке и заменяем на "перевод"
+                            old_text = original_full
+                            # Заменяем текст в кавычках на перевод
+                            new_text = original_full.replace(f'"{original}"', f'"{translation}"')
+                            # Если не получилось с двойными, пробуем одинарные
+                            if new_text == old_text:
+                                new_text = original_full.replace(f"'{original}'", f"'{translation}'")
+                            
+                            original = old_text
+                            translation = new_text
+                        
                         # Формируем комментарий
                         comment_parts = []
                         if speaker and speaker != "narrator":
                             comment_parts.append(speaker)
                         if context:
                             comment_parts.append(context)
+                        if original_full:
+                            comment_parts.append("conditional")
                         
                         comment = " - ".join(comment_parts) if comment_parts else module_name
                         
