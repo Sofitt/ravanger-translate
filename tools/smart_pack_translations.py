@@ -5,13 +5,24 @@ import os
 import re
 import json
 import glob
+import argparse
 from typing import Dict, List, Tuple, Optional
 from create_ru_ui_fix import create_ui_fix
 
 class SmartTranslationPacker:
-    def __init__(self):
+    def __init__(self, quiet=False):
         self.existing_translations = {}  # {key: (value, source_file, line_num)}
         self.new_translations = {}       # {key: (value, source_file, comment)}
+        self.quiet = quiet
+    
+    def log(self, message):
+        """Выводит сообщение если не в тихом режиме"""
+        if not self.quiet:
+            print(message)
+    
+    def log_error(self, message):
+        """Всегда выводит ошибки"""
+        print(message)
 
     def parse_translation_file(self, file_path: str) -> Dict[str, Tuple[str, str, str]]:
         """Парсит файл перевода и возвращает словарь переводов"""
@@ -33,7 +44,7 @@ class SmartTranslationPacker:
 
             # Если ключ уже есть, пропускаем дубликат
             if normalized_key in translations:
-                print(f"  ⚠️  Пропущен дубликат: {old_text}")
+                self.log(f"  ⚠️  Пропущен дубликат: {old_text}")
                 continue
 
             translations[normalized_key] = (new_text, file_path, comment, old_text)
@@ -42,10 +53,10 @@ class SmartTranslationPacker:
 
     def load_existing_translations(self, translations_dir: str):
         """Загружает существующие переводы из всех файлов"""
-        print("🔍 Загружаю существующие переводы...")
+        self.log("🔍 Загружаю существующие переводы...")
 
         if not os.path.exists(translations_dir):
-            print(f"Папка {translations_dir} не найдена")
+            self.log_error(f"Папка {translations_dir} не найдена")
             return
 
         for filename in os.listdir(translations_dir):
@@ -55,20 +66,20 @@ class SmartTranslationPacker:
 
                 for key, (value, source, comment, original_key) in file_translations.items():
                     if key in self.existing_translations:
-                        print(f"⚠️  Дубликат найден: {key} в {filename}")
+                        self.log(f"⚠️  Дубликат найден: {key} в {filename}")
                     else:
                         self.existing_translations[key] = (value, filename, comment, original_key)
 
-                print(f"  📄 {filename}: {len(file_translations)} переводов")
+                self.log(f"  📄 {filename}: {len(file_translations)} переводов")
 
-        print(f"✅ Загружено {len(self.existing_translations)} существующих переводов")
+        self.log(f"✅ Загружено {len(self.existing_translations)} существующих переводов")
 
     def load_new_translations(self, modules_dir: str):
         """Загружает новые переводы из модулей"""
-        print("🆕 Загружаю новые переводы...")
+        self.log("🆕 Загружаю новые переводы...")
 
         if not os.path.exists(modules_dir):
-            print(f"Папка {modules_dir} не найдена")
+            self.log_error(f"Папка {modules_dir} не найдена")
             return
 
         for filename in os.listdir(modules_dir):
@@ -79,9 +90,9 @@ class SmartTranslationPacker:
                 for key, (value, source, comment, original_key) in file_translations.items():
                     self.new_translations[key] = (value, filename, comment, original_key)
 
-                print(f"  📄 {filename}: {len(file_translations)} переводов")
+                self.log(f"  📄 {filename}: {len(file_translations)} переводов")
 
-        print(f"✅ Загружено {len(self.new_translations)} новых переводов")
+        self.log(f"✅ Загружено {len(self.new_translations)} новых переводов")
 
     def merge_translations(self) -> Dict[str, Tuple[str, str, str]]:
         """Объединяет переводы по правилам:
@@ -90,7 +101,7 @@ class SmartTranslationPacker:
         - Если ключа не было, добавляем новый
         - Если итоговый перевод пустой, заполняем оригинальным текстом
         """
-        print("🔄 Объединяю переводы...")
+        self.log("🔄 Объединяю переводы...")
 
         merged = {}
         stats = {
@@ -114,10 +125,10 @@ class SmartTranslationPacker:
                 if new_value.strip():  # Новый перевод не пустой
                     merged[key] = (new_value, new_source, new_comment, new_original_key)
                     stats['updated'] += 1
-                    print(f"  🔄 Обновлен: {key[:50]}... -> {new_value[:30]}...")
+                    self.log(f"  🔄 Обновлен: {key[:50]}... -> {new_value[:30]}...")
                 else:  # Новый перевод пустой, оставляем старый
                     stats['kept_old'] += 1
-                    print(f"  ⏸️  Оставлен: {key[:50]}... = {old_value[:30]}...")
+                    self.log(f"  ⏸️  Оставлен: {key[:50]}... = {old_value[:30]}...")
             else:
                 # Новый ключ
                 merged[key] = (new_value, new_source, new_comment, new_original_key)
@@ -129,13 +140,13 @@ class SmartTranslationPacker:
                 merged[key] = (key, source, comment, original_key)
                 stats['filled_original'] += 1
 
-        print(f"\n📊 Статистика объединения:")
-        print(f"  🆕 Добавлено новых: {stats['added_new']}")
-        print(f"  🔄 Обновлено: {stats['updated']}")
-        print(f"  ⏸️  Оставлено старых: {stats['kept_old']}")
-        print(f"  🔍 Найдено дубликатов: {stats['duplicates']}")
-        print(f"  📝 Заполнено оригиналом: {stats['filled_original']}")
-        print(f"  📊 Итого переводов: {len(merged)}")
+        self.log(f"\n📊 Статистика объединения:")
+        self.log(f"  🆕 Добавлено новых: {stats['added_new']}")
+        self.log(f"  🔄 Обновлено: {stats['updated']}")
+        self.log(f"  ⏸️  Оставлено старых: {stats['kept_old']}")
+        self.log(f"  🔍 Найдено дубликатов: {stats['duplicates']}")
+        self.log(f"  📝 Заполнено оригиналом: {stats['filled_original']}")
+        self.log(f"  📊 Итого переводов: {len(merged)}")
 
         return merged
 
@@ -174,9 +185,9 @@ class SmartTranslationPacker:
 
     def convert_json_to_rpy(self, json_dir: str, output_dir: str):
         """Конвертирует *_translated.json в *.rpy файлы для translation_modules"""
-        print(f"🔄 Конвертирую JSON -> RPY...")
-        print(f"   Источник: {json_dir}")
-        print(f"   Назначение: {output_dir}")
+        self.log(f"🔄 Конвертирую JSON -> RPY...")
+        self.log(f"   Источник: {json_dir}")
+        self.log(f"   Назначение: {output_dir}")
         
         os.makedirs(output_dir, exist_ok=True)
         
@@ -184,7 +195,7 @@ class SmartTranslationPacker:
         json_files = glob.glob(os.path.join(json_dir, "*_translated.json"))
         
         if not json_files:
-            print(f"⚠️  Не найдено файлов *_translated.json в {json_dir}")
+            self.log_error(f"⚠️  Не найдено файлов *_translated.json в {json_dir}")
             return 0
         
         converted_count = 0
@@ -209,7 +220,7 @@ class SmartTranslationPacker:
                 ]
                 
                 if not translated_strings:
-                    print(f"  ⚠️  {module_name}: нет переведенных строк, пропускаю")
+                    self.log(f"  ⚠️  {module_name}: нет переведенных строк, пропускаю")
                     continue
                 
                 # Создаем .rpy файл
@@ -239,17 +250,17 @@ class SmartTranslationPacker:
                         f.write(f'    new "{translation}"\n\n')
                 
                 converted_count += 1
-                print(f"  ✅ {module_name}_ru.rpy: {len(translated_strings)} переводов")
+                self.log(f"  ✅ {module_name}_ru.rpy: {len(translated_strings)} переводов")
                 
             except Exception as e:
-                print(f"  ❌ Ошибка при конвертации {basename}: {e}")
+                self.log_error(f"  ❌ Ошибка при конвертации {basename}: {e}")
         
-        print(f"\n✅ Конвертировано файлов: {converted_count}")
+        self.log(f"\n✅ Конвертировано файлов: {converted_count}")
         return converted_count
 
     def pack_to_game(self, output_dir: str):
         """Упаковывает переводы в игру"""
-        print(f"📦 Упаковка переводов в {output_dir}...")
+        self.log(f"📦 Упаковка переводов в {output_dir}...")
 
         # Создаем выходную папку
         os.makedirs(output_dir, exist_ok=True)
@@ -264,72 +275,77 @@ class SmartTranslationPacker:
         for target_file, translations in grouped.items():
             output_path = os.path.join(output_dir, target_file)
             self.write_translation_file(output_path, translations)
-            print(f"  ✅ {target_file}: {len(translations)} переводов")
+            self.log(f"  ✅ {target_file}: {len(translations)} переводов")
 
-        print(f"🎉 Упаковка завершена! Создано {len(grouped)} файлов")
+        self.log(f"🎉 Упаковка завершена! Создано {len(grouped)} файлов")
 
         return len(grouped), len(merged_translations)
 
 def main():
-    packer = SmartTranslationPacker()
+    parser = argparse.ArgumentParser(description="Умная упаковка переводов в игру")
+    parser.add_argument('--quiet', '-q', action='store_true', 
+                       help='Тихий режим (выводить только ошибки)')
+    args = parser.parse_args()
+    
+    packer = SmartTranslationPacker(quiet=args.quiet)
 
     # Шаг 1: Конвертируем JSON переводы в RPY файлы
-    print("="*70)
-    print("ШАГ 1: КОНВЕРТАЦИЯ JSON -> RPY")
-    print("="*70)
+    packer.log("="*70)
+    packer.log("ШАГ 1: КОНВЕРТАЦИЯ JSON -> RPY")
+    packer.log("="*70)
     json_dir = "../temp_files/llm_json_v2"
     modules_dir = "../translation_modules"
     
     converted = packer.convert_json_to_rpy(json_dir, modules_dir)
     
     if converted == 0:
-        print(f"\n⚠️  Нет переведенных файлов для упаковки")
-        print(f"   Запустите сначала перевод: ./llm_batch_translate.sh --translate-only")
+        packer.log_error(f"\n⚠️  Нет переведенных файлов для упаковки")
+        packer.log_error(f"   Запустите сначала перевод: ./llm_batch_translate.sh --translate-only")
         return
 
     # Шаг 2: Отключаем оригинальные архивы переводов
-    print("\n" + "="*70)
-    print("ШАГ 2: ОТКЛЮЧЕНИЕ ОРИГИНАЛЬНЫХ АРХИВОВ")
-    print("="*70)
+    packer.log("\n" + "="*70)
+    packer.log("ШАГ 2: ОТКЛЮЧЕНИЕ ОРИГИНАЛЬНЫХ АРХИВОВ")
+    packer.log("="*70)
     translation_archives = ["../game/Translations.rpa", "../game/translations.rpa"]
     for archive in translation_archives:
         if os.path.exists(archive):
             disabled_name = archive + ".disabled"
             if not os.path.exists(disabled_name):
                 os.rename(archive, disabled_name)
-                print(f"  ✅ Отключен: {archive} -> {disabled_name}")
+                packer.log(f"  ✅ Отключен: {archive} -> {disabled_name}")
 
     # Шаг 3: Загружаем существующие переводы из game/tl/ru
-    print("\n" + "="*70)
-    print("ШАГ 3: ЗАГРУЗКА СУЩЕСТВУЮЩИХ ПЕРЕВОДОВ")
-    print("="*70)
+    packer.log("\n" + "="*70)
+    packer.log("ШАГ 3: ЗАГРУЗКА СУЩЕСТВУЮЩИХ ПЕРЕВОДОВ")
+    packer.log("="*70)
     packer.load_existing_translations("../game/tl/ru")
 
     # Шаг 4: Загружаем новые переводы из модулей
-    print("\n" + "="*70)
-    print("ШАГ 4: ЗАГРУЗКА НОВЫХ ПЕРЕВОДОВ")
-    print("="*70)
+    packer.log("\n" + "="*70)
+    packer.log("ШАГ 4: ЗАГРУЗКА НОВЫХ ПЕРЕВОДОВ")
+    packer.log("="*70)
     packer.load_new_translations("../translation_modules")
 
     # Шаг 5: Упаковываем в игру
-    print("\n" + "="*70)
-    print("ШАГ 5: УПАКОВКА В ИГРУ")
-    print("="*70)
+    packer.log("\n" + "="*70)
+    packer.log("ШАГ 5: УПАКОВКА В ИГРУ")
+    packer.log("="*70)
     files_count, translations_count = packer.pack_to_game("../game/tl/ru")
 
     # Шаг 6: Создаем настройки интерфейса для русского языка
-    print("\n" + "="*70)
-    print("ШАГ 6: НАСТРОЙКА ИНТЕРФЕЙСА")
-    print("="*70)
+    packer.log("\n" + "="*70)
+    packer.log("ШАГ 6: НАСТРОЙКА ИНТЕРФЕЙСА")
+    packer.log("="*70)
     create_ui_fix()
 
-    print(f"\n🎯 Готово к тестированию!")
-    print(f"   Файлов: {files_count}")
-    print(f"   Переводов: {translations_count}")
-    print(f"   Оригинальные архивы отключены для избежания конфликтов")
-    print(f"   Запустите игру и выберите русский язык")
-    print(f"\n💡 Для восстановления оригинальных переводов:")
-    print(f"   mv __test__/Translations.rpa.disabled game/Translations.rpa")
+    packer.log(f"\n🎯 Готово к тестированию!")
+    packer.log(f"   Файлов: {files_count}")
+    packer.log(f"   Переводов: {translations_count}")
+    packer.log(f"   Оригинальные архивы отключены для избежания конфликтов")
+    packer.log(f"   Запустите игру и выберите русский язык")
+    packer.log(f"\n💡 Для восстановления оригинальных переводов:")
+    packer.log(f"   mv __test__/Translations.rpa.disabled game/Translations.rpa")
 
 if __name__ == "__main__":
     main()

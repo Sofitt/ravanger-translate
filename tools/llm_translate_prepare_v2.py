@@ -284,8 +284,8 @@ class TranslationPreparerV2:
     def _analyze_text(self, text: str) -> Dict:
         """Анализирует текст и извлекает теги, переменные, спецсимволы"""
 
-        # Переменные в фигурных скобках
-        variables_curly = re.findall(r'\{(\w+)\}', text)
+        # Переменные в фигурных скобках (включая {#variable})
+        variables_curly = re.findall(r'\{#?(\w+)\}', text)
 
         # Переменные в квадратных скобках (включая сложные типа [namepov!tc])
         variables_square = re.findall(r'\[([^\]]+)\]', text)

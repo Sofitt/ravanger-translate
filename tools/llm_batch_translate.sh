@@ -348,12 +348,12 @@ translate_modules() {
         echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
         # Выполняем перевод
         echo -e "${BLUE}Перевод $input_file...${NC}"
-        echo -e "${YELLOW}Параметры запуска:${NC}"
-        echo "  Backend: $BACKEND"
-        echo "  API URL: $API_URL"
-        echo "  Model: $MODEL"
-        echo "  Temperature: $TEMPERATURE"
-        echo "  Top-p: $TOP_P"
+#        echo -e "${YELLOW}Параметры запуска:${NC}"
+#        echo "  Backend: $BACKEND"
+#        echo "  API URL: $API_URL"
+#        echo "  Model: $MODEL"
+#        echo "  Temperature: $TEMPERATURE"
+#        echo "  Top-p: $TOP_P"
 
         if python3 llm_translate.py \
             --input "$input_file" \
@@ -387,17 +387,19 @@ translate_modules() {
 pack_translations() {
     print_header "Шаг 3: Упаковка переводов в игру"
 
-    python3 smart_pack_translations.py
+    python3 smart_pack_translations.py --quiet
+
 
     print_success "Переводы упакованы"
 }
 
 # Проверка статуса перевода
-check_status() {
-    print_header "Проверка статуса перевода"
-
-    python3 translation_helper.py
-}
+#check_status() {
+#  TODO Подключить, когда буду переводить проект целиком
+#    print_header "Проверка статуса перевода"
+#
+#    python3 translation_helper.py
+#}
 
 # Основная логика
 main() {
@@ -479,7 +481,7 @@ main() {
         pack_translations
         echo ""
 
-        check_status
+#        check_status
     fi
 
     echo ""

@@ -39,9 +39,9 @@ class TranslationValidator:
         if not translation or not translation.strip():
             return errors  # Пустые переводы не ошибка
 
-        # 1. Переменные в фигурных скобках (обычные {variable})
-        orig_vars_curly = set(re.findall(r'\{(\w+)\}', original))
-        trans_vars_curly = set(re.findall(r'\{(\w+)\}', translation))
+        # 1. Переменные в фигурных скобках (включая {variable} и {#variable})
+        orig_vars_curly = set(re.findall(r'\{#?(\w+)\}', original))
+        trans_vars_curly = set(re.findall(r'\{#?(\w+)\}', translation))
         if orig_vars_curly != trans_vars_curly:
             errors.append(f"Переменные {{}}: {orig_vars_curly} != {trans_vars_curly}")
 

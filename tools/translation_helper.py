@@ -121,34 +121,6 @@ class TranslationHelper:
         print(f"План работы создан: {plan_file}")
         return plan_file
     
-    def extract_sample_for_translation(self, module_name: str, sample_size: int = 10):
-        """Извлекает образец строк для перевода"""
-        filepath = os.path.join(self.modules_dir, module_name)
-        
-        if not os.path.exists(filepath):
-            print(f"Модуль {module_name} не найден")
-            return
-        
-        with open(filepath, 'r', encoding='utf-8') as f:
-            content = f.read()
-        
-        # Находим все пары old/new
-        pattern = r'# ([^\n]+)\n\s+old "([^"]+)"\n\s+new "([^"]*)"'
-        matches = re.findall(pattern, content)
-        
-        sample_file = f"sample_{module_name.replace('.rpy', '.txt')}"
-        with open(sample_file, 'w', encoding='utf-8') as f:
-            f.write(f"# Образец для перевода из {module_name}\n")
-            f.write(f"# Переведите строки и вставьте обратно в модуль\n\n")
-            
-            for i, (comment, old_text, new_text) in enumerate(matches[:sample_size]):
-                f.write(f"=== Строка {i+1} ===\n")
-                f.write(f"Контекст: {comment}\n")
-                f.write(f"Оригинал: {old_text}\n")
-                f.write(f"Перевод: {new_text if new_text else '[НУЖЕН ПЕРЕВОД]'}\n\n")
-        
-        print(f"Образец создан: {sample_file}")
-        return sample_file
 
 def main():
     helper = TranslationHelper()
@@ -172,12 +144,6 @@ def main():
         print(f"  {filename}: {data['total']} строк")
     
     print(f"\n✅ Готово! Проверьте файл {plan_file} для детального плана.")
-    
-    # Создаем образец для первого модуля
-    if sorted_modules:
-        first_module = sorted_modules[0][0]
-        print(f"\n📝 Создание образца для {first_module}...")
-        helper.extract_sample_for_translation(first_module, 5)
 
 if __name__ == "__main__":
     main()
