@@ -329,8 +329,12 @@ class LLMTranslator:
         else:
             print(f"\n✓ Новых ошибок не обнаружено (всего: {len(existing_errors)})")
 
-    def translate_batch(self, strings: List[Dict], output_file: Optional[str] = None, metadata: Optional[Dict] = None) -> List[Dict]:
-        """Переводит пакет строк с сохранением после каждой строки"""
+    def translate_batch(self, strings: List[Dict], output_file: Optional[str] = None, metadata: Optional[Dict] = None, save_errors: bool = True) -> List[Dict]:
+        """Переводит пакет строк с сохранением после каждой строки
+        
+        Args:
+            save_errors: Если False, не создает файл _errors.json
+        """
 
         total = len(strings)
         translated = 0
@@ -384,8 +388,14 @@ class LLMTranslator:
                     error_obj["validation_errors"] = errors
                     error_strings.append(error_obj)
             else:
+                # Перевод не удался или был отклонён из-за критичных ошибок
                 failed += 1
                 print(f"  [{idx+1}/{total}] ❌ Не удалось перевести")
+                
+                # Добавляем в список ошибок для повторного перевода
+                error_obj = string_obj.copy()
+                error_obj["validation_errors"] = ["Перевод отклонён или не получен"]
+                error_strings.append(error_obj)
 
             # Сохраняем прогресс после каждой строки
             if output_file:
@@ -400,14 +410,18 @@ class LLMTranslator:
         print(f"  ⏭️  Пропущено: {total - translated - failed}")
         print(f"  ⚠️  С предупреждениями: {len(error_strings)}")
 
-        # Сохраняем строки с ошибками в отдельный файл
-        if output_file and error_strings:
+        # Сохраняем строки с ошибками в отдельный файл (если разрешено)
+        if save_errors and output_file and error_strings:
             self._save_errors(output_file, error_strings, metadata)
 
         return strings
 
-    def translate_file(self, input_file: str, output_file: str):
-        """Переводит файл JSON"""
+    def translate_file(self, input_file: str, output_file: str, save_errors: bool = True):
+        """Переводит файл JSON
+        
+        Args:
+            save_errors: Если False, не создает файл _errors.json
+        """
 
         print(f"📄 Загружаю: {input_file}")
 
@@ -423,7 +437,7 @@ class LLMTranslator:
         print()
 
         # Переводим с автосохранением прогресса
-        translated_strings = self.translate_batch(strings, output_file, metadata)
+        translated_strings = self.translate_batch(strings, output_file, metadata, save_errors)
 
         print(f"\n💾 Перевод завершен и сохранен в: {output_file}")
 
@@ -450,6 +464,8 @@ def main():
                        help="Размер пакета для обработки (не используется, для совместимости)")
     parser.add_argument("--max-retries", type=int, default=3,
                        help="Максимум попыток повтора (не используется, для совместимости)")
+    parser.add_argument("--no-error-file", action="store_true",
+                       help="Не создавать файл _errors.json")
 
     args = parser.parse_args()
 
@@ -468,7 +484,7 @@ def main():
     translator = LLMTranslator(config)
 
     # Переводим файл
-    translator.translate_file(args.input, args.output)
+    translator.translate_file(args.input, args.output, save_errors=not args.no_error_file)
 
     print("\n🎉 Готово!")
 
