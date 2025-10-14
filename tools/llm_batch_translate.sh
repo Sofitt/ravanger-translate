@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Скрипт для массового перевода модулей через LLM
-# Использование: ./llm_batch_translate.sh [--prepare-only] [--translate-only] [--apply-only] [--cli]
+# Скрипт для массового перевода модулей через LLM (режим CLI по умолчанию)
+# Использование: ./llm_batch_translate.sh [--prepare-only] [--translate-only] [--pack-only] [--skip-backup]
 
 set -e  # Останов при ошибке
 
@@ -149,9 +149,95 @@ backup_modules() {
     BACKUP_PATH="${BACKUP_DIR}/backup_${TIMESTAMP}"
 
     mkdir -p "$BACKUP_PATH"
-    cp "$MODULES_DIR"/*.rpy "$BACKUP_PATH/" 2>/dev/null || true
 
-    print_success "Резервная копия создана: $BACKUP_PATH"
+    # Копируем финальные переводы из game/tl/ru/
+    if [ -d "../game/tl/ru" ]; then
+        cp -r "../game/tl/ru" "$BACKUP_PATH/" 2>/dev/null || true
+        print_success "Резервная копия создана: $BACKUP_PATH"
+    else
+        print_warning "Директория ../game/tl/ru не существует, резервная копия не создана"
+    fi
+}
+
+# Синхронизация JSON с исходным .rpy файлом
+sync_json_with_source() {
+    local source_file="$1"
+    local json_file="$2"
+
+    print_warning "Синхронизация: $(basename "$json_file")"
+
+    # Создаем временный файл с актуальными строками из .rpy
+    local temp_json="${json_file}.temp"
+    python3 llm_translate_prepare_v2.py \
+        --source "$source_file" \
+        --output "$temp_json" \
+        --character-map "$CHARACTER_MAP" >/dev/null 2>&1
+
+    if [ ! -f "$temp_json" ]; then
+        print_error "Не удалось создать временный файл"
+        return 1
+    fi
+
+    # Если существующий JSON есть, объединяем
+    if [ -f "$json_file" ]; then
+        python3 - <<EOF
+import json
+import sys
+
+# Загружаем оба файла
+with open('$temp_json', 'r', encoding='utf-8') as f:
+    new_data = json.load(f)
+
+with open('$json_file', 'r', encoding='utf-8') as f:
+    existing_data = json.load(f)
+
+# Создаем словарь существующих строк по original
+existing_originals = {}
+for item in existing_data.get('strings', []):
+    original = item.get('original', '')
+    existing_originals[original] = item
+
+# Собираем итоговый список строк
+result_strings = list(existing_data.get('strings', []))
+added_count = 0
+
+# Добавляем новые строки, которых нет в существующем файле
+for new_item in new_data.get('strings', []):
+    original = new_item.get('original', '')
+    if original not in existing_originals:
+        result_strings.append(new_item)
+        added_count += 1
+
+# Обновляем метаданные
+metadata = existing_data.get('metadata', {})
+metadata['total_strings'] = len(result_strings)
+if added_count > 0:
+    metadata['last_sync'] = new_data.get('metadata', {}).get('source_path', '')
+
+# Сохраняем результат
+output = {
+    'metadata': metadata,
+    'strings': result_strings
+}
+
+with open('$json_file', 'w', encoding='utf-8') as f:
+    json.dump(output, f, ensure_ascii=False, indent=2)
+
+if added_count > 0:
+    print(f"  ➕ Добавлено новых строк: {added_count}")
+else:
+    print(f"  ✓ Новых строк не найдено")
+
+sys.exit(0)
+EOF
+    else
+        # Если существующего файла нет, просто переименовываем временный
+        mv "$temp_json" "$json_file"
+        print_success "  ✓ Создан новый JSON"
+    fi
+
+    # Удаляем временный файл
+    rm -f "$temp_json"
 }
 
 # Шаг 1: Подготовка
@@ -239,10 +325,19 @@ translate_modules() {
 
         output_file="${JSON_DIR}/${file_base}_translated.json"
 
-        # Пропускаем, если перевод уже существует
-        if [ -f "$output_file" ]; then
-            print_warning "Пропущен (уже переведен): $file_base"
-            continue
+        # Синхронизация JSON с исходным .rpy файлом (всегда, даже если уже переведен)
+        source_rpy="${SOURCE_DIR}/${file_base}.rpy"
+        if [ -f "$source_rpy" ]; then
+            # Если уже переведен, синхронизируем _translated.json и используем его как input
+            if [ -f "$output_file" ]; then
+                sync_json_with_source "$source_rpy" "$output_file"
+                # Используем _translated.json как входной файл для дополнения перевода
+                input_file="$output_file"
+            else
+                sync_json_with_source "$source_rpy" "$input_file"
+            fi
+        else
+            print_warning "Исходный файл не найден: $source_rpy (пропускаем синхронизацию)"
         fi
 
         total=$((total + 1))
@@ -318,7 +413,7 @@ main() {
     TRANSLATE_ONLY=false
     PACK_ONLY=false
     SKIP_BACKUP=false
-    CLI_MODE=false
+    CLI_MODE=true  # CLI режим включен по умолчанию
     SELECTED_FILES=()
 
     for arg in "$@"; do
@@ -335,9 +430,6 @@ main() {
             --skip-backup)
                 SKIP_BACKUP=true
                 ;;
-            --cli)
-                CLI_MODE=true
-                ;;
             --help)
                 echo "Использование: $0 [опции]"
                 echo ""
@@ -346,7 +438,6 @@ main() {
                 echo "  --translate-only  Только перевод через LLM"
                 echo "  --pack-only       Только упаковка в игру (JSON->RPY->game/tl/ru)"
                 echo "  --skip-backup     Пропустить резервное копирование"
-                echo "  --cli             Интерактивный выбор файлов"
                 echo "  --help            Показать эту справку"
                 echo ""
                 echo "Переменные окружения:"
@@ -360,11 +451,9 @@ main() {
         esac
     done
 
-    # Если включен CLI режим, показываем выбор файлов
-    if [ "$CLI_MODE" = true ]; then
-        select_files_cli
-        echo ""
-    fi
+    # Интерактивный выбор файлов (по умолчанию)
+    select_files_cli
+    echo ""
 
     # Резервное копирование (если не пропущено)
     if [ "$SKIP_BACKUP" = false ] && [ "$TRANSLATE_ONLY" = false ] && [ "$PREPARE_ONLY" = false ]; then

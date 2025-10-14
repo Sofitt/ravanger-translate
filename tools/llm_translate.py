@@ -39,29 +39,48 @@ class TranslationValidator:
         if not translation or not translation.strip():
             return errors  # Пустые переводы не ошибка
 
-        # 1. Переменные в фигурных скобках
+        # 1. Переменные в фигурных скобках (обычные {variable})
         orig_vars_curly = set(re.findall(r'\{(\w+)\}', original))
         trans_vars_curly = set(re.findall(r'\{(\w+)\}', translation))
         if orig_vars_curly != trans_vars_curly:
             errors.append(f"Переменные {{}}: {orig_vars_curly} != {trans_vars_curly}")
 
-        # 2. Переменные в квадратных скобках
+        # 2. Переменные с решеткой {#variable} - должны сохраняться полностью
+        orig_hash_vars = re.findall(r'\{#\w+\}', original)
+        trans_hash_vars = re.findall(r'\{#\w+\}', translation)
+        if orig_hash_vars != trans_hash_vars:
+            errors.append(f"Переменные {{#}}: {orig_hash_vars} != {trans_hash_vars}")
+
+        # 3. Переменные в квадратных скобках
         orig_vars_square = set(re.findall(r'\[(\w+)\]', original))
         trans_vars_square = set(re.findall(r'\[(\w+)\]', translation))
         if orig_vars_square != trans_vars_square:
             errors.append(f"Переменные []: {orig_vars_square} != {trans_vars_square}")
 
-        # 3. Теги форматирования
+        # 4. Теги форматирования
         orig_tags = re.findall(r'\{/?(?:color|b|i|u|size|center)[^}]*\}', original)
         trans_tags = re.findall(r'\{/?(?:color|b|i|u|size|center)[^}]*\}', translation)
         if orig_tags != trans_tags:
             errors.append(f"Теги: {orig_tags} != {trans_tags}")
 
-        # 4. Переносы строк
+        # 5. Переносы строк (escape-последовательности \\n)
         if original.count('\\n') != translation.count('\\n'):
             errors.append(f"\\n: {original.count('\\n')} != {translation.count('\\n')}")
 
-        # 5. Неэкранированные кавычки
+        # 6. Реальные переводы строк (символ \n) - не должны добавляться
+        orig_real_newlines = original.count('\n')
+        trans_real_newlines = translation.count('\n')
+        if orig_real_newlines != trans_real_newlines:
+            errors.append(f"Реальные переводы строк: {orig_real_newlines} != {trans_real_newlines}")
+
+        # 7. Проверка пробелов перед переменными {#variable}
+        # Ищем паттерны word{#variable} и проверяем наличие пробела
+        orig_no_space = re.findall(r'\w\{#\w+\}', original)
+        trans_with_space = re.findall(r'\w\s+\{#\w+\}', translation)
+        if orig_no_space and trans_with_space:
+            errors.append(f"Лишний пробел перед переменной: найдено {len(trans_with_space)} случаев")
+
+        # 8. Неэкранированные кавычки
         if '"' in translation and '\\"' not in translation:
             # Проверяем, что это не внешние кавычки
             inner_text = translation.strip('"')
@@ -228,6 +247,18 @@ class LLMTranslator:
                 print(f"  ⚠️  Предупреждения для '{text[:50]}...':")
                 for error in errors:
                     print(f"      - {error}")
+                
+                # Проверяем критичные ошибки, которые должны отклонить перевод
+                critical_errors = [
+                    "Реальные переводы строк",
+                    "Переменные {#}",
+                    "Лишний пробел перед переменной"
+                ]
+                for error in errors:
+                    for critical in critical_errors:
+                        if critical in error:
+                            print(f"  ❌ Критичная ошибка - перевод отклонён")
+                            return (None, raw_translation)
 
             # Возвращаем кортеж (обработанный перевод, сырой ответ)
             return (translation, raw_translation)
@@ -258,19 +289,45 @@ class LLMTranslator:
         base_name = output_file.rsplit('.', 1)[0]
         error_file = f"{base_name}_errors.json"
 
+        # Загружаем существующие ошибки, если файл есть
+        existing_errors = []
+        existing_originals = set()
+        
+        if os.path.exists(error_file):
+            try:
+                with open(error_file, 'r', encoding='utf-8') as f:
+                    existing_data = json.load(f)
+                    existing_errors = existing_data.get('strings', [])
+                    existing_originals = {item.get('original', '') for item in existing_errors}
+                print(f"  📝 Загружено существующих ошибок: {len(existing_errors)}")
+            except Exception as e:
+                print(f"  ⚠️  Ошибка загрузки существующего файла ошибок: {e}")
+
+        # Добавляем только новые ошибки (без дубликатов)
+        new_errors_count = 0
+        for error in error_strings:
+            original = error.get('original', '')
+            if original not in existing_originals:
+                existing_errors.append(error)
+                existing_originals.add(original)
+                new_errors_count += 1
+
         error_metadata = metadata.copy() if metadata else {}
-        error_metadata["error_count"] = len(error_strings)
+        error_metadata["error_count"] = len(existing_errors)
         error_metadata["description"] = "Строки с ошибками валидации для повторного перевода"
 
         output = {
             "metadata": error_metadata,
-            "strings": error_strings
+            "strings": existing_errors
         }
 
         with open(error_file, 'w', encoding='utf-8') as f:
             json.dump(output, f, ensure_ascii=False, indent=2)
 
-        print(f"\n⚠️  Сохранено строк с ошибками: {len(error_strings)} в {error_file}")
+        if new_errors_count > 0:
+            print(f"\n⚠️  Добавлено новых ошибок: {new_errors_count} (всего: {len(existing_errors)}) в {error_file}")
+        else:
+            print(f"\n✓ Новых ошибок не обнаружено (всего: {len(existing_errors)})")
 
     def translate_batch(self, strings: List[Dict], output_file: Optional[str] = None, metadata: Optional[Dict] = None) -> List[Dict]:
         """Переводит пакет строк с сохранением после каждой строки"""
