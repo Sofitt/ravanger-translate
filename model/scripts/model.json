@@ -79,6 +79,10 @@
       "after": "\"'СДЕЛАЮ ЭТО САМ.'\""
     },
     {
+      "before": "Переведи neutral: \"[namepov!tc].{w=[persistent.cpspt]}{nw}\"",
+      "after": "\"[namepov!tc].{w=[persistent.cpspt]}{nw}\""
+    },
+    {
       "before": "Переведи female: \"Hiii...\"",
       "after": "\"Привееет...\""
     },

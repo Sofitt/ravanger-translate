@@ -1,7 +1,10 @@
 #!/bin/bash
 
 # Скрипт для массового перевода модулей через LLM (режим CLI по умолчанию)
-# Использование: ./llm_batch_translate.sh [--prepare-only] [--translate-only] [--pack-only] [--retry-errors] [--sync-errors] [--skip-backup]
+# Использование: ./llm_batch_translate.sh [--prepare-only] [--translate-only] [--pack-only] [--validate] [--retry-errors] [--sync-errors] [--skip-backup]
+# --validate проверить существующие переводы на ошибки валидации и создать _errors.json
+# --retry-errors повторно прогнать ошибочные переводы через llm (исправленные запишутся в _translated. Остальные останутся в _errors)
+# --sync-errors перенести исправленные переводы из _errors в _translated
 
 set -e  # Останов при ошибке
 
@@ -13,7 +16,6 @@ BATCH_SIZE="${LLM_BATCH_SIZE:-5}"  # Размер пакета для обраб
 MAX_RETRIES="${LLM_MAX_RETRIES:-3}"  # Максимальное количество попыток повтора при ошибках
 TEMPERATURE="${LLM_TEMPERATURE:-0.1}"  # Температура для генерации (0.0-1.0)
 TOP_P="${LLM_TOP_P:-0.7}"  # Top-p sampling (0.0-1.0)
-MODULES_DIR="../translation_modules"
 SOURCE_DIR="../extracted_scripts"  # Исходные .rpy файлы для v2
 JSON_DIR="../temp_files/llm_json_v2"
 BACKUP_DIR="../temp_files/backups"
@@ -267,33 +269,181 @@ prepare_modules() {
     print_success "Модули подготовлены"
 }
 
+# Валидация существующих переводов
+validate_translations() {
+    print_header "Валидация существующих переводов"
+    
+    # Находим все файлы *_translated.json
+    translated_files=("$JSON_DIR"/*_translated.json)
+    
+    if [ ! -e "${translated_files[0]}" ]; then
+        print_warning "Файлы переводов не найдены"
+        return 0
+    fi
+    
+    total_files=0
+    total_errors=0
+    
+    for translated_file in "${translated_files[@]}"; do
+        if [ ! -f "$translated_file" ]; then
+            continue
+        fi
+        
+        # Пропускаем файлы _errors.json
+        if [[ "$translated_file" == *"_errors.json" ]]; then
+            continue
+        fi
+        
+        file_base=$(basename "$translated_file" _translated.json)
+        error_file="${JSON_DIR}/${file_base}_translated_errors.json"
+        
+        echo ""
+        echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+        echo "Валидация: $file_base"
+        echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+        
+        # Запускаем валидацию через Python
+        SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+        python3 - <<EOF
+import json
+import sys
+import os
+
+# Импортируем валидатор
+import importlib.util
+spec = importlib.util.spec_from_file_location("llm_translate", "$SCRIPT_DIR/llm_translate.py")
+llm_translate = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(llm_translate)
+
+validator = llm_translate.TranslationValidator()
+
+# Загружаем переведённый файл
+with open('$translated_file', 'r', encoding='utf-8') as f:
+    data = json.load(f)
+
+metadata = data.get('metadata', {})
+strings = data.get('strings', [])
+
+# Собираем строки с ошибками
+error_strings = []
+checked = 0
+errors_found = 0
+
+for string_obj in strings:
+    original = string_obj.get('original', '')
+    translation = string_obj.get('translation', '')
+    
+    # Проверяем только переведённые строки
+    if not translation.strip():
+        continue
+    
+    checked += 1
+    
+    # Валидируем
+    errors = validator.validate(original, translation)
+    
+    if errors:
+        errors_found += 1
+        error_obj = string_obj.copy()
+        error_obj['validation_errors'] = errors
+        error_strings.append(error_obj)
+        
+        # Выводим первые несколько символов для идентификации
+        print(f"  ⚠️  Ошибка в: {original[:60]}...")
+        for error in errors:
+            print(f"      - {error}")
+
+print(f"\n📊 Проверено: {checked}")
+print(f"⚠️  С ошибками: {errors_found}")
+
+# Если есть ошибки - сохраняем или обновляем файл _errors.json
+if error_strings:
+    # Загружаем существующие ошибки если есть
+    existing_errors = []
+    existing_originals = set()
+    
+    if os.path.exists('$error_file'):
+        try:
+            with open('$error_file', 'r', encoding='utf-8') as f:
+                existing_data = json.load(f)
+                existing_errors = existing_data.get('strings', [])
+                existing_originals = {item.get('original', '') for item in existing_errors}
+        except:
+            pass
+    
+    # Добавляем новые ошибки
+    new_count = 0
+    for error in error_strings:
+        original = error.get('original', '')
+        if original not in existing_originals:
+            existing_errors.append(error)
+            existing_originals.add(original)
+            new_count += 1
+        else:
+            # Обновляем существующую запись
+            for i, existing in enumerate(existing_errors):
+                if existing.get('original') == original:
+                    existing_errors[i] = error
+                    break
+    
+    # Сохраняем файл ошибок
+    error_metadata = metadata.copy()
+    error_metadata['error_count'] = len(existing_errors)
+    error_metadata['description'] = 'Строки с ошибками валидации'
+    
+    output = {
+        'metadata': error_metadata,
+        'strings': existing_errors
+    }
+    
+    with open('$error_file', 'w', encoding='utf-8') as f:
+        json.dump(output, f, ensure_ascii=False, indent=2)
+    
+    print(f"💾 Сохранено в: $error_file")
+    if new_count > 0:
+        print(f"   Новых ошибок: {new_count}")
+else:
+    print(f"✅ Ошибок не найдено!")
+    # Удаляем файл ошибок если он есть
+    if os.path.exists('$error_file'):
+        os.remove('$error_file')
+        print(f"🗑️  Удалён файл ошибок")
+EOF
+        
+        total_files=$((total_files + 1))
+    done
+    
+    echo ""
+    print_success "Проверено файлов: $total_files"
+}
+
 # Синхронизация вручную исправленных ошибок
 sync_errors() {
     print_header "Синхронизация исправленных переводов"
-    
+
     # Находим все файлы *_errors.json
     error_files=("$JSON_DIR"/*_translated_errors.json)
-    
+
     if [ ! -e "${error_files[0]}" ]; then
         print_warning "Файлы с ошибками не найдены"
         return 0
     fi
-    
+
     processed=0
-    
+
     for error_file in "${error_files[@]}"; do
         if [ ! -f "$error_file" ]; then
             continue
         fi
-        
+
         file_base=$(basename "$error_file" _translated_errors.json)
         translated_file="${JSON_DIR}/${file_base}_translated.json"
-        
+
         echo ""
         echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
         echo "Синхронизация: $file_base"
         echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-        
+
         # Синхронизируем без перевода - просто переносим исправленные
         python3 - <<EOF
 import json
@@ -347,10 +497,10 @@ else:
     os.remove('$error_file')
     print(f"🗑️  Файл ошибок удалён (все исправлены)")
 EOF
-        
+
         processed=$((processed + 1))
     done
-    
+
     echo ""
     print_success "Обработано файлов: $processed"
 }
@@ -358,31 +508,31 @@ EOF
 # Повторная обработка ошибок
 retry_errors() {
     print_header "Повторная обработка ошибок перевода"
-    
+
     # Находим все файлы *_errors.json
     error_files=("$JSON_DIR"/*_translated_errors.json)
-    
+
     if [ ! -e "${error_files[0]}" ]; then
         print_warning "Файлы с ошибками не найдены"
         return 0
     fi
-    
+
     total_errors=0
     processed=0
-    
+
     for error_file in "${error_files[@]}"; do
         if [ ! -f "$error_file" ]; then
             continue
         fi
-        
+
         file_base=$(basename "$error_file" _translated_errors.json)
         translated_file="${JSON_DIR}/${file_base}_translated.json"
-        
+
         echo ""
         echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
         echo "Обработка ошибок: $file_base"
         echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-        
+
         # Переводим строки с ошибками (без создания нового файла ошибок)
         python3 llm_translate.py \
             --input "$error_file" \
@@ -393,7 +543,7 @@ retry_errors() {
             --temperature "$TEMPERATURE" \
             --top-p "$TOP_P" \
             --no-error-file
-        
+
         # Синхронизируем: удаляем успешно переведённые из _errors.json
         python3 - <<EOF
 import json
@@ -448,10 +598,10 @@ else:
     os.remove('$error_file')
     print(f"🗑️  Файл ошибок удалён (все исправлены)")
 EOF
-        
+
         processed=$((processed + 1))
     done
-    
+
     echo ""
     print_success "Обработано файлов с ошибками: $processed"
 }
@@ -606,6 +756,7 @@ main() {
     SKIP_BACKUP=false
     RETRY_ERRORS=false
     SYNC_ERRORS=false
+    VALIDATE_ONLY=false
     CLI_MODE=true  # CLI режим включен по умолчанию
     SELECTED_FILES=()
 
@@ -629,6 +780,9 @@ main() {
             --sync-errors)
                 SYNC_ERRORS=true
                 ;;
+            --validate)
+                VALIDATE_ONLY=true
+                ;;
             --help)
                 echo "Использование: $0 [опции]"
                 echo ""
@@ -636,6 +790,7 @@ main() {
                 echo "  --prepare-only    Только подготовка JSON"
                 echo "  --translate-only  Только перевод через LLM"
                 echo "  --pack-only       Только упаковка в игру (JSON->RPY->game/tl/ru)"
+                echo "  --validate        Проверить существующие переводы и создать _errors.json"
                 echo "  --retry-errors    Повторно обработать строки с ошибками через LLM"
                 echo "  --sync-errors     Синхронизировать вручную исправленные ошибки (без LLM)"
                 echo "  --skip-backup     Пропустить резервное копирование"
@@ -652,14 +807,14 @@ main() {
         esac
     done
 
-    # Интерактивный выбор файлов (по умолчанию, но не для retry-errors и sync-errors)
-    if [ "$RETRY_ERRORS" = false ] && [ "$SYNC_ERRORS" = false ]; then
+    # Интерактивный выбор файлов (по умолчанию, но не для retry-errors, sync-errors и validate)
+    if [ "$RETRY_ERRORS" = false ] && [ "$SYNC_ERRORS" = false ] && [ "$VALIDATE_ONLY" = false ]; then
         select_files_cli
         echo ""
     fi
 
     # Резервное копирование (если не пропущено)
-    if [ "$SKIP_BACKUP" = false ] && [ "$TRANSLATE_ONLY" = false ] && [ "$PREPARE_ONLY" = false ] && [ "$RETRY_ERRORS" = false ] && [ "$SYNC_ERRORS" = false ]; then
+    if [ "$SKIP_BACKUP" = false ] && [ "$TRANSLATE_ONLY" = false ] && [ "$PREPARE_ONLY" = false ] && [ "$RETRY_ERRORS" = false ] && [ "$SYNC_ERRORS" = false ] && [ "$VALIDATE_ONLY" = false ]; then
         backup_modules
         echo ""
     fi
@@ -671,6 +826,8 @@ main() {
         translate_modules
     elif [ "$PACK_ONLY" = true ]; then
         pack_translations
+    elif [ "$VALIDATE_ONLY" = true ]; then
+        validate_translations
     elif [ "$RETRY_ERRORS" = true ]; then
         retry_errors
     elif [ "$SYNC_ERRORS" = true ]; then

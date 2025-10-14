@@ -51,9 +51,9 @@ class TranslationValidator:
         if orig_hash_vars != trans_hash_vars:
             errors.append(f"Переменные {{#}}: {orig_hash_vars} != {trans_hash_vars}")
 
-        # 3. Переменные в квадратных скобках
-        orig_vars_square = set(re.findall(r'\[(\w+)\]', original))
-        trans_vars_square = set(re.findall(r'\[(\w+)\]', translation))
+        # 3. Переменные в квадратных скобках (включая модификаторы !tc, !t, !u и т.д.)
+        orig_vars_square = re.findall(r'\[[^\]]+\]', original)
+        trans_vars_square = re.findall(r'\[[^\]]+\]', translation)
         if orig_vars_square != trans_vars_square:
             errors.append(f"Переменные []: {orig_vars_square} != {trans_vars_square}")
 
@@ -360,33 +360,41 @@ class LLMTranslator:
             if result and result[0]:
                 translation, raw_translation = result
                 
-                # Вставляем поля в нужном порядке: translation, translated_raw
-                # Создаем временный словарь с нужным порядком
-                temp_obj = {}
-                for key in string_obj:
-                    temp_obj[key] = string_obj[key]
-                    if key == "translation" or (key == "original" and "translation" not in string_obj):
-                        temp_obj["translation"] = translation
-                        temp_obj["translated_raw"] = raw_translation
-                
-                # Если translation не было добавлено, добавляем в конец
-                if "translation" not in temp_obj:
-                    temp_obj["translation"] = translation
-                    temp_obj["translated_raw"] = raw_translation
-                
-                string_obj.clear()
-                string_obj.update(temp_obj)
-                
-                translated += 1
-                print(f"  [{idx+1}/{total}] ✅ {translation[:50]}...")
-
-                # Проверяем наличие ошибок валидации
+                # Проверяем валидацию ПЕРЕД сохранением в string_obj
                 errors = self.validator.validate(original, translation)
                 if errors:
-                    # Добавляем строку с ошибками в список для повторного перевода
+                    # Валидация не прошла - сохраняем ТОЛЬКО в error_strings
                     error_obj = string_obj.copy()
+                    error_obj["translation"] = translation
+                    error_obj["translated_raw"] = raw_translation
                     error_obj["validation_errors"] = errors
                     error_strings.append(error_obj)
+                    
+                    failed += 1
+                    print(f"  [{idx+1}/{total}] ⚠️  Ошибка валидации:")
+                    for error in errors:
+                        print(f"      - {error}")
+                else:
+                    # Валидация прошла - сохраняем в string_obj (попадёт в _translated)
+                    # Вставляем поля в нужном порядке: translation, translated_raw
+                    # Создаем временный словарь с нужным порядком
+                    temp_obj = {}
+                    for key in string_obj:
+                        temp_obj[key] = string_obj[key]
+                        if key == "translation" or (key == "original" and "translation" not in string_obj):
+                            temp_obj["translation"] = translation
+                            temp_obj["translated_raw"] = raw_translation
+                    
+                    # Если translation не было добавлено, добавляем в конец
+                    if "translation" not in temp_obj:
+                        temp_obj["translation"] = translation
+                        temp_obj["translated_raw"] = raw_translation
+                    
+                    string_obj.clear()
+                    string_obj.update(temp_obj)
+                    
+                    translated += 1
+                    print(f"  [{idx+1}/{total}] ✅ {translation[:50]}...")
             else:
                 # Перевод не удался или был отклонён из-за критичных ошибок
                 failed += 1
